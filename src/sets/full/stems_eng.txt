@@ -98,3 +98,103 @@ m02-eng-047: According to the passage, how do users pay for bike-sharing?
 m02-eng-048: Which of the following are benefits of bike-sharing mentioned in the passage? 1) Less traffic and air pollution 2) Cheaper bus fares 3) An inexpensive way for t
 m02-eng-049: A city finds that its docking stations are empty during rush hour. According to the passage, what could it do?
 m02-eng-050: Which statement is NOT true according to the passage?
+m05-eng-001: Choose the correct answer. Narin lives far from school and spends two hours on the bus every day. He says, “I wish I ____ closer to school.”
+m05-eng-002: Which sentence contains an error in the use of countable and uncountable nouns?
+m05-eng-003: Which sentences use the causative form correctly? 1) I had my laptop to repair last week. 2) We got the broken projector fixed by a technician. 3) The school ha
+m05-eng-004: Which sentence correctly reports the question below? “Where did you put the keys?” Nid asked her brother.
+m05-eng-005: Which tag questions are correct? 1) There is enough time left, isn't there? 2) She seldom eats breakfast, doesn't she? 3) I am late again, aren't I?
+m05-eng-006: Which part of the sentence is INCORRECT ? Despite of the heavy rain, the sports day was held as planned, and most of the students took part .
+m05-eng-007: Choose the correct answer. There was ____ traffic this morning that the school bus arrived forty minutes late.
+m05-eng-008: Choose the correct answer. Hardly ____ the room when the fire alarm went off.
+m05-eng-009: Choose the correct answer. It took Ann a few weeks to get used to ____ up at five o'clock every morning.
+m05-eng-010: Which sentence is NOT correct in its use of a participle clause?
+m05-eng-011: Choose the correct answer. My sister works as ____ engineer at ____ university in Khon Kaen.
+m05-eng-012: Choose the correct answer. This year's class is smaller than last year's, and the amount of homework is smaller too. The teacher says, “There are ____ students 
+m05-eng-013: Which sentence has the closest meaning to the following? “Had Ann known about the traffic jam, she would have taken the train.”
+m05-eng-014: Which sentences use wish correctly? 1) I wish you would stop tapping your pen on the desk. 2) She wishes she had listened to her parents' advice. 3) He wishes h
+m05-eng-015: Choose the correct answer. You ____ the instructions before you started the experiment. Now all the results are useless.
+m05-eng-016: Choose the correct answer. The first group finished the project in two days, ____ the second group needed nearly a week.
+m05-eng-017: Choose the correct answer. Tom is not in his office. He ____ to the bank and will be back in ten minutes.
+m05-eng-018: Choose the correct answer. This laptop is ____ that one, but it works just as well.
+m05-eng-019: Choose the word closest in meaning to the word in bold. The mayor's answer was ambiguous , so reporters could not tell whether he supported the plan.
+m05-eng-020: Choose the word or phrase closest in meaning to the part in bold. While cleaning the storeroom, Mali came across an old photo album.
+m05-eng-021: Which word is NOT close in meaning to the word in bold? The region has an abundant supply of fresh water.
+m05-eng-022: Which sentence uses economic and economical correctly?
+m05-eng-023: Which words can correctly complete the sentence? The restaurant was ____ with customers after the concert. 1) deserted 2) crowded 3) packed
+m05-eng-024: Pim believes every message she receives online, even those promising free prizes, and she often shares false news. Which adjective best describes her?
+m05-eng-025: Choose the word or phrase closest in meaning to the part in bold. Nat turned down the job offer because the salary was too low.
+m05-eng-026: Which verb can NOT be used with the noun “a conclusion”?
+m05-eng-027: Which of the following is an example of an unfounded claim?
+m05-eng-028: Choose the correct answer. Her ____ to help new students made her very popular in the dormitory.
+m05-eng-029: Complete the conversation. Mai: I'm sorry, but I can't lend you my laptop tonight. I need it for my assignment. Nat: ____
+m05-eng-030: A student wants to interrupt the teacher to ask a question. Which sentence is NOT appropriate?
+m05-eng-031: Complete the conversation. Student: Excuse me, how long can I keep these books? Librarian: ____
+m05-eng-032: Which of the following can be used to give advice? 1) I talked to the teacher yesterday. 2) If I were you, I would talk to the teacher first. 3) Why don't you t
+m05-eng-033: Read the conversation. A: How was your presentation? B: Oh, it went like a dream. What does B mean?
+m05-eng-034: Complete the conversation. Nid: Do you think I should apply for the exchange programme? Ann: ____
+m05-eng-035: Read the conversation. A: Should we start school at nine o'clock instead of eight? Which response shows that B has no strong opinion ?
+m05-eng-036: Which of the following is NOT a suitable way to start a presentation?
+m05-eng-037: The main idea of the passage is that
+m05-eng-038: According to the passage, which statement about project-based learning is NOT true?
+m05-eng-039: The word address in the last sentence of the passage is closest in meaning to
+m05-eng-040: Which statements are supported by the passage? 1) Students may interview local people during a project. 2) Project-based learning needs less class time than a t
+m05-eng-041: Ms. Ratree's students complain that, in a group project, one member does all the work. According to the passage, what could she do?
+m05-eng-042: According to the passage, which of the following is NOT mentioned about elderly patients in remote districts?
+m05-eng-043: All of the following are mentioned as limits of telemedicine EXCEPT
+m05-eng-044: The word it in the sentence “Nevertheless, it has limits” refers to
+m05-eng-045: Which statements are supported by the passage? 1) A nurse helps the patient connect to the doctor. 2) A doctor can prescribe medicine after a video consultation
+m05-eng-046: A villager has had a very high fever and severe pain for three days. What does the passage suggest he should do?
+m05-eng-047: Which headline would best fit this passage?
+m05-eng-048: Which of the following is NOT mentioned as something the retirees can do now?
+m05-eng-049: What can be reasonably inferred from the passage?
+m05-eng-050: Another town wants to start a similar class. According to the passage, what should its teachers be ready to do?
+m06-eng-001: Choose the correct answer. ____ your help, I would never have finished the project on time.
+m06-eng-002: In which pair is the reported sentence NOT correct?
+m06-eng-003: Which sentences use articles correctly? 1) My father plays the football every weekend. 2) The Mekong flows through several countries. 3) She is an honest person
+m06-eng-004: Choose the correct answer. I will get my brother ____ me with the software installation.
+m06-eng-005: Which tag questions are correct? 1) Let's take a short break, shall we? 2) You've never been abroad, have you? 3) Somebody has taken my pen, hasn't he?
+m06-eng-006: Which part of the sentence is INCORRECT ? My brother has been studying Japanese since five years , and he can now read simple novels .
+m06-eng-007: Choose the correct answer. It was ____ a long queue that we decided to come back the next day.
+m06-eng-008: Choose the correct answer. Not until the results were announced ____ how difficult the exam had been.
+m06-eng-009: My grandmother lived in a small village until 2015, but she now lives in the city. Which sentence describes her past correctly?
+m06-eng-010: Choose the correct answer. Students ____ scholarships by the university must submit a progress report each semester.
+m06-eng-011: Choose the correct answer. Nida goes to ____ school by bus every morning, but today her mother went to ____ school to meet the teacher.
+m06-eng-012: Choose the correct answer. The teacher gave us ____ about how to write a good essay.
+m06-eng-013: Which sentence has the closest meaning to the following? “You may use your phone in class as long as it is on silent mode.”
+m06-eng-014: Which sentences use wish or if only correctly? 1) I wish I have a bigger room. 2) If only she had told us about the change earlier. 3) I wish it would stop rain
+m06-eng-015: Choose the correct answer. The ground is wet this morning, and the forecast did not mention rain. It ____ during the night.
+m06-eng-016: Mali is not sure whether it will rain during the trip, so she packs an umbrella as a precaution. Which sentence describes this correctly?
+m06-eng-017: Choose the correct answer. Excuse me, do you know what time ____ ?
+m06-eng-018: Choose the sentence that contains a grammatical mistake.
+m06-eng-019: Choose the word closest in meaning to the word in bold. The hikers had to cross a treacherous path where one wrong step could mean a fall of two hundred metres.
+m06-eng-020: Choose the word or phrase closest in meaning to the part in bold. The IT team is trying to sort out the problem with the school's Wi-Fi.
+m06-eng-021: Which word is NOT close in meaning to the word in bold? The students were thrilled with the results of the competition.
+m06-eng-022: Which sentence uses raise or rise correctly?
+m06-eng-023: Which expressions can correctly complete the sentence? The manager was ____ by the sudden change, so she asked for more time. 1) taken aback 2) delighted 3) cau
+m06-eng-024: Ben never accepts what he hears in advertisements until he has seen clear proof. Which adjective best describes him?
+m06-eng-025: Two schools, one in Bangkok and one in Chiang Mai, joined forces to build a shared online library. Which phrase best describes what they did?
+m06-eng-026: Which of the following does NOT normally collocate with the verb “pay”?
+m06-eng-027: Which of the following tasks is most likely to be described as tedious ?
+m06-eng-028: Choose the correct answer. A ____ number of students joined the robotics club this year, so the teacher had to find a bigger room.
+m06-eng-029: Complete the conversation. Traveller: Excuse me, could you tell me what time the next bus to Sa Kaeo leaves? Staff: ____
+m06-eng-030: Which of the following is NOT an appropriate response when someone apologises for being late?
+m06-eng-031: You are at a restaurant and the waiter brings you the wrong dish. What would you say?
+m06-eng-032: Which of the following can be used to ask for advice politely? 1) What would you do in my position? 2) Tell me what to do right now. 3) Do you have any suggesti
+m06-eng-033: Read the conversation. A: Are you ready for tomorrow's presentation? B: Not really. I think I've bitten off more than I can chew. What does B mean?
+m06-eng-034: Complete the conversation. Nok: Would you like to try the new Thai restaurant on Friday? Fon: I'd love to, but I have a tutoring class that evening. Nok: ____
+m06-eng-035: Read the conversation. A: Don't you think students should wear uniforms? Which response shows that B disagrees ?
+m06-eng-036: Which of the following is NOT a polite way to ask a colleague to cover your class?
+m06-eng-037: What is the main message of the passage?
+m06-eng-038: Researchers recommend all of the following EXCEPT
+m06-eng-039: The word eager in the passage is closest in meaning to
+m06-eng-040: Which statements are supported by the passage? 1) Students receive points only when every answer is correct. 2) Students may earn badges for helping their class
+m06-eng-041: Why does the farmer use less water than his father did?
+m06-eng-042: Which of the following is NOT mentioned in the passage?
+m06-eng-043: Which phrase is NOT close in meaning to copy him in the passage?
+m06-eng-044: Which statements can be inferred from the passage? 1) Paying for the application may be difficult for some small farms. 2) A farmer without a stable signal may 
+m06-eng-045: A group of ten small farmers cannot afford the equipment individually. What does the passage suggest they could do?
+m06-eng-046: The writer's main point is that clothes-swap events
+m06-eng-047: The passage mentions all of the following as benefits of clothes-swap events EXCEPT
+m06-eng-048: Which statement would the critics most likely agree with?
+m06-eng-049: Which sentence uses the word tight in the same meaning as in the phrase “a tight budget”?
+m06-eng-050: Nan took home twelve items from a swap event, but she wears only three of them. Which concern of the critics does her case illustrate?
