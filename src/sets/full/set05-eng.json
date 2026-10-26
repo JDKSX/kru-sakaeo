@@ -62,7 +62,7 @@
  {
   "id": "m05-eng-004",
   "s": "eng",
-  "p": "สลับรายละเอียด",
+  "p": "นำไปใช้",
   "q": "Which sentence correctly reports the question below?<br><b>“Where did you put the keys?” Nid asked her brother.</b>",
   "c": [
    "Nid asked her brother where had he put the keys.",
@@ -222,8 +222,8 @@
  {
   "id": "m05-eng-012",
   "s": "eng",
-  "p": "สลับรายละเอียด",
-  "q": "Choose the correct answer.<br>There are ____ students in the lab this week, so there is ____ noise than usual.",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>This year's class is smaller than last year's, and the amount of homework is smaller too. The teacher says, “There are ____ students and ____ homework than last year.”",
   "c": [
    "less / fewer",
    "fewer / fewer",
@@ -233,11 +233,11 @@
   "a": 2,
   "n": [
    "ผิด: สลับ less กับ fewer ผิดทั้งสองคำ",
-   "ผิด: noise นับไม่ได้ จึงใช้ fewer ไม่ได้",
-   "✓ ถูก: students นับได้ใช้ fewer ส่วน noise นับไม่ได้ใช้ less",
+   "ผิด: homework นับไม่ได้ จึงใช้ fewer ไม่ได้",
+   "✓ ถูก: students นับได้ใช้ fewer ส่วน homework นับไม่ได้ใช้ less",
    "ผิด: students นับได้ จึงใช้ less ไม่ได้"
   ],
-  "tip": "fewer + นามนับได้พหูพจน์; less + นามนับไม่ได้"
+  "tip": "fewer + นามนับได้พหูพจน์; less + นามนับไม่ได้ (homework, noise, advice)"
  },
  {
   "id": "m05-eng-013",
@@ -522,22 +522,22 @@
  {
   "id": "m05-eng-027",
   "s": "eng",
-  "p": "สลับรายละเอียด",
-  "q": "A claim that is <b>unfounded</b> is one that ____.",
+  "p": "นำไปใช้",
+  "q": "Which of the following is an example of an <b>unfounded</b> claim?",
   "c": [
-   "has no evidence to support it",
-   "has been proved by many experts",
-   "was made a long time ago",
-   "is welcomed by the public"
+   "“This herbal tea cures every illness,” the seller said, but he showed no test results.",
+   "“This medicine reduced fever in most patients,” the doctor said, showing the trial data.",
+   "“Our school won the national prize last year,” the principal said, showing the certificate.",
+   "“The river rises every rainy season,” the villager said, pointing to the flood records."
   ],
   "a": 0,
   "n": [
-   "✓ ถูก: unfounded แปลว่าไม่มีมูล ไม่มีหลักฐานรองรับ",
-   "ผิด: ตรงข้ามกับ unfounded เพราะมีหลักฐานจากผู้เชี่ยวชาญ",
-   "ผิด: unfounded ไม่เกี่ยวกับช่วงเวลาที่กล่าวอ้าง",
-   "ผิด: unfounded ไม่เกี่ยวกับการที่ประชาชนยอมรับ"
+   "✓ ถูก: unfounded แปลว่าไม่มีมูลหรือไม่มีหลักฐานรองรับ ผู้ขายอ้างว่าชาแก้ได้ทุกโรคโดยไม่มีผลทดสอบ",
+   "ผิด: แพทย์มีข้อมูลการทดลองรองรับ จึงไม่ใช่ข้ออ้างที่ไร้มูล",
+   "ผิด: ผู้อำนวยการมีเกียรติบัตรรองรับ จึงไม่ใช่ข้ออ้างที่ไร้มูล",
+   "ผิด: ชาวบ้านมีบันทึกน้ำท่วมรองรับ จึงไม่ใช่ข้ออ้างที่ไร้มูล"
   ],
-  "tip": "un- + founded (มีมูล) = ไร้มูล ใช้กับ claim, rumour, fear, accusation"
+  "tip": "unfounded = ไร้มูล: ข้ออ้างที่ไม่มีหลักฐานหรือข้อมูลรองรับ ให้มองหาคำว่า no evidence / no results"
  },
  {
   "id": "m05-eng-028",
@@ -682,7 +682,7 @@
  {
   "id": "m05-eng-035",
   "s": "eng",
-  "p": "สถานการณ์",
+  "p": "คำเด็ดขาด",
   "q": "Read the conversation.<br>A: Should we start school at nine o'clock instead of eight?<br>Which response shows that B has <b>no strong opinion</b>?",
   "c": [
    "I'm absolutely against it.",
@@ -743,7 +743,7 @@
  {
   "id": "m05-eng-038",
   "s": "eng",
-  "p": "ปฏิเสธ",
+  "p": "คำเด็ดขาด",
   "q": "According to the passage, which statement about project-based learning is <b>NOT</b> true?",
   "ps": "In project-based learning, students spend several weeks investigating a real problem instead of memorising facts for a test. For example, a class might study why the canal near their school is polluted, interview local residents and present their suggestions to the municipal office. Supporters say that this approach helps students apply what they have learned and develops teamwork and communication skills. Critics, however, point out that the method takes far more class time than a traditional lesson and that some students may depend on their more able classmates. To address this problem, many teachers give each group member a clear role and assess both the final product and each student's own effort.",
   "c": [
@@ -827,23 +827,23 @@
  {
   "id": "m05-eng-042",
   "s": "eng",
-  "p": "สลับรายละเอียด",
-  "q": "According to the passage, why do many elderly patients in remote districts miss check-ups?",
+  "p": "ปฏิเสธ",
+  "q": "According to the passage, which of the following is <b>NOT</b> given as a reason why elderly patients in remote districts miss check-ups?",
   "ps": "In many remote districts, the nearest hospital is several hours away, and elderly patients often skip check-ups because the journey is tiring and expensive. Telemedicine aims to solve this problem. At a village health centre, a nurse connects the patient by video to a doctor in a city hospital. The doctor asks questions, looks at test results sent by the nurse and prescribes medicine. Studies show that the service saves patients both time and travel costs. Nevertheless, it has limits. A weak internet signal can interrupt a consultation, and a doctor cannot carry out a physical examination through a screen. For this reason, patients with serious symptoms are still advised to visit a hospital in person.",
   "c": [
-   "Village nurses refuse to see elderly patients.",
-   "The trip to the nearest hospital is tiring and costly.",
-   "They do not trust medicine from the city.",
-   "Hospitals in remote districts are closed at weekends."
+   "The nearest hospital is several hours away.",
+   "They do not believe in modern medicine.",
+   "The journey is tiring.",
+   "The journey is expensive."
   ],
   "a": 1,
   "n": [
-   "ผิด: บทความไม่ได้กล่าวว่าพยาบาลปฏิเสธผู้ป่วยสูงอายุ",
-   "✓ ถูก: บทความบอกว่าโรงพยาบาลอยู่ไกลหลายชั่วโมงและการเดินทางทั้งเหนื่อยและแพง",
-   "ผิด: บทความไม่ได้พูดถึงความไม่ไว้ใจยา",
-   "ผิด: บทความไม่ได้พูดถึงวันที่โรงพยาบาลปิด"
+   "ผิด: บทความกล่าวว่าโรงพยาบาลที่ใกล้ที่สุดอยู่ไกลหลายชั่วโมง",
+   "✓ ถูก: บทความไม่ได้กล่าวว่าผู้สูงอายุไม่เชื่อถือการแพทย์สมัยใหม่",
+   "ผิด: บทความกล่าวว่าการเดินทางทำให้เหนื่อย",
+   "ผิด: บทความกล่าวว่าการเดินทางมีค่าใช้จ่ายสูง"
   ],
-  "tip": "คำว่า because ในบทความบอกสาเหตุโดยตรง ให้เทียบกับเหตุผลในแต่ละคำตอบ"
+  "tip": "ข้อ NOT given as a reason ให้ขีดสาเหตุที่บทความระบุออก ตัวที่หาไม่พบในบทความคือคำตอบ"
  },
  {
   "id": "m05-eng-043",

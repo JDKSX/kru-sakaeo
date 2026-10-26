@@ -1,0 +1,1016 @@
+[
+ {
+  "id": "m06-eng-001",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>____ your help, I would never have finished the project on time.",
+  "c": [
+   "Unless it had been for",
+   "Hadn't it been for",
+   "Were it not been for",
+   "Had it not been for"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: unless แปลว่าถ้าไม่ และไม่ใช้โครงสร้างนี้",
+   "ผิด: รูปย่อปฏิเสธ hadn't ไม่ใช้กับการกลับประธานแบบนี้",
+   "ผิด: Were it not for ใช้กับสถานการณ์สมมติปัจจุบัน และ been ที่ตามมาทำให้โครงสร้างผิด",
+   "✓ ถูก: Had it not been for + นาม = ถ้าไม่ได้... (เงื่อนไขในอดีตแบบกลับประธาน) เข้ากับ would never have finished"
+  ],
+  "tip": "Had it not been for + นาม = If it had not been for ... ใช้กับเรื่องในอดีตที่ไม่เป็นจริง"
+ },
+ {
+  "id": "m06-eng-002",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "In which pair is the reported sentence <b>NOT</b> correct?",
+  "c": [
+   "“Don't forget the password,” she told him. → She told him not to forget the password.",
+   "“Will you join us?” he asked me. → He asked me whether I would join them.",
+   "“I have lost my key,” said Tom. → Tom said that he had lost his key.",
+   "“Where is the station?” she asked. → She asked where was the station."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: คำสั่งปฏิเสธเปลี่ยนเป็น not to + V1 ถูกต้อง",
+   "ผิด: yes/no question ใช้ whether และถอย will เป็น would ถูกต้อง",
+   "ผิด: present perfect ถอยเป็น past perfect ถูกต้อง",
+   "✓ ถูก: reported question ต้องเรียงเป็นประโยคบอกเล่า ควรเป็น where the station was"
+  ],
+  "tip": "reported question ไม่กลับประธาน-กริยา: asked where the station was ไม่ใช่ where was the station"
+ },
+ {
+  "id": "m06-eng-003",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences use articles correctly?<br>1) My father plays the football every weekend.<br>2) The Mekong flows through several countries.<br>3) She is an honest person.",
+  "c": [
+   "2, 3",
+   "1, 2",
+   "1, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: the + ชื่อแม่น้ำ และ an + honest (h ไม่ออกเสียง) ใช้ถูกทั้งข้อความ 2 และ 3",
+   "ผิด: ข้อความ 1 ผิดเพราะชื่อกีฬาไม่ใช้ the และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "ผิด: ข้อความ 1 ผิดเพราะ football เป็นชื่อกีฬา ไม่ใช้ the และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: รวมข้อความ 1 ที่ใช้ the ผิดไว้ด้วย"
+  ],
+  "tip": "ชื่อกีฬาและวิชาไม่ใช้ the; แม่น้ำ มหาสมุทร ใช้ the; honest/hour ขึ้นต้นด้วยเสียงสระจึงใช้ an"
+ },
+ {
+  "id": "m06-eng-004",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>I will get my brother ____ me with the software installation.",
+  "c": [
+   "help",
+   "to help",
+   "to helping",
+   "helped"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: get + คน ไม่ตามด้วย V1 เปล่า (ใช้ได้กับ have เท่านั้น)",
+   "✓ ถูก: get + คน + to + V1 แปลว่าให้ใครทำบางสิ่งให้",
+   "ผิด: to ที่ตามด้วย V-ing ใช้กับบุพบท ไม่ใช่ infinitive ในโครงสร้าง get + คน",
+   "ผิด: V3 ใช้เมื่อกรรมเป็นสิ่งของที่ถูกทำ ไม่ใช่คนที่ลงมือทำ"
+  ],
+  "tip": "have + คน + V1 / get + คน + to V1; have/get + สิ่งของ + V3"
+ },
+ {
+  "id": "m06-eng-005",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which tag questions are correct?<br>1) Let's take a short break, shall we?<br>2) You've never been abroad, have you?<br>3) Somebody has taken my pen, hasn't he?",
+  "c": [
+   "1, 3",
+   "2, 3",
+   "1, 2",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 3 ผิดเพราะ somebody ใช้ tag ว่า haven't they และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: ข้อความ 3 ผิดเพราะ somebody ใช้ they และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "✓ ถูก: Let's ... shall we และ never ... have you เป็น tag ที่ถูกต้อง",
+   "ผิด: รวมข้อความ 3 ที่ tag ผิดไว้ด้วย"
+  ],
+  "tip": "Let's ต่อด้วย shall we; never/seldom ต่อด้วย tag บอกเล่า; somebody/everyone/nobody ใช้ they"
+ },
+ {
+  "id": "m06-eng-006",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which part of the sentence is <b>INCORRECT</b>?<br>My brother <b>has been studying</b> Japanese <b>since five years</b>, and he <b>can now read</b> <b>simple novels</b>.",
+  "c": [
+   "since five years",
+   "has been studying",
+   "can now read",
+   "simple novels"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: since ใช้กับจุดเริ่มต้นของเวลา เช่น since 2020 ส่วนช่วงเวลาต้องใช้ for five years",
+   "ผิด: has been studying เป็น present perfect continuous ใช้ถูกต้อง",
+   "ผิด: can now read เป็นรูปกริยาช่วยที่ใช้ถูกต้อง",
+   "ผิด: simple novels เป็นคุณศัพท์ + นามพหูพจน์ ใช้ถูกต้อง"
+  ],
+  "tip": "since + จุดเวลา; for + ช่วงเวลา"
+ },
+ {
+  "id": "m06-eng-007",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>It was ____ a long queue that we decided to come back the next day.",
+  "c": [
+   "so",
+   "too",
+   "very",
+   "such"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: so ใช้กับ adj/adv โดยตรง ไม่ตามด้วย a + นามในลำดับนี้",
+   "ผิด: too ... to V ไม่ใช้กับ that-clause",
+   "ผิด: very ไม่ทำให้เกิดผลลัพธ์แบบ that-clause",
+   "✓ ถูก: such + a + adj + นาม + that ใช้แสดงผลลัพธ์จากสิ่งที่มีลักษณะมาก"
+  ],
+  "tip": "so + adj; such + a/an + adj + noun; ตามด้วย that เพื่อบอกผลลัพธ์"
+ },
+ {
+  "id": "m06-eng-008",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>Not until the results were announced ____ how difficult the exam had been.",
+  "c": [
+   "did the students realise",
+   "the students realised",
+   "the students did realise",
+   "realised the students"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: Not until + อนุประโยค ต้องกลับประธานในประโยคหลักเป็น did + S + V1",
+   "ผิด: ไม่กลับประธานหลัง Not until จึงผิดโครงสร้าง",
+   "ผิด: มี did แต่ไม่กลับประธาน จึงผิดโครงสร้าง",
+   "ผิด: กลับกริยาไว้หน้าประธานโดยไม่มี did ซึ่งผิดรูปคำถาม"
+  ],
+  "tip": "Not until / Only after / Only when ขึ้นต้นประโยค → ประโยคหลักกลับประธานแบบคำถาม"
+ },
+ {
+  "id": "m06-eng-009",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "My grandmother lived in a small village until 2015, but she now lives in the city. Which sentence describes her past correctly?",
+  "c": [
+   "She is used to living in a small village.",
+   "She used to live in a small village.",
+   "She was used to live in a small village.",
+   "She used to living in a small village."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: be used to + V-ing แปลว่าคุ้นชิน และ is เป็นปัจจุบัน ขัดกับที่เธอย้ายไปแล้ว",
+   "✓ ถูก: used to + V1 บอกสิ่งที่เคยเป็นในอดีตแต่ปัจจุบันไม่เป็นแล้ว ตรงกับ lived ... until 2015",
+   "ผิด: was used to ต้องตามด้วย V-ing ไม่ใช่ V1",
+   "ผิด: used to living ไม่มี be จึงไม่เป็นโครงสร้างที่ถูกต้อง"
+  ],
+  "tip": "เคย = used to + V1; คุ้นชิน = be/get used to + V-ing"
+ },
+ {
+  "id": "m06-eng-010",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>Students ____ scholarships by the university must submit a progress report each semester.",
+  "c": [
+   "awarding",
+   "who awarded",
+   "to award",
+   "awarded"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: awarding มีความหมายกระทำ แต่นักเรียนเป็นผู้ได้รับทุน",
+   "ผิด: who awarded ทำให้นักเรียนเป็นผู้ให้ทุน ซึ่งขัดกับ by the university",
+   "ผิด: to award เป็น infinitive แสดงจุดประสงค์ ไม่ขยายนาม students ในความหมายนี้",
+   "✓ ถูก: awarded เป็น reduced passive relative clause (who are awarded) ขยาย students ที่ได้รับทุน และมี by the university เป็นผู้ให้"
+  ],
+  "tip": "นามที่ถูกกระทำ + V3 = ย่อ who/which + be + V3; นามที่เป็นผู้กระทำ + V-ing"
+ },
+ {
+  "id": "m06-eng-011",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Nida goes to ____ school by bus every morning, but today her mother went to ____ school to meet the teacher.",
+  "c": [
+   "the / the",
+   "the / no article",
+   "no article / the",
+   "a / the"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: go to school ในความหมายไปเรียนไม่ใช้ the",
+   "ผิด: ตำแหน่งสลับกัน: ไปเรียนไม่ใช้ the แต่ไปพบครูใช้ the",
+   "✓ ถูก: go to school (ไปเรียน) ไม่ใช้ the แต่แม่ไปที่อาคารโรงเรียนเพื่อพบครู จึงใช้ the school",
+   "ผิด: go to school ไม่ใช้ a"
+  ],
+  "tip": "go to school/bed/church = ทำกิจกรรมหลักของสถานที่ ไม่ใช้ the; ไปที่อาคารเฉย ๆ ใช้ the"
+ },
+ {
+  "id": "m06-eng-012",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The teacher gave us ____ about how to write a good essay.",
+  "c": [
+   "some useful advices",
+   "a useful advice",
+   "some useful advice",
+   "many useful advice"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: advice ไม่มีรูปพหูพจน์ advices",
+   "ผิด: advice นับไม่ได้ จึงใช้ a ไม่ได้",
+   "✓ ถูก: advice เป็นนามนับไม่ได้ ใช้กับ some ได้และไม่เติม s",
+   "ผิด: many ใช้กับนามนับได้พหูพจน์ ไม่ใช้กับ advice"
+  ],
+  "tip": "advice, information, news, furniture, luggage ไม่มีพหูพจน์ ถ้าต้องการนับให้ใช้ a piece of"
+ },
+ {
+  "id": "m06-eng-013",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence has the closest meaning to the following?<br><b>“You may use your phone in class as long as it is on silent mode.”</b>",
+  "c": [
+   "You may use your phone in class even if it is not on silent mode.",
+   "You may use your phone in class only if it is on silent mode.",
+   "You may use your phone in class unless it is on silent mode.",
+   "You may not use your phone in class if it is on silent mode."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: even if ตัดเงื่อนไขทิ้ง",
+   "✓ ถูก: as long as มีความหมายเท่ากับ only if คือใช้ได้ภายใต้เงื่อนไขนั้น",
+   "ผิด: unless แปลว่าถ้าไม่ จึงกลับเงื่อนไข",
+   "ผิด: กลับความหมายเป็นห้ามใช้ตอนปิดเสียง"
+  ],
+  "tip": "as long as / provided that / so long as = only if (เงื่อนไขที่ต้องทำตาม)"
+ },
+ {
+  "id": "m06-eng-014",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences use wish or if only correctly?<br>1) I wish I have a bigger room.<br>2) If only she had told us about the change earlier.<br>3) I wish it would stop raining.",
+  "c": [
+   "1, 2",
+   "2, 3",
+   "1, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 1 ผิดเพราะ wish ไม่ตามด้วย present simple และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: If only + had + V3 ใช้เสียดายเรื่องอดีต และ wish + would ใช้อยากให้ผู้อื่นหรือสิ่งอื่นเปลี่ยน",
+   "ผิด: ข้อความ 1 ผิดเพราะต้องใช้ wish I had และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: รวมข้อความ 1 ที่ใช้ have ผิดไว้ด้วย"
+  ],
+  "tip": "ปรารถนาให้ปัจจุบันต่างไปต้องใช้ wish + had/past simple ห้ามใช้ present simple"
+ },
+ {
+  "id": "m06-eng-015",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>The ground is wet this morning, and the forecast did not mention rain. It ____ during the night.",
+  "c": [
+   "must rain",
+   "should have rained",
+   "might rain",
+   "must have rained"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: must + V1 เป็นการเดาปัจจุบันหรืออนาคต ไม่ใช่ during the night",
+   "ผิด: should have + V3 ใช้ตำหนิหรือเสียดาย ไม่ใช่การอนุมานจากหลักฐาน",
+   "ผิด: might + V1 เป็นการเดาเรื่องอนาคต",
+   "✓ ถูก: must have + V3 ใช้เดาอย่างมั่นใจเกี่ยวกับอดีตจากหลักฐาน (พื้นเปียก)"
+  ],
+  "tip": "หลักฐานปัจจุบัน + เหตุการณ์ในอดีต → must have + V3 (แน่ใจ) / may have + V3 (ไม่แน่ใจ)"
+ },
+ {
+  "id": "m06-eng-016",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Mali is not sure whether it will rain during the trip, so she packs an umbrella as a precaution. Which sentence describes this correctly?",
+  "c": [
+   "Mali packed an umbrella in case it rained.",
+   "Mali packed an umbrella in case of it rained.",
+   "Mali packed an umbrella unless it rained.",
+   "Mali packed an umbrella as if it rained."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: in case + S + V แปลว่าเผื่อว่า ตรงกับการเตรียมร่มไว้ก่อน",
+   "ผิด: in case of ตามด้วยนาม ไม่ตามด้วยประโยค it rained",
+   "ผิด: unless แปลว่าถ้าไม่ ทำให้ความหมายผิด",
+   "ผิด: as if แปลว่าราวกับว่า ไม่ใช่การเตรียมตัวไว้ก่อน"
+  ],
+  "tip": "in case + S + V (เผื่อว่า); in case of + noun"
+ },
+ {
+  "id": "m06-eng-017",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Excuse me, do you know what time ____ ?",
+  "c": [
+   "does the train leave",
+   "leaves the train",
+   "the train leaves",
+   "the train leave"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ใช้ does แบบคำถามตรง ซึ่งไม่ใช้ในคำถามฝัง",
+   "ผิด: กลับกริยาไว้หน้าประธานจึงผิดลำดับ",
+   "✓ ถูก: คำถามฝังเรียงเป็นประโยคบอกเล่า (S + V) และไม่ใช้ do/does",
+   "ผิด: ประธานเอกพจน์ the train ต้องใช้กริยา leaves ไม่ใช่ leave"
+  ],
+  "tip": "ขึ้นต้น Could you tell me / Do you know → เรียงประธานก่อนกริยา และไม่ใช้ do/does/did"
+ },
+ {
+  "id": "m06-eng-018",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Choose the sentence that contains a grammatical mistake.",
+  "c": [
+   "The teacher made us to rewrite the essay.",
+   "Not only did she pass the exam, but she also got the highest score.",
+   "I look forward to meeting you next week.",
+   "Having lived abroad for years, he speaks English fluently."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: make + กรรม ใช้ V1 ไม่มี to ในประโยคกระทำ ต้องเป็น made us rewrite",
+   "ผิด: Not only ขึ้นต้นประโยคและกลับประธานด้วย did ถูกต้อง",
+   "ผิด: look forward to ตามด้วย V-ing ถูกต้อง",
+   "ผิด: Having lived เป็น participle clause ที่ประธาน he ตรงกันจึงถูกต้อง"
+  ],
+  "tip": "make/let + กรรม + V1 (ไม่มี to); แต่ passive ใช้ was made to + V1"
+ },
+ {
+  "id": "m06-eng-019",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word closest in meaning to the word in bold.<br>The hikers had to cross a <b>treacherous</b> path where one wrong step could mean a fall of two hundred metres.",
+  "c": [
+   "picturesque",
+   "familiar",
+   "ancient",
+   "dangerous"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: picturesque แปลว่าสวยงามน่ามอง ไม่เกี่ยวกับอันตรายที่บริบทบอก",
+   "ผิด: familiar แปลว่าคุ้นเคย ซึ่งไม่ได้ทำให้ก้าวพลาดแล้วเสี่ยงตก",
+   "ผิด: ancient แปลว่าเก่าแก่ ไม่ใช่ความหมายของ treacherous",
+   "✓ ถูก: treacherous แปลว่าอันตรายที่ซ่อนเร้น ตรงกับบริบทที่ก้าวพลาดครั้งเดียวอาจตกลงไปสองร้อยเมตร"
+  ],
+  "tip": "ใช้ผลที่ตามมาในประโยค (fall of two hundred metres) ช่วยเดาความหมายของคำที่ไม่คุ้น"
+ },
+ {
+  "id": "m06-eng-020",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>The IT team is trying to <b>sort out</b> the problem with the school's Wi-Fi.",
+  "c": [
+   "discuss",
+   "solve",
+   "cause",
+   "forget"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: discuss แปลว่าอภิปราย ไม่ได้บอกว่าแก้ไข",
+   "✓ ถูก: sort out a problem แปลว่าแก้ปัญหาให้เรียบร้อย",
+   "ผิด: cause แปลว่าทำให้เกิด ซึ่งตรงข้ามกับการแก้ปัญหา",
+   "ผิด: forget แปลว่าลืม ไม่ใช่ความหมายของ sort out"
+  ],
+  "tip": "sort out + problem = แก้ปัญหา; sort out + things = แยกหรือจัดเรียงของ"
+ },
+ {
+  "id": "m06-eng-021",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which word is <b>NOT</b> close in meaning to the word in bold?<br>The students were <b>thrilled</b> with the results of the competition.",
+  "c": [
+   "delighted",
+   "overjoyed",
+   "puzzled",
+   "ecstatic"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: delighted แปลว่ายินดีมาก ใกล้เคียง thrilled",
+   "ผิด: overjoyed แปลว่าดีใจมาก ใกล้เคียง thrilled",
+   "✓ ถูก: puzzled แปลว่างุนงง ไม่ใช่ความรู้สึกดีใจ",
+   "ผิด: ecstatic แปลว่าปลาบปลื้มสุดขีด ใกล้เคียง thrilled"
+  ],
+  "tip": "thrilled = delighted = overjoyed = ecstatic ล้วนเป็นความรู้สึกดีใจมาก"
+ },
+ {
+  "id": "m06-eng-022",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which sentence uses <b>raise</b> or <b>rise</b> correctly?",
+  "c": [
+   "The price of rice raised sharply last month.",
+   "The government decided to raise the minimum wage next year.",
+   "Please rise your hand if you know the answer.",
+   "The sun raises in the east every morning."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ราคาข้าวขึ้นเองต้องใช้ rise ในรูปอดีต rose ไม่ใช่ raised",
+   "✓ ถูก: raise ต้องมีกรรม แปลว่าเพิ่มหรือยกขึ้น จึงใช้กับ the minimum wage ได้",
+   "ผิด: ยกมือต้องใช้ raise your hand",
+   "ผิด: ดวงอาทิตย์ขึ้นเองต้องใช้ rises"
+  ],
+  "tip": "raise + กรรม (ยก/เพิ่ม); rise (rose, risen) ไม่มีกรรม ขึ้นเอง"
+ },
+ {
+  "id": "m06-eng-023",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which expressions can correctly complete the sentence?<br>The manager was ____ by the sudden change, so she asked for more time.<br>1) taken aback<br>2) delighted<br>3) caught off guard",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: delighted แปลว่าดีใจ ไม่สอดคล้องกับการขอเวลาเพิ่ม และชุดนี้ตัดสำนวนที่ 3 ที่ถูกออก",
+   "✓ ถูก: taken aback และ caught off guard แปลว่าตกใจ ไม่ทันตั้งตัว เข้ากับการขอเวลาเพิ่ม",
+   "ผิด: delighted ไม่เข้ากับบริบท และชุดนี้ตัดสำนวนที่ 1 ที่ถูกออก",
+   "ผิด: รวม delighted ที่ความหมายไม่เข้ากันไว้ด้วย"
+  ],
+  "tip": "taken aback = caught off guard = ตกใจเพราะไม่คาดคิด"
+ },
+ {
+  "id": "m06-eng-024",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Ben never accepts what he hears in advertisements until he has seen clear proof. Which adjective best describes him?",
+  "c": [
+   "sceptical",
+   "gullible",
+   "impatient",
+   "careless"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: sceptical แปลว่าสงสัยก่อนเชื่อ ตรงกับการไม่เชื่อโฆษณาจนกว่าจะเห็นหลักฐาน",
+   "ผิด: gullible แปลว่าเชื่อง่าย ตรงข้ามกับพฤติกรรมของเบน",
+   "ผิด: impatient แปลว่าใจร้อน ไม่เกี่ยวกับการต้องการหลักฐาน",
+   "ผิด: careless แปลว่าสะเพร่า ซึ่งไม่ตรงกับคนที่ตรวจสอบหลักฐาน"
+  ],
+  "tip": "sceptical = สงสัยก่อนเชื่อ; gullible = เชื่อง่าย"
+ },
+ {
+  "id": "m06-eng-025",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Two schools, one in Bangkok and one in Chiang Mai, joined forces to build a shared online library. Which phrase best describes what they did?",
+  "c": [
+   "fell out",
+   "backed out",
+   "gave up",
+   "teamed up"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: fall out แปลว่าทะเลาะกัน ตรงข้ามกับการร่วมมือ",
+   "ผิด: back out แปลว่าถอนตัว ซึ่งขัดกับการสร้างห้องสมุดร่วมกัน",
+   "ผิด: give up แปลว่าเลิกทำ ซึ่งขัดกับการสร้างห้องสมุดสำเร็จ",
+   "✓ ถูก: team up แปลว่าร่วมมือกัน ตรงกับ joined forces"
+  ],
+  "tip": "team up (with) = ร่วมมือกับ; fall out = ทะเลาะ; back out = ถอนตัว; give up = เลิก"
+ },
+ {
+  "id": "m06-eng-026",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following does <b>NOT</b> normally collocate with the verb “pay”?",
+  "c": [
+   "attention",
+   "a compliment",
+   "a visit",
+   "an opinion"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: pay attention แปลว่าใส่ใจ ใช้ได้ถูกต้อง",
+   "ผิด: pay a compliment แปลว่ากล่าวชม ใช้ได้ถูกต้อง",
+   "ผิด: pay a visit แปลว่าไปเยี่ยม ใช้ได้ถูกต้อง",
+   "✓ ถูก: ไม่มี collocation pay an opinion ความเห็นใช้ give, express หรือ share an opinion"
+  ],
+  "tip": "pay attention / pay a compliment / pay a visit / pay a fine ส่วนความเห็นใช้ give / express an opinion"
+ },
+ {
+  "id": "m06-eng-027",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which of the following tasks is most likely to be described as <b>tedious</b>?",
+  "c": [
+   "Copying two thousand names into a spreadsheet by hand",
+   "Watching fireworks at a festival",
+   "Meeting a famous author at a book fair",
+   "Solving a puzzle that changes every minute"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: tedious แปลว่าน่าเบื่อเพราะยาวและซ้ำซาก การพิมพ์ชื่อสองพันชื่อด้วยมือเข้าข่ายนี้",
+   "ผิด: ดูพลุที่เทศกาลเป็นกิจกรรมที่น่าตื่นเต้น ไม่ใช่งานซ้ำซาก",
+   "ผิด: พบนักเขียนดังเป็นประสบการณ์ที่น่าสนใจ",
+   "ผิด: ปริศนาที่เปลี่ยนทุกนาทีท้าทายและไม่ซ้ำซาก"
+  ],
+  "tip": "tedious = น่าเบื่อ ซ้ำซาก ใช้กับงานยาวที่ต้องทำซ้ำ ๆ"
+ },
+ {
+  "id": "m06-eng-028",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>A ____ number of students joined the robotics club this year, so the teacher had to find a bigger room.",
+  "c": [
+   "considerate",
+   "considering",
+   "considerable",
+   "consideration"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: considerate แปลว่าเกรงใจผู้อื่น ไม่ใช่เรื่องจำนวน",
+   "ผิด: considering เป็น V-ing หรือบุพบท ไม่ใช้ขยายนามแบบนี้",
+   "✓ ถูก: considerable แปลว่ามากพอสมควร ใช้ขยาย number ได้และเข้ากับการต้องหาห้องใหญ่ขึ้น",
+   "ผิด: consideration เป็นคำนาม ใช้ขยาย number ไม่ได้"
+  ],
+  "tip": "considerable = มาก/สำคัญ; considerate = เกรงใจผู้อื่น"
+ },
+ {
+  "id": "m06-eng-029",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Traveller: Excuse me, could you tell me what time the next bus to Sa Kaeo leaves?<br>Staff: ____",
+  "c": [
+   "The fare is fifty baht, and the trip takes an hour.",
+   "It leaves at ten past two, from platform three.",
+   "Yes, I could. That is a good question.",
+   "The bus is very comfortable and has air conditioning."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ตอบเรื่องราคาและระยะเวลาเดินทาง ไม่ใช่เวลาออก",
+   "✓ ถูก: ให้เวลาออกและชานชาลา ตอบตรงคำถามที่ถามหาเวลา",
+   "ผิด: ตอบ Yes ตามตัวอักษรแต่ไม่ให้ข้อมูลที่ถาม",
+   "ผิด: บอกคุณสมบัติรถ ไม่เกี่ยวกับเวลา"
+  ],
+  "tip": "Could you tell me ...? ต้องให้ข้อมูลที่ถามทันที ไม่ใช่ตอบ Yes/No ลอย ๆ"
+ },
+ {
+  "id": "m06-eng-030",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> an appropriate response when someone apologises for being late?",
+  "c": [
+   "That's all right. We've only just started.",
+   "You should be ashamed of yourself.",
+   "No problem. Please take a seat.",
+   "Don't worry about it."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: That's all right เป็นการรับคำขอโทษอย่างสุภาพ",
+   "✓ ถูก: เป็นการตำหนิรุนแรง ไม่เหมาะกับการตอบคำขอโทษ",
+   "ผิด: No problem เป็นการรับคำขอโทษแล้วเชิญนั่ง สุภาพ",
+   "ผิด: Don't worry about it เป็นการปลอบว่าไม่เป็นไร สุภาพ"
+  ],
+  "tip": "ตอบคำขอโทษด้วย That's all right. / No problem. / Don't worry about it. ไม่ตำหนิซ้ำ"
+ },
+ {
+  "id": "m06-eng-031",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "You are at a restaurant and the waiter brings you the wrong dish. What would you say?",
+  "c": [
+   "Waiter, you are very careless. Take this away now.",
+   "Thank you. I will eat whatever you bring me.",
+   "I'm sorry for the mistake. I ordered the wrong dish.",
+   "Excuse me, I think there has been a mistake. I ordered the fried rice."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ตำหนิรุนแรงและสั่งให้เอาออก ไม่สุภาพ",
+   "ผิด: ยอมรับอาหารผิดโดยไม่แจ้งปัญหา",
+   "ผิด: ขอโทษทั้งที่ผู้พูดสั่งถูกแล้ว ทำให้ข้อเท็จจริงคลาดเคลื่อน",
+   "✓ ถูก: บอกอย่างสุภาพว่าน่าจะมีความผิดพลาดและบอกสิ่งที่สั่งจริง"
+  ],
+  "tip": "ร้องเรียนอย่างสุภาพ: Excuse me, I think there's been a mistake + บอกข้อเท็จจริง"
+ },
+ {
+  "id": "m06-eng-032",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following can be used to ask for advice politely?<br>1) What would you do in my position?<br>2) Tell me what to do right now.<br>3) Do you have any suggestions?",
+  "c": [
+   "1, 2",
+   "2, 3",
+   "1, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 2 เป็นการสั่ง ไม่สุภาพ และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "ผิด: ข้อความ 2 เป็นการสั่ง ไม่สุภาพ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "✓ ถูก: What would you do in my position? และ Do you have any suggestions? ใช้ขอคำแนะนำอย่างสุภาพ",
+   "ผิด: รวมข้อความ 2 ที่เป็นประโยคสั่งไว้ด้วย"
+  ],
+  "tip": "ขอคำแนะนำอย่างสุภาพ: What would you do...? / Do you have any suggestions? / What do you suggest?"
+ },
+ {
+  "id": "m06-eng-033",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Read the conversation.<br>A: Are you ready for tomorrow's presentation?<br>B: Not really. I think I've bitten off more than I can chew.<br>What does B mean?",
+  "c": [
+   "B has taken on a task that is too big to handle.",
+   "B has eaten too much food before the presentation.",
+   "B has finished everything and feels very confident.",
+   "B is hungry and cannot concentrate on the work."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: bite off more than one can chew เป็นสำนวนแปลว่ารับงานมากเกินกำลัง",
+   "ผิด: ตีความตามตัวอักษรว่ากินมากเกินไป",
+   "ผิด: สำนวนนี้ไม่ได้แสดงความมั่นใจ และ Not really ก็บอกว่ายังไม่พร้อม",
+   "ผิด: ตีความตามตัวอักษรว่าหิว ไม่ใช่ความหมายของสำนวน"
+  ],
+  "tip": "สำนวนมักมีความหมายเชิงเปรียบเทียบ อย่าแปลตามตัวอักษร: bite off more than you can chew = รับงานเกินตัว"
+ },
+ {
+  "id": "m06-eng-034",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Nok: Would you like to try the new Thai restaurant on Friday?<br>Fon: I'd love to, but I have a tutoring class that evening.<br>Nok: ____",
+  "c": [
+   "Then you must cancel your tutoring class.",
+   "Thank you. I'll see you on Friday then.",
+   "That's a pity. How about Saturday instead?",
+   "Why do you love the restaurant so much?"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บังคับให้อีกฝ่ายยกเลิกเรียน ไม่สุภาพ",
+   "ผิด: ขัดกับที่ Fon บอกว่าไปวันศุกร์ไม่ได้",
+   "✓ ถูก: แสดงความเสียดายและเสนอวันอื่นแทน ตอบรับเหตุผลของอีกฝ่าย",
+   "ผิด: ถามเรื่องที่ไม่เกี่ยวกับการปฏิเสธและเข้าใจ I'd love to ผิด"
+  ],
+  "tip": "เมื่ออีกฝ่ายปฏิเสธคำชวนพร้อมเหตุผล ให้แสดงความเสียดายและเสนอเวลาอื่น"
+ },
+ {
+  "id": "m06-eng-035",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Read the conversation.<br>A: Don't you think students should wear uniforms?<br>Which response shows that B <b>disagrees</b>?",
+  "c": [
+   "Exactly. Uniforms keep everyone equal.",
+   "On the contrary, I think they should choose what to wear.",
+   "I couldn't agree more.",
+   "That's what I think, too."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: Exactly เป็นการเห็นด้วย",
+   "✓ ถูก: On the contrary เป็นสำนวนปฏิเสธความเห็นก่อนหน้า และให้ความเห็นตรงข้าม",
+   "ผิด: I couldn't agree more แปลว่าเห็นด้วยอย่างยิ่ง",
+   "ผิด: That's what I think, too แปลว่าฉันก็คิดเช่นนั้น"
+  ],
+  "tip": "On the contrary / I'm afraid I don't agree = ไม่เห็นด้วย; Exactly / I couldn't agree more = เห็นด้วยอย่างยิ่ง"
+ },
+ {
+  "id": "m06-eng-036",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> a polite way to ask a colleague to cover your class?",
+  "c": [
+   "I was wondering if you could cover my class on Friday.",
+   "Would it be possible for you to take my class on Friday?",
+   "Could you do me a favour and cover my class on Friday?",
+   "You will take my class on Friday."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: I was wondering if you could ... เป็นการขอร้องที่สุภาพ",
+   "ผิด: Would it be possible for you ... เป็นการขอร้องที่สุภาพ",
+   "ผิด: Could you do me a favour ... เป็นการขอร้องที่สุภาพ",
+   "✓ ถูก: เป็นประโยคบอกเล่าเชิงสั่ง ไม่มีการขอร้อง"
+  ],
+  "tip": "ขอร้องอย่างสุภาพใช้ Could you...? / Would it be possible...? / I was wondering if... ไม่ใช้ประโยคสั่ง"
+ },
+ {
+  "id": "m06-eng-037",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "What is the main message of the passage?",
+  "ps": "Gamification means using features of video games, such as points, badges and leaderboards, in lessons that are not games. In one language class, students earn points for finishing exercises on time and collect badges when they help their classmates. Teachers who use this method report that students are more eager to practise at home. Yet there are drawbacks. Students at the bottom of the leaderboard may lose confidence, and some learners care more about winning points than about understanding the material. Because of this, researchers recommend keeping the rewards small, giving badges for effort as well as for scores, and letting students compare their progress with their own earlier results instead of with other people's.",
+  "c": [
+   "Game features can motivate learners, but they must be used carefully.",
+   "Video games are the best way to replace all school lessons.",
+   "Learners at the bottom of the leaderboard should leave the class.",
+   "Language teachers should give large prizes for every exercise."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความอธิบายว่าองค์ประกอบของเกมช่วยสร้างแรงจูงใจ แต่มีข้อเสียที่ต้องระวังและมีข้อเสนอแนะการใช้",
+   "ผิด: บทความไม่ได้เสนอให้เกมแทนบทเรียนทั้งหมด (คำว่า best และ all เกินจริง)",
+   "ผิด: บทความไม่ได้เสนอให้ผู้เรียนที่อันดับท้ายออกจากชั้นเรียน",
+   "ผิด: บทความแนะนำให้ให้รางวัลเล็ก ๆ ไม่ใช่รางวัลใหญ่"
+  ],
+  "tip": "ใจความสำคัญต้องรวมทั้งข้อดีและข้อควรระวัง ตัวเลือกที่สุดโต่ง (best, all, every) มักผิด"
+ },
+ {
+  "id": "m06-eng-038",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Researchers recommend all of the following <b>EXCEPT</b>",
+  "ps": "Gamification means using features of video games, such as points, badges and leaderboards, in lessons that are not games. In one language class, students earn points for finishing exercises on time and collect badges when they help their classmates. Teachers who use this method report that students are more eager to practise at home. Yet there are drawbacks. Students at the bottom of the leaderboard may lose confidence, and some learners care more about winning points than about understanding the material. Because of this, researchers recommend keeping the rewards small, giving badges for effort as well as for scores, and letting students compare their progress with their own earlier results instead of with other people's.",
+  "c": [
+   "keeping the rewards small",
+   "giving badges for effort as well as scores",
+   "giving large prizes to the highest scorers",
+   "comparing progress with one's own earlier results"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความแนะนำให้ keep the rewards small",
+   "ผิด: บทความแนะนำให้มอบ badge ให้ทั้งความพยายามและคะแนน",
+   "✓ ถูก: นักวิจัยแนะนำให้รางวัลเล็ก ๆ ไม่ใช่รางวัลใหญ่สำหรับผู้ที่ได้คะแนนสูงสุด",
+   "ผิด: บทความแนะนำให้เปรียบเทียบกับผลงานเดิมของตนเอง"
+  ],
+  "tip": "ข้อ EXCEPT ในเรื่องข้อเสนอแนะ ให้ขีดข้อที่บทความแนะนำออก ข้อที่เหลือคือสิ่งที่ขัดกับคำแนะนำ"
+ },
+ {
+  "id": "m06-eng-039",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>eager</b> in the passage is closest in meaning to",
+  "ps": "Gamification means using features of video games, such as points, badges and leaderboards, in lessons that are not games. In one language class, students earn points for finishing exercises on time and collect badges when they help their classmates. Teachers who use this method report that students are more eager to practise at home. Yet there are drawbacks. Students at the bottom of the leaderboard may lose confidence, and some learners care more about winning points than about understanding the material. Because of this, researchers recommend keeping the rewards small, giving badges for effort as well as for scores, and letting students compare their progress with their own earlier results instead of with other people's.",
+  "c": [
+   "unwilling",
+   "exhausted",
+   "disappointed",
+   "enthusiastic"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: unwilling แปลว่าไม่เต็มใจ ตรงข้ามกับ eager",
+   "ผิด: exhausted แปลว่าเหนื่อยล้า ไม่ใช่ความหมายของ eager",
+   "ผิด: disappointed แปลว่าผิดหวัง ซึ่งไม่ใช่ผลบวกที่ครูรายงาน",
+   "✓ ถูก: eager แปลว่ากระตือรือร้น ตรงกับ enthusiastic และสอดคล้องกับผลบวกของ gamification"
+  ],
+  "tip": "ใช้บริบทเชิงบวกของประโยค (more ... to practise at home) ช่วยเดาความหมาย"
+ },
+ {
+  "id": "m06-eng-040",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements are supported by the passage?<br>1) Students receive points only when every answer is correct.<br>2) Students may earn badges for helping their classmates.<br>3) Some teachers report that students practise more at home.",
+  "ps": "Gamification means using features of video games, such as points, badges and leaderboards, in lessons that are not games. In one language class, students earn points for finishing exercises on time and collect badges when they help their classmates. Teachers who use this method report that students are more eager to practise at home. Yet there are drawbacks. Students at the bottom of the leaderboard may lose confidence, and some learners care more about winning points than about understanding the material. Because of this, researchers recommend keeping the rewards small, giving badges for effort as well as for scores, and letting students compare their progress with their own earlier results instead of with other people's.",
+  "c": [
+   "1, 3",
+   "1, 2",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 1 ผิดเพราะบทความบอกว่าได้คะแนนจากการทำแบบฝึกหัดเสร็จทันเวลา และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: ข้อความ 1 ขัดกับบทความ (finishing exercises on time) และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 2 ตรงกับ collect badges when they help และข้อความ 3 ตรงกับ more eager to practise at home",
+   "ผิด: รวมข้อความ 1 ที่ขัดกับบทความไว้ด้วย"
+  ],
+  "tip": "คำว่า only / every ในข้อความมักเป็นตัวลวง ให้ตรวจว่าบทความจำกัดเงื่อนไขไว้ตามนั้นหรือไม่"
+ },
+ {
+  "id": "m06-eng-041",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Why does the farmer use less water than his father did?",
+  "ps": "On a rice farm in Suphan Buri, small sensors placed in the soil measure how wet it is and send the data to the farmer's phone. Instead of flooding the field every few days as his father did, the farmer now opens the water gate only when the readings show that the soil is dry. As a result, he uses about a third less water and spends less on fuel for the pump. Not every farmer can copy him, however. The sensors and the mobile application cost more than many small farms can afford, and farmers in remote areas often have no stable mobile signal. Some local cooperatives are therefore buying equipment together and sharing it among their members.",
+  "c": [
+   "He has replaced rice with crops that need less water.",
+   "He opens the water gate only when the soil is dry.",
+   "He floods the field more quickly every few days.",
+   "His pump now runs on solar energy."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความยังกล่าวถึงฟาร์มข้าว ไม่ได้บอกว่าเปลี่ยนพืช",
+   "✓ ถูก: บทความบอกว่าเขาเปิดประตูน้ำเฉพาะเมื่อค่าที่วัดได้แสดงว่าดินแห้ง",
+   "ผิด: บทความบอกว่าเขาเลิกท่วมนาทุกไม่กี่วันแบบพ่อ",
+   "ผิด: บทความไม่ได้กล่าวถึงพลังงานแสงอาทิตย์ มีแต่ประหยัดน้ำมันเครื่องสูบน้ำ"
+  ],
+  "tip": "คำว่า instead of ในบทความชี้ให้เห็นวิธีใหม่ที่ต่างจากวิธีเดิมของพ่อ ให้เทียบกับคำตอบ"
+ },
+ {
+  "id": "m06-eng-042",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> mentioned in the passage?",
+  "ps": "On a rice farm in Suphan Buri, small sensors placed in the soil measure how wet it is and send the data to the farmer's phone. Instead of flooding the field every few days as his father did, the farmer now opens the water gate only when the readings show that the soil is dry. As a result, he uses about a third less water and spends less on fuel for the pump. Not every farmer can copy him, however. The sensors and the mobile application cost more than many small farms can afford, and farmers in remote areas often have no stable mobile signal. Some local cooperatives are therefore buying equipment together and sharing it among their members.",
+  "c": [
+   "The sensors measure how wet the soil is.",
+   "Some cooperatives buy equipment together.",
+   "The farmer's harvest has doubled.",
+   "Farmers in remote areas may lack a stable mobile signal."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความกล่าวว่าเซนเซอร์วัดความชื้นของดิน",
+   "ผิด: บทความกล่าวว่าสหกรณ์บางแห่งซื้ออุปกรณ์ร่วมกัน",
+   "✓ ถูก: บทความไม่ได้กล่าวถึงผลผลิตที่เพิ่มเป็นสองเท่า",
+   "ผิด: บทความกล่าวว่าเกษตรกรในพื้นที่ห่างไกลมักไม่มีสัญญาณมือถือที่เสถียร"
+  ],
+  "tip": "ข้อ NOT mentioned ให้ไล่ตรวจแต่ละตัวเลือกกับบทความ ตัวที่หาไม่พบ (มักเป็นตัวเลขหรือผลลัพธ์ที่เกินจริง) คือคำตอบ"
+ },
+ {
+  "id": "m06-eng-043",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which phrase is <b>NOT</b> close in meaning to <b>copy him</b> in the passage?",
+  "ps": "On a rice farm in Suphan Buri, small sensors placed in the soil measure how wet it is and send the data to the farmer's phone. Instead of flooding the field every few days as his father did, the farmer now opens the water gate only when the readings show that the soil is dry. As a result, he uses about a third less water and spends less on fuel for the pump. Not every farmer can copy him, however. The sensors and the mobile application cost more than many small farms can afford, and farmers in remote areas often have no stable mobile signal. Some local cooperatives are therefore buying equipment together and sharing it among their members.",
+  "c": [
+   "ignore his method",
+   "follow his example",
+   "do what he does",
+   "adopt his approach"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ignore his method แปลว่าเพิกเฉยต่อวิธีของเขา ตรงข้ามกับ copy him",
+   "ผิด: follow his example แปลว่าทำตามเขา ใกล้เคียง copy him",
+   "ผิด: do what he does แปลว่าทำอย่างที่เขาทำ ใกล้เคียง copy him",
+   "ผิด: adopt his approach แปลว่านำวิธีของเขามาใช้ ใกล้เคียง copy him"
+  ],
+  "tip": "copy him ในที่นี้ = ทำตามวิธีของเขา ตรงข้ามกับ ignore / reject"
+ },
+ {
+  "id": "m06-eng-044",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements can be inferred from the passage?<br>1) Paying for the application may be difficult for some small farms.<br>2) A farmer without a stable signal may find the system hard to use.<br>3) The sensors make the farmer's work completely unnecessary.",
+  "ps": "On a rice farm in Suphan Buri, small sensors placed in the soil measure how wet it is and send the data to the farmer's phone. Instead of flooding the field every few days as his father did, the farmer now opens the water gate only when the readings show that the soil is dry. As a result, he uses about a third less water and spends less on fuel for the pump. Not every farmer can copy him, however. The sensors and the mobile application cost more than many small farms can afford, and farmers in remote areas often have no stable mobile signal. Some local cooperatives are therefore buying equipment together and sharing it among their members.",
+  "c": [
+   "1, 2",
+   "2, 3",
+   "1, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ข้อความ 1 อนุมานได้จาก cost more than many small farms can afford และข้อความ 2 อนุมานได้จากการไม่มีสัญญาณมือถือเสถียร",
+   "ผิด: ข้อความ 3 เกินจริง (completely unnecessary) และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: ข้อความ 3 เกินจริง และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: รวมข้อความ 3 ที่เกินกว่าบทความไว้ด้วย"
+  ],
+  "tip": "ข้อความอนุมานต้องมีหลักฐานในบทความ คำว่า completely มักเป็นสัญญาณของข้อที่เกินจริง"
+ },
+ {
+  "id": "m06-eng-045",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A group of ten small farmers cannot afford the equipment individually. What does the passage suggest they could do?",
+  "ps": "On a rice farm in Suphan Buri, small sensors placed in the soil measure how wet it is and send the data to the farmer's phone. Instead of flooding the field every few days as his father did, the farmer now opens the water gate only when the readings show that the soil is dry. As a result, he uses about a third less water and spends less on fuel for the pump. Not every farmer can copy him, however. The sensors and the mobile application cost more than many small farms can afford, and farmers in remote areas often have no stable mobile signal. Some local cooperatives are therefore buying equipment together and sharing it among their members.",
+  "c": [
+   "Return to flooding their fields every few days.",
+   "Wait until a stable mobile signal reaches them.",
+   "Ask the farmer in Suphan Buri to pay for it.",
+   "Buy the equipment together and share it."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: การท่วมนาแบบเดิมไม่ได้แก้ปัญหาค่าอุปกรณ์",
+   "ผิด: การรอสัญญาณแก้ปัญหาเรื่องสัญญาณ ไม่ใช่เรื่องค่าใช้จ่าย",
+   "ผิด: บทความไม่ได้ให้เกษตรกรรายนี้จ่ายแทนผู้อื่น",
+   "✓ ถูก: บทความระบุว่าสหกรณ์บางแห่งซื้ออุปกรณ์ร่วมกันและแบ่งกันใช้ในหมู่สมาชิก"
+  ],
+  "tip": "โจทย์ประยุกต์ให้จับปัญหา (ค่าอุปกรณ์) ไปเทียบกับวิธีแก้ในบทความ (ซื้อร่วมกัน)"
+ },
+ {
+  "id": "m06-eng-046",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The writer's main point is that clothes-swap events",
+  "ps": "A growing number of university students in Bangkok are holding clothes-swap events instead of shopping for new fashion. Participants bring clean clothes they no longer wear and exchange them for items that are new to them, usually at no cost. Organisers say that the events reduce textile waste, since the fashion industry produces huge quantities of clothing that ends up in landfills. They also help students on a tight budget to refresh their wardrobes. Some critics, however, doubt that swapping can solve the problem on its own. They argue that people may simply take home more clothes than they need, and that the real solution is to buy less in the first place. The organisers accept this point and encourage participants to take home only what they will actually wear.",
+  "c": [
+   "should replace all the clothing shops in the city centre",
+   "are mainly held to sell second-hand clothes for a profit",
+   "help to cut waste and save money, but are not a complete solution",
+   "cause more textile waste than they actually prevent"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความไม่ได้เสนอให้แทนที่ร้านเสื้อผ้าทั้งหมด",
+   "ผิด: กิจกรรมนี้แลกเปลี่ยนโดยมักไม่เสียค่าใช้จ่าย ไม่ได้ขายเพื่อกำไร",
+   "✓ ถูก: บทความระบุทั้งประโยชน์ (ลดขยะ ประหยัดเงิน) และข้อวิจารณ์ว่าไม่ใช่ทางออกทั้งหมด",
+   "ผิด: บทความไม่ได้บอกว่าก่อให้เกิดขยะมากกว่าที่ป้องกัน"
+  ],
+  "tip": "ใจความหลักต้องครอบคลุมทั้งข้อดีและข้อวิจารณ์ ตัวเลือกที่สุดโต่งมักผิด"
+ },
+ {
+  "id": "m06-eng-047",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "The passage mentions all of the following as benefits of clothes-swap events <b>EXCEPT</b>",
+  "ps": "A growing number of university students in Bangkok are holding clothes-swap events instead of shopping for new fashion. Participants bring clean clothes they no longer wear and exchange them for items that are new to them, usually at no cost. Organisers say that the events reduce textile waste, since the fashion industry produces huge quantities of clothing that ends up in landfills. They also help students on a tight budget to refresh their wardrobes. Some critics, however, doubt that swapping can solve the problem on its own. They argue that people may simply take home more clothes than they need, and that the real solution is to buy less in the first place. The organisers accept this point and encourage participants to take home only what they will actually wear.",
+  "c": [
+   "They teach students how to design clothes.",
+   "They reduce textile waste.",
+   "They help students with limited money to renew their wardrobes.",
+   "They are usually free for participants."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความไม่ได้กล่าวว่ากิจกรรมสอนการออกแบบเสื้อผ้า",
+   "ผิด: บทความกล่าวว่ากิจกรรมช่วยลดขยะสิ่งทอ",
+   "ผิด: บทความกล่าวว่าช่วยนักศึกษาที่มีงบจำกัดให้เปลี่ยนตู้เสื้อผ้า",
+   "ผิด: บทความกล่าวว่าการแลกเปลี่ยนมักไม่เสียค่าใช้จ่าย"
+  ],
+  "tip": "ข้อ EXCEPT ให้ขีดข้อที่บทความกล่าวถึงออก ข้อที่เหลือคือคำตอบ"
+ },
+ {
+  "id": "m06-eng-048",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "Which statement would the critics most likely agree with?",
+  "ps": "A growing number of university students in Bangkok are holding clothes-swap events instead of shopping for new fashion. Participants bring clean clothes they no longer wear and exchange them for items that are new to them, usually at no cost. Organisers say that the events reduce textile waste, since the fashion industry produces huge quantities of clothing that ends up in landfills. They also help students on a tight budget to refresh their wardrobes. Some critics, however, doubt that swapping can solve the problem on its own. They argue that people may simply take home more clothes than they need, and that the real solution is to buy less in the first place. The organisers accept this point and encourage participants to take home only what they will actually wear.",
+  "c": [
+   "Clothes swapping completely solves the problem of textile waste.",
+   "Buying fewer clothes would be a more effective solution than swapping.",
+   "Students should never wear second-hand clothes.",
+   "Only university students should be allowed to join the events."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: completely ขัดกับที่นักวิจารณ์สงสัยว่าการแลกเปลี่ยนแก้ปัญหาไม่ได้ด้วยตัวเอง",
+   "✓ ถูก: นักวิจารณ์เห็นว่าทางออกที่แท้จริงคือซื้อให้น้อยลง ไม่ใช่การแลกเปลี่ยนเพียงอย่างเดียว",
+   "ผิด: never เป็นคำเด็ดขาดที่บทความไม่รองรับ",
+   "ผิด: only เป็นคำเด็ดขาดที่บทความไม่รองรับ"
+  ],
+  "tip": "ตัวเลือกที่มี completely / never / only มักเกินจริง ให้เลือกข้อที่ตรงกับเหตุผลของผู้วิจารณ์"
+ },
+ {
+  "id": "m06-eng-049",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence uses the word <b>tight</b> in the same meaning as in the phrase “a tight budget”?",
+  "ps": "A growing number of university students in Bangkok are holding clothes-swap events instead of shopping for new fashion. Participants bring clean clothes they no longer wear and exchange them for items that are new to them, usually at no cost. Organisers say that the events reduce textile waste, since the fashion industry produces huge quantities of clothing that ends up in landfills. They also help students on a tight budget to refresh their wardrobes. Some critics, however, doubt that swapping can solve the problem on its own. They argue that people may simply take home more clothes than they need, and that the real solution is to buy less in the first place. The organisers accept this point and encourage participants to take home only what they will actually wear.",
+  "c": [
+   "The lid on this jar is too tight to open.",
+   "Money is tight this month, so we cannot go on holiday.",
+   "She wore a tight jacket that was too small for her.",
+   "He tied the rope in a tight knot."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: tight ในประโยคนี้หมายถึงแน่นจนเปิดยาก (ความหมายเชิงกายภาพ)",
+   "✓ ถูก: tight ในที่นี้แปลว่าจำกัดหรือขาดแคลน เหมือน a tight budget",
+   "ผิด: tight ในประโยคนี้หมายถึงคับ ไม่ใช่เรื่องเงินจำกัด",
+   "ผิด: tight ในประโยคนี้หมายถึงแน่นหรือเงื่อนที่มัดแน่น"
+  ],
+  "tip": "tight มีหลายความหมาย: คับ/แน่น (tight jacket) และจำกัด (tight budget, tight schedule)"
+ },
+ {
+  "id": "m06-eng-050",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Nan took home twelve items from a swap event, but she wears only three of them. Which concern of the critics does her case illustrate?",
+  "ps": "A growing number of university students in Bangkok are holding clothes-swap events instead of shopping for new fashion. Participants bring clean clothes they no longer wear and exchange them for items that are new to them, usually at no cost. Organisers say that the events reduce textile waste, since the fashion industry produces huge quantities of clothing that ends up in landfills. They also help students on a tight budget to refresh their wardrobes. Some critics, however, doubt that swapping can solve the problem on its own. They argue that people may simply take home more clothes than they need, and that the real solution is to buy less in the first place. The organisers accept this point and encourage participants to take home only what they will actually wear.",
+  "c": [
+   "Participants must pay too much to join.",
+   "Swap events produce more textile waste than shops do.",
+   "People may take home more clothes than they need.",
+   "Clean clothes are difficult to find at the events."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความบอกว่ามักไม่เสียค่าใช้จ่าย",
+   "ผิด: บทความไม่ได้เปรียบเทียบปริมาณขยะกับร้านค้า",
+   "✓ ถูก: กรณีของแนนตรงกับข้อกังวลที่ว่าคนอาจเอาเสื้อผ้ากลับบ้านมากกว่าที่จำเป็น",
+   "ผิด: บทความบอกว่าผู้เข้าร่วมนำเสื้อผ้าที่สะอาดมาแลกกัน"
+  ],
+  "tip": "โจทย์ประยุกต์ให้ดึงข้อกังวลของผู้วิจารณ์มาเทียบกับสถานการณ์ใหม่"
+ }
+]
