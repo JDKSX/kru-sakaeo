@@ -51,9 +51,9 @@ code{font-family:"IBM Plex Mono",Menlo,monospace;font-size:9.8pt;background:#f2f
 <li>ฐาน 2 ↔ 8 จัดบิตทีละ <b>3</b> · ฐาน 2 ↔ 16 จัดบิตทีละ <b>4</b> (จัดจากขวา) · ฐาน 10 → ฐานอื่น: หารซ้ำ อ่านเศษ<b>จากล่างขึ้นบน</b></li>
 <li>45₁₀ = 101101₂ = 55₈ = 2D₁₆ · B7₁₆ = 183₁₀ = 10110111₂ · Hex: A=10 … F=15 · FF₁₆ = 255</li>
 <li>เศษส่วน: คูณ 2 ซ้ำ อ่านส่วนเต็ม<b>จากบนลงล่าง</b> · 0.625₁₀ = 0.101₂</li>
-<li><b>Two's complement n บิต:</b> ช่วง −2<sup>n−1</sup> ถึง 2<sup>n−1</sup>−1 (8 บิต −128…127 · unsigned 0…255) · หา −X = กลับบิตของ X แล้ว <b>+1</b></li>
-<li>อ่านค่าลบ: บิตหน้าเป็น 1 → ค่า = unsigned − 2<sup>n</sup> เช่น 11010110 = 214 − 256 = −42</li>
-<li>1 byte = 8 bit · 1 KB = 1,024 B (2¹⁰) · 1 MB = 2²⁰ · 1 GB = 2³⁰ · n บิตแทนได้ 2<sup>n</sup> ค่า (แทน 100 ค่าต้องใช้ ≥ 7 บิต)</li>
+<li><b>Two's complement n บิต:</b> ช่วง −2^(n−1) ถึง 2^(n−1)−1 (8 บิต −128…127 · unsigned 0…255) · หา −X = กลับบิตของ X แล้ว <b>+1</b></li>
+<li>อ่านค่าลบ: บิตหน้าเป็น 1 → ค่า = unsigned − 2^n เช่น 11010110 = 214 − 256 = −42</li>
+<li>1 byte = 8 bit · 1 KB = 1,024 B (2¹⁰) · 1 MB = 2²⁰ · 1 GB = 2³⁰ · n บิตแทนได้ 2^n ค่า (แทน 100 ค่าต้องใช้ ≥ 7 บิต)</li>
 <li>ASCII: 'A'=65, 'a'=97 (ต่างกัน 32), '0'=48 · UTF-8 อักษรไทย 3 byte/ตัว · 24 บิต/พิกเซล = 16,777,216 สี</li>
 </ul>
 <h3>ข้อสอบชอบพลิกตรงนี้</h3>
@@ -67,7 +67,7 @@ code{font-family:"IBM Plex Mono",Menlo,monospace;font-size:9.8pt;background:#f2f
 <h2>2. ตรรกศาสตร์และเกต</h2>
 <h3>ต้องจำ</h3>
 <div class="wrapx"><table>
-<thead><tr><th>เกต</th><th>A=0 B=0</th><th>0,1</th><th>1,0</th><th>1,1</th><th>จำสั้น ๆ</th></tr></thead>
+<thead><tr><th>เกต</th><th>A,B = 0,0</th><th>0,1</th><th>1,0</th><th>1,1</th><th>จำสั้น ๆ</th></tr></thead>
 <tbody>
 <tr><td>AND</td><td>0</td><td>0</td><td>0</td><td>1</td><td>ทุกตัวเป็น 1 จึงได้ 1</td></tr>
 <tr><td>OR</td><td>0</td><td>1</td><td>1</td><td>1</td><td>มี 1 ตัวเดียวก็ได้ 1</td></tr>
@@ -87,7 +87,7 @@ code{font-family:"IBM Plex Mono",Menlo,monospace;font-size:9.8pt;background:#f2f
 <ul>
 <li>NAND = "NOT A AND NOT B" <b>ผิด</b> (นั่นคือ NOR) · NAND = NOT(A AND B)</li>
 <li>XOR ต่างจาก OR ที่ช่อง 1,1 (XOR ได้ 0, OR ได้ 1)</li>
-<li>NOR/XNOR ชอบสลับกันในตัวเลือก ให้ไล่ค่า 00 เทียบก่อน: NOR(0,0)=1 และ XNOR(0,0)=1 เหมือนกัน ให้ดูช่อง 0,1 ต่อ (NOR=0, XNOR=0 ก็เหมือน) ดูช่อง 1,1 (NOR=0, XNOR=1) จึงแยกออก</li>
+<li>NOR กับ XNOR ต่างกันที่ช่อง 1,1 ช่องเดียว (NOR=0, XNOR=1) ใช้ช่องนี้แยกตัวเลือกที่สลับกัน</li>
 </ul>
 <div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> A=1, B=0 ค่าของ (A NOR B) XOR (A NAND B) คือเท่าใด<br><b>วิธีตัด:</b> คิดวงเล็บในก่อน NOR(1,0)=0 · NAND(1,0)=1 · แล้ว XOR(0,1)=1 → ตอบ 1</div>
 
@@ -100,7 +100,7 @@ code{font-family:"IBM Plex Mono",Menlo,monospace;font-size:9.8pt;background:#f2f
 <li>RAM: อ่าน/เขียนได้ <b>volatile</b> (ไฟดับข้อมูลหาย) · DRAM ใช้เป็นหน่วยความจำหลัก (ต้อง refresh) · SRAM เร็วกว่า ใช้ทำ Cache</li>
 <li>ROM: <b>non-volatile</b> เก็บ BIOS/firmware · EPROM ลบด้วยแสง UV · EEPROM/Flash ลบด้วยไฟฟ้า</li>
 <li>Cache hit = พบข้อมูลใน Cache · miss = ต้องไปอ่าน RAM</li>
-<li>Bus: <b>Address</b> ทิศทางเดียว (CPU → หน่วยความจำ) กำหนดจำนวนที่อยู่ = 2<sup>n</sup> · <b>Data</b> สองทิศทาง · <b>Control</b> ส่งสัญญาณ read/write</li>
+<li>Bus: <b>Address</b> ทิศทางเดียว (CPU → หน่วยความจำ) กำหนดจำนวนที่อยู่ = 2^n · <b>Data</b> สองทิศทาง · <b>Control</b> ส่งสัญญาณ read/write</li>
 <li>Address bus 32 บิต → 2³² byte = 4 GB · 16 บิต → 64 KB · ความเร็วซีพียู 3 GHz = 3,000,000,000 รอบนาฬิกาต่อวินาที</li>
 </ul>
 <h3>ข้อสอบชอบพลิกตรงนี้</h3>
@@ -166,7 +166,8 @@ code{font-family:"IBM Plex Mono",Menlo,monospace;font-size:9.8pt;background:#f2f
 <div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> <code>s=0</code> แล้ว <code>for i in range(1,6): s+=i</code> ได้ s เท่าใด<br><b>วิธีตัด:</b> i = 1,2,3,4,5 → 15 (ตัดตัวเลือก 21 ที่นับถึง 6 และ 10 ที่นับถึง 4)</div>
 
 <h2>6. Python กับดักที่พบบ่อย</h2>
-<h3>ต้องจำ (ผลที่รันตรวจแล้ว)</h3>
+<h3>ต้องจำ</h3>
+<p>ผลลัพธ์ทุกบรรทัดรันตรวจด้วย Python 3 แล้ว</p>
 <div class="wrapx"><table>
 <thead><tr><th>หัวข้อ</th><th>โค้ด → ผลลัพธ์</th></tr></thead>
 <tbody>
@@ -193,7 +194,7 @@ code{font-family:"IBM Plex Mono",Menlo,monospace;font-size:9.8pt;background:#f2f
 <li><b>Stack = LIFO</b> (push/pop/peek) ใช้กับ undo, call stack, DFS, คำนวณ postfix · <b>Queue = FIFO</b> (enqueue/dequeue) ใช้กับคิวพิมพ์, scheduling, BFS</li>
 <li><b>Preorder</b> = ราก–ซ้าย–ขวา · <b>Inorder</b> = ซ้าย–ราก–ขวา · <b>Postorder</b> = ซ้าย–ขวา–ราก · Level-order (BFS) ใช้ queue</li>
 <li>BST: inorder ได้ค่าเรียงน้อย → มาก (ใส่ 50,30,70,20,40,60,80 → inorder 20 30 40 50 60 70 80 · preorder 50 30 20 40 70 60 80)</li>
-<li>ต้นไม้ไบนารี n ระดับ (รากเป็นระดับ 1) มีโหนดได้สูงสุด 2<sup>n</sup>−1 (3 ระดับ = 7)</li>
+<li>ต้นไม้ไบนารี n ระดับ (รากเป็นระดับ 1) มีโหนดได้สูงสุด 2^n−1 (3 ระดับ = 7)</li>
 <li>Infix → postfix: <code>(A+B)*C</code> → <code>AB+C*</code> · <code>2+3*4</code> → <code>2 3 4 * +</code> = 14 · ประเมิน postfix: เจอตัวเลข push เจอเครื่องหมาย pop สองตัว</li>
 <li>Array เข้าถึงตามดัชนี O(1) แทรกกลาง O(n) · Linked list เข้าถึง O(n) แทรก/ลบ (เมื่อมีตำแหน่งแล้ว) O(1) · Hash table ค้นเฉลี่ย O(1)</li>
 </ul>
@@ -237,13 +238,13 @@ code{font-family:"IBM Plex Mono",Menlo,monospace;font-size:9.8pt;background:#f2f
 <div class="wrapx"><table>
 <thead><tr><th>ชั้น OSI</th><th>PDU</th><th>อุปกรณ์</th><th>ตัวอย่าง</th><th>TCP/IP 4 ชั้น</th></tr></thead>
 <tbody>
-<tr><td>7 Application</td><td>Data</td><td>Gateway</td><td>HTTP, FTP, SMTP, DNS, DHCP</td><td rowspan="3">Application</td></tr>
-<tr><td>6 Presentation</td><td>Data</td><td>-</td><td>เข้ารหัส/บีบอัด/แปลงรูปแบบ (TLS, JPEG)</td></tr>
-<tr><td>5 Session</td><td>Data</td><td>-</td><td>สร้าง/คุม/ปิดการสนทนา</td></tr>
+<tr><td>7 Application</td><td>Data</td><td>Gateway</td><td>HTTP, FTP, SMTP, DNS, DHCP</td><td>Application</td></tr>
+<tr><td>6 Presentation</td><td>Data</td><td>-</td><td>เข้ารหัส/บีบอัด/แปลงรูปแบบ (TLS, JPEG)</td><td>Application</td></tr>
+<tr><td>5 Session</td><td>Data</td><td>-</td><td>สร้าง/คุม/ปิดการสนทนา</td><td>Application</td></tr>
 <tr><td>4 Transport</td><td>Segment (TCP) / Datagram (UDP)</td><td>-</td><td>TCP, UDP, หมายเลขพอร์ต</td><td>Transport</td></tr>
 <tr><td>3 Network</td><td>Packet</td><td>Router</td><td>IP, ICMP</td><td>Internet</td></tr>
-<tr><td>2 Data Link</td><td>Frame</td><td>Switch, Bridge, NIC</td><td>Ethernet (802.3), Wi-Fi (802.11), MAC</td><td rowspan="2">Network Access</td></tr>
-<tr><td>1 Physical</td><td>Bit</td><td>Hub, Repeater, สายสัญญาณ</td><td>UTP, ไฟเบอร์ออปติก</td></tr>
+<tr><td>2 Data Link</td><td>Frame</td><td>Switch, Bridge, NIC</td><td>Ethernet (802.3), Wi-Fi (802.11), MAC</td><td>Network Access</td></tr>
+<tr><td>1 Physical</td><td>Bit</td><td>Hub, Repeater, สายสัญญาณ</td><td>UTP, ไฟเบอร์ออปติก</td><td>Network Access</td></tr>
 </tbody>
 </table></div>
 <ul>
@@ -270,7 +271,7 @@ code{font-family:"IBM Plex Mono",Menlo,monospace;font-size:9.8pt;background:#f2f
 </tbody>
 </table></div>
 <ul>
-<li>สูตรลัด: โฮสต์ใช้ได้ = 2<sup>(32−prefix)</sup> − 2 (หัก network กับ broadcast) · ขนาดบล็อก = 256 − เลขท้ายของ mask · แบ่ง /24 เป็น 4 เครือข่ายย่อย → ยืม 2 บิต → /26</li>
+<li>สูตรลัด: โฮสต์ใช้ได้ = 2^(32−prefix) − 2 (หัก network กับ broadcast) · ขนาดบล็อก = 256 − เลขท้ายของ mask · แบ่ง /24 เป็น 4 เครือข่ายย่อย → ยืม 2 บิต → /26</li>
 </ul>
 <h3>ข้อสอบชอบพลิกตรงนี้</h3>
 <ul>
@@ -409,7 +410,7 @@ code{font-family:"IBM Plex Mono",Menlo,monospace;font-size:9.8pt;background:#f2f
 <li>Waiting ไป Ready ก่อนเสมอ · deadlock 4 ข้อมี "No preemption" · SJF รอน้อยสุด · paging = internal</li>
 <li>Python: <code>//</code> ปัดลง · <code>range</code> ไม่รวม stop · list กำหนดต่อ = alias · <code>and/or</code> short-circuit</li>
 <li>Merge n log n ทุกกรณี · Quick worst n² · Binary search ต้องเรียงก่อน · inorder ของ BST = เรียงน้อยไปมาก</li>
-<li>พอร์ต: 80 HTTP · 443 HTTPS · 22 SSH · 25 SMTP · 53 DNS · 110 POP3 · 143 IMAP · private 172.16–172.31 · โฮสต์ = 2<sup>(32−p)</sup>−2</li>
+<li>พอร์ต: 80 HTTP · 443 HTTPS · 22 SSH · 25 SMTP · 53 DNS · 110 POP3 · 143 IMAP · private 172.16–172.31 · โฮสต์ = 2^(32−p)−2</li>
 <li>ส่งลับใช้ public ผู้รับ · เซ็นใช้ private ผู้ส่ง · hash ถอดกลับไม่ได้ · virus ต้องมีโฮสต์ worm แพร่เอง</li>
 <li>log 90 วัน · PDPA แจ้งเหตุ 72 ชม. ไม่ต้องขอ consent ทุกกรณี · ลิขสิทธิ์ไม่ต้องจดทะเบียน</li>
 <li>WHERE กรองแถว HAVING กรองกลุ่ม · COUNT(col) ข้าม NULL · ว 4.1 ออกแบบ ว 4.2 วิทยาการคำนวณ</li>
