@@ -1,0 +1,1016 @@
+[
+ {
+  "id": "m02-eng-001",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>If I ____ the principal, I would introduce a four-day school week.",
+  "c": [
+   "am",
+   "will be",
+   "had been",
+   "were"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: if + present ต้องคู่กับ will ไม่ใช่ would",
+   "ผิด: will ไม่ใช้ในประโยค if",
+   "ผิด: เป็นรูป type 3 ซึ่งต้องคู่กับ would have + V3",
+   "✓ ถูก: conditional type 2 ใช้ if + past (were ได้กับทุกประธาน) คู่กับ would"
+  ],
+  "tip": "ดูกริยาในประโยคหลัก would + V1 แล้วเลือก if + past simple (were)"
+ },
+ {
+  "id": "m02-eng-002",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence is grammatically <b>INCORRECT</b>?",
+  "c": [
+   "She apologised to the class for being late.",
+   "They insisted to leave before the storm arrived.",
+   "The teacher congratulated him on winning the prize.",
+   "He succeeded in passing the entrance exam."
+  ],
+  "a": 1,
+  "n": [
+   "ถูก: apologise to ... for + V-ing",
+   "✓ ผิดจริง จึงเป็นคำตอบ: insist ต้องตามด้วย on + V-ing",
+   "ถูก: congratulate ... on + V-ing",
+   "ถูก: succeed in + V-ing"
+  ],
+  "tip": "กริยาที่ตามด้วยบุพบทแล้วต้องเป็น V-ing เช่น insist on, succeed in, apologise for ไม่ใช้ to + V"
+ },
+ {
+  "id": "m02-eng-003",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences use <b>used to</b> or <b>be used to</b> correctly?<br>1) She used to walk to school when she was a child.<br>2) I am not used to get up early.<br>3) My grandfather is used to living in the countryside.",
+  "c": [
+   "1, 2",
+   "2, 3",
+   "1, 2, 3",
+   "1, 3"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: be used to ต้องตามด้วย V-ing ข้อความ 2 จึงผิด",
+   "ผิด: ข้อความ 2 ใช้ get up แทน getting up",
+   "ผิด: ข้อความ 2 ไม่ถูกต้อง",
+   "✓ ถูก: used to + V1 บอกอดีตที่เคยทำ และ be used to + V-ing บอกความคุ้นเคย"
+  ],
+  "tip": "used to + V1 = เคย · be used to + V-ing = คุ้นเคยกับ"
+ },
+ {
+  "id": "m02-eng-004",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence has the closest meaning to the following?<br><b>\"Although it was raining, they continued the match.\"</b>",
+  "c": [
+   "Because of the rain, they continued the match.",
+   "They continued the match, so it was raining.",
+   "In spite of the rain, they continued the match.",
+   "Since it was raining, they stopped the match."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: because of บอกเหตุผล ไม่ใช่ความขัดแย้ง",
+   "ผิด: สลับเหตุกับผลให้ผิดไปจากเดิม",
+   "✓ ถูก: in spite of + นาม = แม้ว่า (ความขัดแย้ง)",
+   "ผิด: เปลี่ยนจากแข่งต่อเป็นหยุดการแข่ง"
+  ],
+  "tip": "although = in spite of / despite + นามหรือ V-ing ให้ดูว่าทิศทางของผลลัพธ์ยังเหมือนเดิมหรือไม่"
+ },
+ {
+  "id": "m02-eng-005",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>All homework ____ in before the end of the class.",
+  "c": [
+   "must hand",
+   "must be handing",
+   "must have handed",
+   "must be handed"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: เป็น active แต่ homework ไม่ได้เป็นผู้ส่ง",
+   "ผิด: be + V-ing ไม่ใช่ passive",
+   "ผิด: เป็น active perfect และสื่ออดีตซึ่งไม่เหมาะกับ before the end",
+   "✓ ถูก: homework ถูกส่ง ต้องใช้ passive หลัง modal (must be + V3)"
+  ],
+  "tip": "modal + be + V3 คือ passive ของกริยาช่วยที่แสดงข้อบังคับ"
+ },
+ {
+  "id": "m02-eng-006",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which part of the sentence is <b>INCORRECT</b>?<br>Of all the <b>students</b> in my class, Mali is <b>the more</b> <b>hardworking</b> and <b>reliable</b>.",
+  "c": [
+   "students",
+   "hardworking",
+   "reliable",
+   "the more"
+  ],
+  "a": 3,
+  "n": [
+   "ถูก: นามพหูพจน์ตามหลัง of all the",
+   "ถูก: คุณศัพท์ที่ขนานกับ reliable",
+   "ถูก: คุณศัพท์ที่ขนานกับ hardworking",
+   "✓ ผิดจริง: เปรียบเทียบสูงสุดในกลุ่มของนักเรียนทั้งห้อง ต้องใช้ the most"
+  ],
+  "tip": "Of all ... บอกกลุ่มตั้งแต่สามขึ้นไป ใช้ superlative (the most / the -est)"
+ },
+ {
+  "id": "m02-eng-007",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The topic ____ the students are most interested is artificial intelligence.",
+  "c": [
+   "which",
+   "in which",
+   "about which",
+   "whom"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ขาดบุพบท in ทั้งหน้าและหลังกริยา",
+   "✓ ถูก: interested in จึงต้องมี in ก่อน which",
+   "ผิด: interested ต้องใช้บุพบท in ไม่ใช่ about",
+   "ผิด: whom ใช้กับบุคคล"
+  ],
+  "tip": "ตรวจว่ากริยา/คุณศัพท์ต้องมีบุพบท (interested in) หรือไม่ ถ้าอยู่หน้าสรรพนามต้องใช้ in which"
+ },
+ {
+  "id": "m02-eng-008",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence correctly reports the sentence below?<br><b>\"Don't touch the equipment,\" the technician told the students.</b>",
+  "c": [
+   "The technician told the students not to touch the equipment.",
+   "The technician told the students to not touched the equipment.",
+   "The technician told the students that they don't touch the equipment.",
+   "The technician told the students not touching the equipment."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: คำสั่งปฏิเสธรายงานด้วย told + กรรม + not to + V1",
+   "ผิด: หลัง to ต้องเป็น V1 และ not ควรอยู่หน้า to",
+   "ผิด: เปลี่ยนคำสั่งเป็นประโยคบอกเล่าทั่วไป",
+   "ผิด: ใช้ V-ing แทน to + V1"
+  ],
+  "tip": "รายงานคำสั่ง/ห้าม ใช้ told + กรรม + (not) to + V1"
+ },
+ {
+  "id": "m02-eng-009",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences are grammatically correct?<br>1) By next year, she will have completed her master's degree.<br>2) Neither the teacher nor the students were aware of the change.<br>3) I have lived here since I was six.",
+  "c": [
+   "1, 2",
+   "1, 2, 3",
+   "1, 3",
+   "2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 3 ถูกต้อง: since + past simple คู่กับ present perfect",
+   "✓ ถูก: future perfect, neither ... nor (กริยาตามประธานที่ใกล้ที่สุด) และ since + ประโยคอดีต ใช้ถูกทั้งสามข้อความ",
+   "ผิด: ข้อความ 2 ถูก เพราะ students อยู่ใกล้กริยาที่สุดจึงใช้ were",
+   "ผิด: ข้อความ 1 ถูก เพราะ by next year คู่กับ will have + V3"
+  ],
+  "tip": "neither ... nor ให้กริยาตามประธานตัวที่อยู่ใกล้กริยาที่สุด"
+ },
+ {
+  "id": "m02-eng-010",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Four sentences are given below. Which one is <b>NOT</b> grammatically correct?",
+  "c": [
+   "I had my laptop repaired yesterday.",
+   "She got her hair cut at the new salon.",
+   "He made his son to clean the room.",
+   "The teacher let the students leave early."
+  ],
+  "a": 2,
+  "n": [
+   "ถูก: have + กรรม + V3 = ให้ผู้อื่นทำให้",
+   "ถูก: get + กรรม + V3 ใช้ได้",
+   "✓ ผิดจริง: make แบบ causative ตามด้วย V1 ไม่มี to",
+   "ถูก: let + กรรม + V1"
+  ],
+  "tip": "make / let / have (ให้ทำ) + กรรม + V1 ไม่มี to ส่วน get + กรรม + to V1"
+ },
+ {
+  "id": "m02-eng-011",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The lights were on in the office, so someone ____ there when we passed by.",
+  "c": [
+   "must have been",
+   "must be",
+   "should have been",
+   "can have been"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: คาดเดาอย่างมั่นใจเกี่ยวกับอดีตใช้ must have + V3",
+   "ผิด: must be สื่อปัจจุบัน แต่เหตุการณ์ผ่านไปแล้ว",
+   "ผิด: สื่อว่าควรอยู่แต่ไม่ได้อยู่ (ตำหนิ) ไม่ใช่การเดา",
+   "ผิด: can ไม่ใช้เดาอดีตแบบยืนยัน ใช้ can't have been ในรูปปฏิเสธ"
+  ],
+  "tip": "เดาอดีตโดยมีหลักฐาน ใช้ must have + V3 และเดาว่าเป็นไปไม่ได้ ใช้ can't have + V3"
+ },
+ {
+  "id": "m02-eng-012",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence uses <b>such</b> or <b>so</b> correctly?",
+  "c": [
+   "It was such a difficult exam that nobody finished it.",
+   "It was so a difficult exam that nobody finished it.",
+   "It was such difficult exam that nobody finished it.",
+   "The exam was such difficult that nobody finished it."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: such + a + คุณศัพท์ + นาม + that",
+   "ผิด: so ไม่นำหน้า a + นาม",
+   "ผิด: นามนับได้เอกพจน์ต้องมี a",
+   "ผิด: such ไม่ใช้ตามด้วยคุณศัพท์เดี่ยว ๆ"
+  ],
+  "tip": "so + คุณศัพท์/กริยาวิเศษณ์ · such + (a) + คุณศัพท์ + นาม"
+ },
+ {
+  "id": "m02-eng-013",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following can correctly complete the sentence?<br><b>____ the instructions carefully, Nida assembled the robot kit easily.</b><br>1) Read<br>2) Having read<br>3) After reading",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: Read เป็นรูปคำสั่ง ใช้ย่อประโยคไม่ได้",
+   "ผิด: Read เป็นรูปคำสั่ง ใช้ย่อประโยคไม่ได้",
+   "✓ ถูก: Having read และ After reading ใช้ย่อประโยคเวลาเมื่ออ่านเสร็จก่อนประกอบ",
+   "ผิด: Read ไม่ถูกต้อง"
+  ],
+  "tip": "การย่อประโยคด้วย participle ใช้ V-ing หรือ having + V3 ไม่ใช้กริยาช่องที่ 1 เปล่า ๆ"
+ },
+ {
+  "id": "m02-eng-014",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "Which noun is uncountable, and therefore <b>never</b> takes a/an or a plural form?",
+  "c": [
+   "suggestion",
+   "opinion",
+   "idea",
+   "advice"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: suggestion นับได้ (a suggestion / suggestions)",
+   "ผิด: opinion นับได้",
+   "ผิด: idea นับได้",
+   "✓ ถูก: advice นับไม่ได้ ไม่มี a advice หรือ advices"
+  ],
+  "tip": "advice, information, news, furniture เป็นนามนับไม่ได้ ใช้ a piece of ... เมื่ออยากนับ"
+ },
+ {
+  "id": "m02-eng-015",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "You are at the registrar's office and you do not know where the exam room is. Which is the most polite way to ask?",
+  "c": [
+   "Could you tell me where is the exam room?",
+   "Where the exam room is?",
+   "Could you tell me where the exam room is?",
+   "Tell me where is the exam room."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ใน indirect question ไม่ต้องสลับ is ไปไว้หน้าประธาน",
+   "ผิด: เป็นคำถามที่ขาดกริยาช่วยและไม่สุภาพ",
+   "✓ ถูก: ถามอ้อมให้สุภาพและเรียงเป็นประโยคบอกเล่า where + ประธาน + กริยา",
+   "ผิด: เป็นคำสั่งไม่สุภาพ และลำดับคำผิด"
+  ],
+  "tip": "ถามสุภาพ = Could you tell me + wh- + ประธาน + กริยา"
+ },
+ {
+  "id": "m02-eng-016",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>It is essential that every student ____ the safety rules in the laboratory.",
+  "c": [
+   "follows",
+   "followed",
+   "follow",
+   "will follow"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ไม่ใช้รูปเอกพจน์ปกติหลัง it is essential that",
+   "ผิด: ไม่ใช้ past ใน subjunctive",
+   "✓ ถูก: หลัง essential that ใช้ subjunctive คือกริยาช่องที่ 1 ไม่เติม s",
+   "ผิด: ไม่ใช้ will ในประโยค that-clause แบบ subjunctive"
+  ],
+  "tip": "it is essential/important/vital that + ประธาน + V1 (ไม่เติม s)"
+ },
+ {
+  "id": "m02-eng-017",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence <b>CANNOT</b> use <b>that</b> in place of the word in quotation marks?",
+  "c": [
+   "The girl “who” won the contest is my cousin.",
+   "My brother, “who” lives in Phuket, is a chef.",
+   "The book “which” I borrowed was very useful.",
+   "This is the best film “which” I have ever seen."
+  ],
+  "a": 1,
+  "n": [
+   "ใช้ that ได้: เป็น defining clause",
+   "✓ ใช้ that ไม่ได้: ประโยคอธิบายเพิ่มที่มีจุลภาค (non-defining) ห้ามใช้ that",
+   "ใช้ that ได้: เป็น defining clause",
+   "ใช้ that ได้: หลัง superlative นิยมใช้ that"
+  ],
+  "tip": "non-defining clause (มีจุลภาคคั่น) ห้ามใช้ that"
+ },
+ {
+  "id": "m02-eng-018",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which tag questions are correct?<br>1) You haven't finished yet, have you?<br>2) She can swim, can't she?<br>3) Let's start now, will we?",
+  "c": [
+   "1, 3",
+   "2, 3",
+   "1, 2",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: Let's ... ต้องใช้ shall we",
+   "ผิด: ข้อความ 3 ใช้ will we ผิด",
+   "✓ ถูก: ประโยคปฏิเสธใช้ tag บอกรับ และประโยคบอกเล่าใช้ tag ปฏิเสธ",
+   "ผิด: ข้อความ 3 ไม่ถูกต้อง"
+  ],
+  "tip": "Let's ... → shall we? · Let me/Let him ... → will you? · ประโยคบวกใช้ tag ลบ"
+ },
+ {
+  "id": "m02-eng-019",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word closest in meaning to the word in bold.<br>The company's decision to expand slowly proved to be <b>prudent</b>.",
+  "c": [
+   "sensible",
+   "hasty",
+   "dangerous",
+   "unfair"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: prudent = รอบคอบ สมเหตุสมผล",
+   "ผิด: hasty = ผลีผลาม ตรงข้ามกับการขยายอย่างช้า ๆ",
+   "ผิด: dangerous = อันตราย ไม่ใช่ความหมายของ prudent",
+   "ผิด: unfair = ไม่ยุติธรรม ไม่ใช่ความหมายของ prudent"
+  ],
+  "tip": "prudent = รอบคอบ มักตรงข้ามกับ reckless/hasty"
+ },
+ {
+  "id": "m02-eng-020",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which word is <b>NOT</b> close in meaning to the word in bold?<br>The government plans to <b>reduce</b> the amount of plastic waste.",
+  "c": [
+   "lessen",
+   "diminish",
+   "expand",
+   "curtail"
+  ],
+  "a": 2,
+  "n": [
+   "ใกล้เคียง: lessen = ทำให้น้อยลง",
+   "ใกล้เคียง: diminish = ลดลง",
+   "✓ ไม่ใกล้เคียง: expand = ขยาย ตรงข้ามกับ reduce",
+   "ใกล้เคียง: curtail = ตัดทอน ลดลง"
+  ],
+  "tip": "ตัวเลือกส่วนใหญ่จะอยู่กลุ่มเดียวกัน คำที่แปลกแยกคือคำตอบของข้อ NOT"
+ },
+ {
+  "id": "m02-eng-021",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence uses the word <b>exaggerate</b> correctly?",
+  "c": [
+   "The teacher exaggerated the exam papers in alphabetical order.",
+   "Don't exaggerate; the fish wasn't really as big as a car.",
+   "She exaggerated the road to reach the school sooner.",
+   "He exaggerated his lunch to the canteen."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ใช้ exaggerate แทน arrange ซึ่งความหมายไม่เข้ากัน",
+   "✓ ถูก: exaggerate = พูดเกินจริง",
+   "ผิด: exaggerate ไม่ได้แปลว่าลัดเส้นทาง",
+   "ผิด: ไม่มีความหมายว่านำไปส่ง"
+  ],
+  "tip": "exaggerate = พูดหรือบรรยายให้เกินความจริง ให้ตรวจว่าประโยคเกี่ยวกับคำพูดหรือการบรรยายหรือไม่"
+ },
+ {
+  "id": "m02-eng-022",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which words can correctly complete the sentence?<br><b>Regular exercise is an ____ part of a healthy lifestyle.</b><br>1) essential<br>2) integral<br>3) trivial",
+  "c": [
+   "1, 3",
+   "2, 3",
+   "1, 2, 3",
+   "1, 2"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: trivial = ไม่สำคัญ ขัดกับบริบท และขึ้นต้นด้วยพยัญชนะจึงไม่รับ an",
+   "ผิด: trivial = ไม่สำคัญ ขัดกับบริบท",
+   "ผิด: trivial ใช้ไม่ได้ทั้งด้านความหมายและ an",
+   "✓ ถูก: essential และ integral แปลว่าจำเป็นขาดไม่ได้ และขึ้นต้นด้วยสระรับ an"
+  ],
+  "tip": "เห็น an นำหน้าช่องว่างให้ตรวจเสียงสระของคำ และตรวจความหมายให้สอดคล้องกับ healthy lifestyle"
+ },
+ {
+  "id": "m02-eng-023",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "A student always arrives early, completes every task carefully and never forgets his homework. Which word best describes him?",
+  "c": [
+   "indifferent",
+   "conscientious",
+   "hesitant",
+   "arrogant"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: indifferent = เฉยเมย ไม่ใส่ใจ",
+   "✓ ถูก: conscientious = รอบคอบ รับผิดชอบต่องานอย่างตั้งใจ",
+   "ผิด: hesitant = ลังเล",
+   "ผิด: arrogant = หยิ่งยโส ไม่เกี่ยวกับพฤติกรรมที่ให้มา"
+  ],
+  "tip": "สรุปพฤติกรรมในโจทย์เป็นลักษณะนิสัยหนึ่งคำก่อน แล้วจับคู่กับตัวเลือก"
+ },
+ {
+  "id": "m02-eng-024",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>The students <b>came up with</b> a creative way to reduce plastic waste at school.",
+  "c": [
+   "gave up",
+   "ran out of",
+   "thought of",
+   "looked after"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: give up = ยอมแพ้",
+   "ผิด: run out of = ใช้จนหมด",
+   "✓ ถูก: come up with = คิดขึ้นมา",
+   "ผิด: look after = ดูแล"
+  ],
+  "tip": "come up with = คิดขึ้นมา (ไอเดีย ทางออก) ซึ่งตรงกับ think of"
+ },
+ {
+  "id": "m02-eng-025",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which collocation is <b>INCORRECT</b>?",
+  "c": [
+   "strong rain",
+   "heavy traffic",
+   "strong coffee",
+   "high-speed internet"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ผิดจริง: ที่ถูกคือ heavy rain",
+   "ถูก: ใช้ heavy กับ traffic",
+   "ถูก: ใช้ strong กับ coffee",
+   "ถูก: คำเรียกอินเทอร์เน็ตความเร็วสูง"
+  ],
+  "tip": "คำคุณศัพท์แต่ละคำจับคู่กับนามเฉพาะ ต้องจำเป็นชุด เช่น heavy rain, strong coffee"
+ },
+ {
+  "id": "m02-eng-026",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "A decision that is <b>unanimous</b> is agreed by ____.",
+  "c": [
+   "most members of the group",
+   "every member of the group",
+   "only the chairperson",
+   "at least half of the members"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: เสียงข้างมากไม่ใช่เอกฉันท์",
+   "✓ ถูก: unanimous = เห็นพ้องกันทุกคน",
+   "ผิด: ไม่ใช่ความหมายของ unanimous",
+   "ผิด: ครึ่งหนึ่งไม่ใช่ทุกคน"
+  ],
+  "tip": "uni- = หนึ่งเดียว unanimous = ทุกคนเห็นเหมือนกัน"
+ },
+ {
+  "id": "m02-eng-027",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The new law will ____ stricter penalties on people who dump waste in rivers.",
+  "c": [
+   "impose",
+   "compose",
+   "suppose",
+   "expose"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: impose penalties = บังคับใช้บทลงโทษ",
+   "ผิด: compose = ประพันธ์/ประกอบกันเป็น",
+   "ผิด: suppose = สมมติ",
+   "ผิด: expose = เปิดเผย"
+  ],
+  "tip": "impose ... on = บังคับใช้ ... กับ คำที่ตามด้วย on เป็นใบ้ที่ชัดเจน"
+ },
+ {
+  "id": "m02-eng-028",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "In which sentence is the word in quotation marks used <b>INCORRECTLY</b>?",
+  "c": [
+   "The heavy rain “affected” the school's schedule.",
+   "Social media has a strong “effect” on teenagers.",
+   "Sleep deprivation over many weeks can “impair” concentration.",
+   "The new rule will “effect” every student next year."
+  ],
+  "a": 3,
+  "n": [
+   "ใช้ถูก: affect เป็นกริยา",
+   "ใช้ถูก: effect เป็นนาม",
+   "ใช้ถูก: impair = ทำให้เสียหาย",
+   "✓ ใช้ผิด: ควรใช้ affect (กริยา = ส่งผลต่อ)"
+  ],
+  "tip": "affect ส่วนมากเป็นกริยา (ส่งผลต่อ) และ effect ส่วนมากเป็นนาม (ผลลัพธ์)"
+ },
+ {
+  "id": "m02-eng-029",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Teacher: Why didn't you submit your assignment on time?<br>Student: ____",
+  "c": [
+   "That's all right. I don't mind submitting it a bit late.",
+   "Yes, I did. I handed it in before the deadline last week.",
+   "I'm sorry. My computer crashed, so may I have an extension?",
+   "Nothing special. I enjoyed the long weekend very much indeed."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ไม่ตอบคำถามเหตุผล และไม่แสดงความรับผิดชอบ",
+   "ผิด: ขัดกับคำถามที่แสดงว่ายังไม่ได้ส่ง",
+   "✓ ถูก: ขอโทษ ให้เหตุผล และขอเลื่อนส่งอย่างสุภาพ",
+   "ผิด: ไม่เกี่ยวข้องกับคำถาม"
+  ],
+  "tip": "Why ... ? ต้องตอบเป็นเหตุผล และกับครูควรใช้น้ำเสียงสุภาพ"
+ },
+ {
+  "id": "m02-eng-030",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> an appropriate way to ask for permission to leave the classroom?",
+  "c": [
+   "May I be excused, please?",
+   "I'm leaving now, whether you like it or not.",
+   "Would it be all right if I left early?",
+   "Do you mind if I step out for a moment?"
+  ],
+  "a": 1,
+  "n": [
+   "เหมาะสม: ขออนุญาตอย่างสุภาพ",
+   "✓ ไม่เหมาะสม: เป็นการแจ้งโดยไม่ขออนุญาตและไม่สุภาพ",
+   "เหมาะสม: ขออนุญาตอ้อม ๆ อย่างสุภาพ",
+   "เหมาะสม: ขออนุญาตออกไปชั่วครู่"
+  ],
+  "tip": "การขออนุญาตที่สุภาพใช้ May I / Would it be all right if / Do you mind if"
+ },
+ {
+  "id": "m02-eng-031",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Read the conversation.<br>A: How do you like your new job?<br>B: Oh, it's a piece of cake.<br>What does B mean?",
+  "c": [
+   "The job is very easy to do.",
+   "The job involves baking cakes.",
+   "The job is not enjoyable.",
+   "The job is rather expensive."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: a piece of cake เป็นสำนวนแปลว่าง่ายมาก",
+   "ผิด: แปลตามตัวอักษร ทั้งที่เป็นสำนวน",
+   "ผิด: สำนวนนี้ไม่ได้บอกว่าไม่สนุก",
+   "ผิด: ไม่เกี่ยวกับเรื่องราคา"
+  ],
+  "tip": "สำนวนต้องแปลทั้งวลี ไม่ใช่แปลคำต่อคำ a piece of cake = ง่ายดาย"
+ },
+ {
+  "id": "m02-eng-032",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following can be used to make a suggestion?<br>1) Why don't we hold the meeting online?<br>2) I'm afraid the meeting is online.<br>3) What about holding the meeting online?",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: I'm afraid the meeting is online เป็นการแจ้งข่าวไม่ดี ไม่ใช่เสนอแนะ",
+   "✓ ถูก: Why don't we ...? และ What about + V-ing? ใช้เสนอแนะ",
+   "ผิด: ข้อความ 2 ไม่ใช่การเสนอแนะ",
+   "ผิด: ข้อความ 2 ไม่ใช่การเสนอแนะ"
+  ],
+  "tip": "สำนวนเสนอแนะ: Why don't we, How about, What about, Let's, Shall we"
+ },
+ {
+  "id": "m02-eng-033",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>A: Can we meet at 3 p.m. on Friday?<br>B has a class at that time. B: ____",
+  "c": [
+   "That sounds great. I'll see you at three o'clock on Friday.",
+   "Thank you, but I met you at 3 p.m. last Friday.",
+   "Yes, I do. I usually have a class on Friday afternoons.",
+   "I'm afraid I have a class then. How about 4 p.m.?"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ตอบรับนัด ทั้งที่โจทย์บอกว่า B ติดเรียนในเวลานั้น",
+   "ผิด: เล่าเหตุการณ์ในอดีต ไม่ได้ตอบข้อเสนอนัดในอนาคต",
+   "ผิด: ตอบ Yes, I do ไม่ตรงกับคำถาม Can we ... ?",
+   "✓ ถูก: ปฏิเสธสุภาพพร้อมเสนอเวลาใหม่"
+  ],
+  "tip": "นัดไม่ได้ให้ปฏิเสธสุภาพ (I'm afraid ...) แล้วเสนอเวลาอื่นด้วย How about ...?"
+ },
+ {
+  "id": "m02-eng-034",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> a way of offering help?",
+  "c": [
+   "I wonder if you could help me with this.",
+   "Is there anything I can do for you?",
+   "Let me help you with that.",
+   "Would you like a hand with those?"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ไม่ใช่การเสนอ: เป็นการขอให้อีกฝ่ายช่วยตน",
+   "เป็นการเสนอ: ถามว่าจะช่วยอะไรได้บ้าง",
+   "เป็นการเสนอ: ขอช่วยทำ",
+   "เป็นการเสนอ: ถามว่าต้องการให้ช่วยถือหรือไม่"
+  ],
+  "tip": "Can I / Shall I / Let me / Would you like ... = เสนอช่วย ส่วน Could you / I wonder if you could = ขอให้ช่วย"
+ },
+ {
+  "id": "m02-eng-035",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "You bought a tablet online, but it arrived with a cracked screen. You call the shop. What would you say first?",
+  "c": [
+   "How much does a new tablet cost in your shop, and is it on sale?",
+   "Your shop is the worst in the world, and I will never forgive you for this!",
+   "I'm calling about my tablet order. The screen was cracked on arrival.",
+   "I would like to thank you very much for sending me the cracked screen."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ไม่ใช่เรื่องที่ต้องการแจ้ง",
+   "ผิด: ใช้อารมณ์และไม่ได้บอกปัญหาให้ชัด",
+   "✓ ถูก: แจ้งเรื่องและปัญหาตรงประเด็นอย่างสุภาพ",
+   "ผิด: ขอบคุณในเรื่องที่ไม่เหมาะสม"
+  ],
+  "tip": "การร้องเรียนที่ดีควรเริ่มด้วยบอกว่าเรื่องอะไร แล้วบอกปัญหา ก่อนขอการแก้ไข"
+ },
+ {
+  "id": "m02-eng-036",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "Read the conversation.<br>A: Learning English is essential for everyone.<br>Which response shows <b>complete</b> agreement?",
+  "c": [
+   "I see what you mean, but not everyone needs it.",
+   "Maybe. It depends on the person.",
+   "I'm not so sure about that.",
+   "Absolutely. I couldn't agree more."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: เห็นด้วยเพียงบางส่วน",
+   "ผิด: ไม่ยืนยันเห็นด้วยหรือไม่เห็นด้วย",
+   "ผิด: ไม่เห็นด้วย",
+   "✓ ถูก: I couldn't agree more = เห็นด้วยอย่างยิ่ง"
+  ],
+  "tip": "เห็นด้วยทั้งหมด: Absolutely / I couldn't agree more / Exactly"
+ },
+ {
+  "id": "m02-eng-037",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "What is the passage mainly about?",
+  "c": [
+   "How a school earns extra money by selling its fresh vegetables",
+   "Why pupils should work on farms instead of studying",
+   "How parents learn to grow vegetables at school",
+   "How a school garden helps pupils learn and eat healthily"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ผักถูกเสิร์ฟในโรงอาหาร ไม่ได้ขาย",
+   "ผิด: บทความไม่ได้เสนอให้ไปทำงานแทนเรียน",
+   "ผิด: ผู้ปกครองเป็นผู้ให้ความเห็น ไม่ใช่ผู้เรียน",
+   "✓ ถูก: ครอบคลุมทั้งการเรียนรู้และการกินผักจากสวน"
+  ],
+  "tip": "ข้อสรุปหลักต้องรวมสิ่งที่บทความเน้นซ้ำ ๆ คือสวนผักกับการเรียนรู้",
+  "ps": "At a primary school in a rural district, pupils spend one afternoon each week working in a vegetable garden behind the classrooms. They plant seeds, water seedlings and record the growth of each crop in a notebook. Teachers use the garden to teach science, mathematics and even art: children measure plant heights, calculate the area of the beds and draw the leaves they see. The vegetables are served in the school canteen, so pupils can taste what they have grown. Parents say that children who once refused to eat greens now ask for second helpings. A recent survey found that attendance on garden days is higher than on any other day. However, the school admits that the project needs volunteers during holidays, when no one is available to water the plants."
+ },
+ {
+  "id": "m02-eng-038",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following subjects is <b>NOT</b> mentioned as being taught in the garden?",
+  "c": [
+   "science",
+   "history",
+   "mathematics",
+   "art"
+  ],
+  "a": 1,
+  "n": [
+   "มีในบทความ: teach science",
+   "✓ ไม่ได้กล่าวถึงในบทความ",
+   "มีในบทความ: measure and calculate the area",
+   "มีในบทความ: draw the leaves"
+  ],
+  "tip": "ข้อ NOT ให้ไล่หาวิชาในบทความ วิชาที่ไม่ปรากฏคือคำตอบ",
+  "ps": "At a primary school in a rural district, pupils spend one afternoon each week working in a vegetable garden behind the classrooms. They plant seeds, water seedlings and record the growth of each crop in a notebook. Teachers use the garden to teach science, mathematics and even art: children measure plant heights, calculate the area of the beds and draw the leaves they see. The vegetables are served in the school canteen, so pupils can taste what they have grown. Parents say that children who once refused to eat greens now ask for second helpings. A recent survey found that attendance on garden days is higher than on any other day. However, the school admits that the project needs volunteers during holidays, when no one is available to water the plants."
+ },
+ {
+  "id": "m02-eng-039",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "What can be inferred from the survey result?",
+  "c": [
+   "Pupils never miss school on any day.",
+   "Pupils find the garden days boring.",
+   "Garden days are the only days when pupils learn science.",
+   "Pupils are keen to come to school on garden days."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: never เป็นคำเด็ดขาดที่เกินจากข้อมูล",
+   "ผิด: ขัดกับผลที่มาเรียนมากที่สุด",
+   "ผิด: บทความไม่ได้ระบุว่าเรียนวิทยาศาสตร์เฉพาะวันนั้น",
+   "✓ ถูก: การมาเรียนสูงสุดในวันทำสวนแสดงว่ากระตือรือร้น"
+  ],
+  "tip": "การอนุมานต้องอิงข้อมูลที่ให้และไม่ใช้คำเด็ดขาดเกินข้อมูล เช่น never, only",
+  "ps": "At a primary school in a rural district, pupils spend one afternoon each week working in a vegetable garden behind the classrooms. They plant seeds, water seedlings and record the growth of each crop in a notebook. Teachers use the garden to teach science, mathematics and even art: children measure plant heights, calculate the area of the beds and draw the leaves they see. The vegetables are served in the school canteen, so pupils can taste what they have grown. Parents say that children who once refused to eat greens now ask for second helpings. A recent survey found that attendance on garden days is higher than on any other day. However, the school admits that the project needs volunteers during holidays, when no one is available to water the plants."
+ },
+ {
+  "id": "m02-eng-040",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements are true according to the passage?<br>1) Some children now eat more vegetables.<br>2) The school earns money by selling the vegetables.<br>3) The project needs volunteers during holidays.",
+  "c": [
+   "1, 3",
+   "1, 2",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: เด็กขอผักเพิ่ม และต้องการอาสาสมัครช่วงปิดเทอม",
+   "ผิด: ผักถูกเสิร์ฟในโรงอาหาร ไม่ได้ขายหารายได้",
+   "ผิด: ข้อความ 2 ไม่มีในบทความ",
+   "ผิด: ข้อความ 2 ไม่มีในบทความ"
+  ],
+  "tip": "ตรวจทีละข้อความกับบทความ แล้วรวมเฉพาะข้อความที่จริง",
+  "ps": "At a primary school in a rural district, pupils spend one afternoon each week working in a vegetable garden behind the classrooms. They plant seeds, water seedlings and record the growth of each crop in a notebook. Teachers use the garden to teach science, mathematics and even art: children measure plant heights, calculate the area of the beds and draw the leaves they see. The vegetables are served in the school canteen, so pupils can taste what they have grown. Parents say that children who once refused to eat greens now ask for second helpings. A recent survey found that attendance on garden days is higher than on any other day. However, the school admits that the project needs volunteers during holidays, when no one is available to water the plants."
+ },
+ {
+  "id": "m02-eng-041",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The phrase <b>second helpings</b> in the passage means",
+  "c": [
+   "assistance from teachers",
+   "additional portions of food",
+   "plates carried by helpers",
+   "second visits to the garden"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: เล่นคำ helping กับความช่วยเหลือ แต่บริบทเป็นอาหาร",
+   "✓ ถูก: ask for second helpings = ขอเติมอาหาร",
+   "ผิด: ไม่ตรงกับบริบทเรื่องกินผัก",
+   "ผิด: ไม่ตรงกับบริบทเรื่องกินผัก"
+  ],
+  "tip": "ใช้บริบทรอบข้าง (eat greens) ช่วยตีความวลี",
+  "ps": "At a primary school in a rural district, pupils spend one afternoon each week working in a vegetable garden behind the classrooms. They plant seeds, water seedlings and record the growth of each crop in a notebook. Teachers use the garden to teach science, mathematics and even art: children measure plant heights, calculate the area of the beds and draw the leaves they see. The vegetables are served in the school canteen, so pupils can taste what they have grown. Parents say that children who once refused to eat greens now ask for second helpings. A recent survey found that attendance on garden days is higher than on any other day. However, the school admits that the project needs volunteers during holidays, when no one is available to water the plants."
+ },
+ {
+  "id": "m02-eng-042",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "According to the passage, why do notifications make concentration difficult?",
+  "c": [
+   "The brain has to keep switching between tasks.",
+   "They make the phone run slowly and use up its battery.",
+   "They wake people up at night and disturb their sleep.",
+   "They cost money each time they arrive."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: the brain must keep switching between tasks",
+   "ผิด: ไม่มีในบทความ",
+   "ผิด: ไม่ได้เป็นเหตุผลที่ให้ไว้เรื่องสมาธิ",
+   "ผิด: ไม่มีในบทความ"
+  ],
+  "tip": "ข้อ why ให้หาประโยคที่มีคำว่า because ในบทความ",
+  "ps": "A growing number of people are choosing to take regular breaks from their smartphones, a habit known as a digital detox. Some switch off their devices for one evening a week, while others leave their phones in a drawer during meals. Psychologists say that constant notifications make it hard to concentrate, because the brain must keep switching between tasks. People who try a detox often report better sleep and stronger conversations with family and friends. Nevertheless, experts do not suggest giving up technology altogether. Many jobs and school lessons now depend on the internet, and a complete ban would be unrealistic. Instead, they recommend setting clear limits, such as turning off non-essential notifications and keeping phones out of the bedroom."
+ },
+ {
+  "id": "m02-eng-043",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "Which statement is supported by the passage?",
+  "c": [
+   "Experts recommend setting limits instead of quitting technology.",
+   "Experts agree that everyone must stop using phones completely.",
+   "Everyone who tries a digital detox sleeps better and feels happier.",
+   "A digital detox is suitable only for students."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ผู้เชี่ยวชาญแนะนำให้กำหนดขอบเขต",
+   "ผิด: บทความบอกว่าไม่แนะนำให้เลิกใช้ทั้งหมด",
+   "ผิด: บทความใช้ often จึงไม่ใช่ทุกคน",
+   "ผิด: บทความไม่ได้จำกัดว่าเหมาะเฉพาะนักเรียน"
+  ],
+  "tip": "ตัวเลือกที่มี everyone, only, must มักเด็ดขาดเกินกว่าบทความที่ใช้คำอย่าง often, some",
+  "ps": "A growing number of people are choosing to take regular breaks from their smartphones, a habit known as a digital detox. Some switch off their devices for one evening a week, while others leave their phones in a drawer during meals. Psychologists say that constant notifications make it hard to concentrate, because the brain must keep switching between tasks. People who try a detox often report better sleep and stronger conversations with family and friends. Nevertheless, experts do not suggest giving up technology altogether. Many jobs and school lessons now depend on the internet, and a complete ban would be unrealistic. Instead, they recommend setting clear limits, such as turning off non-essential notifications and keeping phones out of the bedroom."
+ },
+ {
+  "id": "m02-eng-044",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Based on the passage, what should a person who cannot sleep well after using his phone late at night do?",
+  "c": [
+   "Buy a new phone with a bigger screen",
+   "Stop working or studying completely",
+   "Turn on all notifications at night",
+   "Keep the phone out of the bedroom"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความไม่ได้แนะนำ",
+   "ผิด: บทความบอกว่าเลิกใช้ทั้งหมดไม่สมจริง",
+   "ผิด: ขัดกับคำแนะนำให้ปิดการแจ้งเตือนที่ไม่จำเป็น",
+   "✓ ถูก: ตรงกับข้อแนะนำเรื่องไม่เอาโทรศัพท์เข้าห้องนอน"
+  ],
+  "tip": "โจทย์สถานการณ์ให้จับหลักการของบทความ แล้วเลือกวิธีที่สอดคล้องกับข้อแนะนำ",
+  "ps": "A growing number of people are choosing to take regular breaks from their smartphones, a habit known as a digital detox. Some switch off their devices for one evening a week, while others leave their phones in a drawer during meals. Psychologists say that constant notifications make it hard to concentrate, because the brain must keep switching between tasks. People who try a detox often report better sleep and stronger conversations with family and friends. Nevertheless, experts do not suggest giving up technology altogether. Many jobs and school lessons now depend on the internet, and a complete ban would be unrealistic. Instead, they recommend setting clear limits, such as turning off non-essential notifications and keeping phones out of the bedroom."
+ },
+ {
+  "id": "m02-eng-045",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "All of the following are mentioned in the passage <b>EXCEPT</b>",
+  "c": [
+   "deleting every social media account",
+   "switching off devices for one evening a week",
+   "leaving phones in a drawer during meals",
+   "turning off non-essential notifications"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ไม่ได้กล่าวถึงในบทความ",
+   "มีในบทความ: switch off their devices for one evening a week",
+   "มีในบทความ: leave their phones in a drawer during meals",
+   "มีในบทความ: ข้อแนะนำของผู้เชี่ยวชาญ"
+  ],
+  "tip": "ตัวเลือกที่สุดโต่ง (every) มักเป็นข้อที่บทความไม่ได้กล่าว",
+  "ps": "A growing number of people are choosing to take regular breaks from their smartphones, a habit known as a digital detox. Some switch off their devices for one evening a week, while others leave their phones in a drawer during meals. Psychologists say that constant notifications make it hard to concentrate, because the brain must keep switching between tasks. People who try a detox often report better sleep and stronger conversations with family and friends. Nevertheless, experts do not suggest giving up technology altogether. Many jobs and school lessons now depend on the internet, and a complete ban would be unrealistic. Instead, they recommend setting clear limits, such as turning off non-essential notifications and keeping phones out of the bedroom."
+ },
+ {
+  "id": "m02-eng-046",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>unrealistic</b> in the passage is closest in meaning to",
+  "c": [
+   "dishonest",
+   "unpopular",
+   "impractical",
+   "unpleasant"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: dishonest = ไม่ซื่อสัตย์",
+   "ผิด: unpopular = ไม่เป็นที่นิยม",
+   "✓ ถูก: a complete ban would be unrealistic = ทำได้ยากในทางปฏิบัติ",
+   "ผิด: unpleasant = ไม่น่าพอใจ"
+  ],
+  "tip": "ดูเหตุผลที่ตามมา (jobs and lessons depend on the internet) เพื่อเดาความหมาย",
+  "ps": "A growing number of people are choosing to take regular breaks from their smartphones, a habit known as a digital detox. Some switch off their devices for one evening a week, while others leave their phones in a drawer during meals. Psychologists say that constant notifications make it hard to concentrate, because the brain must keep switching between tasks. People who try a detox often report better sleep and stronger conversations with family and friends. Nevertheless, experts do not suggest giving up technology altogether. Many jobs and school lessons now depend on the internet, and a complete ban would be unrealistic. Instead, they recommend setting clear limits, such as turning off non-essential notifications and keeping phones out of the bedroom."
+ },
+ {
+  "id": "m02-eng-047",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "According to the passage, how do users pay for bike-sharing?",
+  "c": [
+   "They pay a yearly membership fee only.",
+   "They pay only for the minutes they ride.",
+   "They pay each time they unlock the app.",
+   "They pay a fixed price for each journey."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความระบุว่าจ่ายตามนาทีที่ใช้",
+   "✓ ถูก: pay only for the minutes they ride",
+   "ผิด: ไม่มีการจ่ายตามการเปิดแอป",
+   "ผิด: ไม่ใช่ราคาคงที่ แต่คิดตามนาที"
+  ],
+  "tip": "ตัวเลือกที่ขัดกับคำว่า only ... minutes ตัดทิ้งได้",
+  "ps": "In many large cities, bike-sharing schemes allow residents to rent a bicycle for a short trip and return it to any docking station. Users unlock a bike with a mobile app and pay only for the minutes they ride. City officials say the schemes reduce traffic and air pollution, because people can cycle for short journeys instead of driving. Tourists also enjoy the service as an inexpensive way to explore. However, the schemes face challenges. Some bikes are damaged by vandals, and docking stations are often empty in busy areas during rush hour. A few cities have responded by adding more stations and by sending workers to move bikes from crowded stations to empty ones."
+ },
+ {
+  "id": "m02-eng-048",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following are benefits of bike-sharing mentioned in the passage?<br>1) Less traffic and air pollution<br>2) Cheaper bus fares<br>3) An inexpensive way for tourists to explore",
+  "c": [
+   "1, 3",
+   "1, 2",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความระบุการลดการจราจรและมลพิษ และเป็นทางเลือกราคาถูกสำหรับนักท่องเที่ยว",
+   "ผิด: ไม่ได้กล่าวถึงค่าโดยสารรถประจำทาง",
+   "ผิด: ข้อความ 2 ไม่มีในบทความ",
+   "ผิด: ข้อความ 2 ไม่มีในบทความ"
+  ],
+  "tip": "เลือกเฉพาะประโยชน์ที่บทความระบุ ไม่เติมประโยชน์ที่ไม่ได้กล่าว",
+  "ps": "In many large cities, bike-sharing schemes allow residents to rent a bicycle for a short trip and return it to any docking station. Users unlock a bike with a mobile app and pay only for the minutes they ride. City officials say the schemes reduce traffic and air pollution, because people can cycle for short journeys instead of driving. Tourists also enjoy the service as an inexpensive way to explore. However, the schemes face challenges. Some bikes are damaged by vandals, and docking stations are often empty in busy areas during rush hour. A few cities have responded by adding more stations and by sending workers to move bikes from crowded stations to empty ones."
+ },
+ {
+  "id": "m02-eng-049",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "A city finds that its docking stations are empty during rush hour. According to the passage, what could it do?",
+  "c": [
+   "Stop tourists from using the bikes",
+   "Charge users more for each minute",
+   "Move bikes from crowded stations to empty ones",
+   "Remove all the docking stations"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความไม่ได้เสนอ",
+   "ผิด: บทความไม่ได้เสนอ",
+   "✓ ถูก: เป็นวิธีที่บางเมืองใช้ตามบทความ",
+   "ผิด: ขัดกับการเพิ่มสถานีที่เมืองต่าง ๆ ทำ"
+  ],
+  "tip": "ปัญหาในโจทย์ตรงกับปัญหาในบทความ ให้ใช้วิธีแก้ที่บทความกล่าวถึง",
+  "ps": "In many large cities, bike-sharing schemes allow residents to rent a bicycle for a short trip and return it to any docking station. Users unlock a bike with a mobile app and pay only for the minutes they ride. City officials say the schemes reduce traffic and air pollution, because people can cycle for short journeys instead of driving. Tourists also enjoy the service as an inexpensive way to explore. However, the schemes face challenges. Some bikes are damaged by vandals, and docking stations are often empty in busy areas during rush hour. A few cities have responded by adding more stations and by sending workers to move bikes from crowded stations to empty ones."
+ },
+ {
+  "id": "m02-eng-050",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which statement is <b>NOT</b> true according to the passage?",
+  "c": [
+   "Users need a mobile app to unlock a bike.",
+   "Bikes must be returned to the station where they were rented.",
+   "Some cities have added more docking stations.",
+   "Officials believe the schemes help reduce traffic and air pollution."
+  ],
+  "a": 1,
+  "n": [
+   "จริง: unlock a bike with a mobile app",
+   "✓ ไม่จริง: บทความบอกว่าคืนที่สถานีใดก็ได้",
+   "จริง: บางเมืองเพิ่มสถานี",
+   "จริง: เจ้าหน้าที่บอกว่าช่วยลดมลพิษ"
+  ],
+  "tip": "ข้อ NOT ที่ตัวเลือกใช้คำเดียวกับบทความ ให้ตรวจรายละเอียดที่ถูกสลับ เช่น any เป็น the same",
+  "ps": "In many large cities, bike-sharing schemes allow residents to rent a bicycle for a short trip and return it to any docking station. Users unlock a bike with a mobile app and pay only for the minutes they ride. City officials say the schemes reduce traffic and air pollution, because people can cycle for short journeys instead of driving. Tourists also enjoy the service as an inexpensive way to explore. However, the schemes face challenges. Some bikes are damaged by vandals, and docking stations are often empty in busy areas during rush hour. A few cities have responded by adding more stations and by sending workers to move bikes from crowded stations to empty ones."
+ }
+]

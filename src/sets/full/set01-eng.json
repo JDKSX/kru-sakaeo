@@ -1,0 +1,1016 @@
+[
+ {
+  "id": "m01-eng-001",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The number of teachers attending the workshop ____ increased every year since 2020.",
+  "c": [
+   "have",
+   "is",
+   "has",
+   "had"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: the number of เป็นเอกพจน์ ต่างจาก a number of ที่เป็นพหูพจน์",
+   "ผิด: present simple ใช้คู่กับ since 2020 ไม่ได้",
+   "✓ ถูก: the number of ใช้กริยาเอกพจน์ และ since ต้องคู่กับ present perfect",
+   "ผิด: past perfect ไม่ใช้กับ since ที่ต่อเนื่องมาถึงปัจจุบัน"
+  ],
+  "tip": "the number of = เอกพจน์ แต่ a number of = พหูพจน์ และเห็น since ให้นึกถึง present perfect"
+ },
+ {
+  "id": "m01-eng-002",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence is grammatically <b>INCORRECT</b>?",
+  "c": [
+   "Neither of the candidates was prepared for the interview.",
+   "The news about the scholarships were announced yesterday.",
+   "Each of the students has to submit a project.",
+   "Mathematics is a compulsory subject in many schools."
+  ],
+  "a": 1,
+  "n": [
+   "ถูก: neither of ตามด้วยกริยาเอกพจน์ได้",
+   "✓ ผิดจริง จึงเป็นคำตอบ: news เป็นนามนับไม่ได้ ต้องใช้ was",
+   "ถูก: each of ใช้กริยาเอกพจน์",
+   "ถูก: ชื่อวิชาที่ลงท้าย -s เป็นเอกพจน์"
+  ],
+  "tip": "news และชื่อวิชาอย่าง mathematics, physics ลงท้าย -s แต่เป็นเอกพจน์ ให้ตรวจกริยาเป็นอันดับแรก"
+ },
+ {
+  "id": "m01-eng-003",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following sentences are grammatically correct?<br>1) If I had known about the deadline, I would have submitted the report earlier.<br>2) If I were you, I would apply for the scholarship.<br>3) Unless you don't register today, you will lose your place.",
+  "c": [
+   "1, 3",
+   "1, 2",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: unless มีความหมายปฏิเสธในตัว จึงใช้ don't ซ้ำไม่ได้ ข้อความ 3 ผิด",
+   "✓ ถูก: ข้อความ 1 เป็น conditional type 3 และข้อความ 2 เป็น type 2 ใช้ถูกต้องทั้งคู่",
+   "ผิด: ข้อความ 3 ผิดเพราะ unless ... don't เป็นการปฏิเสธซ้อน",
+   "ผิด: ข้อความ 3 ไม่ถูกต้อง"
+  ],
+  "tip": "unless = if ... not อยู่แล้ว ถ้าตามด้วย not/don't อีกให้สงสัยไว้ก่อนว่าผิด"
+ },
+ {
+  "id": "m01-eng-004",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence has the closest meaning to the following?<br><b>\"It is not necessary for you to bring a laptop to the exam.\"</b>",
+  "c": [
+   "You needn't bring a laptop to the exam.",
+   "You mustn't bring a laptop to the exam.",
+   "You must bring a laptop to the exam.",
+   "You shouldn't have brought a laptop to the exam."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: needn't = don't have to คือไม่จำเป็นต้องทำ",
+   "ผิด: mustn't = ห้ามนำมา ซึ่งแรงกว่าไม่จำเป็น",
+   "ผิด: ความหมายตรงข้าม คือจำเป็นต้องนำมา",
+   "ผิด: เป็นการตำหนิสิ่งที่ทำไปแล้วในอดีต"
+  ],
+  "tip": "needn't / don't have to = ไม่จำเป็น ส่วน mustn't = ห้าม อย่าสับสนสองกลุ่มนี้"
+ },
+ {
+  "id": "m01-eng-005",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The results ____ to the students by email as soon as the papers are marked.",
+  "c": [
+   "will send",
+   "are sending",
+   "will be sent",
+   "have sent"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: เป็น active แต่ the results ไม่ได้เป็นผู้ส่ง",
+   "ผิด: เป็น active progressive ประธานไม่ใช่ผู้ส่ง",
+   "✓ ถูก: ผลสอบเป็นผู้ถูกส่ง จึงต้องใช้ passive และ will บอกอนาคต",
+   "ผิด: เป็น active perfect ประธานไม่ใช่ผู้ส่ง"
+  ],
+  "tip": "ประธานเป็นผู้ถูกกระทำและมี by ตามหลัง ให้เลือกรูป passive (be + V3)"
+ },
+ {
+  "id": "m01-eng-006",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which part of the sentence is <b>INCORRECT</b>?<br>Many students prefer <b>to study</b> online <b>than</b> <b>to attend</b> classes <b>in person</b>.",
+  "c": [
+   "to study",
+   "than",
+   "to attend",
+   "in person"
+  ],
+  "a": 1,
+  "n": [
+   "ถูก: prefer ตามด้วย to + V ได้",
+   "✓ ผิดจริง: prefer ใช้คู่กับ to หรือ rather than ไม่ใช้ than",
+   "ถูก: ใช้ได้เมื่อแก้ than เป็น rather than",
+   "ถูก: วลีบอกลักษณะว่าไปเรียนด้วยตนเอง"
+  ],
+  "tip": "prefer X to Y หรือ prefer to X rather than Y ไม่มีรูป prefer ... than"
+ },
+ {
+  "id": "m01-eng-007",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The teacher ____ classroom was flooded had to move her class to another building.",
+  "c": [
+   "who",
+   "which",
+   "whom",
+   "whose"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: who เป็นประธานของประโยคย่อย แต่ที่นี่ต้องการความเป็นเจ้าของ",
+   "ผิด: which ใช้กับสิ่งของ ไม่ใช่คน",
+   "ผิด: whom เป็นกรรม และไม่ใช่ความเป็นเจ้าของ",
+   "✓ ถูก: whose แสดงความเป็นเจ้าของ (ห้องเรียนของครู) และตามด้วยนาม"
+  ],
+  "tip": "เห็นนามตามหลังช่องว่างและต้องการความเป็นเจ้าของ ให้เลือก whose"
+ },
+ {
+  "id": "m01-eng-008",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence correctly reports the question below?<br><b>\"Have you finished the assignment?\"</b> the teacher asked Mali.",
+  "c": [
+   "The teacher asked Mali whether she had finished the assignment.",
+   "The teacher asked Mali had she finished the assignment.",
+   "The teacher asked Mali that she had finished the assignment.",
+   "The teacher asked Mali whether did she finish the assignment."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: คำถาม Yes/No ใช้ whether/if และเรียงเป็นประโยคบอกเล่า พร้อมถอยกาลเป็น past perfect",
+   "ผิด: ไม่มี whether/if และยังสลับตำแหน่งประธานกับกริยา",
+   "ผิด: that ใช้กับประโยคบอกเล่า ไม่ใช่คำถาม",
+   "ผิด: หลัง whether ต้องไม่ใช้รูปคำถาม did she"
+  ],
+  "tip": "รายงานคำถามต้องเรียงประโยคแบบบอกเล่า และ Yes/No question ใช้ whether หรือ if"
+ },
+ {
+  "id": "m01-eng-009",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following can correctly complete the sentence?<br><b>She suggested ____ the meeting until all members could attend.</b><br>1) to postpone<br>2) postponing<br>3) that we postpone",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "1, 2, 3",
+   "2, 3"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: suggest ตามด้วย to + V ไม่ได้",
+   "ผิด: suggest ตามด้วย to + V ไม่ได้ จึงตัดข้อความ 1 ออก",
+   "ผิด: ข้อความ 1 (to postpone) ไม่ถูกหลัง suggest",
+   "✓ ถูก: suggest ตามด้วย V-ing หรือ that + ประธาน + กริยาช่องที่ 1 ได้"
+  ],
+  "tip": "suggest ไม่ตามด้วย to + V ให้ใช้ V-ing หรือ that + subjunctive"
+ },
+ {
+  "id": "m01-eng-010",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences are grammatically correct?<br>1) The more you practise, the better you become.<br>2) Of the two proposals, the second is the most practical.<br>3) She is not as experienced as her brother.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: เปรียบเทียบสองสิ่งต้องใช้ the more practical ไม่ใช่ the most",
+   "✓ ถูก: ข้อความ 1 และ 3 ใช้ comparative ถูกต้อง",
+   "ผิด: ข้อความ 2 ใช้ superlative กับสองสิ่ง",
+   "ผิด: ข้อความ 2 ไม่ถูกต้อง"
+  ],
+  "tip": "เปรียบเทียบสองสิ่งใช้ comparative (the + more/er) ส่วน superlative ใช้กับตั้งแต่สามสิ่งขึ้นไป"
+ },
+ {
+  "id": "m01-eng-011",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "All of the following sentences are grammatically correct <b>EXCEPT</b>",
+  "c": [
+   "I wish I had more time to read for pleasure.",
+   "She wishes she had joined the club last year.",
+   "He wishes he can speak French fluently.",
+   "They wish the exam were easier."
+  ],
+  "a": 2,
+  "n": [
+   "ถูก: wish + past simple สื่อสิ่งที่ตรงข้ามกับปัจจุบัน",
+   "ถูก: wish + past perfect สื่อความเสียดายในอดีต",
+   "✓ ผิดจริง: wish ตามด้วยกริยาถอยกาล ต้องใช้ could",
+   "ถูก: wish ใช้ were ได้กับทุกประธาน"
+  ],
+  "tip": "wish ต้องถอยกาลเสมอ (can เป็น could, will เป็น would) จึงไม่ตามด้วย can ตรง ๆ"
+ },
+ {
+  "id": "m01-eng-012",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>Not only ____ the project on time, but she also won first prize.",
+  "c": [
+   "did she finish",
+   "she finished",
+   "she did finish",
+   "finished she"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: Not only นำหน้าประโยคต้องสลับเป็นรูปคำถาม did + ประธาน + V1",
+   "ผิด: ไม่ได้สลับตำแหน่งหลัง not only",
+   "ผิด: ลำดับคำเป็นประโยคปกติ ไม่เกิด inversion",
+   "ผิด: inversion ต้องใช้ auxiliary did ไม่ใช่ย้ายกริยาหลักมาไว้หน้าประธาน"
+  ],
+  "tip": "Not only / Hardly / Never นำหน้าประโยค ให้ใช้ auxiliary + ประธาน + V1"
+ },
+ {
+  "id": "m01-eng-013",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence correctly combines the two sentences below?<br><b>We visited the museum. It was built in 1890.</b>",
+  "c": [
+   "We visited the museum, that was built in 1890.",
+   "We visited the museum which it was built in 1890.",
+   "We visited the museum, where was built in 1890.",
+   "We visited the museum, which was built in 1890."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: that ใช้หลังจุลภาคใน non-defining clause ไม่ได้",
+   "ผิด: มีสรรพนาม it ซ้ำกับ which",
+   "ผิด: where ใช้แทนสถานที่ที่เป็นที่เกิดเหตุ และขาดประธานของ was built",
+   "✓ ถูก: ใช้ which แทนสิ่งของใน non-defining clause พร้อมจุลภาค"
+  ],
+  "tip": "relative pronoun ทำหน้าที่แทนนามอยู่แล้ว จึงห้ามมีสรรพนามซ้ำ และ that ห้ามตามหลังจุลภาค"
+ },
+ {
+  "id": "m01-eng-014",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which expressions can correctly complete the sentence?<br><b>The library has ____ useful information on climate change.</b><br>1) a lot of<br>2) many<br>3) a great deal of",
+  "c": [
+   "1, 2",
+   "2, 3",
+   "1, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: many ใช้กับนามนับได้พหูพจน์ ใช้กับ information ไม่ได้",
+   "ผิด: many ใช้กับ information ไม่ได้",
+   "✓ ถูก: information นับไม่ได้ ใช้ a lot of และ a great deal of ได้",
+   "ผิด: many ใช้ไม่ได้กับนามนับไม่ได้"
+  ],
+  "tip": "นามนับไม่ได้ (information, advice, equipment) ใช้ much / a great deal of / a lot of ไม่ใช้ many"
+ },
+ {
+  "id": "m01-eng-015",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "A teacher wants to say that she began teaching at this school in 2015 and she is still teaching here now. Which sentence should she use?",
+  "c": [
+   "I have been teaching at this school since 2015.",
+   "I taught at this school since 2015.",
+   "I am teaching at this school for 2015.",
+   "I had taught at this school in 2015."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: การกระทำเริ่มในอดีตและยังต่อเนื่องถึงปัจจุบัน ใช้ present perfect continuous กับ since",
+   "ผิด: past simple ใช้กับ since ไม่ได้",
+   "ผิด: for ใช้กับช่วงเวลา ไม่ใช่จุดเวลา 2015",
+   "ผิด: past perfect สื่อว่าจบไปก่อนเหตุการณ์อื่นในอดีต"
+  ],
+  "tip": "since + จุดเวลา, for + ช่วงเวลา และทั้งคู่คู่กับ present perfect เมื่อเหตุการณ์ยังไม่สิ้นสุด"
+ },
+ {
+  "id": "m01-eng-016",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The course aims to develop critical thinking, improve communication skills, and ____ students for future careers.",
+  "c": [
+   "prepare",
+   "preparing",
+   "prepared",
+   "to be prepared"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ต้องขนานกับ develop และ improve ซึ่งเป็นกริยาช่องที่ 1 หลัง to",
+   "ผิด: V-ing ไม่ขนานกับ develop และ improve",
+   "ผิด: กริยาช่องที่ 3 ไม่ขนานกับกริยาตัวอื่น",
+   "ผิด: เป็นรูป passive ซึ่งไม่เข้ากับ students เป็นกรรม"
+  ],
+  "tip": "รายการที่คั่นด้วย , และ and ต้องใช้รูปแบบเดียวกัน (parallel structure)"
+ },
+ {
+  "id": "m01-eng-017",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which word or phrase can <b>NOT</b> be used to complete the sentence?<br><b>____ the exam was difficult, most students passed it.</b>",
+  "c": [
+   "Although",
+   "Though",
+   "Despite",
+   "Even though"
+  ],
+  "a": 2,
+  "n": [
+   "ใช้ได้: although ตามด้วยประโยค",
+   "ใช้ได้: though ตามด้วยประโยคเช่นเดียวกับ although",
+   "✓ ใช้ไม่ได้: despite ตามด้วยนามหรือ V-ing ไม่ตามด้วยประโยค",
+   "ใช้ได้: even though เน้นความขัดแย้งและตามด้วยประโยค"
+  ],
+  "tip": "although/though/even though + ประโยค แต่ despite/in spite of + นามหรือ V-ing"
+ },
+ {
+  "id": "m01-eng-018",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "Which sentence is correct?",
+  "c": [
+   "Every students in the class has a tablet.",
+   "Each of the rooms has its own projector.",
+   "Both of the teachers is on leave today.",
+   "All of the equipment are ready for the experiment."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: every ต้องตามด้วยนามเอกพจน์",
+   "✓ ถูก: each of + นามพหูพจน์ ใช้กริยาเอกพจน์",
+   "ผิด: both เป็นพหูพจน์ ต้องใช้ are",
+   "ผิด: equipment นับไม่ได้ ต้องใช้ is"
+  ],
+  "tip": "every/each + เอกพจน์, both + พหูพจน์ และ all of + นามนับไม่ได้ ใช้กริยาเอกพจน์"
+ },
+ {
+  "id": "m01-eng-019",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word closest in meaning to the word in bold.<br>The school's new policy aims to <b>curb</b> the use of mobile phones during lessons.",
+  "c": [
+   "expand",
+   "monitor",
+   "restrict",
+   "reward"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: expand = ขยาย ตรงข้ามกับ curb",
+   "ผิด: monitor = เฝ้าตรวจดู ไม่ได้หมายถึงลดการใช้",
+   "✓ ถูก: curb = จำกัดไม่ให้มากเกินไป",
+   "ผิด: reward = ให้รางวัล"
+  ],
+  "tip": "curb เป็นกริยา แปลว่ายับยั้ง/จำกัด คิดภาพเบรกที่ทำให้ช้าลง"
+ },
+ {
+  "id": "m01-eng-020",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word closest in meaning to the word in bold.<br>The committee gave a <b>tentative</b> approval to the plan, pending further review.",
+  "c": [
+   "final",
+   "enthusiastic",
+   "reluctant",
+   "provisional"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: final = ขั้นสุดท้าย ขัดกับ pending further review",
+   "ผิด: enthusiastic = กระตือรือร้น ไม่ได้บอกสถานะของการอนุมัติ",
+   "ผิด: reluctant = ไม่เต็มใจ เป็นความรู้สึกของบุคคล ไม่ใช่สถานะของการอนุมัติ",
+   "✓ ถูก: tentative = ชั่วคราว ยังไม่เด็ดขาด ตรงกับ pending further review"
+  ],
+  "tip": "ดูคำใบ้ในประโยค pending further review แปลว่ารอการตรวจสอบเพิ่ม จึงเป็นการอนุมัติที่ยังไม่แน่นอน"
+ },
+ {
+  "id": "m01-eng-021",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which word is <b>NOT</b> close in meaning to the word in bold?<br>The government's decision was <b>controversial</b>.",
+  "c": [
+   "debatable",
+   "disputed",
+   "contentious",
+   "undisputed"
+  ],
+  "a": 3,
+  "n": [
+   "ใกล้เคียง: debatable = เป็นที่ถกเถียงได้",
+   "ใกล้เคียง: disputed = ถูกโต้แย้ง",
+   "ใกล้เคียง: contentious = ก่อให้เกิดการโต้เถียง",
+   "✓ ตรงข้าม: undisputed = ไม่มีใครโต้แย้ง จึงไม่ใกล้เคียง controversial"
+  ],
+  "tip": "คำถามแบบ NOT ให้หาคำที่ความหมายตรงข้ามหรือไม่เกี่ยวก่อน แล้วทิ้งคำที่เป็นกลุ่มเดียวกัน"
+ },
+ {
+  "id": "m01-eng-022",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence uses the word <b>adequate</b> correctly?",
+  "c": [
+   "The library has adequate resources for student research.",
+   "She was so adequate in the final round that she won first prize.",
+   "The adequate of the new classroom is thirty square metres.",
+   "He ran adequate to catch the last bus."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: adequate เป็นคุณศัพท์ = เพียงพอ ขยาย resources",
+   "ผิด: adequate แปลว่าเพียงพอ ไม่ได้แปลว่าเก่งเลิศจนได้รางวัล",
+   "ผิด: adequate เป็นคุณศัพท์ ไม่ใช่นาม (นามคือ adequacy)",
+   "ผิด: ใช้ขยายกริยาต้องเป็น adequately และความหมายก็ไม่เข้ากัน"
+  ],
+  "tip": "ตรวจชนิดของคำก่อน แล้วค่อยตรวจความหมายว่าเข้ากับบริบทหรือไม่"
+ },
+ {
+  "id": "m01-eng-023",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which words can correctly complete the sentence?<br><b>Teachers should give students ____ feedback so that they know how to improve.</b><br>1) constructive<br>2) specific<br>3) vague",
+  "c": [
+   "1, 3",
+   "2, 3",
+   "1, 2, 3",
+   "1, 2"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: vague = คลุมเครือ ไม่ช่วยให้รู้วิธีปรับปรุง",
+   "ผิด: vague ขัดกับ so that they know how to improve",
+   "ผิด: vague ไม่เข้ากับเจตนาของประโยค",
+   "✓ ถูก: constructive และ specific ช่วยให้รู้ว่าต้องปรับปรุงอย่างไร"
+  ],
+  "tip": "ดูประโยคเหตุผลที่ตามมา (so that ...) เพื่อตัดคำที่ความหมายขัดแย้ง"
+ },
+ {
+  "id": "m01-eng-024",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "A student has been absent for three weeks and refuses to explain why. Which adjective best describes his behaviour?",
+  "c": [
+   "talkative",
+   "cooperative",
+   "evasive",
+   "punctual"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: talkative = ช่างพูด ตรงข้ามกับการไม่ยอมอธิบาย",
+   "ผิด: cooperative = ให้ความร่วมมือ ตรงข้ามกับสถานการณ์",
+   "✓ ถูก: evasive = หลบเลี่ยงไม่ตอบตรง ๆ",
+   "ผิด: punctual = ตรงต่อเวลา ไม่เกี่ยวกับการไม่ยอมอธิบาย"
+  ],
+  "tip": "แปลสถานการณ์เป็นลักษณะนิสัยก่อน แล้วค่อยเลือกคำคุณศัพท์ที่ตรงที่สุด"
+ },
+ {
+  "id": "m01-eng-025",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>The manager decided to <b>put up with</b> the noise from the construction site rather than move offices.",
+  "c": [
+   "complain about",
+   "tolerate",
+   "measure",
+   "increase"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ขัดกับ rather than move offices ที่แสดงว่ายอมอยู่ต่อ",
+   "✓ ถูก: put up with = ทนต่อสิ่งที่ไม่พอใจ",
+   "ผิด: measure = วัด ไม่ใช่ความหมายของ put up with",
+   "ผิด: increase = เพิ่ม ไม่ใช่ความหมายของ put up with"
+  ],
+  "tip": "put up with = tolerate ส่วน put off = postpone และ put out = extinguish ให้แยกจากกัน"
+ },
+ {
+  "id": "m01-eng-026",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which collocation is <b>INCORRECT</b>?",
+  "c": [
+   "make progress",
+   "do a mistake",
+   "do homework",
+   "take a risk"
+  ],
+  "a": 1,
+  "n": [
+   "ถูก: ใช้ make กับ progress",
+   "✓ ผิดจริง: ที่ถูกคือ make a mistake",
+   "ถูก: ใช้ do กับ homework",
+   "ถูก: ใช้ take กับ risk"
+  ],
+  "tip": "make ใช้กับสิ่งที่สร้าง/ผลลัพธ์ (mistake, decision) ส่วน do ใช้กับงานหรือกิจกรรม (homework, research)"
+ },
+ {
+  "id": "m01-eng-027",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "A rule that applies to every student without exception is described as ____.",
+  "c": [
+   "optional",
+   "flexible",
+   "mandatory",
+   "occasional"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: optional = เลือกทำหรือไม่ก็ได้",
+   "ผิด: flexible = ยืดหยุ่น ตรงข้ามกับไม่มีข้อยกเว้น",
+   "✓ ถูก: mandatory = บังคับ ไม่มียกเว้น",
+   "ผิด: occasional = เป็นครั้งคราว"
+  ],
+  "tip": "คำว่า every ... without exception เป็นสัญญาณของความหมายบังคับเด็ดขาด"
+ },
+ {
+  "id": "m01-eng-028",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>Because of the shortage of funds, the school was forced to ____ its plan to build a new laboratory.",
+  "c": [
+   "abandon",
+   "assemble",
+   "accelerate",
+   "accompany"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: abandon = ล้มเลิก เหมาะกับ was forced to",
+   "ผิด: assemble = ประกอบ/รวมตัว ไม่เข้ากับ plan",
+   "ผิด: accelerate = เร่งให้เร็วขึ้น ขัดกับสาเหตุที่ขาดเงิน",
+   "ผิด: accompany = ไปด้วยกัน ไม่เข้ากับ plan"
+  ],
+  "tip": "อ่านเหตุ (shortage of funds) แล้วคาดผลที่สมเหตุสมผลก่อนดูตัวเลือก"
+ },
+ {
+  "id": "m01-eng-029",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Nok: Excuse me, could you tell me how to get to the school library?<br>Teacher: ____",
+  "c": [
+   "I'm fine, thank you. How about you?",
+   "Yes, you are welcome to the library.",
+   "The library opens at eight o'clock every day.",
+   "Sure. Go straight and turn left at the second corner."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: เป็นการตอบคำถามสุขภาพ ไม่ใช่การบอกทาง",
+   "ผิด: ใช้ you are welcome ผิดบริบท เพราะไม่ได้มีใครขอบคุณ",
+   "ผิด: บอกเวลาเปิด ไม่ได้ตอบว่าไปอย่างไร",
+   "✓ ถูก: ตอบเป็นการบอกทางตรงกับคำถาม"
+  ],
+  "tip": "หาคำถามหลักของบทสนทนา (how to get to) แล้วเลือกคำตอบที่ตอบประเด็นนั้นโดยตรง"
+ },
+ {
+  "id": "m01-eng-030",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Ann has just told Ben that she failed her driving test. Which response is <b>NOT</b> appropriate for Ben?",
+  "c": [
+   "Congratulations! You must be so happy.",
+   "I'm sorry to hear that.",
+   "That's too bad. Better luck next time.",
+   "Don't worry. You can try again."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ไม่เหมาะสม: ไม่ควรแสดงความยินดีกับข่าวร้าย",
+   "เหมาะสม: แสดงความเสียใจต่อข่าวร้าย",
+   "เหมาะสม: ปลอบใจและให้กำลังใจ",
+   "เหมาะสม: ให้กำลังใจว่ายังสอบใหม่ได้"
+  ],
+  "tip": "ก่อนเลือก ให้ตัดสินว่าสถานการณ์เป็นข่าวดีหรือข่าวร้าย แล้วดูว่าน้ำเสียงของตัวเลือกสอดคล้องหรือไม่"
+ },
+ {
+  "id": "m01-eng-031",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Nid: I'm going to the post office. Do you want me to mail that letter for you?<br>Pim: ____",
+  "c": [
+   "No, I haven't. I've never been there.",
+   "Yes, please. That would save me a trip.",
+   "I'm fine, thank you. It's a nice day.",
+   "Yes, I mailed it. Thank you for asking."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ตอบไม่ตรงกับคำถามเสนอความช่วยเหลือ",
+   "✓ ถูก: รับน้ำใจและบอกเหตุผลสมเหตุสมผล",
+   "ผิด: ไม่ได้ตอบคำเสนอให้ช่วยส่งจดหมาย",
+   "ผิด: ขัดกับบริบทที่ยังไม่ได้ส่งจดหมาย"
+  ],
+  "tip": "Do you want me to ... เป็นคำเสนอความช่วยเหลือ ให้ตอบรับ (Yes, please) หรือปฏิเสธสุภาพ (No, thanks)"
+ },
+ {
+  "id": "m01-eng-032",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following can be used to ask someone politely to repeat what they said?<br>1) Pardon?<br>2) Sorry, could you say that again?<br>3) I beg your pardon?",
+  "c": [
+   "1, 2",
+   "1, 2, 3",
+   "1, 3",
+   "2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: I beg your pardon? ก็ใช้ขอให้พูดซ้ำอย่างสุภาพได้เช่นกัน",
+   "✓ ถูก: ทั้งสามสำนวนใช้ขอให้พูดซ้ำอย่างสุภาพได้",
+   "ผิด: Sorry, could you say that again? ก็สุภาพและใช้ได้",
+   "ผิด: Pardon? ก็ใช้ขอให้พูดซ้ำได้"
+  ],
+  "tip": "Pardon? / Sorry? / Could you say that again? ล้วนเป็นสำนวนขอให้พูดซ้ำที่สุภาพ"
+ },
+ {
+  "id": "m01-eng-033",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Mint: I've been feeling very stressed about the final exams.<br>Mon: ____",
+  "c": [
+   "Why don't you make a timetable and take short breaks?",
+   "Congratulations on the exams! I'm so glad to hear that.",
+   "No, thanks. I've already had enough exams this year.",
+   "Really? I'm quite happy to see you so stressed."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ให้คำแนะนำที่เหมาะกับความเครียดจากการสอบ",
+   "ผิด: แสดงความยินดีกับเรื่องที่ไม่ใช่ข่าวดี",
+   "ผิด: ไม่ใช่การตอบรับหรือปฏิเสธข้อเสนอ เพราะไม่มีข้อเสนอ",
+   "ผิด: ไม่สุภาพและไม่เห็นอกเห็นใจ"
+  ],
+  "tip": "เมื่อเพื่อนบ่นปัญหา คำตอบที่เหมาะคือแสดงความเห็นใจหรือให้คำแนะนำ เช่น Why don't you ...?"
+ },
+ {
+  "id": "m01-eng-034",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Read the conversation.<br>A: Do you mind if I open the window?<br>B: Not at all.<br>What does B mean?",
+  "c": [
+   "Please don't. It's cold.",
+   "Go ahead. I don't mind.",
+   "Yes, I mind very much.",
+   "I am not happy at all."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: B ไม่ได้ห้าม",
+   "✓ ถูก: Not at all ตอบ Do you mind ... แปลว่าไม่ถือสา เปิดได้",
+   "ผิด: ตรงข้ามกับ Not at all",
+   "ผิด: ตีความ not at all เป็นความไม่สบายใจ ซึ่งไม่ใช่"
+  ],
+  "tip": "Do you mind ...? ตอบ Not at all / Of course not = ไม่ถือสา แต่ตอบ Yes = ถือสา"
+ },
+ {
+  "id": "m01-eng-035",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>A: I think online classes are more convenient than classroom learning.<br>B partly agrees with A. Which response is most suitable for B?",
+  "c": [
+   "You are absolutely wrong, and online classes are completely useless.",
+   "I see your point, but I still prefer face-to-face discussions.",
+   "I completely agree. There is nothing to add.",
+   "I don't know what online classes are."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ไม่เห็นด้วยทั้งหมดและไม่สุภาพ",
+   "✓ ถูก: รับฟังความเห็นก่อนแล้วบอกความเห็นต่างบางส่วน",
+   "ผิด: เห็นด้วยทั้งหมด ไม่ใช่เห็นด้วยบางส่วน",
+   "ผิด: ไม่เกี่ยวกับบริบทและขัดกับเนื้อหาที่คุยกัน"
+  ],
+  "tip": "เห็นด้วยบางส่วนมักใช้ I see your point, but ... หรือ That's true, but ..."
+ },
+ {
+  "id": "m01-eng-036",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> a polite way to decline an invitation to a party?",
+  "c": [
+   "No way. Parties are boring.",
+   "I'd love to, but I already have plans.",
+   "Thank you for inviting me, but I can't make it.",
+   "I'm afraid I won't be able to come."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ไม่สุภาพ: ปฏิเสธห้วนและดูถูกงานของผู้เชิญ",
+   "สุภาพ: แสดงความอยากไปแล้วบอกเหตุผล",
+   "สุภาพ: ขอบคุณก่อนแล้วปฏิเสธ",
+   "สุภาพ: I'm afraid ใช้ปฏิเสธอย่างนุ่มนวล"
+  ],
+  "tip": "การปฏิเสธที่สุภาพมักขึ้นต้นด้วยขอบคุณหรือขอโทษ แล้วตามด้วยเหตุผล"
+ },
+ {
+  "id": "m01-eng-037",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "What is the passage mainly about?",
+  "c": [
+   "A method that allows teachers to stop giving regular lessons",
+   "A training course designed to turn students into professional teachers",
+   "A study comparing the grades of older and younger students",
+   "A programme in which older students help younger ones learn"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความระบุว่าไม่ควรแทนที่บทเรียนปกติ",
+   "ผิด: ผู้สอนยังเป็นนักเรียน ไม่ใช่มืออาชีพ",
+   "ผิด: ไม่ได้เปรียบเทียบเกรดของนักเรียนสองกลุ่ม",
+   "✓ ถูก: ใจความหลักคือโครงการที่รุ่นพี่ช่วยสอนรุ่นน้อง"
+  ],
+  "tip": "ข้อใจความหลักต้องครอบคลุมทั้งบทความ ไม่ใช่รายละเอียดย่อยหรือสิ่งที่บทความปฏิเสธ",
+  "ps": "Peer tutoring is becoming a popular approach in secondary schools, where older students are trained to help younger classmates with difficult subjects. Teachers select tutors who have achieved good grades and show patience, then give them short training sessions on how to explain ideas clearly. Sessions usually take place during lunch breaks or after school, and each tutor works with no more than three learners at a time. Research from several schools suggests that tutors benefit as much as the learners. By explaining a topic to someone else, tutors discover gaps in their own understanding and become more confident speakers. However, some teachers warn that the programme should not replace regular lessons. They argue that tutors are students, not professionals, and should only provide extra support."
+ },
+ {
+  "id": "m01-eng-038",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "According to the passage, which statement is <b>NOT</b> true about peer tutoring?",
+  "c": [
+   "Tutors are trained before they begin.",
+   "Sessions are held at lunchtime or after school.",
+   "Younger students choose their own tutors.",
+   "A tutor teaches up to three learners at once."
+  ],
+  "a": 2,
+  "n": [
+   "จริง: ครูจัดอบรมสั้น ๆ ให้ผู้สอน",
+   "จริง: ระบุไว้ว่าจัดช่วงพักกลางวันหรือหลังเลิกเรียน",
+   "✓ ไม่จริง: บทความบอกว่าครูเป็นผู้คัดเลือกผู้สอน",
+   "จริง: no more than three learners at a time"
+  ],
+  "tip": "คำถามแบบ NOT ให้ตรวจตัวเลือกกับบทความทีละข้อ แล้วเลือกข้อที่ไม่ตรงหรือไม่ถูกกล่าวถึง",
+  "ps": "Peer tutoring is becoming a popular approach in secondary schools, where older students are trained to help younger classmates with difficult subjects. Teachers select tutors who have achieved good grades and show patience, then give them short training sessions on how to explain ideas clearly. Sessions usually take place during lunch breaks or after school, and each tutor works with no more than three learners at a time. Research from several schools suggests that tutors benefit as much as the learners. By explaining a topic to someone else, tutors discover gaps in their own understanding and become more confident speakers. However, some teachers warn that the programme should not replace regular lessons. They argue that tutors are students, not professionals, and should only provide extra support."
+ },
+ {
+  "id": "m01-eng-039",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>gaps</b> in the passage is closest in meaning to",
+  "c": [
+   "free periods",
+   "missing parts",
+   "close friends",
+   "heavy burdens"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: เป็นความหมายด้านเวลา ซึ่งไม่เกี่ยวกับ understanding",
+   "✓ ถูก: gaps in understanding = ส่วนที่ยังขาดหายไปของความเข้าใจ",
+   "ผิด: ไม่เกี่ยวกับความเข้าใจในเนื้อหา",
+   "ผิด: ไม่เกี่ยวกับความหมายของ gaps in understanding"
+  ],
+  "tip": "แทนคำที่ถามลงในประโยคเดิม แล้วดูว่าความหมายโดยรวมยังสมเหตุสมผลหรือไม่",
+  "ps": "Peer tutoring is becoming a popular approach in secondary schools, where older students are trained to help younger classmates with difficult subjects. Teachers select tutors who have achieved good grades and show patience, then give them short training sessions on how to explain ideas clearly. Sessions usually take place during lunch breaks or after school, and each tutor works with no more than three learners at a time. Research from several schools suggests that tutors benefit as much as the learners. By explaining a topic to someone else, tutors discover gaps in their own understanding and become more confident speakers. However, some teachers warn that the programme should not replace regular lessons. They argue that tutors are students, not professionals, and should only provide extra support."
+ },
+ {
+  "id": "m01-eng-040",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements are supported by the passage?<br>1) Tutors are chosen only by their classmates.<br>2) Tutors improve their own understanding by teaching others.<br>3) Some teachers worry that tutoring may replace regular lessons.",
+  "c": [
+   "2, 3",
+   "1, 2",
+   "1, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความระบุทั้งผลดีต่อผู้สอนและความกังวลของครูบางคน",
+   "ผิด: ครูเป็นผู้คัดเลือกผู้สอน ไม่ใช่เพื่อนร่วมชั้น",
+   "ผิด: ข้อความ 1 ขัดกับบทความ",
+   "ผิด: ข้อความ 1 ไม่ตรงกับบทความ"
+  ],
+  "tip": "ตรวจข้อความย่อยแต่ละข้อกับบทความก่อน แล้วค่อยเลือกชุดตัวเลือกที่ตรงกัน",
+  "ps": "Peer tutoring is becoming a popular approach in secondary schools, where older students are trained to help younger classmates with difficult subjects. Teachers select tutors who have achieved good grades and show patience, then give them short training sessions on how to explain ideas clearly. Sessions usually take place during lunch breaks or after school, and each tutor works with no more than three learners at a time. Research from several schools suggests that tutors benefit as much as the learners. By explaining a topic to someone else, tutors discover gaps in their own understanding and become more confident speakers. However, some teachers warn that the programme should not replace regular lessons. They argue that tutors are students, not professionals, and should only provide extra support."
+ },
+ {
+  "id": "m01-eng-041",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "According to the passage, who would be the most suitable tutor?",
+  "c": [
+   "A student with good grades who is patient when explaining",
+   "A professional teacher with many years of experience",
+   "A student who is the best athlete in the school",
+   "A student with top grades who is impatient with others"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ตรงกับเกณฑ์เกรดดีและอดทนตามที่ครูเลือก",
+   "ผิด: ผู้สอนในโครงการเป็นนักเรียน ไม่ใช่มืออาชีพ",
+   "ผิด: เกณฑ์คือผลการเรียนและความอดทน ไม่ใช่กีฬา",
+   "ผิด: ขาดคุณสมบัติด้านความอดทน"
+  ],
+  "tip": "คุณสมบัติที่บทความกำหนดมีหลายข้อ ผู้เหมาะสมต้องครบทุกข้อ ไม่ใช่เพียงข้อเดียว",
+  "ps": "Peer tutoring is becoming a popular approach in secondary schools, where older students are trained to help younger classmates with difficult subjects. Teachers select tutors who have achieved good grades and show patience, then give them short training sessions on how to explain ideas clearly. Sessions usually take place during lunch breaks or after school, and each tutor works with no more than three learners at a time. Research from several schools suggests that tutors benefit as much as the learners. By explaining a topic to someone else, tutors discover gaps in their own understanding and become more confident speakers. However, some teachers warn that the programme should not replace regular lessons. They argue that tutors are students, not professionals, and should only provide extra support."
+ },
+ {
+  "id": "m01-eng-042",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "According to the passage, why is e-waste harmful to the environment?",
+  "c": [
+   "Valuable metals such as gold and copper are lost for ever.",
+   "Poisons in old devices can pollute soil, water and air.",
+   "Recycling plants release more waste than they remove.",
+   "Old devices make mining impossible in natural habitats."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความบอกว่าการรีไซเคิลนำโลหะกลับมาได้",
+   "✓ ถูก: poisons can enter the soil, water and air",
+   "ผิด: ไม่มีข้อมูลนี้ในบทความ",
+   "ผิด: การทำเหมืองเป็นสิ่งที่ทำลายแหล่งที่อยู่ ไม่ใช่ถูกขัดขวาง"
+  ],
+  "tip": "ตอบด้วยเหตุผลที่บทความเอ่ยไว้ตรง ๆ และระวังตัวเลือกที่ใช้คำจากบทความแต่เปลี่ยนใจความ",
+  "ps": "Every year, millions of old mobile phones, laptops and tablets are thrown away. This electronic waste, or e-waste, is a growing problem because devices contain both valuable metals such as gold and copper and harmful substances such as lead. When e-waste is buried or burned, these poisons can enter the soil, water and air. Recycling can recover many of the valuable materials and reduce the need for mining, which damages natural habitats. Some companies now offer collection points where customers can drop off unwanted devices, and a few even pay for them. Experts also advise consumers to repair devices rather than replace them whenever possible. Although recycling helps, it is not a complete solution. The most effective step is simply to buy fewer new gadgets."
+ },
+ {
+  "id": "m01-eng-043",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "Which conclusion is supported by the passage?",
+  "c": [
+   "All companies pay customers for their unwanted devices.",
+   "Repairing a device is always cheaper than buying a new one.",
+   "Mining is the only activity that damages natural habitats.",
+   "Recycling alone cannot completely solve the e-waste problem."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความบอกว่าเพียงบางบริษัท (a few) ที่จ่ายเงิน",
+   "ผิด: บทความไม่ได้พูดถึงราคาและ always เป็นคำเด็ดขาดเกินไป",
+   "ผิด: บทความไม่ได้ระบุว่าเป็นกิจกรรมเดียว",
+   "✓ ถูก: บทความบอกว่า recycling is not a complete solution"
+  ],
+  "tip": "ตัวเลือกที่มี all, always, only มักผิดเมื่อบทความใช้คำอย่าง some, a few, often",
+  "ps": "Every year, millions of old mobile phones, laptops and tablets are thrown away. This electronic waste, or e-waste, is a growing problem because devices contain both valuable metals such as gold and copper and harmful substances such as lead. When e-waste is buried or burned, these poisons can enter the soil, water and air. Recycling can recover many of the valuable materials and reduce the need for mining, which damages natural habitats. Some companies now offer collection points where customers can drop off unwanted devices, and a few even pay for them. Experts also advise consumers to repair devices rather than replace them whenever possible. Although recycling helps, it is not a complete solution. The most effective step is simply to buy fewer new gadgets."
+ },
+ {
+  "id": "m01-eng-044",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "The passage suggests all of the following ways to reduce the e-waste problem <b>EXCEPT</b>",
+  "c": [
+   "recycling to recover valuable metals",
+   "repairing devices instead of replacing them",
+   "burying old devices underground",
+   "taking unwanted devices to collection points"
+  ],
+  "a": 2,
+  "n": [
+   "มีในบทความ: Recycling can recover many of the valuable materials",
+   "มีในบทความ: Experts advise consumers to repair devices",
+   "✓ บทความไม่ได้แนะนำวิธีนี้ กลับบอกว่าการฝังกลบทำให้สารพิษแพร่ลงดิน น้ำ และอากาศ",
+   "มีในบทความ: customers can drop off unwanted devices"
+  ],
+  "tip": "คำถามแบบ EXCEPT ให้ค้นหาในบทความทีละตัวเลือก ตัวที่หาไม่เจอหรือขัดกับเนื้อหาคือคำตอบ",
+  "ps": "Every year, millions of old mobile phones, laptops and tablets are thrown away. This electronic waste, or e-waste, is a growing problem because devices contain both valuable metals such as gold and copper and harmful substances such as lead. When e-waste is buried or burned, these poisons can enter the soil, water and air. Recycling can recover many of the valuable materials and reduce the need for mining, which damages natural habitats. Some companies now offer collection points where customers can drop off unwanted devices, and a few even pay for them. Experts also advise consumers to repair devices rather than replace them whenever possible. Although recycling helps, it is not a complete solution. The most effective step is simply to buy fewer new gadgets."
+ },
+ {
+  "id": "m01-eng-045",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Mr. Ton has an old tablet with a cracked screen, but it still works. According to the passage, what should he try first?",
+  "c": [
+   "Burn it to save space",
+   "Bury it in his garden",
+   "Throw it away with ordinary garbage",
+   "Have it repaired if possible"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: การเผาทำให้สารพิษเข้าสู่อากาศ",
+   "ผิด: การฝังทำให้สารพิษเข้าสู่ดิน",
+   "ผิด: ขัดกับคำแนะนำให้ซ่อมหรือรีไซเคิล",
+   "✓ ถูก: ผู้เชี่ยวชาญแนะนำให้ซ่อมก่อนที่จะเปลี่ยนใหม่"
+  ],
+  "tip": "คำถามประยุกต์ให้จับหลักการในบทความ (ซ่อมก่อนเปลี่ยน) แล้วนำมาใช้กับกรณีที่ให้",
+  "ps": "Every year, millions of old mobile phones, laptops and tablets are thrown away. This electronic waste, or e-waste, is a growing problem because devices contain both valuable metals such as gold and copper and harmful substances such as lead. When e-waste is buried or burned, these poisons can enter the soil, water and air. Recycling can recover many of the valuable materials and reduce the need for mining, which damages natural habitats. Some companies now offer collection points where customers can drop off unwanted devices, and a few even pay for them. Experts also advise consumers to repair devices rather than replace them whenever possible. Although recycling helps, it is not a complete solution. The most effective step is simply to buy fewer new gadgets."
+ },
+ {
+  "id": "m01-eng-046",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "According to the passage, how do people use the book boxes?",
+  "c": [
+   "They borrow books with a membership card.",
+   "They pay a small fee for every book.",
+   "They take a book and leave another for others.",
+   "They write their names in a record book."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความระบุว่าไม่ต้องใช้บัตรสมาชิก",
+   "ผิด: ไม่มีการกล่าวถึงค่าธรรมเนียม",
+   "✓ ถูก: take a book to read and leave another one",
+   "ผิด: บทความระบุว่า nothing is recorded"
+  ],
+  "tip": "ตัวเลือกที่ขัดกับข้อความตรง ๆ (เช่น No membership card is needed) ตัดทิ้งได้ทันที",
+  "ps": "In many neighbourhoods, small wooden boxes filled with books have appeared on street corners. The idea is simple: anyone can take a book to read and leave another one for the next person. No membership card is needed, and nothing is recorded. The first box was built by a man who wanted to honour his mother, a former teacher who loved reading. Since then, thousands of similar boxes have been built around the world. Supporters say the boxes bring neighbours together and give children who live far from a library easy access to stories. Critics, on the other hand, point out that the boxes are often filled with old or damaged books and that someone has to keep them tidy. Still, most communities agree that the benefits outweigh the problems."
+ },
+ {
+  "id": "m01-eng-047",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "According to the passage, who would benefit most from a book box?",
+  "c": [
+   "A librarian who wants to record every loan",
+   "A researcher who needs rare academic journals",
+   "A visitor who wants a membership card",
+   "A child who lives far from a library"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: กล่องหนังสือไม่มีการบันทึก",
+   "ผิด: กล่องมีหนังสือเก่าหรือเสียหายบ่อย จึงไม่เหมาะ",
+   "ผิด: ไม่มีบัตรสมาชิกในระบบนี้",
+   "✓ ถูก: ผู้สนับสนุนบอกว่าช่วยเด็กที่อยู่ไกลห้องสมุด"
+  ],
+  "tip": "จับกลุ่มผู้ได้ประโยชน์ที่บทความระบุ แล้วเทียบกับบุคคลในตัวเลือก",
+  "ps": "In many neighbourhoods, small wooden boxes filled with books have appeared on street corners. The idea is simple: anyone can take a book to read and leave another one for the next person. No membership card is needed, and nothing is recorded. The first box was built by a man who wanted to honour his mother, a former teacher who loved reading. Since then, thousands of similar boxes have been built around the world. Supporters say the boxes bring neighbours together and give children who live far from a library easy access to stories. Critics, on the other hand, point out that the boxes are often filled with old or damaged books and that someone has to keep them tidy. Still, most communities agree that the benefits outweigh the problems."
+ },
+ {
+  "id": "m01-eng-048",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following are criticisms of the book boxes?<br>1) Many of the books are old or damaged.<br>2) The boxes cost too much to build.<br>3) Someone must keep the boxes tidy.",
+  "c": [
+   "1, 2",
+   "2, 3",
+   "1, 2, 3",
+   "1, 3"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความไม่ได้พูดถึงต้นทุนการสร้าง",
+   "ผิด: ข้อความ 2 ไม่มีในบทความ",
+   "ผิด: ข้อความ 2 ไม่มีในบทความ",
+   "✓ ถูก: ผู้วิจารณ์ระบุหนังสือเก่าหรือชำรุด และต้องมีคนดูแลความเรียบร้อย"
+  ],
+  "tip": "ตอบเฉพาะสิ่งที่บทความกล่าวไว้ ไม่เติมเหตุผลที่ฟังดูสมเหตุสมผลแต่ไม่มีในเนื้อหา",
+  "ps": "In many neighbourhoods, small wooden boxes filled with books have appeared on street corners. The idea is simple: anyone can take a book to read and leave another one for the next person. No membership card is needed, and nothing is recorded. The first box was built by a man who wanted to honour his mother, a former teacher who loved reading. Since then, thousands of similar boxes have been built around the world. Supporters say the boxes bring neighbours together and give children who live far from a library easy access to stories. Critics, on the other hand, point out that the boxes are often filled with old or damaged books and that someone has to keep them tidy. Still, most communities agree that the benefits outweigh the problems."
+ },
+ {
+  "id": "m01-eng-049",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Why was the first book box built?",
+  "c": [
+   "To honour a mother who was a teacher and loved reading",
+   "To replace a local library that had closed down last year",
+   "To sell used books to neighbours at a low price",
+   "To teach children how to build wooden boxes"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: wanted to honour his mother, a former teacher who loved reading",
+   "ผิด: ไม่มีการกล่าวถึงห้องสมุดที่ปิดตัว",
+   "ผิด: บทความระบุว่าใครก็หยิบได้ ไม่มีการขาย",
+   "ผิด: ไม่มีการกล่าวถึงเป้าหมายนี้"
+  ],
+  "tip": "คำถาม Why ให้มองหาคำบอกเหตุผล เช่น wanted to, because, so that ในบทความ",
+  "ps": "In many neighbourhoods, small wooden boxes filled with books have appeared on street corners. The idea is simple: anyone can take a book to read and leave another one for the next person. No membership card is needed, and nothing is recorded. The first box was built by a man who wanted to honour his mother, a former teacher who loved reading. Since then, thousands of similar boxes have been built around the world. Supporters say the boxes bring neighbours together and give children who live far from a library easy access to stories. Critics, on the other hand, point out that the boxes are often filled with old or damaged books and that someone has to keep them tidy. Still, most communities agree that the benefits outweigh the problems."
+ },
+ {
+  "id": "m01-eng-050",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "What is the writer's attitude toward the book boxes?",
+  "c": [
+   "Strongly against the idea of book boxes",
+   "Completely positive, with no doubts at all",
+   "Positive overall, but aware of some problems",
+   "Not interested in the effects of the boxes"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ผู้เขียนสรุปว่าประโยชน์มากกว่าปัญหา",
+   "ผิด: ผู้เขียนเอ่ยถึงข้อวิจารณ์ จึงไม่ใช่เชิงบวกล้วน",
+   "✓ ถูก: ยอมรับข้อวิจารณ์ แต่สรุปว่าประโยชน์มากกว่า",
+   "ผิด: ผู้เขียนอธิบายทั้งผลดีและข้อวิจารณ์อย่างละเอียด"
+  ],
+  "tip": "ตัวเลือกที่ใช้คำสุดโต่ง (completely, strongly, no doubts) มักผิดเมื่อบทความนำเสนอสองด้าน",
+  "ps": "In many neighbourhoods, small wooden boxes filled with books have appeared on street corners. The idea is simple: anyone can take a book to read and leave another one for the next person. No membership card is needed, and nothing is recorded. The first box was built by a man who wanted to honour his mother, a former teacher who loved reading. Since then, thousands of similar boxes have been built around the world. Supporters say the boxes bring neighbours together and give children who live far from a library easy access to stories. Critics, on the other hand, point out that the boxes are often filled with old or damaged books and that someone has to keep them tidy. Still, most communities agree that the benefits outweigh the problems."
+ }
+]

@@ -1,0 +1,1016 @@
+[
+ {
+  "id": "m05-eng-001",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Narin lives far from school and spends two hours on the bus every day. He says, “I wish I ____ closer to school.”",
+  "c": [
+   "live",
+   "will live",
+   "have lived",
+   "lived"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: live เป็นรูปปัจจุบัน ใช้ตามหลัง wish เพื่อบอกความอยากไม่ได้",
+   "ผิด: will live บอกความอยากเรื่องอนาคตหลัง wish ไม่ได้",
+   "ผิด: have lived เป็น present perfect ซึ่งไม่ใช้หลัง wish",
+   "✓ ถูก: wish + อดีตธรรมดา ใช้แสดงความอยากให้สถานการณ์ปัจจุบันต่างจากความจริง (ความจริงคือเขาอยู่ไกลโรงเรียน)"
+  ],
+  "tip": "wish + past simple = อยากให้ปัจจุบันต่างจากความจริง; wish + past perfect = เสียดายเรื่องในอดีต"
+ },
+ {
+  "id": "m05-eng-002",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of articles or quantifiers?",
+  "c": [
+   "She gave me some useful information about the scholarship.",
+   "We need a few more chairs, but we have enough furniture.",
+   "There is a lot of homework to finish before the weekend.",
+   "The furnitures in the new classroom were donated by a former student."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: information เป็นนามนับไม่ได้ ใช้กับ some ได้ถูกต้อง",
+   "ผิด: chairs นับได้จึงใช้ a few ส่วน furniture นับไม่ได้ใช้ enough ได้ถูกต้อง",
+   "ผิด: homework นับไม่ได้ ใช้ a lot of ได้ถูกต้อง",
+   "✓ ถูก: furniture เป็นนามนับไม่ได้ จึงเติม s เป็น furnitures ไม่ได้"
+  ],
+  "tip": "นามนับไม่ได้ที่มักพลาด: furniture, information, advice, homework, equipment, news ห้ามเติม s และห้ามใช้ a/an"
+ },
+ {
+  "id": "m05-eng-003",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences use the causative form correctly?<br>1) I had my laptop to repair last week.<br>2) We got the broken projector fixed by a technician.<br>3) The school had all the classrooms repainted during the holiday.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 1 ผิดเพราะ have + กรรม ต้องตามด้วย V3 ไม่ใช่ to repair และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "ผิด: ข้อความ 1 ผิดโครงสร้าง จึงรวมกับข้อความ 3 ไม่ได้",
+   "✓ ถูก: get/have + สิ่งของ + V3 ใช้ถูกทั้งข้อความ 2 และ 3 (ให้ผู้อื่นทำให้)",
+   "ผิด: รวมข้อความ 1 ที่ใช้ to repair ผิดไว้ด้วย"
+  ],
+  "tip": "causative: have/get + สิ่งของ + V3 (ให้คนอื่นทำให้); have + คน + V1; get + คน + to V1"
+ },
+ {
+  "id": "m05-eng-004",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which sentence correctly reports the question below?<br><b>“Where did you put the keys?” Nid asked her brother.</b>",
+  "c": [
+   "Nid asked her brother where had he put the keys.",
+   "Nid asked her brother where did he put the keys.",
+   "Nid asked her brother where she had put the keys.",
+   "Nid asked her brother where he had put the keys."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ยังกลับประธานแบบคำถาม (had he) ซึ่งไม่ใช้ใน reported question",
+   "ผิด: ยังใช้ did ช่วยกริยาแบบคำถามตรง",
+   "ผิด: she หมายถึงนิด แต่ you ในคำถามเดิมคือพี่ชาย จึงเปลี่ยนสรรพนามผิดคน",
+   "✓ ถูก: คำถามแบบ wh- ใน reported speech เรียงเป็นประโยคบอกเล่า ถอยกาล did put เป็น had put และเปลี่ยน you เป็น he"
+  ],
+  "tip": "reported question: เรียงเป็นประโยคบอกเล่า ไม่ใช้ do/does/did ช่วย และถอยกาลลงหนึ่งขั้นพร้อมเปลี่ยนสรรพนาม"
+ },
+ {
+  "id": "m05-eng-005",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which tag questions are correct?<br>1) There is enough time left, isn't there?<br>2) She seldom eats breakfast, doesn't she?<br>3) I am late again, aren't I?",
+  "c": [
+   "1, 3",
+   "1, 2",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ข้อความ 1 และ 3 ใช้ tag ถูกต้อง (there is - isn't there; I am - aren't I)",
+   "ผิด: ข้อความ 2 ผิดเพราะ seldom มีนัยปฏิเสธ ต้องใช้ tag บอกเล่า does she",
+   "ผิด: ข้อความ 2 ผิดเพราะ seldom เป็นคำปฏิเสธ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่ tag ผิดไว้ด้วย"
+  ],
+  "tip": "คำที่มีนัยปฏิเสธ (seldom, rarely, hardly, never, nobody) ถือเป็นประโยคปฏิเสธ ต้องต่อ tag แบบบอกเล่า และ I am ใช้ aren't I"
+ },
+ {
+  "id": "m05-eng-006",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which part of the sentence is <b>INCORRECT</b>?<br><b>Despite of</b> the heavy rain, the sports day <b>was held</b> as planned, and <b>most of</b> the students <b>took part</b>.",
+  "c": [
+   "Despite of",
+   "was held",
+   "most of",
+   "took part"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: despite ไม่ตามด้วย of ต้องใช้ despite หรือ in spite of",
+   "ผิด: was held เป็น passive voice ที่ใช้ถูกต้อง",
+   "ผิด: most of the + นามพหูพจน์ ใช้ถูกต้อง",
+   "ผิด: took part เป็นกริยาวลีที่ใช้ถูกต้อง"
+  ],
+  "tip": "despite = in spite of; ห้ามใช้ despite of"
+ },
+ {
+  "id": "m05-eng-007",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>There was ____ traffic this morning that the school bus arrived forty minutes late.",
+  "c": [
+   "so many",
+   "so much",
+   "such a",
+   "too much"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: so many ใช้กับนามนับได้พหูพจน์",
+   "✓ ถูก: traffic เป็นนามนับไม่ได้ จึงใช้ so much + noun + that",
+   "ผิด: such a ใช้กับนามนับได้เอกพจน์ แต่ traffic นับไม่ได้",
+   "ผิด: too much ต้องตามด้วย to + V ไม่ใช่ that-clause"
+  ],
+  "tip": "so + adj/adv + that; so much/many + noun + that; such + (a/an) + adj + noun + that"
+ },
+ {
+  "id": "m05-eng-008",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>Hardly ____ the room when the fire alarm went off.",
+  "c": [
+   "had she entered",
+   "she had entered",
+   "did she enter",
+   "she entered"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: Hardly ... when ต้องกลับประธานเป็น had + S + V3 เพื่อบอกว่าเหตุการณ์สองอย่างเกิดต่อกันทันที",
+   "ผิด: ไม่กลับประธานหลัง hardly ซึ่งผิดโครงสร้าง",
+   "ผิด: hardly ... when ใช้ did + V1 ไม่ได้ ต้องเป็น past perfect",
+   "ผิด: ไม่กลับประธานและกาลไม่ตรงกับโครงสร้าง"
+  ],
+  "tip": "Hardly/Scarcely + had + S + V3 + when; No sooner + had + S + V3 + than"
+ },
+ {
+  "id": "m05-eng-009",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>It took Ann a few weeks to get used to ____ up at five o'clock every morning.",
+  "c": [
+   "get",
+   "got",
+   "to get",
+   "getting"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: V1 เปล่าใช้หลัง to ที่เป็นบุพบทไม่ได้",
+   "ผิด: กริยาช่อง 2 ใช้ตามหลังบุพบท to ไม่ได้",
+   "ผิด: to get จะกลายเป็น used to + V1 ซึ่งแปลว่าเคยทำ ไม่ใช่เริ่มชิน",
+   "✓ ถูก: to ใน get used to เป็นบุพบท จึงตามด้วย V-ing หรือนาม"
+  ],
+  "tip": "get/be used to + V-ing = ชิน; used to + V1 = เคยทำ (ปัจจุบันไม่ทำแล้ว)"
+ },
+ {
+  "id": "m05-eng-010",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence is <b>NOT</b> correct in its use of a participle clause?",
+  "c": [
+   "Walking to school, Mali met her old teacher.",
+   "Opening the box, a strange smell filled the room.",
+   "Written in simple English, the manual is easy to follow.",
+   "Having been warned about the traffic, we left home early."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: Mali เป็นทั้งผู้เดินและผู้พบครู ประธานตรงกันจึงถูกต้อง",
+   "✓ ถูก: ผู้เปิดกล่องต้องเป็นคน แต่ประธานของประโยคหลักคือ a strange smell จึงเป็น dangling participle",
+   "ผิด: Written เป็น passive ขยาย the manual ที่ถูกเขียนจริง จึงถูกต้อง",
+   "ผิด: Having been warned เป็น passive perfect participle ที่ใช้กับ we ซึ่งถูกเตือนจริง"
+  ],
+  "tip": "participle clause ต้องมีประธานเดียวกับประโยคหลัก ถ้าประธานต่างกันจะเป็น dangling participle"
+ },
+ {
+  "id": "m05-eng-011",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>My sister works as ____ engineer at ____ university in Khon Kaen.",
+  "c": [
+   "a / a",
+   "an / an",
+   "an / a",
+   "a / an"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: engineer ขึ้นต้นด้วยเสียงสระ ต้องใช้ an",
+   "ผิด: university ขึ้นต้นด้วยเสียงพยัญชนะ ไม่ใช้ an",
+   "✓ ถูก: engineer ขึ้นต้นด้วยเสียงสระจึงใช้ an ส่วน university ขึ้นต้นด้วยเสียง /ยู/ ซึ่งเป็นพยัญชนะ จึงใช้ a",
+   "ผิด: สลับ a กับ an ผิดทั้งสองคำ"
+  ],
+  "tip": "เลือก a/an ตามเสียง ไม่ใช่ตามตัวอักษร: an hour, an MBA แต่ a university, a European"
+ },
+ {
+  "id": "m05-eng-012",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>There are ____ students in the lab this week, so there is ____ noise than usual.",
+  "c": [
+   "less / fewer",
+   "fewer / fewer",
+   "fewer / less",
+   "less / less"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: สลับ less กับ fewer ผิดทั้งสองคำ",
+   "ผิด: noise นับไม่ได้ จึงใช้ fewer ไม่ได้",
+   "✓ ถูก: students นับได้ใช้ fewer ส่วน noise นับไม่ได้ใช้ less",
+   "ผิด: students นับได้ จึงใช้ less ไม่ได้"
+  ],
+  "tip": "fewer + นามนับได้พหูพจน์; less + นามนับไม่ได้"
+ },
+ {
+  "id": "m05-eng-013",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence has the closest meaning to the following?<br><b>“Had Ann known about the traffic jam, she would have taken the train.”</b>",
+  "c": [
+   "Ann knew about the traffic jam, so she took the train.",
+   "Ann did not know about the traffic jam, so she took the train.",
+   "Ann knew about the traffic jam, but she did not take the train.",
+   "Ann did not know about the traffic jam, so she did not take the train."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: เป็นการอ่านเงื่อนไขกลับด้าน ทั้งที่ความจริงคือเธอไม่รู้และไม่ได้ขึ้นรถไฟ",
+   "ผิด: ไม่รู้เรื่องรถติดถูก แต่ผลที่ว่าขึ้นรถไฟผิด",
+   "ผิด: กลับความหมายส่วนแรก (ความจริงคือเธอไม่รู้)",
+   "✓ ถูก: Had + S + V3 คือ if-clause แบบกลับประธาน ความจริงในอดีตจึงตรงข้าม คือไม่รู้เรื่องรถติดและไม่ได้ขึ้นรถไฟ"
+  ],
+  "tip": "Had + S + V3 = If + S + had + V3 ให้พลิกเป็นความจริงตรงข้าม: ไม่ทำ... จึงไม่ได้..."
+ },
+ {
+  "id": "m05-eng-014",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences use wish correctly?<br>1) I wish you would stop tapping your pen on the desk.<br>2) She wishes she had listened to her parents' advice.<br>3) He wishes he will pass the exam next week.",
+  "c": [
+   "1, 3",
+   "2, 3",
+   "1, 2",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 3 ผิดเพราะหลัง wish ไม่ใช้ will และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: ข้อความ 3 ผิดเพราะ wish + will ใช้ไม่ได้ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "✓ ถูก: would ใช้แสดงความอยากให้ผู้อื่นเลิกทำสิ่งที่น่ารำคาญ และ had + V3 ใช้แสดงความเสียดายเรื่องในอดีต",
+   "ผิด: รวมข้อความ 3 ที่ผิดไว้ด้วย"
+  ],
+  "tip": "หลัง wish ห้ามใช้ will: ใช้ would (อยากให้ผู้อื่นเปลี่ยน) past simple (ปัจจุบัน) หรือ past perfect (อดีต)"
+ },
+ {
+  "id": "m05-eng-015",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>You ____ the instructions before you started the experiment. Now all the results are useless.",
+  "c": [
+   "must have read",
+   "should have read",
+   "can have read",
+   "would read"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: must have + V3 ใช้เดาอย่างมั่นใจว่าเคยเกิดขึ้น ไม่ใช่การตำหนิ",
+   "✓ ถูก: should have + V3 ใช้ตำหนิหรือเสียดายว่าควรทำแล้วแต่ไม่ได้ทำ ตรงกับผลที่ใช้การไม่ได้",
+   "ผิด: can have + V3 ไม่ใช่รูปที่ใช้ในประโยคบอกเล่านี้",
+   "ผิด: would read เป็นรูปอนาคตหรือเงื่อนไข ไม่ได้บอกว่าควรทำแต่ไม่ได้ทำ"
+  ],
+  "tip": "should have + V3 = ควรทำแต่ไม่ได้ทำ; must have + V3 = คงจะทำไปแล้ว; can't have + V3 = ไม่น่าจะทำ"
+ },
+ {
+  "id": "m05-eng-016",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The first group finished the project in two days, ____ the second group needed nearly a week.",
+  "c": [
+   "whereas",
+   "unless",
+   "so that",
+   "because"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: whereas ใช้เปรียบเทียบสองสิ่งที่ตรงข้ามกัน คือกลุ่มแรกเสร็จเร็ว กลุ่มสองใช้เวลานาน",
+   "ผิด: unless แปลว่าถ้าไม่ ใช้บอกเงื่อนไข ซึ่งไม่เข้ากับประโยคนี้",
+   "ผิด: so that ใช้บอกจุดประสงค์",
+   "ผิด: because ใช้บอกเหตุผล แต่สองส่วนนี้ไม่ใช่เหตุและผลกัน"
+  ],
+  "tip": "whereas/while เชื่อมสองข้อเท็จจริงที่ตรงข้ามหรือต่างกัน"
+ },
+ {
+  "id": "m05-eng-017",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Tom is not in his office. He ____ to the bank and will be back in ten minutes.",
+  "c": [
+   "has been",
+   "has gone",
+   "had gone",
+   "was going"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: has been to = ไปมาแล้วและกลับมาแล้ว ซึ่งขัดกับการที่ยังไม่อยู่ที่ออฟฟิศ",
+   "✓ ถูก: has gone to = ไปแล้วและยังไม่กลับ ตรงกับ will be back in ten minutes",
+   "ผิด: past perfect ใช้เล่าเหตุการณ์ก่อนอีกเหตุการณ์ในอดีต ไม่ตรงกับสถานการณ์ตอนนี้",
+   "ผิด: was going เล่าเหตุการณ์ต่อเนื่องในอดีต ไม่ใช่สถานะปัจจุบัน"
+  ],
+  "tip": "has gone to = ไปแล้วยังไม่กลับ; has been to = เคยไปหรือไปแล้วกลับมาแล้ว"
+ },
+ {
+  "id": "m05-eng-018",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>This laptop is ____ that one, but it works just as well.",
+  "c": [
+   "half expensive as",
+   "as half expensive as",
+   "half more expensive than",
+   "half as expensive as"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ขาด as ตัวแรก",
+   "ผิด: ตัวคูณต้องอยู่หน้า as ตัวแรก ลำดับคำจึงผิด",
+   "ผิด: more ... than เป็นการเปรียบเทียบขั้นกว่า และ half more expensive แปลว่าแพงกว่า ขัดกับบริบท",
+   "✓ ถูก: การเปรียบเทียบด้วยตัวคูณใช้โครงสร้าง half/twice + as + adj + as"
+  ],
+  "tip": "multiples: half / twice / three times + as + adj + as"
+ },
+ {
+  "id": "m05-eng-019",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word closest in meaning to the word in bold.<br>The mayor's answer was <b>ambiguous</b>, so reporters could not tell whether he supported the plan.",
+  "c": [
+   "unclear",
+   "dishonest",
+   "aggressive",
+   "lengthy"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ambiguous แปลว่าคลุมเครือ ตีความได้หลายทาง ตรงกับบริบทที่นักข่าวแยกไม่ออกว่าเขาสนับสนุนหรือไม่",
+   "ผิด: dishonest แปลว่าไม่ซื่อสัตย์ บริบทไม่ได้บอกว่าเขาโกหก",
+   "ผิด: aggressive แปลว่าก้าวร้าว ไม่เกี่ยวกับการแยกจุดยืนไม่ออก",
+   "ผิด: lengthy แปลว่ายืดยาว ซึ่งไม่ใช่สาเหตุที่นักข่าวแยกไม่ออก"
+  ],
+  "tip": "ใช้ผลที่ตามมา (นักข่าวไม่รู้ว่าสนับสนุนหรือไม่) ช่วยเดาความหมายของคำที่ไม่คุ้น"
+ },
+ {
+  "id": "m05-eng-020",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>While cleaning the storeroom, Mali <b>came across</b> an old photo album.",
+  "c": [
+   "looked for carefully",
+   "put away neatly",
+   "found by chance",
+   "threw out"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: look for แปลว่าตั้งใจค้นหา ตรงข้ามกับการพบโดยบังเอิญ",
+   "ผิด: put away แปลว่าเก็บเข้าที่ ไม่ใช่การพบ",
+   "✓ ถูก: come across แปลว่าพบโดยบังเอิญ",
+   "ผิด: throw out แปลว่าทิ้ง ไม่ใช่การพบ"
+  ],
+  "tip": "come across = พบโดยบังเอิญ; come up with = คิดออก; come down with = ป่วยเป็น"
+ },
+ {
+  "id": "m05-eng-021",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which word is <b>NOT</b> close in meaning to the word in bold?<br>The region has an <b>abundant</b> supply of fresh water.",
+  "c": [
+   "limited",
+   "plentiful",
+   "ample",
+   "copious"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: limited แปลว่ามีจำกัด ตรงข้ามกับ abundant",
+   "ผิด: plentiful แปลว่ามากมาย ใกล้เคียง abundant",
+   "ผิด: ample แปลว่าเหลือเฟือเพียงพอ ใกล้เคียง abundant",
+   "ผิด: copious แปลว่ามากมายล้นเหลือ ใกล้เคียง abundant"
+  ],
+  "tip": "abundant = plentiful = ample = copious ส่วนคำตรงข้ามคือ scarce / limited / meagre"
+ },
+ {
+  "id": "m05-eng-022",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which sentence uses <b>economic</b> and <b>economical</b> correctly?",
+  "c": [
+   "The economical crisis forced many families to find more economic ways of living.",
+   "The economic crisis forced many families to find more economic ways of living.",
+   "The economical crisis forced many families to find more economical ways of living.",
+   "The economic crisis forced many families to find more economical ways of living."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: สลับความหมายของทั้งสองคำ",
+   "ผิด: ways of living ที่หมายถึงวิถีที่ประหยัดต้องใช้ economical",
+   "ผิด: crisis ที่เกี่ยวกับเศรษฐกิจต้องใช้ economic",
+   "✓ ถูก: economic แปลว่าเกี่ยวกับเศรษฐกิจ ใช้กับ crisis ส่วน economical แปลว่าประหยัด ใช้กับวิถีการใช้ชีวิต"
+  ],
+  "tip": "economic = เกี่ยวกับเศรษฐกิจ (economic growth); economical = ประหยัด (an economical car)"
+ },
+ {
+  "id": "m05-eng-023",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which words can correctly complete the sentence?<br>The restaurant was ____ with customers after the concert.<br>1) deserted<br>2) crowded<br>3) packed",
+  "c": [
+   "1, 2",
+   "2, 3",
+   "1, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: deserted แปลว่าร้างผู้คน ใช้กับ with customers ไม่ได้ และชุดนี้ตัดคำที่ 3 ที่ถูกออก",
+   "✓ ถูก: crowded with และ packed with แปลว่าแน่นไปด้วย ใช้กับลูกค้าได้ถูกต้อง",
+   "ผิด: deserted ขัดกับ with customers จึงใช้ไม่ได้ และชุดนี้ตัดคำที่ 2 ที่ถูกออก",
+   "ผิด: รวม deserted ที่ความหมายขัดแย้งไว้ด้วย"
+  ],
+  "tip": "crowded/packed with = แน่นไปด้วยผู้คน; deserted = ร้างไม่มีคน"
+ },
+ {
+  "id": "m05-eng-024",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Pim believes every message she receives online, even those promising free prizes, and she often shares false news. Which adjective best describes her?",
+  "c": [
+   "sceptical",
+   "gullible",
+   "cautious",
+   "stubborn"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: sceptical แปลว่าสงสัยก่อนเชื่อ ตรงข้ามกับพฤติกรรมของพิม",
+   "✓ ถูก: gullible แปลว่าหลงเชื่อคนง่าย ตรงกับพฤติกรรมเชื่อทุกข้อความ",
+   "ผิด: cautious แปลว่าระมัดระวัง ซึ่งไม่ตรงกับการแชร์ข่าวปลอม",
+   "ผิด: stubborn แปลว่าดื้อรั้น ไม่เกี่ยวกับการเชื่อง่าย"
+  ],
+  "tip": "gullible = เชื่อง่าย; sceptical = สงสัยก่อนเชื่อ; credulous = ขี้เชื่อ"
+ },
+ {
+  "id": "m05-eng-025",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>Nat <b>turned down</b> the job offer because the salary was too low.",
+  "c": [
+   "accepted",
+   "reviewed",
+   "refused",
+   "announced"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: accepted แปลว่ารับ ตรงข้ามกับเหตุผลที่ว่าเงินเดือนต่ำเกินไป",
+   "ผิด: reviewed แปลว่าพิจารณาทบทวน ไม่สอดคล้องกับ because ที่ตามมา",
+   "✓ ถูก: turn down ในที่นี้แปลว่าปฏิเสธ ซึ่งสอดคล้องกับเหตุผลว่าเงินเดือนต่ำเกินไป",
+   "ผิด: announced แปลว่าประกาศ ไม่ใช่ความหมายของ turn down"
+  ],
+  "tip": "turn down = ปฏิเสธ; turn up = ปรากฏตัว/เร่งเสียง; turn in = ส่งงาน"
+ },
+ {
+  "id": "m05-eng-026",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which verb can <b>NOT</b> be used with the noun “a conclusion”?",
+  "c": [
+   "draw",
+   "reach",
+   "take",
+   "come to"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: draw a conclusion แปลว่าสรุปผล ใช้ได้",
+   "ผิด: reach a conclusion แปลว่าได้ข้อสรุป ใช้ได้",
+   "✓ ถูก: ไม่มี collocation take a conclusion ในความหมายสรุปผล",
+   "ผิด: come to a conclusion แปลว่าได้ข้อสรุป ใช้ได้"
+  ],
+  "tip": "conclusion ใช้กับ draw / reach / come to ส่วน take ใช้กับ decision, photo, break ไม่ใช้กับ conclusion"
+ },
+ {
+  "id": "m05-eng-027",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "A claim that is <b>unfounded</b> is one that ____.",
+  "c": [
+   "has no evidence to support it",
+   "has been proved by many experts",
+   "was made a long time ago",
+   "is welcomed by the public"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: unfounded แปลว่าไม่มีมูล ไม่มีหลักฐานรองรับ",
+   "ผิด: ตรงข้ามกับ unfounded เพราะมีหลักฐานจากผู้เชี่ยวชาญ",
+   "ผิด: unfounded ไม่เกี่ยวกับช่วงเวลาที่กล่าวอ้าง",
+   "ผิด: unfounded ไม่เกี่ยวกับการที่ประชาชนยอมรับ"
+  ],
+  "tip": "un- + founded (มีมูล) = ไร้มูล ใช้กับ claim, rumour, fear, accusation"
+ },
+ {
+  "id": "m05-eng-028",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>Her ____ to help new students made her very popular in the dormitory.",
+  "c": [
+   "willing",
+   "willingly",
+   "willed",
+   "willingness"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: willing เป็นคุณศัพท์ ใช้ตามหลัง her แล้วไม่มีนามรองรับ",
+   "ผิด: willingly เป็นกริยาวิเศษณ์ ใช้ขยายกริยา ไม่ใช่นามประธาน",
+   "ผิด: willed ไม่เข้ากับโครงสร้าง her ... to help",
+   "✓ ถูก: หลัง her ต้องเป็นคำนาม จึงเลือก willingness"
+  ],
+  "tip": "ดูตำแหน่งของคำ: หลัง her/his/the มักต้องเป็นนาม หรือคุณศัพท์ตามด้วยนาม"
+ },
+ {
+  "id": "m05-eng-029",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Mai: I'm sorry, but I can't lend you my laptop tonight. I need it for my assignment.<br>Nat: ____",
+  "c": [
+   "You're welcome. I'll borrow yours tomorrow.",
+   "That's all right. I'll ask someone else.",
+   "Of course. Please bring the laptop to me now.",
+   "Yes, I do. I will write your assignment tonight."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: You're welcome ใช้ตอบคำขอบคุณ ไม่ใช่ตอบการปฏิเสธ",
+   "✓ ถูก: ยอมรับการปฏิเสธอย่างสุภาพและบอกทางออกของตนเอง",
+   "ผิด: ไม่ยอมรับการปฏิเสธและฟังดูเป็นการสั่ง",
+   "ผิด: ไม่เกี่ยวกับสิ่งที่ Mai พูด และไม่มีเหตุผลที่ต้องเขียนงานให้"
+  ],
+  "tip": "เมื่อถูกปฏิเสธคำขอ ให้ตอบรับอย่างสุภาพ เช่น That's all right. / No problem."
+ },
+ {
+  "id": "m05-eng-030",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "A student wants to interrupt the teacher to ask a question. Which sentence is <b>NOT</b> appropriate?",
+  "c": [
+   "Excuse me, may I ask a question?",
+   "Sorry to interrupt, but could I ask something?",
+   "Stop talking for a moment. I have a question.",
+   "Pardon me. I have a quick question."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: Excuse me แล้วขออนุญาตถาม เป็นการขัดจังหวะอย่างสุภาพ",
+   "ผิด: Sorry to interrupt เป็นสำนวนขอโทษก่อนขัดจังหวะที่ใช้ได้",
+   "✓ ถูก: เป็นการสั่งครูให้หยุดพูด ไม่สุภาพ",
+   "ผิด: Pardon me ใช้เรียกความสนใจอย่างสุภาพได้"
+  ],
+  "tip": "ขัดจังหวะอย่างสุภาพ: Excuse me / Sorry to interrupt / Pardon me แล้วจึงขออนุญาตถาม"
+ },
+ {
+  "id": "m05-eng-031",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Student: Excuse me, how long can I keep these books?<br>Librarian: ____",
+  "c": [
+   "Yes, I have borrowed them for two weeks.",
+   "You can keep them for two weeks, and you can renew them online.",
+   "The library opens at eight o'clock every morning.",
+   "You may read them, but you must not borrow them."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ตอบด้วย Yes ทั้งที่เป็นคำถาม How long และเปลี่ยนให้บรรณารักษ์เป็นผู้ยืม",
+   "✓ ถูก: ตอบตรงคำถาม How long ด้วยระยะเวลา และให้ข้อมูลเพิ่มเรื่องการต่ออายุ",
+   "ผิด: บอกเวลาเปิดห้องสมุด ไม่ใช่ระยะเวลาที่ยืมได้",
+   "ผิด: พูดเรื่องข้อห้ามยืม ไม่ได้บอกระยะเวลา"
+  ],
+  "tip": "คำถามขึ้นต้น How long ต้องตอบด้วยช่วงเวลา ไม่ใช่ Yes/No"
+ },
+ {
+  "id": "m05-eng-032",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following can be used to give advice?<br>1) I talked to the teacher yesterday.<br>2) If I were you, I would talk to the teacher first.<br>3) Why don't you talk to the teacher first?",
+  "c": [
+   "2, 3",
+   "1, 2",
+   "1, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: If I were you ... และ Why don't you ...? เป็นสำนวนให้คำแนะนำทั้งคู่",
+   "ผิด: ข้อความ 1 เป็นการเล่าเหตุการณ์ในอดีต ไม่ใช่การให้คำแนะนำ และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "ผิด: ข้อความ 1 เป็นการเล่าเรื่องในอดีต และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: รวมข้อความ 1 ที่เป็นการเล่าเรื่องไว้ด้วย"
+  ],
+  "tip": "สำนวนให้คำแนะนำ: If I were you, I'd... / You should... / Why don't you...?"
+ },
+ {
+  "id": "m05-eng-033",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Read the conversation.<br>A: How was your presentation?<br>B: Oh, it went like a dream.<br>What does B mean?",
+  "c": [
+   "The audience fell asleep during it.",
+   "It was cancelled at the last minute.",
+   "It was confusing and hard to understand.",
+   "It went extremely well."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ตีความ dream ตามตัวอักษรว่านอนหลับ ทั้งที่สำนวนนี้มีความหมายเชิงบวก",
+   "ผิด: สำนวนนี้ไม่ได้บอกว่าถูกยกเลิก",
+   "ผิด: สำนวนนี้มีความหมายเชิงบวก ไม่ใช่ว่าสับสน",
+   "✓ ถูก: went like a dream เป็นสำนวนแปลว่าราบรื่นมากหรือดีเยี่ยม"
+  ],
+  "tip": "สำนวนที่มี like a dream ใช้กับสิ่งที่ดำเนินไปอย่างราบรื่น ไม่ใช่เรื่องการนอนหลับ"
+ },
+ {
+  "id": "m05-eng-034",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Nid: Do you think I should apply for the exchange programme?<br>Ann: ____",
+  "c": [
+   "Definitely. It would be a great chance to improve your English.",
+   "Yes, I did. I applied for it last year.",
+   "No, you didn't. The programme has already started.",
+   "Sorry, I can't exchange it for you."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: Do you think I should ...? เป็นการขอความเห็น คำตอบจึงควรให้ความเห็นพร้อมเหตุผล",
+   "ผิด: ตอบเป็นอดีตว่า Ann เคยสมัคร ไม่ได้ให้ความเห็นว่า Nid ควรสมัครหรือไม่",
+   "ผิด: กาลไม่ตรงกับคำถามและกล่าวหาว่าไม่ได้สมัคร",
+   "ผิด: เข้าใจ exchange ผิดเป็นการแลกของ"
+  ],
+  "tip": "Do you think I should ...? ต้องตอบด้วยความเห็น เช่น Definitely. / I think you should."
+ },
+ {
+  "id": "m05-eng-035",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Read the conversation.<br>A: Should we start school at nine o'clock instead of eight?<br>Which response shows that B has <b>no strong opinion</b>?",
+  "c": [
+   "I'm absolutely against it.",
+   "That's the best idea I've ever heard.",
+   "I don't mind either way.",
+   "It makes no sense to me at all."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: absolutely against คือคัดค้านอย่างรุนแรง",
+   "ผิด: the best idea I've ever heard คือเห็นด้วยอย่างยิ่ง",
+   "✓ ถูก: I don't mind either way แปลว่าอย่างไรก็ได้ ไม่มีความเห็นหนักไปทางใดทางหนึ่ง",
+   "ผิด: makes no sense at all คือไม่เห็นด้วยอย่างรุนแรง"
+  ],
+  "tip": "I don't mind / It's up to you / Either is fine = ไม่ยึดความเห็นฝ่ายใด"
+ },
+ {
+  "id": "m05-eng-036",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> a suitable way to start a presentation?",
+  "c": [
+   "Good morning, everyone. Today I'd like to talk about renewable energy.",
+   "Thank you for coming. My presentation is about online safety.",
+   "Let me begin with a question: how many hours do you spend online each day?",
+   "Well, I didn't prepare much, so I'll just read the slides quickly."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ทักทายและบอกหัวข้อ เป็นวิธีเริ่มที่เหมาะสม",
+   "ผิด: ขอบคุณผู้ฟังและบอกหัวข้อ เหมาะสม",
+   "ผิด: ตั้งคำถามดึงความสนใจ เป็นวิธีเริ่มที่เหมาะสม",
+   "✓ ถูก: การบอกว่าไม่ได้เตรียมตัวทำให้ผู้ฟังขาดความเชื่อถือ ไม่เหมาะกับการเริ่มนำเสนอ"
+  ],
+  "tip": "เปิดการนำเสนอด้วยการทักทาย บอกหัวข้อ หรือตั้งคำถามดึงความสนใจ ไม่ใช่ขอโทษหรือบอกว่าไม่ได้เตรียม"
+ },
+ {
+  "id": "m05-eng-037",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The main idea of the passage is that",
+  "ps": "In project-based learning, students spend several weeks investigating a real problem instead of memorising facts for a test. For example, a class might study why the canal near their school is polluted, interview local residents and present their suggestions to the municipal office. Supporters say that this approach helps students apply what they have learned and develops teamwork and communication skills. Critics, however, point out that the method takes far more class time than a traditional lesson and that some students may depend on their more able classmates. To address this problem, many teachers give each group member a clear role and assess both the final product and each student's own effort.",
+  "c": [
+   "memorising facts is the best way to prepare for a test",
+   "a learning method based on real problems has both strengths and weaknesses",
+   "polluted canals can be cleaned by school students alone",
+   "group work should be removed from the classroom"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความตั้งการท่องจำไว้เป็นจุดเปรียบเทียบ ไม่ได้ยกย่องว่าดีที่สุด",
+   "✓ ถูก: บทความพูดถึงทั้งข้อดี (นำความรู้ไปใช้ ฝึกทำงานเป็นทีม) และข้อวิจารณ์ (ใช้เวลามาก บางคนพึ่งเพื่อน)",
+   "ผิด: คลองที่มีมลพิษเป็นเพียงตัวอย่างโครงงาน ไม่ใช่ใจความหลัก",
+   "ผิด: บทความไม่ได้เสนอให้เลิกงานกลุ่ม แต่เสนอวิธีแก้ข้อวิจารณ์"
+  ],
+  "tip": "ใจความหลักต้องครอบคลุมทั้งบทความ ตัวอย่างย่อย (คลองเน่า) ไม่ใช่ใจความหลัก"
+ },
+ {
+  "id": "m05-eng-038",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "According to the passage, which statement about project-based learning is <b>NOT</b> true?",
+  "ps": "In project-based learning, students spend several weeks investigating a real problem instead of memorising facts for a test. For example, a class might study why the canal near their school is polluted, interview local residents and present their suggestions to the municipal office. Supporters say that this approach helps students apply what they have learned and develops teamwork and communication skills. Critics, however, point out that the method takes far more class time than a traditional lesson and that some students may depend on their more able classmates. To address this problem, many teachers give each group member a clear role and assess both the final product and each student's own effort.",
+  "c": [
+   "A project is assessed only on the final product.",
+   "Students may investigate a problem for several weeks.",
+   "The method can help develop communication skills.",
+   "Some students may rely on more capable group members."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ข้อความนี้ไม่จริง เพราะบทความบอกว่าประเมินทั้งผลงานสุดท้ายและความพยายามของแต่ละคน",
+   "ผิด: บทความกล่าวว่านักเรียนใช้เวลาหลายสัปดาห์ศึกษาปัญหา",
+   "ผิด: บทความกล่าวว่าช่วยพัฒนาทักษะการสื่อสาร",
+   "ผิด: บทความกล่าวว่าบางคนอาจพึ่งพาเพื่อนที่เก่งกว่า"
+  ],
+  "tip": "ข้อ NOT true มักมีคำว่า only แล้วขัดกับรายละเอียดในบทความ"
+ },
+ {
+  "id": "m05-eng-039",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>address</b> in the last sentence of the passage is closest in meaning to",
+  "ps": "In project-based learning, students spend several weeks investigating a real problem instead of memorising facts for a test. For example, a class might study why the canal near their school is polluted, interview local residents and present their suggestions to the municipal office. Supporters say that this approach helps students apply what they have learned and develops teamwork and communication skills. Critics, however, point out that the method takes far more class time than a traditional lesson and that some students may depend on their more able classmates. To address this problem, many teachers give each group member a clear role and assess both the final product and each student's own effort.",
+  "c": [
+   "speak to",
+   "complain about",
+   "deal with",
+   "ignore"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: speak to แปลว่าพูดกับใคร ไม่ใช่ความหมายของ address ที่ตามด้วยปัญหา",
+   "ผิด: complain about แปลว่าบ่น ซึ่งไม่ใช่การแก้ปัญหา",
+   "✓ ถูก: address a problem แปลว่าจัดการหรือแก้ปัญหา ตรงกับการให้บทบาทชัดเจนเพื่อลดปัญหาการพึ่งเพื่อน",
+   "ผิด: ignore แปลว่าเพิกเฉย ตรงข้ามกับการแก้ปัญหา"
+  ],
+  "tip": "address + problem/issue = จัดการแก้ไข ไม่ได้แปลว่าที่อยู่ในประโยคนี้"
+ },
+ {
+  "id": "m05-eng-040",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements are supported by the passage?<br>1) Students may interview local people during a project.<br>2) Project-based learning needs less class time than a traditional lesson.<br>3) Teachers sometimes assign a specific role to each group member.",
+  "ps": "In project-based learning, students spend several weeks investigating a real problem instead of memorising facts for a test. For example, a class might study why the canal near their school is polluted, interview local residents and present their suggestions to the municipal office. Supporters say that this approach helps students apply what they have learned and develops teamwork and communication skills. Critics, however, point out that the method takes far more class time than a traditional lesson and that some students may depend on their more able classmates. To address this problem, many teachers give each group member a clear role and assess both the final product and each student's own effort.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 ผิดเพราะบทความบอกว่าใช้เวลามากกว่า และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 1 ตรงกับ interview local residents และข้อความ 3 ตรงกับ a clear role",
+   "ผิด: ข้อความ 2 ขัดกับบทความ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่ขัดกับบทความไว้ด้วย"
+  ],
+  "tip": "ข้อความที่กลับความหมาย (less vs far more) ให้ตัดทิ้งก่อน แล้วเหลือข้อที่บทความรองรับ"
+ },
+ {
+  "id": "m05-eng-041",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Ms. Ratree's students complain that, in a group project, one member does all the work. According to the passage, what could she do?",
+  "ps": "In project-based learning, students spend several weeks investigating a real problem instead of memorising facts for a test. For example, a class might study why the canal near their school is polluted, interview local residents and present their suggestions to the municipal office. Supporters say that this approach helps students apply what they have learned and develops teamwork and communication skills. Critics, however, point out that the method takes far more class time than a traditional lesson and that some students may depend on their more able classmates. To address this problem, many teachers give each group member a clear role and assess both the final product and each student's own effort.",
+  "c": [
+   "Give each member a clear role and assess individual effort.",
+   "Grade only the final product of each group.",
+   "Replace the project with a memorisation test.",
+   "Let the most capable student do the main tasks."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความเสนอให้กำหนดบทบาทชัดเจนและประเมินความพยายามรายบุคคล เพื่อแก้ปัญหาที่บางคนพึ่งเพื่อน",
+   "ผิด: ตัดสินแค่ผลงานรวมจะทำให้ปัญหาคนพึ่งเพื่อนไม่ถูกแก้",
+   "ผิด: บทความไม่ได้เสนอให้เลิกโครงงาน",
+   "ผิด: ให้คนเก่งทำงานหลักยิ่งทำให้บางคนพึ่งพิงมากขึ้น"
+  ],
+  "tip": "โจทย์ประยุกต์ให้จับปัญหาในสถานการณ์ใหม่ไปเทียบกับวิธีแก้ที่บทความเสนอ"
+ },
+ {
+  "id": "m05-eng-042",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "According to the passage, why do many elderly patients in remote districts miss check-ups?",
+  "ps": "In many remote districts, the nearest hospital is several hours away, and elderly patients often skip check-ups because the journey is tiring and expensive. Telemedicine aims to solve this problem. At a village health centre, a nurse connects the patient by video to a doctor in a city hospital. The doctor asks questions, looks at test results sent by the nurse and prescribes medicine. Studies show that the service saves patients both time and travel costs. Nevertheless, it has limits. A weak internet signal can interrupt a consultation, and a doctor cannot carry out a physical examination through a screen. For this reason, patients with serious symptoms are still advised to visit a hospital in person.",
+  "c": [
+   "Village nurses refuse to see elderly patients.",
+   "The trip to the nearest hospital is tiring and costly.",
+   "They do not trust medicine from the city.",
+   "Hospitals in remote districts are closed at weekends."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความไม่ได้กล่าวว่าพยาบาลปฏิเสธผู้ป่วยสูงอายุ",
+   "✓ ถูก: บทความบอกว่าโรงพยาบาลอยู่ไกลหลายชั่วโมงและการเดินทางทั้งเหนื่อยและแพง",
+   "ผิด: บทความไม่ได้พูดถึงความไม่ไว้ใจยา",
+   "ผิด: บทความไม่ได้พูดถึงวันที่โรงพยาบาลปิด"
+  ],
+  "tip": "คำว่า because ในบทความบอกสาเหตุโดยตรง ให้เทียบกับเหตุผลในแต่ละคำตอบ"
+ },
+ {
+  "id": "m05-eng-043",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "All of the following are mentioned as limits of telemedicine <b>EXCEPT</b>",
+  "ps": "In many remote districts, the nearest hospital is several hours away, and elderly patients often skip check-ups because the journey is tiring and expensive. Telemedicine aims to solve this problem. At a village health centre, a nurse connects the patient by video to a doctor in a city hospital. The doctor asks questions, looks at test results sent by the nurse and prescribes medicine. Studies show that the service saves patients both time and travel costs. Nevertheless, it has limits. A weak internet signal can interrupt a consultation, and a doctor cannot carry out a physical examination through a screen. For this reason, patients with serious symptoms are still advised to visit a hospital in person.",
+  "c": [
+   "A poor internet signal may interrupt a consultation.",
+   "A doctor cannot examine a patient physically through a screen.",
+   "Patients with serious symptoms may still need a hospital visit.",
+   "Doctors cannot prescribe medicine over a video link."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความกล่าวถึงสัญญาณอินเทอร์เน็ตอ่อนที่ทำให้การปรึกษาสะดุด",
+   "ผิด: บทความกล่าวว่าแพทย์ตรวจร่างกายผ่านหน้าจอไม่ได้",
+   "ผิด: บทความแนะนำให้ผู้ป่วยอาการหนักไปโรงพยาบาลด้วยตนเอง",
+   "✓ ถูก: ข้อความนี้ขัดกับบทความ เพราะแพทย์สั่งยาผ่านวิดีโอได้"
+  ],
+  "tip": "ข้อ EXCEPT ให้ขีดข้อที่บทความกล่าวถึงออก แล้วเหลือข้อที่ไม่มีหรือขัดกับบทความ"
+ },
+ {
+  "id": "m05-eng-044",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>it</b> in the sentence “Nevertheless, it has limits” refers to",
+  "ps": "In many remote districts, the nearest hospital is several hours away, and elderly patients often skip check-ups because the journey is tiring and expensive. Telemedicine aims to solve this problem. At a village health centre, a nurse connects the patient by video to a doctor in a city hospital. The doctor asks questions, looks at test results sent by the nurse and prescribes medicine. Studies show that the service saves patients both time and travel costs. Nevertheless, it has limits. A weak internet signal can interrupt a consultation, and a doctor cannot carry out a physical examination through a screen. For this reason, patients with serious symptoms are still advised to visit a hospital in person.",
+  "c": [
+   "the village health centre",
+   "telemedicine",
+   "the journey to the hospital",
+   "the doctor in the city"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ศูนย์สุขภาพหมู่บ้านเป็นสถานที่ ไม่ใช่สิ่งที่มีข้อจำกัดตามประโยคก่อนหน้า",
+   "✓ ถูก: ประโยคก่อนหน้ากล่าวว่า the service saves patients time and costs ซึ่งหมายถึง telemedicine",
+   "ผิด: การเดินทางเป็นปัญหาที่ telemedicine แก้ ไม่ใช่สิ่งที่ถูกกล่าวว่ามีข้อจำกัด",
+   "ผิด: แพทย์ในเมืองไม่ใช่ประธานของประโยคก่อนหน้า"
+  ],
+  "tip": "สรรพนามมักอ้างถึงประธานของประโยคก่อนหน้า ให้ย้อนอ่านประโยคก่อนคำนั้น"
+ },
+ {
+  "id": "m05-eng-045",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements are supported by the passage?<br>1) A nurse helps the patient connect to the doctor.<br>2) A doctor can prescribe medicine after a video consultation.<br>3) Telemedicine is suitable for every kind of illness.",
+  "ps": "In many remote districts, the nearest hospital is several hours away, and elderly patients often skip check-ups because the journey is tiring and expensive. Telemedicine aims to solve this problem. At a village health centre, a nurse connects the patient by video to a doctor in a city hospital. The doctor asks questions, looks at test results sent by the nurse and prescribes medicine. Studies show that the service saves patients both time and travel costs. Nevertheless, it has limits. A weak internet signal can interrupt a consultation, and a doctor cannot carry out a physical examination through a screen. For this reason, patients with serious symptoms are still advised to visit a hospital in person.",
+  "c": [
+   "2, 3",
+   "1, 3",
+   "1, 2",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 3 ผิดเพราะบทความบอกว่าผู้ป่วยอาการหนักยังต้องไปโรงพยาบาล และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: ข้อความ 3 ใช้ every kind จึงผิด และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 1 ตรงกับ a nurse connects the patient และข้อความ 2 ตรงกับ prescribes medicine",
+   "ผิด: รวมข้อความ 3 ที่ขัดกับบทความไว้ด้วย"
+  ],
+  "tip": "คำว่า every kind ในข้อความแบบผสมข้อมักเป็นตัวลวง ให้ตรวจว่าบทความจำกัดไว้หรือไม่"
+ },
+ {
+  "id": "m05-eng-046",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A villager has had a very high fever and severe pain for three days. What does the passage suggest he should do?",
+  "ps": "In many remote districts, the nearest hospital is several hours away, and elderly patients often skip check-ups because the journey is tiring and expensive. Telemedicine aims to solve this problem. At a village health centre, a nurse connects the patient by video to a doctor in a city hospital. The doctor asks questions, looks at test results sent by the nurse and prescribes medicine. Studies show that the service saves patients both time and travel costs. Nevertheless, it has limits. A weak internet signal can interrupt a consultation, and a doctor cannot carry out a physical examination through a screen. For this reason, patients with serious symptoms are still advised to visit a hospital in person.",
+  "c": [
+   "Go to a hospital in person.",
+   "Wait for a stronger internet signal.",
+   "Ask the nurse to prescribe medicine by phone.",
+   "Skip the check-up until he feels better."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความแนะนำให้ผู้ป่วยที่มีอาการหนักไปโรงพยาบาลด้วยตนเอง",
+   "ผิด: การรอสัญญาณอินเทอร์เน็ตไม่แก้ปัญหา เพราะอาการหนักต้องพบแพทย์โดยตรง",
+   "ผิด: บทความไม่ได้ให้พยาบาลสั่งยาทางโทรศัพท์",
+   "ผิด: การเลื่อนตรวจเป็นพฤติกรรมที่บทความระบุว่าเป็นปัญหา ไม่ใช่คำแนะนำ"
+  ],
+  "tip": "โจทย์ประยุกต์ให้จับคำสำคัญในสถานการณ์ (อาการหนัก) ไปเทียบกับ serious symptoms ในบทความ"
+ },
+ {
+  "id": "m05-eng-047",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which headline would best fit this passage?",
+  "ps": "At a community centre in Chiang Rai, a group of retirees meets every Tuesday for a free class in smartphone skills. The teachers are secondary school volunteers, who sit beside the older learners and patiently answer their questions. At first, many of the retirees were afraid of pressing the wrong button and breaking their phones. Now they send photos to their grandchildren, pay bills with a banking app and check bus times online. The volunteers say that they have learned something too: how to explain things slowly and without technical words. The centre's manager hopes that more schools will join the programme, since many older people in the area live alone and feel cut off from their families.",
+  "c": [
+   "Retirees Warn Young People About Banking Apps",
+   "A New Smartphone Factory Opens in Chiang Rai",
+   "Why Grandchildren Should Not Use Smartphones",
+   "Secondary School Volunteers Teach Retirees to Use Smartphones"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความไม่ได้ให้ผู้สูงอายุเตือนเยาวชนเรื่องแอปธนาคาร",
+   "ผิด: บทความไม่ได้พูดถึงการเปิดโรงงาน",
+   "ผิด: บทความไม่ได้ห้ามหลานใช้สมาร์ตโฟน",
+   "✓ ถูก: พาดหัวนี้ครอบคลุมใจความหลักคืออาสาสมัครนักเรียนสอนผู้สูงอายุใช้สมาร์ตโฟน"
+  ],
+  "tip": "พาดหัวที่ดีต้องตรงกับใจความหลักและไม่มีข้อมูลที่บทความไม่กล่าวถึง"
+ },
+ {
+  "id": "m05-eng-048",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> mentioned as something the retirees can do now?",
+  "ps": "At a community centre in Chiang Rai, a group of retirees meets every Tuesday for a free class in smartphone skills. The teachers are secondary school volunteers, who sit beside the older learners and patiently answer their questions. At first, many of the retirees were afraid of pressing the wrong button and breaking their phones. Now they send photos to their grandchildren, pay bills with a banking app and check bus times online. The volunteers say that they have learned something too: how to explain things slowly and without technical words. The centre's manager hopes that more schools will join the programme, since many older people in the area live alone and feel cut off from their families.",
+  "c": [
+   "Send photos to their grandchildren",
+   "Pay bills with a banking app",
+   "Repair their own phones",
+   "Check bus times online"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความกล่าวว่าส่งรูปให้หลานได้",
+   "ผิด: บทความกล่าวว่าจ่ายบิลผ่านแอปธนาคารได้",
+   "✓ ถูก: บทความไม่ได้กล่าวว่าผู้สูงอายุซ่อมโทรศัพท์เองได้",
+   "ผิด: บทความกล่าวว่าตรวจเวลารถประจำทางออนไลน์ได้"
+  ],
+  "tip": "ข้อ NOT mentioned ให้ไล่ตรวจแต่ละตัวเลือกกับบทความ ตัวที่หาไม่พบคือคำตอบ"
+ },
+ {
+  "id": "m05-eng-049",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "What can be reasonably inferred from the passage?",
+  "ps": "At a community centre in Chiang Rai, a group of retirees meets every Tuesday for a free class in smartphone skills. The teachers are secondary school volunteers, who sit beside the older learners and patiently answer their questions. At first, many of the retirees were afraid of pressing the wrong button and breaking their phones. Now they send photos to their grandchildren, pay bills with a banking app and check bus times online. The volunteers say that they have learned something too: how to explain things slowly and without technical words. The centre's manager hopes that more schools will join the programme, since many older people in the area live alone and feel cut off from their families.",
+  "c": [
+   "The programme may help some older people feel less isolated.",
+   "All older people in the area use smartphones every day.",
+   "Only young people are able to learn new technology.",
+   "The volunteers already knew how to teach older learners."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความระบุว่าผู้สูงอายุหลายคนอยู่คนเดียวและรู้สึกห่างจากครอบครัว การส่งรูปให้หลานอาจช่วยให้โดดเดี่ยวน้อยลง",
+   "ผิด: All และ every day เป็นคำเด็ดขาดที่บทความไม่ได้รองรับ",
+   "ผิด: Only young people เป็นคำเด็ดขาดที่ขัดกับการที่ผู้สูงอายุเรียนได้",
+   "ผิด: บทความบอกว่าอาสาสมัครได้เรียนรู้วิธีอธิบายช้า ๆ จึงสรุปไม่ได้ว่ารู้อยู่แล้ว"
+  ],
+  "tip": "ข้อที่ใช้ all / only / every มักผิดเกินจริง ข้อที่ใช้ may / some มักปลอดภัยกว่า"
+ },
+ {
+  "id": "m05-eng-050",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Another town wants to start a similar class. According to the passage, what should its teachers be ready to do?",
+  "ps": "At a community centre in Chiang Rai, a group of retirees meets every Tuesday for a free class in smartphone skills. The teachers are secondary school volunteers, who sit beside the older learners and patiently answer their questions. At first, many of the retirees were afraid of pressing the wrong button and breaking their phones. Now they send photos to their grandchildren, pay bills with a banking app and check bus times online. The volunteers say that they have learned something too: how to explain things slowly and without technical words. The centre's manager hopes that more schools will join the programme, since many older people in the area live alone and feel cut off from their families.",
+  "c": [
+   "Repair broken phones for the learners.",
+   "Teach only learners who already own smartphones.",
+   "Set difficult tests to check each learner's progress.",
+   "Explain things slowly without using technical words."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความไม่ได้กล่าวถึงการซ่อมโทรศัพท์",
+   "ผิด: บทความไม่ได้จำกัดว่าต้องสอนเฉพาะผู้ที่มีสมาร์ตโฟนอยู่แล้ว",
+   "ผิด: บทความไม่ได้กล่าวถึงการสอบวัดความก้าวหน้า",
+   "✓ ถูก: อาสาสมัครเรียนรู้ว่าต้องอธิบายช้า ๆ โดยไม่ใช้ศัพท์เทคนิค"
+  ],
+  "tip": "โจทย์ประยุกต์ให้ดึงสิ่งที่อาสาสมัครเรียนรู้ในบทความมาใช้กับสถานการณ์ใหม่"
+ }
+]

@@ -1,0 +1,380 @@
+<!-- title: ภาค ข · วิชาเอกคอมพิวเตอร์ -->
+<!-- title: ภาค ข · วิชาเอกคอมพิวเตอร์ -->
+<h2>ภาพรวม</h2>
+<ul>
+<li><b>ข้อสอบจริง:</b> วิชาเอกคอมพิวเตอร์ 100 คะแนน เวลา 2.5 ชั่วโมง</li>
+<li><b>หัวข้อในชีทนี้:</b> เลขฐาน · ตรรกศาสตร์/เกต · ฮาร์ดแวร์ · ระบบปฏิบัติการ · อัลกอริทึม/flowchart · Python · โครงสร้างข้อมูล · sorting/searching · เครือข่าย · ความปลอดภัย · กฎหมายดิจิทัล · ฐานข้อมูล · หลักสูตร ว 4.1/ว 4.2 · AI/IoT/SDLC (ตรวจขอบเขตเนื้อหาที่ออกจริงจากประกาศรับสมัครฉบับปีปัจจุบัน)</li>
+<li><b>กับดักที่ข้อสอบชอบใช้:</b> สลับคู่ (OSI/TCP-IP, WHERE/HAVING, virus/worm) · เปลี่ยนตัวเลข (พอร์ต ช่วง IP) · กับดักในโค้ด (<code>//</code>, alias, scope)</li>
+<li>ตัวอย่างโค้ดและตัวเลขที่คำนวณทุกข้อ รันตรวจด้วย Python 3 และ SQLite แล้ว</li>
+</ul>
+
+<h2>1. เลขฐานและหน่วยข้อมูล</h2>
+<h3>ต้องจำ</h3>
+<ul>
+<li>ฐาน 2 ↔ 8 จัดบิตทีละ <b>3</b> · ฐาน 2 ↔ 16 จัดบิตทีละ <b>4</b> (จัดจากขวา) · ฐาน 10 → ฐานอื่น: หารซ้ำ อ่านเศษ<b>จากล่างขึ้นบน</b></li>
+<li>45₁₀ = 101101₂ = 55₈ = 2D₁₆ · B7₁₆ = 183₁₀ = 10110111₂ · Hex: A=10 … F=15 · FF₁₆ = 255</li>
+<li>เศษส่วน: คูณ 2 ซ้ำ อ่านส่วนเต็ม<b>จากบนลงล่าง</b> · 0.625₁₀ = 0.101₂</li>
+<li><b>Two's complement n บิต:</b> ช่วง −2^(n−1) ถึง 2^(n−1)−1 (8 บิต −128…127 · unsigned 0…255) · หา −X = กลับบิตของ X แล้ว <b>+1</b></li>
+<li>อ่านค่าลบ: บิตหน้าเป็น 1 → ค่า = unsigned − 2^n เช่น 11010110 = 214 − 256 = −42</li>
+<li>1 byte = 8 bit · 1 KB = 1,024 B (2¹⁰) · 1 MB = 2²⁰ · 1 GB = 2³⁰ · n บิตแทนได้ 2^n ค่า (แทน 100 ค่าต้องใช้ ≥ 7 บิต)</li>
+<li>ASCII: 'A'=65, 'a'=97 (ต่างกัน 32), '0'=48 · UTF-8 อักษรไทย 3 byte/ตัว · 24 บิต/พิกเซล = 16,777,216 สี</li>
+</ul>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<ul>
+<li>−5 แบบ 8 บิตมี 3 หน้าตา: sign-magnitude <code>10000101</code> · one's complement <code>11111010</code> · <b>two's complement <code>11111011</code></b> (โจทย์ถาม two's ต้องเอาแบบที่บวก 1 แล้ว)</li>
+<li>"จำนวนค่า" 256 ≠ "ค่าสูงสุด" 255 · signed 8 บิตสูงสุด 127</li>
+<li>เลข 10 ในฐาน 2 คือสอง ไม่ใช่สิบ · 1 KB = 1,000 B เฉพาะเมื่อโจทย์ระบุฐาน SI</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> −5 ในรูป two's complement 8 บิตคือข้อใด (ก) 10000101 (ข) 11111010 (ค) 11111011 (ง) 00000101<br><b>วิธีตัด:</b> (ง) เป็นค่าบวก · (ก) คือ sign-magnitude · (ข) คือ one's complement ขาดการ +1 → ตอบ (ค) 11111011</div>
+
+<h2>2. ตรรกศาสตร์และเกต</h2>
+<h3>ต้องจำ</h3>
+<table>
+<thead><tr><th>เกต</th><th>A,B = 0,0</th><th>0,1</th><th>1,0</th><th>1,1</th><th>จำสั้น ๆ</th></tr></thead>
+<tbody>
+<tr><td>AND</td><td>0</td><td>0</td><td>0</td><td>1</td><td>ทุกตัวเป็น 1 จึงได้ 1</td></tr>
+<tr><td>OR</td><td>0</td><td>1</td><td>1</td><td>1</td><td>มี 1 ตัวเดียวก็ได้ 1</td></tr>
+<tr><td>NOT (ของ A)</td><td>1</td><td>1</td><td>0</td><td>0</td><td>กลับค่า รับอินพุตตัวเดียว</td></tr>
+<tr><td>NAND</td><td>1</td><td>1</td><td>1</td><td>0</td><td>AND แล้วกลับ</td></tr>
+<tr><td>NOR</td><td>1</td><td>0</td><td>0</td><td>0</td><td>OR แล้วกลับ (ได้ 1 เมื่อ 00 เท่านั้น)</td></tr>
+<tr><td>XOR</td><td>0</td><td>1</td><td>1</td><td>0</td><td>ต่างกันได้ 1</td></tr>
+<tr><td>XNOR</td><td>1</td><td>0</td><td>0</td><td>1</td><td>เหมือนกันได้ 1</td></tr>
+</tbody>
+</table>
+<ul>
+<li>De Morgan: NOT(A AND B) = (NOT A) OR (NOT B) · NOT(A OR B) = (NOT A) AND (NOT B)</li>
+<li>NAND และ NOR เป็น universal gate (สร้างเกตอื่นได้ทั้งหมด) · A + A'B = A + B · A + A' = 1 · A·A' = 0</li>
+<li>Half adder: Sum = A XOR B · Carry = A AND B (1+1 → Sum 0 Carry 1) · ลำดับความสำคัญ NOT &gt; AND &gt; OR</li>
+</ul>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<ul>
+<li>NAND = "NOT A AND NOT B" <b>ผิด</b> (นั่นคือ NOR) · NAND = NOT(A AND B)</li>
+<li>XOR ต่างจาก OR ที่ช่อง 1,1 (XOR ได้ 0, OR ได้ 1)</li>
+<li>NOR กับ XNOR ต่างกันที่ช่อง 1,1 ช่องเดียว (NOR=0, XNOR=1) ใช้ช่องนี้แยกตัวเลือกที่สลับกัน</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> A=1, B=0 ค่าของ (A NOR B) XOR (A NAND B) คือเท่าใด<br><b>วิธีตัด:</b> คิดวงเล็บในก่อน NOR(1,0)=0 · NAND(1,0)=1 · แล้ว XOR(0,1)=1 → ตอบ 1</div>
+
+<h2>3. ฮาร์ดแวร์และสถาปัตยกรรม</h2>
+<h3>ต้องจำ</h3>
+<ul>
+<li>CPU = <b>CU</b> (ควบคุม/ถอดรหัสคำสั่ง) + <b>ALU</b> (คำนวณ/เปรียบเทียบเชิงตรรกะ) + <b>Register</b> (เก็บชั่วคราวในซีพียู เช่น PC เก็บที่อยู่คำสั่งถัดไป)</li>
+<li>วงจรคำสั่ง: Fetch → Decode → Execute (→ Store) · Von Neumann: โปรแกรมกับข้อมูลอยู่หน่วยความจำเดียวกัน · Harvard: แยกกัน</li>
+<li><b>ความเร็ว เร็ว → ช้า:</b> Register &gt; Cache (L1 &gt; L2 &gt; L3) &gt; RAM &gt; SSD &gt; HDD &gt; เทป · ยิ่งเร็วยิ่งเล็กและแพง</li>
+<li>RAM: อ่าน/เขียนได้ <b>volatile</b> (ไฟดับข้อมูลหาย) · DRAM ใช้เป็นหน่วยความจำหลัก (ต้อง refresh) · SRAM เร็วกว่า ใช้ทำ Cache</li>
+<li>ROM: <b>non-volatile</b> เก็บ BIOS/firmware · EPROM ลบด้วยแสง UV · EEPROM/Flash ลบด้วยไฟฟ้า</li>
+<li>Cache hit = พบข้อมูลใน Cache · miss = ต้องไปอ่าน RAM</li>
+<li>Bus: <b>Address</b> ทิศทางเดียว (CPU → หน่วยความจำ) กำหนดจำนวนที่อยู่ = 2^n · <b>Data</b> สองทิศทาง · <b>Control</b> ส่งสัญญาณ read/write</li>
+<li>Address bus 32 บิต → 2³² byte = 4 GB · 16 บิต → 64 KB · ความเร็วซีพียู 3 GHz = 3,000,000,000 รอบนาฬิกาต่อวินาที</li>
+</ul>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<ul>
+<li>สลับ RAM/ROM ว่า volatile ตัวไหน · สลับ Address/Data bus ว่าทิศทางเดียวหรือสองทาง</li>
+<li>ขนาดหน่วยความจำสูงสุดดูจากความกว้าง <b>address bus</b> ไม่ใช่ data bus</li>
+<li>เร็วสุดคือ <b>Register</b> (ไม่ใช่ Cache) · Cache มีขนาดเล็กกว่า RAM เสมอ · จำนวน core มากไม่ได้แปลว่าเร็วกว่าเสมอ</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> ซีพียูมี address bus 32 บิต อ้างที่อยู่ระดับ byte ได้สูงสุดเท่าใด (ก) 32 MB (ข) 1 GB (ค) 4 GB (ง) 32 GB<br><b>วิธีตัด:</b> 2³² = 4,294,967,296 byte = 4 × 2³⁰ → (ค) · ห้ามตอบตามตัวเลข 32 ตรง ๆ</div>
+
+<h2>4. ระบบปฏิบัติการ</h2>
+<h3>ต้องจำ</h3>
+<ul>
+<li>หน้าที่ OS: จัดการ process · หน่วยความจำ · ไฟล์ · อุปกรณ์ I/O · ผู้ใช้/ความปลอดภัย</li>
+<li><b>Process states:</b> New → Ready → Running → Terminated · Running → Waiting (รอ I/O) · Waiting → <b>Ready</b> (I/O เสร็จ) · Running → Ready (หมดเวลา) · Ready → Running = dispatch</li>
+<li>ตัวอย่างคิด (P1=6, P2=8, P3=7, P4=3 มาถึงพร้อมกันที่เวลา 0) ค่าเวลารอเฉลี่ยที่คำนวณแล้ว:</li>
+</ul>
+<table>
+<thead><tr><th>วิธี</th><th>ลำดับรัน</th><th>รอเฉลี่ย</th><th>จุดเด่น/จุดอ่อน</th></tr></thead>
+<tbody>
+<tr><td>FCFS</td><td>P1 P2 P3 P4</td><td>10.25</td><td>ง่าย · convoy effect (งานสั้นรองานยาว)</td></tr>
+<tr><td>SJF</td><td>P4 P1 P3 P2</td><td>7.00</td><td>รอเฉลี่ยน้อยสุด · งานยาวเสี่ยง starvation (แก้ด้วย aging)</td></tr>
+<tr><td>RR (q=4)</td><td>P1 P2 P3 P4 P1 P2 P3</td><td>13.25</td><td>เป็นธรรม เหมาะ time-sharing · q ใหญ่มาก → เหมือน FCFS · q เล็กมาก → context switch เปลือง</td></tr>
+</tbody>
+</table>
+<ul>
+<li>เวลารอ = เวลาเสร็จ − เวลามาถึง − burst · turnaround = เวลาเสร็จ − เวลามาถึง</li>
+<li><b>Deadlock ต้องเกิดครบ 4 เงื่อนไข:</b> Mutual exclusion · Hold and wait · No preemption · Circular wait (ป้องกันโดยทำลายข้อใดข้อหนึ่ง)</li>
+<li><b>Paging:</b> แบ่ง logical เป็น page และ physical เป็น frame ขนาดเท่ากัน · page table แปลง page → frame · เกิด <b>internal</b> fragmentation (หน้าสุดท้ายเหลือ) · segmentation ขนาดไม่เท่ากัน เกิด <b>external</b></li>
+<li>Virtual memory: ใช้ดิสก์ขยาย RAM · page fault = หน้าที่ต้องการไม่อยู่ใน RAM · thrashing = สลับหน้าถี่จน CPU แทบไม่ได้ทำงาน · replacement: FIFO, LRU, Optimal</li>
+<li>คำนวณ: page 4,096 B · ที่อยู่ 10,000 → page 2 offset 1,808 · ถ้า page 2 อยู่ frame 5 → physical = 5×4096 + 1808 = 22,288 · process 10,000 B ใช้ 3 page เสียที่ว่าง 2,288 B</li>
+</ul>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<ul>
+<li>Waiting → Running <b>ไม่ได้</b> ต้องผ่าน Ready ก่อน</li>
+<li>เงื่อนไข deadlock คือ "<b>No</b> preemption" ตัวเลือก "Preemption" เป็นตัวหลอก · starvation ≠ deadlock (starvation ไม่ได้รอกันเป็นวงจร)</li>
+<li>Paging เกิด internal ไม่ใช่ external · Belady's anomaly: FIFO เพิ่ม frame แล้ว fault เพิ่มได้ (ลำดับ 1,2,3,4,1,2,5,1,2,3,4,5 → 3 frame = 9 ครั้ง, 4 frame = 10 ครั้ง)</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> ข้อใดไม่ใช่เงื่อนไขที่ทำให้เกิด deadlock (ก) Mutual exclusion (ข) Hold and wait (ค) Preemption (ง) Circular wait<br><b>วิธีตัด:</b> จำ 4 ข้อให้ครบ ข้อที่เกินคือคำที่ขาด "No" → ตอบ (ค)</div>
+
+<h2>5. อัลกอริทึมและ Flowchart</h2>
+<h3>ต้องจำ</h3>
+<ul>
+<li>คุณสมบัติอัลกอริทึม: มี input · มี output · ชัดเจน (definiteness) · จำกัดขั้นตอนและจบได้ (finiteness) · ทำได้จริง (effectiveness)</li>
+<li>โครงสร้างควบคุม 3 แบบ: ตามลำดับ (sequence) · เลือกทำ (selection) · ทำซ้ำ (iteration)</li>
+</ul>
+<table>
+<thead><tr><th>สัญลักษณ์</th><th>ความหมาย</th></tr></thead>
+<tbody>
+<tr><td>วงรี/สี่เหลี่ยมมนหัวท้าย</td><td>เริ่มต้น/สิ้นสุด (terminator)</td></tr>
+<tr><td>สี่เหลี่ยมด้านขนาน</td><td>รับข้อมูล/แสดงผล (input/output)</td></tr>
+<tr><td>สี่เหลี่ยมผืนผ้า</td><td>ประมวลผล คำนวณ กำหนดค่า</td></tr>
+<tr><td>สี่เหลี่ยมข้าวหลามตัด</td><td>ตัดสินใจ มีทางออก ≥ 2 ทาง (ใช่/ไม่ใช่)</td></tr>
+<tr><td>วงกลมเล็ก</td><td>จุดเชื่อมต่อ (connector)</td></tr>
+<tr><td>ลูกศร</td><td>ทิศทางการไหล</td></tr>
+</tbody>
+</table>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<ul>
+<li>คำสั่ง "รับค่า/พิมพ์ค่า" เป็น input/output (ขนาน) ไม่ใช่ process · เงื่อนไข "ถ้า…" ต้องเป็นข้าวหลามตัด</li>
+<li>การนับรอบ (off-by-one): <code>range(1,6)</code> ได้ 1–5 ไม่ใช่ 1–6 · ให้ทำ trace table ทีละรอบอย่าเดา</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> <code>s=0</code> แล้ว <code>for i in range(1,6): s+=i</code> ได้ s เท่าใด<br><b>วิธีตัด:</b> i = 1,2,3,4,5 → 15 (ตัดตัวเลือก 21 ที่นับถึง 6 และ 10 ที่นับถึง 4)</div>
+
+<h2>6. Python กับดักที่พบบ่อย</h2>
+<h3>ต้องจำ</h3>
+<p>ผลลัพธ์ทุกบรรทัดรันตรวจด้วย Python 3 แล้ว</p>
+<table>
+<thead><tr><th>หัวข้อ</th><th>โค้ด → ผลลัพธ์</th></tr></thead>
+<tbody>
+<tr><td>range (stop ไม่รวม)</td><td><code>list(range(2,10,3))</code> → [2, 5, 8] · <code>list(range(5,0,-1))</code> → [5, 4, 3, 2, 1] · <code>len(range(1,10))</code> → 9</td></tr>
+<tr><td>index/slice (s="PYTHON")</td><td><code>s[1:4]</code> → 'YTH' · <code>s[-1]</code> → 'N' · <code>s[::-1]</code> → 'NOHTYP' · <code>s[::2]</code> → 'PTO' · <code>s[2:10]</code> → 'THON' (slice เกินไม่ error) · <code>s[10]</code> → IndexError</td></tr>
+<tr><td>หาร/เศษ</td><td><code>7//2</code> → 3 · <code>-7//2</code> → -4 (ปัดลง) · <code>-7%2</code> → 1 · <code>4/2</code> → 2.0 (/ ได้ float เสมอ) · <code>int(-3.7)</code> → -3 · <code>2**3**2</code> → 512 · <code>round(2.5)</code> → 2</td></tr>
+<tr><td>list alias</td><td><code>a=[1,2]; b=a; b.append(3)</code> → a เป็น [1, 2, 3] · <code>a[:]</code> หรือ <code>a.copy()</code> ได้สำเนา · <code>m=[[0]*2]*2; m[0][0]=1</code> → [[1, 0], [1, 0]] (ทุกแถวคืออันเดียวกัน)</td></tr>
+<tr><td>scope</td><td><code>x=10; def f(): x=5</code> เรียก f() แล้ว x ยัง 10 · ใช้ x ก่อนกำหนดค่าในฟังก์ชันที่มี <code>x=…</code> → UnboundLocalError · แก้ตัวแปรนอกต้องมี <code>global x</code></td></tr>
+<tr><td>short-circuit</td><td><code>False and (1/0)</code> → False ไม่ error · <code>True or f()</code> ไม่เรียก f · <code>0 or "A"</code> → 'A' · <code>"" and 5</code> → '' · <code>None or 0</code> → 0</td></tr>
+<tr><td>อื่น ๆ ที่ออกบ่อย</td><td><code>"5"+"3"</code> → '53' · <code>"5"*3</code> → '555' · <code>input()</code> ได้ str เสมอ · <code>0.1+0.2==0.3</code> → False · <code>a.sort()</code> คืน None · string แก้ตัวอักษรไม่ได้ (TypeError) · <code>(5)</code> คือ int แต่ <code>(5,)</code> คือ tuple · <code>{}</code> คือ dict · <code>bool("False")</code> → True · <code>print("a","b",sep="-",end="!")</code> → a-b!</td></tr>
+</tbody>
+</table>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<ul>
+<li>ตัวเลขติดลบกับ <code>//</code> และ <code>%</code>: ผลปัดลง ไม่ใช่ตัดทศนิยม (ต่างจาก <code>int()</code>)</li>
+<li>ลูป <code>for i in range(3)</code> จบแล้ว i ยังเท่ากับ 2 · ฟังก์ชันที่ใช้ list เป็น default argument ใช้ list ตัวเดิมร่วมกันทุกครั้งที่เรียก</li>
+<li>แยก <code>==</code> (ค่าเท่ากัน) กับ <code>is</code> (ตัวเดียวกัน) · ค่าที่เป็นเท็จ: 0, 0.0, "", [], {}, None</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> <code>print(-7 // 2, -7 % 2)</code> ผลลัพธ์คือ (ก) -3 -1 (ข) -4 1 (ค) -3 1 (ง) -4 -1<br><b>วิธีตัด:</b> <code>//</code> ปัดลงเป็น -4 ตัด (ก)(ค) · เศษต้องให้ -7 = 2×(-4) + เศษ → เศษ = 1 ตัด (ง) → ตอบ (ข) -4 1<br>ข้อคู่: <code>for i in range(1,10,3): print(i, end=" ")</code> → <code>1 4 7</code></div>
+
+<h2>7. โครงสร้างข้อมูล</h2>
+<h3>ต้องจำ</h3>
+<ul>
+<li><b>Stack = LIFO</b> (push/pop/peek) ใช้กับ undo, call stack, DFS, คำนวณ postfix · <b>Queue = FIFO</b> (enqueue/dequeue) ใช้กับคิวพิมพ์, scheduling, BFS</li>
+<li><b>Preorder</b> = ราก–ซ้าย–ขวา · <b>Inorder</b> = ซ้าย–ราก–ขวา · <b>Postorder</b> = ซ้าย–ขวา–ราก · Level-order (BFS) ใช้ queue</li>
+<li>BST: inorder ได้ค่าเรียงน้อย → มาก (ใส่ 50,30,70,20,40,60,80 → inorder 20 30 40 50 60 70 80 · preorder 50 30 20 40 70 60 80)</li>
+<li>ต้นไม้ไบนารี n ระดับ (รากเป็นระดับ 1) มีโหนดได้สูงสุด 2^n−1 (3 ระดับ = 7)</li>
+<li>Infix → postfix: <code>(A+B)*C</code> → <code>AB+C*</code> · <code>2+3*4</code> → <code>2 3 4 * +</code> = 14 · ประเมิน postfix: เจอตัวเลข push เจอเครื่องหมาย pop สองตัว</li>
+<li>Array เข้าถึงตามดัชนี O(1) แทรกกลาง O(n) · Linked list เข้าถึง O(n) แทรก/ลบ (เมื่อมีตำแหน่งแล้ว) O(1) · Hash table ค้นเฉลี่ย O(1)</li>
+</ul>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<ul>
+<li>ลำดับสั่ง push 1, push 2, pop, push 3, pop → stack ออก 2 แล้ว 3 เหลือ [1] · queue (enq 1, enq 2, deq, enq 3, deq) ออก 1 แล้ว 2 เหลือ [3]</li>
+<li>โหนดที่มีลูกคนเดียว ต้องดูว่าเป็นลูกซ้ายหรือขวา เพราะมีผลต่อ inorder</li>
+<li>BFS ใช้ queue · DFS ใช้ stack (สลับกันบ่อย)</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> ต้นไม้ A เป็นราก ลูกซ้าย B ลูกขวา C · B มีลูกซ้าย D ลูกขวา E · C มีลูกซ้ายคือ F ตัวเดียว · ผล inorder คือ<br><b>วิธีตัด:</b> ซ้ายสุดก่อน: D B E → แล้วราก A → แล้วต้นไม้ย่อย C: F C → <code>D B E A F C</code> (preorder A B D E C F · postorder D E B F C A)</div>
+
+<h2>8. Sorting และ Searching</h2>
+<h3>ต้องจำ</h3>
+<table>
+<thead><tr><th>วิธี</th><th>Best</th><th>Average</th><th>Worst</th><th>หมายเหตุ</th></tr></thead>
+<tbody>
+<tr><td>Bubble</td><td>O(n)*</td><td>O(n²)</td><td>O(n²)</td><td>stable · *เมื่อมีตัวตรวจว่าไม่มีการสลับ</td></tr>
+<tr><td>Selection</td><td>O(n²)</td><td>O(n²)</td><td>O(n²)</td><td>ไม่ stable · สลับน้อยครั้ง</td></tr>
+<tr><td>Insertion</td><td>O(n)</td><td>O(n²)</td><td>O(n²)</td><td>stable · ดีเมื่อข้อมูลเกือบเรียง</td></tr>
+<tr><td>Merge</td><td>O(n log n)</td><td>O(n log n)</td><td>O(n log n)</td><td>stable · ใช้ที่เพิ่ม O(n)</td></tr>
+<tr><td>Quick</td><td>O(n log n)</td><td>O(n log n)</td><td>O(n²)</td><td>ไม่ stable · เลวร้ายเมื่อเลือก pivot ซ้ำ ๆ ที่มากสุด/น้อยสุด</td></tr>
+<tr><td>Heap</td><td>O(n log n)</td><td>O(n log n)</td><td>O(n log n)</td><td>ไม่ stable · in-place</td></tr>
+<tr><td>Linear search</td><td>O(1)</td><td>O(n)</td><td>O(n)</td><td>ไม่ต้องเรียงข้อมูล</td></tr>
+<tr><td>Binary search</td><td>O(1)</td><td>O(log n)</td><td>O(log n)</td><td><b>ต้องเรียงข้อมูลก่อน</b></td></tr>
+</tbody>
+</table>
+<ul>
+<li>stable = ค่าที่เท่ากันคงลำดับเดิม · รอบแรกของ [5,1,4,2,8]: bubble → [1,4,2,5,8] · selection → [1,5,4,2,8]</li>
+<li>Bubble เปรียบเทียบสูงสุด n(n−1)/2 ครั้ง (n=10 → 45) · Binary search เปรียบเทียบสูงสุด ⌊log₂n⌋+1 ครั้ง (n=1000 → 10)</li>
+</ul>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<ul>
+<li>Merge sort best = average = worst (ไม่แปรตามลักษณะข้อมูล) · Quick sort worst เป็น O(n²) ไม่ใช่ O(n log n)</li>
+<li>Insertion sort ถ้าข้อมูลเรียงอยู่แล้วเป็น O(n) · Selection sort เรียงแล้วก็ยัง O(n²)</li>
+<li>ตำราบางเล่มให้ Bubble best = O(n²) (ไม่มี flag) ให้ใช้ตามเงื่อนไขที่โจทย์เขียน</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> ข้อมูล 1,000 ตัวเรียงน้อยไปมากอยู่แล้ว วิธีใดเรียงซ้ำได้เร็วที่สุด (ก) Selection (ข) Insertion (ค) Bubble ไม่มี flag (ง) Quick เลือก pivot ตัวแรก<br><b>วิธีตัด:</b> (ก)(ค) ทำ O(n²) เสมอ · (ง) เข้า worst O(n²) พอดี · (ข) O(n) → ตอบ (ข)</div>
+
+<h2>9. เครือข่ายคอมพิวเตอร์</h2>
+<h3>ต้องจำ</h3>
+<table>
+<thead><tr><th>ชั้น OSI</th><th>PDU</th><th>อุปกรณ์</th><th>ตัวอย่าง</th><th>TCP/IP 4 ชั้น</th></tr></thead>
+<tbody>
+<tr><td>7 Application</td><td>Data</td><td>Gateway</td><td>HTTP, FTP, SMTP, DNS, DHCP</td><td>Application</td></tr>
+<tr><td>6 Presentation</td><td>Data</td><td>-</td><td>เข้ารหัส/บีบอัด/แปลงรูปแบบ (TLS, JPEG)</td><td>Application</td></tr>
+<tr><td>5 Session</td><td>Data</td><td>-</td><td>สร้าง/คุม/ปิดการสนทนา</td><td>Application</td></tr>
+<tr><td>4 Transport</td><td>Segment (TCP) / Datagram (UDP)</td><td>-</td><td>TCP, UDP, หมายเลขพอร์ต</td><td>Transport</td></tr>
+<tr><td>3 Network</td><td>Packet</td><td>Router</td><td>IP, ICMP</td><td>Internet</td></tr>
+<tr><td>2 Data Link</td><td>Frame</td><td>Switch, Bridge, NIC</td><td>Ethernet (802.3), Wi-Fi (802.11), MAC</td><td>Network Access</td></tr>
+<tr><td>1 Physical</td><td>Bit</td><td>Hub, Repeater, สายสัญญาณ</td><td>UTP, ไฟเบอร์ออปติก</td><td>Network Access</td></tr>
+</tbody>
+</table>
+<ul>
+<li>ท่องบน→ล่าง: "All People Seem To Need Data Processing" = Application, Presentation, Session, Transport, Network, Data link, Physical</li>
+<li><b>พอร์ตมาตรฐาน:</b> HTTP 80 · HTTPS 443 · FTP 21 (ควบคุม)/20 (ข้อมูล) · SSH 22 · Telnet 23 · SMTP 25 · DNS 53 · DHCP 67/68 · POP3 110 · IMAP 143 · RDP 3389 · MySQL 3306</li>
+<li>อีเมล: ส่งด้วย SMTP · รับด้วย POP3 (ดึงมาเก็บเครื่อง) หรือ IMAP (ซิงก์ไว้บนเซิร์ฟเวอร์)</li>
+<li>TCP: เชื่อมต่อก่อน (3-way handshake SYN, SYN-ACK, ACK) เชื่อถือได้ · UDP: ไม่ต่อก่อน เร็ว ไม่รับประกันการส่ง (สตรีมมิ่ง, DNS)</li>
+<li><b>ชนิด IP:</b> Class A 1–126 (/8) · B 128–191 (/16) · C 192–223 (/24) · D 224–239 multicast · E 240–255 สงวน · 127.x.x.x loopback</li>
+<li><b>Private:</b> 10.0.0.0–10.255.255.255 · 172.16.0.0–172.31.255.255 · 192.168.0.0–192.168.255.255 · 169.254.x.x = APIPA (ขอ DHCP ไม่ได้)</li>
+<li>IPv4 = 32 บิต (4,294,967,296 ที่อยู่) · IPv6 = 128 บิต เขียนฐาน 16 แบ่ง 8 กลุ่ม · MAC = 48 บิต</li>
+<li>DNS แปลงชื่อ → IP · DHCP แจก IP อัตโนมัติ · NAT แปลง private → public · ARP หา MAC จาก IP</li>
+<li>Topology: Star ศูนย์กลางล่ม = ล่มทั้งเครือข่าย แต่สายหนึ่งเส้นขาด กระทบเครื่องเดียว · Bus สายหลักขาด = ล่มทั้งหมด · Full mesh n โหนดใช้ n(n−1)/2 สาย (5 โหนด = 10 สาย)</li>
+</ul>
+<table>
+<thead><tr><th>Prefix</th><th>Subnet mask</th><th>ขนาดบล็อก</th><th>โฮสต์ใช้ได้</th></tr></thead>
+<tbody>
+<tr><td>/24</td><td>255.255.255.0</td><td>256</td><td>254</td></tr>
+<tr><td>/25</td><td>255.255.255.128</td><td>128</td><td>126</td></tr>
+<tr><td>/26</td><td>255.255.255.192</td><td>64</td><td>62</td></tr>
+<tr><td>/27</td><td>255.255.255.224</td><td>32</td><td>30</td></tr>
+<tr><td>/28</td><td>255.255.255.240</td><td>16</td><td>14</td></tr>
+<tr><td>/29</td><td>255.255.255.248</td><td>8</td><td>6</td></tr>
+<tr><td>/30</td><td>255.255.255.252</td><td>4</td><td>2</td></tr>
+</tbody>
+</table>
+<ul>
+<li>สูตรลัด: โฮสต์ใช้ได้ = 2^(32−prefix) − 2 (หัก network กับ broadcast) · ขนาดบล็อก = 256 − เลขท้ายของ mask · แบ่ง /24 เป็น 4 เครือข่ายย่อย → ยืม 2 บิต → /26</li>
+</ul>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<ul>
+<li>Router ตัดสินใจด้วย <b>IP</b> (ชั้น 3) · Switch ใช้ <b>MAC</b> (ชั้น 2) · Hub ส่งออกทุกพอร์ต (ชั้น 1)</li>
+<li>HTTPS = 443 (ไม่ใช่ 80) · POP3 = 110 / IMAP = 143 (สลับกันบ่อย) · 172.32.x.x <b>ไม่ใช่</b> private</li>
+<li>Presentation ทำเรื่องเข้ารหัส/บีบอัด (ไม่ใช่ Session) · Segment/Packet/Frame ต้องจับคู่กับ Transport/Network/Data Link</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> 192.168.10.77/26 มี network address, broadcast และช่วงโฮสต์ใช้ได้เท่าใด<br><b>วิธีตัด:</b> บล็อก = 256−192 = 64 → 77 อยู่บล็อกเริ่ม 64 (64–127) → network 192.168.10.64 · broadcast 192.168.10.127 · โฮสต์ .65–.126 (62 เครื่อง)</div>
+
+<h2>10. ความปลอดภัยของระบบสารสนเทศ</h2>
+<h3>ต้องจำ</h3>
+<table>
+<thead><tr><th>ภัย</th><th>จำให้ได้</th></tr></thead>
+<tbody>
+<tr><td>Virus</td><td>แนบกับไฟล์อื่น ต้องมีคนเปิดไฟล์จึงแพร่</td></tr>
+<tr><td>Worm</td><td>แพร่เองผ่านเครือข่าย ไม่ต้องแนบไฟล์ ไม่ต้องรอผู้ใช้</td></tr>
+<tr><td>Trojan</td><td>ปลอมตัวเป็นโปรแกรมดี <b>แพร่เองไม่ได้</b></td></tr>
+<tr><td>Ransomware</td><td>เข้ารหัสไฟล์แล้วเรียกค่าไถ่</td></tr>
+<tr><td>Spyware / Keylogger</td><td>แอบเก็บข้อมูล / บันทึกการกดแป้นพิมพ์</td></tr>
+<tr><td>Botnet</td><td>เครื่องที่ถูกยึดเป็นเครือข่าย มักใช้ทำ DDoS</td></tr>
+<tr><td>Phishing / Smishing / Vishing</td><td>หลอกผ่านอีเมล / SMS / โทรศัพท์ ให้กรอกข้อมูล</td></tr>
+<tr><td>Pharming</td><td>เปลี่ยนเส้นทาง DNS ไปเว็บปลอม แม้พิมพ์ URL ถูก</td></tr>
+<tr><td>DoS / DDoS</td><td>ทำให้ระบบใช้งานไม่ได้ (กระทบ Availability)</td></tr>
+<tr><td>SQL injection</td><td>แทรกคำสั่ง SQL ผ่านช่องกรอก · ป้องกันด้วย parameterized query</td></tr>
+</tbody>
+</table>
+<ul>
+<li>CIA: Confidentiality (ความลับ) · Integrity (ถูกต้องครบถ้วน) · Availability (พร้อมใช้)</li>
+<li><b>Symmetric</b> กุญแจเดียวกัน (AES, DES) เร็ว แต่แจกกุญแจยาก · <b>Asymmetric</b> คู่ public/private (RSA, ECC) ช้ากว่า · คน n คน: symmetric ต้อง n(n−1)/2 กุญแจ (10 คน = 45) · asymmetric ใช้ 2n (10 คน = 20)</li>
+<li>ส่งลับถึงผู้รับ → เข้ารหัสด้วย <b>public key ของผู้รับ</b> · ลายมือชื่อดิจิทัล → ลงด้วย <b>private key ของผู้ส่ง</b> (ผู้รับตรวจด้วย public key ของผู้ส่ง)</li>
+<li><b>Hash</b> ทางเดียว ถอดกลับไม่ได้ · ผลยาวคงที่ (SHA-256 = 64 ตัวฐาน 16 · MD5 = 32 ตัว) · เปลี่ยนอินพุตนิดเดียวผลเปลี่ยนมาก · ใช้ตรวจ integrity และเก็บรหัสผ่านพร้อม salt</li>
+<li>Caesar shift 3: HELLO → KHOOR · HTTPS = HTTP + TLS (เดิมเรียก SSL)</li>
+<li>2FA ต้องเป็น<b>คนละปัจจัย</b>: สิ่งที่รู้ (รหัสผ่าน/PIN) · สิ่งที่มี (OTP/โทเค็น) · สิ่งที่เป็น (ลายนิ้วมือ/ใบหน้า) · แบ็กอัป 3-2-1: 3 สำเนา · 2 สื่อ · 1 ชุดนอกสถานที่</li>
+</ul>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<ul>
+<li>Virus กับ Worm สลับกัน · Trojan ไม่สำเนาตัวเอง · Phishing (หลอกให้กรอก) กับ Pharming (พาไปเว็บปลอม)</li>
+<li>Hash ไม่ใช่การเข้ารหัส (ถอดกลับไม่ได้) · รหัสผ่าน + PIN เป็นปัจจัย "สิ่งที่รู้" ทั้งคู่ จึงไม่ใช่ 2FA</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> ส่งไฟล์ลับถึงสมชายและให้สมชายแน่ใจว่าไฟล์มาจากเรา ต้องใช้กุญแจใด<br><b>วิธีตัด:</b> ความลับ → เข้ารหัสด้วย public key ของสมชาย · พิสูจน์ผู้ส่ง → ลงลายมือชื่อด้วย private key ของเรา · ตัวเลือกที่สลับ private/public ผิดคู่ให้ตัดทิ้ง</div>
+
+<h2>11. กฎหมายและจริยธรรมดิจิทัล</h2>
+<h3>ต้องจำ</h3>
+<ul>
+<li><b>พ.ร.บ.ว่าด้วยการกระทำความผิดเกี่ยวกับคอมพิวเตอร์ พ.ศ. 2550</b> (แก้ไขเพิ่มเติม พ.ศ. 2560) ความผิดหลัก: เข้าถึงระบบ/ข้อมูลที่มีมาตรการป้องกันโดยมิชอบ · เปิดเผยรหัสหรือมาตรการป้องกันโดยมิชอบ · ดักรับข้อมูลระหว่างทาง · แก้ไข/ทำลายข้อมูล · รบกวนระบบ · ส่งข้อมูลปกปิดแหล่งที่มาจนรบกวนผู้รับ (สแปม) · นำเข้าข้อมูลปลอม/เท็จที่น่าจะเสียหาย · ตัดต่อภาพผู้อื่นจนน่าจะเสียชื่อเสียง</li>
+<li>ผู้ให้บริการต้องเก็บข้อมูลจราจรทางคอมพิวเตอร์ (log) <b>ไม่น้อยกว่า 90 วัน</b> · ผู้ให้บริการที่จงใจสนับสนุนหรือยินยอมให้กระทำผิดมีความผิดด้วย</li>
+<li><b>พ.ร.บ.ลิขสิทธิ์ พ.ศ. 2537:</b> ลิขสิทธิ์เกิดทันทีที่สร้างงาน <b>ไม่ต้องจดทะเบียน</b> · โปรแกรมคอมพิวเตอร์เป็นงานวรรณกรรม · คุ้มครองทั่วไปตลอดชีวิตผู้สร้าง + 50 ปีหลังเสียชีวิต · ข้อเท็จจริงและข่าวประจำวันไม่มีลิขสิทธิ์ · ใช้เพื่อการศึกษา วิจัย วิจารณ์ ในขอบเขตที่ไม่กระทบเจ้าของเกินสมควรไม่ถือเป็นการละเมิด</li>
+<li><b>พ.ร.บ.ธุรกรรมทางอิเล็กทรอนิกส์ พ.ศ. 2544:</b> ลายมือชื่ออิเล็กทรอนิกส์ที่ระบุตัวเจ้าของและเจตนาได้ มีผลทางกฎหมายเทียบเท่าลายมือชื่อ · ข้อมูลอิเล็กทรอนิกส์ปฏิเสธผลทางกฎหมายเพียงเพราะเป็นข้อมูลอิเล็กทรอนิกส์ไม่ได้</li>
+<li><b>PDPA พ.ศ. 2562</b> (บังคับใช้เต็มรูปแบบ 1 มิ.ย. 2565): คุ้มครองข้อมูลของ<b>บุคคลธรรมดา</b> (ไม่ครอบคลุมนิติบุคคล) · เจ้าของข้อมูล (data subject) · ผู้ควบคุมข้อมูล (controller ตัดสินใจวัตถุประสงค์/วิธีการ) · ผู้ประมวลผล (processor ทำตามคำสั่ง controller)</li>
+<li>ข้อมูลอ่อนไหว (เชื้อชาติ ศาสนา ความเห็นการเมือง สุขภาพ พันธุกรรม ชีวภาพ เช่น ลายนิ้วมือ/ใบหน้า ประวัติอาชญากรรม ฯลฯ) ต้องได้ความยินยอมโดยชัดแจ้ง · สิทธิเจ้าของข้อมูล: เข้าถึง/ขอสำเนา · แก้ไข · ลบ · ระงับ · คัดค้าน · โอนย้าย · ถอนความยินยอม · แจ้งเหตุละเมิดต่อสำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคลภายใน <b>72 ชั่วโมง</b> นับแต่ทราบเหตุ (เท่าที่ทำได้)</li>
+<li><b>Creative Commons:</b> BY = ต้องให้เครดิต · NC = ห้ามใช้เชิงพาณิชย์ · ND = ห้ามดัดแปลง · SA = ดัดแปลงได้แต่ต้องแจกต่อด้วยสัญญาอนุญาตแบบเดียวกัน · เข้มสุดคือ BY-NC-ND · CC0 = สละสิทธิ ใช้ได้โดยไม่ต้องให้เครดิต</li>
+</ul>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<ul>
+<li>"ต้องขอความยินยอมทุกกรณี" ผิด · PDPA ยังมีฐานอื่น เช่น สัญญา ประโยชน์สำคัญต่อชีวิต ภารกิจสาธารณะ ประโยชน์โดยชอบด้วยกฎหมาย การปฏิบัติตามกฎหมาย</li>
+<li>"ลิขสิทธิ์ต้องจดทะเบียนก่อน" ผิด · "PDPA คุ้มครองข้อมูลบริษัท" ผิด · controller กับ processor สลับกันบ่อย</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> รูปภาพใช้สัญญาอนุญาต CC BY-SA นำไปดัดแปลงแล้วขายเป็นโปสเตอร์ได้หรือไม่<br><b>วิธีตัด:</b> ไม่มี NC → ขายได้ · ไม่มี ND → ดัดแปลงได้ · ต้องให้เครดิต (BY) และแจกต่อใต้ CC BY-SA เดิม (SA) → ตอบ "ได้ โดยมีเงื่อนไข"</div>
+
+<h2>12. ฐานข้อมูล</h2>
+<h3>ต้องจำ</h3>
+<ul>
+<li><b>Primary key:</b> ไม่ซ้ำและไม่เป็น NULL · มีได้ 1 ชุดต่อตาราง (ประกอบหลายคอลัมน์ได้ = composite) · Candidate key = คอลัมน์ที่เหมาะเป็น PK ทั้งหมด · <b>Foreign key</b> อ้างถึง PK ของอีกตาราง (ซ้ำได้ เป็น NULL ได้)</li>
+<li><b>Degree = จำนวนคอลัมน์</b> (attribute) · <b>Cardinality = จำนวนแถว</b> (tuple/record) · relation = ตาราง</li>
+<li>ER: สี่เหลี่ยม = Entity · วงรี = Attribute · ข้าวหลามตัด = Relationship · ความสัมพันธ์ 1:1, 1:N, M:N (M:N ต้องแตกเป็นตารางเชื่อมที่มี FK สองตัว)</li>
+<li><b>Normalization:</b> 1NF = ทุกเซลล์เป็นค่าเดี่ยว ไม่มีกลุ่มซ้ำ · 2NF = 1NF + ไม่มี partial dependency (คอลัมน์ไม่ใช่คีย์ต้องขึ้นกับ<b>ทั้งหมด</b>ของคีย์ผสม) · 3NF = 2NF + ไม่มี transitive dependency (non-key → non-key)</li>
+<li>ตัวอย่างผิด: ใส่เบอร์โทร 2 เบอร์ในเซลล์เดียว = ผิด 1NF · Order(order_id, product_id, product_name, qty) คีย์ผสม product_name ขึ้นกับ product_id อย่างเดียว = ผิด 2NF · Student(id, dept_id, dept_name) dept_name ขึ้นกับ dept_id = ผิด 3NF</li>
+<li>กลุ่มคำสั่ง: DDL (CREATE ALTER DROP TRUNCATE) · DML (INSERT UPDATE DELETE และ SELECT ตามตำราส่วนใหญ่) · DCL (GRANT REVOKE) · TCL (COMMIT ROLLBACK)</li>
+<li><b>ลำดับเขียน:</b> SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY · ลำดับประมวลผล: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY</li>
+<li>WHERE กรอง<b>แถว</b>ก่อนจัดกลุ่ม ใช้ COUNT/SUM/AVG ไม่ได้ · HAVING กรอง<b>กลุ่ม</b>หลัง GROUP BY ใช้ฟังก์ชันรวมได้ · LIKE: % = กี่ตัวก็ได้ · _ = 1 ตัว · ACID = Atomicity, Consistency, Isolation, Durability</li>
+<li>DELETE ลบแถว (ใส่ WHERE ได้) · TRUNCATE ลบทุกแถว โครงสร้างอยู่ · DROP ลบทั้งตาราง · INNER JOIN ได้เฉพาะที่จับคู่ · LEFT JOIN ได้ตารางซ้ายครบ ฝั่งขวาไม่เจอเป็น NULL</li>
+</ul>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<p>ตารางตัวอย่าง s(id, name, dept, score) = (1,A,CS,80) (2,B,CS,60) (3,C,IT,70) (4,D,IT,<b>NULL</b>) (5,E,IT,90) · ผลที่รันตรวจแล้ว:</p>
+<table>
+<thead><tr><th>คำสั่ง</th><th>ผล</th></tr></thead>
+<tbody>
+<tr><td><code>COUNT(*)</code> เทียบ <code>COUNT(score)</code></td><td>5 เทียบ 4 (COUNT(คอลัมน์) ข้าม NULL)</td></tr>
+<tr><td><code>SUM(score)</code> · <code>AVG(score)</code></td><td>300 · 75 (หาร 4 ไม่ใช่ 5 เพราะข้าม NULL)</td></tr>
+<tr><td><code>WHERE score = NULL</code></td><td>0 แถว (ต้องใช้ <code>IS NULL</code> → 1 แถว)</td></tr>
+<tr><td><code>WHERE score != 80</code></td><td>3 แถว (แถว NULL ไม่ติดมาด้วย)</td></tr>
+<tr><td><code>GROUP BY dept HAVING COUNT(*) &gt; 2</code></td><td>IT (3)</td></tr>
+</tbody>
+</table>
+<ul>
+<li>ตาราง d มี CS, IT, EE → LEFT JOIN แล้วนับ จะเห็น EE = 0 · INNER JOIN จะไม่มี EE</li>
+<li>"PK ซ้ำได้" ผิด · "FK ต้องไม่เป็น NULL" ไม่จำเป็น · ผู้เรียนมักสลับ degree กับ cardinality</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> ต้องการแผนกที่มีพนักงานมากกว่า 2 คน: <code>SELECT dept FROM s WHERE COUNT(*) &gt; 2 GROUP BY dept</code> ถูกหรือไม่<br><b>วิธีตัด:</b> WHERE ใช้ฟังก์ชันรวมไม่ได้ (รันแล้ว error: misuse of aggregate) → ต้องเป็น <code>GROUP BY dept HAVING COUNT(*) &gt; 2</code></div>
+
+<h2>13. หลักสูตร ว 4.1/ว 4.2 และแนวคิดเชิงคำนวณ</h2>
+<h3>ต้องจำ</h3>
+<ul>
+<li>หลักสูตรแกนกลาง 2551 (ฉบับปรับปรุง 2560) กลุ่มสาระวิทยาศาสตร์และเทคโนโลยี สาระที่ 4 เทคโนโลยี: <b>ว 4.1 = การออกแบบและเทคโนโลยี</b> (design thinking, กระบวนการเชิงวิศวกรรม) · <b>ว 4.2 = วิทยาการคำนวณ</b> (แนวคิดเชิงคำนวณ, อัลกอริทึม, การเขียนโปรแกรม, ข้อมูล, ICT อย่างรู้เท่าทันและมีจริยธรรม)</li>
+<li>กระบวนการออกแบบเชิงวิศวกรรม: ระบุปัญหา → รวบรวมข้อมูล → ออกแบบวิธีแก้ปัญหา → วางแผนและลงมือทำ → ทดสอบ ประเมิน ปรับปรุง → นำเสนอ</li>
+</ul>
+<table>
+<thead><tr><th>องค์ประกอบแนวคิดเชิงคำนวณ</th><th>ความหมาย / คำที่เห็นในโจทย์</th></tr></thead>
+<tbody>
+<tr><td>Decomposition (แยกย่อยปัญหา)</td><td>แบ่งปัญหาใหญ่เป็นปัญหาย่อย</td></tr>
+<tr><td>Pattern Recognition (หารูปแบบ)</td><td>สังเกตสิ่งที่ซ้ำ/คล้ายกัน</td></tr>
+<tr><td>Abstraction (คิดเชิงนามธรรม)</td><td>เก็บเฉพาะสาระสำคัญ ตัดรายละเอียดที่ไม่จำเป็น</td></tr>
+<tr><td>Algorithm Design (ออกแบบอัลกอริทึม)</td><td>วางลำดับขั้นตอนแก้ปัญหา</td></tr>
+</tbody>
+</table>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<ul>
+<li>ว 4.1 กับ ว 4.2 สลับกัน: ถ้าโจทย์พูดถึงการออกแบบชิ้นงาน/ผลิตภัณฑ์ = ว 4.1 ถ้าพูดถึงอัลกอริทึม/การเขียนโปรแกรม = ว 4.2</li>
+<li>แนวคิดเชิงคำนวณไม่ได้แปลว่าต้องใช้คอมพิวเตอร์ · ใช้กับการแก้ปัญหาในชีวิตจริงได้ · ตรวจตัวชี้วัดชั้นปีฉบับปัจจุบันที่ ipst.ac.th</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> แผนที่รถไฟฟ้าแสดงเฉพาะสายและสถานี ไม่แสดงระยะทางจริงและถนน เป็นองค์ประกอบใด<br><b>วิธีตัด:</b> ตัดรายละเอียดที่ไม่จำเป็นออก → Abstraction (ไม่ใช่ Decomposition ที่แบ่งเป็นส่วนย่อย)</div>
+
+<h2>14. AI · ML · IoT · SDLC (ย่อ)</h2>
+<h3>ต้องจำ</h3>
+<ul>
+<li>AI ⊃ Machine Learning ⊃ Deep Learning (โครงข่ายประสาทเทียมหลายชั้น) · Generative AI สร้างเนื้อหาใหม่ (ระวัง hallucination, อคติ, ลิขสิทธิ์, ข้อมูลส่วนบุคคล)</li>
+<li>ML 3 แบบ: <b>Supervised</b> (ข้อมูลมีป้ายคำตอบ: classification แยกประเภท · regression ทำนายค่าต่อเนื่อง) · <b>Unsupervised</b> (ไม่มีป้าย: clustering จัดกลุ่ม) · <b>Reinforcement</b> (ลองผิดลองถูกด้วยรางวัล/โทษ)</li>
+<li>IoT: อุปกรณ์ + เซนเซอร์ → เครือข่าย (Wi-Fi, Bluetooth, 4G/5G) → ประมวลผล/คลาวด์ → แอปหรือ actuator สั่งงาน · MQTT = โปรโตคอลเบาแบบ publish/subscribe</li>
+<li>Cloud: SaaS (ใช้แอปสำเร็จ เช่น เอกสารออนไลน์) · PaaS (แพลตฟอร์มสำหรับพัฒนา) · IaaS (เช่าเครื่องเสมือน)</li>
+<li><b>SDLC:</b> วางแผน → วิเคราะห์ความต้องการ → ออกแบบ → พัฒนา → ทดสอบ → นำไปใช้ → บำรุงรักษา (ตำราบางเล่มรวมเป็น 5–6 ขั้น ให้ดูตามโจทย์) · บำรุงรักษามักยาวและแพงที่สุดในวงจร</li>
+<li>Waterfall เรียงขั้นย้อนกลับยาก · Prototype สร้างต้นแบบให้ผู้ใช้ดู · Agile/Scrum ทำเป็นรอบสั้น (sprint) ส่งมอบบ่อย · Spiral วนรอบพร้อมประเมินความเสี่ยง</li>
+<li>ทดสอบ: Black-box ดูแค่ input/output · White-box ดูโค้ดภายใน · ลำดับ unit → integration → system → acceptance (UAT โดยผู้ใช้)</li>
+</ul>
+<h3>ข้อสอบชอบพลิกตรงนี้</h3>
+<ul>
+<li>Clustering เป็น unsupervised (ไม่ใช่ supervised) · Supervised ต้องมี label · AI กว้างกว่า ML กว้างกว่า DL (ห้ามสลับ)</li>
+<li>Black-box ไม่ต้องรู้โค้ด · White-box ต้องรู้โค้ด · Waterfall ไม่เหมาะกับความต้องการที่เปลี่ยนบ่อย</li>
+</ul>
+<div class="ex"><b>ตัวอย่างโจทย์พลิก:</b> ฝึกโมเดลแยกอีเมลสแปม/ไม่ใช่สแปม จากตัวอย่างที่คนติดป้ายไว้แล้ว เป็น ML แบบใด<br><b>วิธีตัด:</b> มีป้ายคำตอบ + ผลเป็นหมวดหมู่ → Supervised (classification) ไม่ใช่ clustering</div>
+
+<h2>ทวน 1 นาทีก่อนเข้าห้องสอบ</h2>
+<ul>
+<li>Two's complement: กลับบิต แล้ว +1 · 8 บิต −128…127 · −5 = 11111011</li>
+<li>เกต: NOR ได้ 1 เฉพาะ 00 · XOR ต่างกันได้ 1 · NAND = AND แล้วกลับ</li>
+<li>Register เร็วสุด · RAM volatile ROM ไม่ · address bus ทิศเดียว data bus สองทิศ · address 32 บิต = 4 GB</li>
+<li>Waiting ไป Ready ก่อนเสมอ · deadlock 4 ข้อมี "No preemption" · SJF รอน้อยสุด · paging = internal</li>
+<li>Python: <code>//</code> ปัดลง · <code>range</code> ไม่รวม stop · list กำหนดต่อ = alias · <code>and/or</code> short-circuit</li>
+<li>Merge n log n ทุกกรณี · Quick worst n² · Binary search ต้องเรียงก่อน · inorder ของ BST = เรียงน้อยไปมาก</li>
+<li>พอร์ต: 80 HTTP · 443 HTTPS · 22 SSH · 25 SMTP · 53 DNS · 110 POP3 · 143 IMAP · private 172.16–172.31 · โฮสต์ = 2^(32−p)−2</li>
+<li>ส่งลับใช้ public ผู้รับ · เซ็นใช้ private ผู้ส่ง · hash ถอดกลับไม่ได้ · virus ต้องมีโฮสต์ worm แพร่เอง</li>
+<li>log 90 วัน · PDPA แจ้งเหตุ 72 ชม. ไม่ต้องขอ consent ทุกกรณี · ลิขสิทธิ์ไม่ต้องจดทะเบียน</li>
+<li>WHERE กรองแถว HAVING กรองกลุ่ม · COUNT(col) ข้าม NULL · ว 4.1 ออกแบบ ว 4.2 วิทยาการคำนวณ</li>
+</ul>
