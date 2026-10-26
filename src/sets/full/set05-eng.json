@@ -23,7 +23,7 @@
   "id": "m05-eng-002",
   "s": "eng",
   "p": "ปฏิเสธ",
-  "q": "Which sentence contains an error in the use of articles or quantifiers?",
+  "q": "Which sentence contains an error in the use of countable and uncountable nouns?",
   "c": [
    "She gave me some useful information about the scholarship.",
    "We need a few more chairs, but we have enough furniture.",
@@ -828,7 +828,7 @@
   "id": "m05-eng-042",
   "s": "eng",
   "p": "ปฏิเสธ",
-  "q": "According to the passage, which of the following is <b>NOT</b> given as a reason why elderly patients in remote districts miss check-ups?",
+  "q": "According to the passage, which of the following is <b>NOT</b> mentioned about elderly patients in remote districts?",
   "ps": "In many remote districts, the nearest hospital is several hours away, and elderly patients often skip check-ups because the journey is tiring and expensive. Telemedicine aims to solve this problem. At a village health centre, a nurse connects the patient by video to a doctor in a city hospital. The doctor asks questions, looks at test results sent by the nurse and prescribes medicine. Studies show that the service saves patients both time and travel costs. Nevertheless, it has limits. A weak internet signal can interrupt a consultation, and a doctor cannot carry out a physical examination through a screen. For this reason, patients with serious symptoms are still advised to visit a hospital in person.",
   "c": [
    "The nearest hospital is several hours away.",
@@ -843,7 +843,7 @@
    "ผิด: บทความกล่าวว่าการเดินทางทำให้เหนื่อย",
    "ผิด: บทความกล่าวว่าการเดินทางมีค่าใช้จ่ายสูง"
   ],
-  "tip": "ข้อ NOT given as a reason ให้ขีดสาเหตุที่บทความระบุออก ตัวที่หาไม่พบในบทความคือคำตอบ"
+  "tip": "ข้อ NOT mentioned ให้ไล่ตรวจแต่ละตัวเลือกกับบทความ ตัวที่หาไม่พบคือคำตอบ"
  },
  {
   "id": "m05-eng-043",
