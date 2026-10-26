@@ -48,14 +48,26 @@ pre{font-family:"IBM Plex Mono",Menlo,monospace;font-size:9.5pt;margin:1mm 0 1.5
 .why .ok{font-weight:700}
 .tip{margin:1mm 0 0 10mm;font-size:10pt;border-left:2pt solid #000;padding-left:2mm}
 .foot{font-size:9pt;color:#444;margin-top:3mm}
+/* ประหยัดกระดาษ: 2 คอลัมน์ ตัวอักษรเล็กลง */
+body.compact .qs{columns:2;column-gap:7mm;column-rule:.4pt solid #ccc}
+body.compact{font-size:10pt;line-height:1.4}
+body.compact .q{padding:1.4mm 0 1.6mm}
+body.compact .s{grid-template-columns:8mm 1fr}
+body.compact .ch{grid-template-columns:1fr 1fr;gap:.3mm 3mm;margin-left:8mm}
+body.compact .ch.mid,body.compact .ch.long{grid-template-columns:1fr}
+body.compact .ps,body.compact pre,body.compact .why,body.compact .tip,body.compact .ans{margin-left:8mm}
+body.compact pre{font-size:8.6pt}
+body.compact .sec-title{column-span:all}
+.toolbar label{display:flex;gap:6px;align-items:center;cursor:pointer}
 </style>
 </head>
 <body>
-<div class="toolbar"><button type="button" id="pr">พิมพ์ / บันทึก PDF</button><a class="sec" href="index.html#exams">กลับหน้าข้อสอบ</a><span>ตั้งค่าตอนพิมพ์: กระดาษ A4 · ขอบ "ค่าเริ่มต้น" · ปิดหัวกระดาษและท้ายกระดาษ</span></div>
+<div class="toolbar"><button type="button" id="pr">พิมพ์ / บันทึก PDF</button><label><input type="checkbox" id="cp" checked> ประหยัดกระดาษ (2 คอลัมน์)</label><a class="sec" href="index.html#exams">กลับหน้าข้อสอบ</a><span>ตั้งค่าตอนพิมพ์: กระดาษ A4 · ขอบ "ค่าเริ่มต้น" · ปิดหัวกระดาษและท้ายกระดาษ</span></div>
 <div class="paper" id="paper">กำลังโหลด…</div>
 <script src="common.js"></script>
 <script>
 document.getElementById("pr").onclick=()=>window.print();
+const cp=document.getElementById("cp");cp.checked=store.get("ks-compact",true);document.body.classList.toggle("compact",cp.checked);cp.onchange=()=>{store.set("ks-compact",cp.checked);document.body.classList.toggle("compact",cp.checked)};
 (async function(){
   const qs=new URLSearchParams(location.search),cid=qs.get("c"),part=qs.get("p")||"A",mode=qs.get("m")||"exam";
   const M=await loadManifest(),c=M.collections.find(x=>x.id===cid),P=document.getElementById("paper");
@@ -65,11 +77,12 @@ document.getElementById("pr").onclick=()=>window.print();
   document.title=(mode==="key"?"เฉลย ":"ข้อสอบ ")+title;
   let h="",cur="";
   const body=(q,i)=>`<div class="s"><span class="n">${i+1}.</span><span>${q.q}</span></div>${q.ps?`<div class="ps">${esc(q.ps)}</div>`:""}${q.code?`<pre>${esc(q.code)}</pre>`:""}`;
-  const secHead=q=>{if(q.s===cur)return"";cur=q.s;return `<div class="sec-title">${SUBJ[q.s][1]}</div>`};
+  const secHead=q=>{if(q.s===cur)return"";const close=cur?"</div>":"";cur=q.s;return `${close}<div class="sec-title">${SUBJ[q.s][1]}</div><div class="qs">`};
   if(mode==="exam"){
     h+=`<div class="head"><h1>แบบทดสอบฝึก · ${esc(title)}</h1><div class="fields"><span>ชื่อ</span><span>วันที่</span><span>${N} ข้อ</span></div><div class="rule">เวลา ${mins} · เลือกคำตอบที่ถูกต้องที่สุดเพียงข้อเดียว แล้วระบายในกระดาษคำตอบท้ายชุด · ขีด ✗ ตัดตัวเลือกบนข้อสอบได้</div></div>`;
     items.forEach((q,i)=>{const o=orderOf(q),long=o.some(ci=>String(q.c[ci]).length>32)||(q.code&&o.some(ci=>String(q.c[ci]).length>18));
-      h+=secHead(q)+`<div class="q">${body(q,i)}<div class="ch${long?" long":""}">${o.map((ci,pos)=>`<div><span>${TH[pos]}.</span><span>${esc(q.c[ci])}</span></div>`).join("")}</div></div>`});
+      const mid=o.some(ci=>String(q.c[ci]).length>15);h+=secHead(q)+`<div class="q">${body(q,i)}<div class="ch${long?" long":""}${mid?" mid":""}">${o.map((ci,pos)=>`<div><span>${TH[pos]}.</span><span>${esc(q.c[ci])}</span></div>`).join("")}</div></div>`});
+    h+="</div>";
     const rows=a=>a.map(n=>`<div class="row"><b>${n}.</b>${TH.map(t=>`<span class="bub">${t}</span>`).join("")}</div>`).join("");
     const nums=[...Array(N)].map((_,i)=>i+1),big=N<=60,cols=big?2:4,per=Math.ceil(N/cols);
     h+=`<div class="sheet"><div class="head"><h1>กระดาษคำตอบ · ${esc(title)}</h1><div class="fields"><span>ชื่อ</span><span>วันที่</span><span>คะแนน ____ / ${N}</span></div><div class="rule">ระบายวงกลมให้เต็ม · ตรวจเองที่เว็บ เมนู "ตรวจกระดาษคำตอบ" หรือถ่ายรูปหน้านี้ส่งให้ Claude ตรวจ</div></div><div class="grid${big?" big":""}">${[...Array(cols)].map((_,k)=>`<div>${rows(nums.slice(k*per,(k+1)*per))}</div>`).join("")}</div></div>`;
@@ -77,6 +90,7 @@ document.getElementById("pr").onclick=()=>window.print();
     h+=`<div class="head"><h1>เฉลยและคำอธิบาย · ${esc(title)}</h1><div class="rule">ตรวจคำตอบก่อน แล้วค่อยอ่านเหตุผลของข้อที่ผิด · ลำดับตัวเลือกตรงกับข้อสอบชุดนี้และบนเว็บ</div></div>`;
     h+=`<div class="keytab">${items.map((q,i)=>`<span>${i+1}. ${TH[keyOf(q)]}</span>`).join("")}</div>`;
     items.forEach((q,i)=>{const o=orderOf(q);h+=secHead(q)+`<div class="q">${body(q,i)}<div class="ans">ตอบ ${TH[keyOf(q)]}. ${esc(q.c[q.a])}</div><div class="why">${o.map((ci,pos)=>`<div class="${ci===q.a?"ok":""}"><span>${TH[pos]}.</span><span>${esc(q.n[ci])}</span></div>`).join("")}</div><div class="tip">เทคนิค · ${esc(q.tip)}</div></div>`});
+    h+="</div>";
     h+=`<div class="foot">ข้อสอบชุดนี้เขียนขึ้นเพื่อฝึกรูปแบบการพลิกโจทย์ ไม่ใช่ข้อสอบจริง</div>`;
   }
   P.innerHTML=h;
