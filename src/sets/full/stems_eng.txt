@@ -198,3 +198,103 @@ m06-eng-047: The passage mentions all of the following as benefits of clothes-sw
 m06-eng-048: Which statement would the critics most likely agree with?
 m06-eng-049: Which sentence uses the word tight in the same meaning as in the phrase “a tight budget”?
 m06-eng-050: Nan took home twelve items from a swap event, but she wears only three of them. Which concern of the critics does her case illustrate?
+m07-eng-001: Choose the correct answer. By the time the bus finally arrived, the students ____ in the rain for almost an hour.
+m07-eng-002: Which sentence contains an error in subject-verb agreement?
+m07-eng-003: Which sentences are grammatically correct? 1) It's no use worrying about things you cannot change. 2) She is looking forward to meet her pen friend next month. 
+m07-eng-004: Which sentence correctly reports the statement below? “I will call you tomorrow,” Ploy told her brother.
+m07-eng-005: Which sentence is NOT grammatically correct?
+m07-eng-006: Which part of the sentence contains an error in the use of a preposition ? The manager apologised for the delay, explained the reason to the customers and insis
+m07-eng-007: Choose the correct answer. The old bridge ____ at the moment, so drivers have to use the road through the village.
+m07-eng-008: Which sentence has the closest meaning to the following? “The soup was so hot that she couldn't eat it.”
+m07-eng-009: Choose the correct answer. I will send you the photos as soon as I ____ the office tomorrow morning.
+m07-eng-010: Choose the correct answer. “It's high time we ____ the old computer lab,” the principal said.
+m07-eng-011: Choose the correct answer. “Mali can't swim,” said Nok. “____ can I,” said Pim.
+m07-eng-012: Which sentences are grammatically correct? 1) The students were made to rewrite the poem. 2) The headmaster let the visitors park in the school yard. 3) We watc
+m07-eng-013: Choose the correct answer. The report ____ by the committee last week has not been published yet.
+m07-eng-014: Choose the correct answer. Mr. Anan has just finished his first marathon. He says, “This is the hardest thing I ____ in my life.”
+m07-eng-015: Which sentence has the closest meaning to the following? “Should you need further help, please contact the office.”
+m07-eng-016: A club leader is disappointed with the turnout at the workshop. Which sentence did she most likely say?
+m07-eng-017: Which noun phrase shows the correct order of adjectives?
+m07-eng-018: Choose the correct answer. The principal expressed her ____ to the volunteers who had cleaned the canal.
+m07-eng-019: Choose the word closest in meaning to the word in bold. The teacher's explanation was so lucid that even beginners could follow it.
+m07-eng-020: Choose the word or phrase closest in meaning to the part in bold. The final exam was called off because of the storm.
+m07-eng-021: Which word is NOT close in meaning to the word in bold? The speaker gave a succinct summary of the report.
+m07-eng-022: Which sentence uses effect or affect correctly?
+m07-eng-023: Which verbs can correctly complete the sentence? The students will ____ research on the water quality of the local canal. 1) make 2) conduct 3) carry out
+m07-eng-024: A teacher always shares credit with her colleagues and never talks proudly about her own achievements. Which adjective best describes her?
+m07-eng-025: Choose the word or phrase closest in meaning to the part in bold. During the discussion, a student brought up an important issue about the exam schedule.
+m07-eng-026: Which noun phrase is NOT a natural English collocation?
+m07-eng-027: Choose the correct answer. Scientists warn that the damage to the coral reef may be ____; it could take hundreds of years to recover, if it recovers at all.
+m07-eng-028: Choose the correct answer. The two schools decided to ____ their resources so that more students could use the new laboratory.
+m07-eng-029: Complete the conversation. Parent: Excuse me, I'd like to make an appointment to see Mr. Somchai about my son's grades. Secretary: ____
+m07-eng-030: A colleague thanks you for helping carry the boxes to the storeroom. Which response is NOT appropriate?
+m07-eng-031: Read the conversation. A: Are you coming to the football match this afternoon? B: I think I'll skip it. I'm feeling a bit under the weather. What does B mean?
+m07-eng-032: Which of the following can be used to make a request politely? 1) Could you possibly lend me your notes? 2) Lend me your notes right now. 3) Would you mind lend
+m07-eng-033: Complete the conversation. Teacher: Your presentation was really impressive, Nid! Nid: ____
+m07-eng-034: You are at a bus station and want to sit next to a stranger. What would you say?
+m07-eng-035: Read the conversation. A: Do you think our school team will win the debate tournament this year? Which response shows that B is uncertain ?
+m07-eng-036: Which of the following is NOT a suitable way to end a formal email to a teacher?
+m07-eng-037: Which of the following best summarises the passage?
+m07-eng-038: According to the passage, which statement is NOT true?
+m07-eng-039: The word admits in the last sentence is closest in meaning to
+m07-eng-040: Which statements are supported by the passage? 1) The school has no need to buy electricity from the grid. 2) Some of the income from the panels is used to repa
+m07-eng-041: A school in a district where it rains for weeks at a time wants to copy this project. What does the passage suggest about it?
+m07-eng-042: The writer's main purpose is to
+m07-eng-043: All of the following are tasks of the volunteers mentioned in the passage EXCEPT
+m07-eng-044: The word they in the sentence beginning “When they find something worrying” refers to
+m07-eng-045: Which statements can be inferred from the passage? 1) Volunteers' visits may help detect health problems early. 2) Volunteers give their time without being paid
+m07-eng-046: A village has many volunteers over sixty and wants to keep its programme strong. What does the passage suggest the village should do?
+m07-eng-047: According to the passage, what happened after much of the mangrove forest was cleared?
+m07-eng-048: The phrase wear away in the passage is closest in meaning to
+m07-eng-049: All of the following are mentioned as part of the replanting effort EXCEPT
+m07-eng-050: Which statement would the villagers most likely agree with?
+m08-eng-001: Choose the correct answer. The instructor warns Ann, “You won't pass the driving test ____ you practise more.”
+m08-eng-002: Choose the correct answer. The principal cancelled the school trip, ____ disappointed many students.
+m08-eng-003: Choose the correct answer. If Ploy had accepted the scholarship in Japan, she ____ there now.
+m08-eng-004: Which part of the sentence contains an error in the use of tense ? If it will rain tomorrow, the football match will be postponed, and the players will need to 
+m08-eng-005: Which sentence uses a preposition of time incorrectly ?
+m08-eng-006: Choose the correct answer. The train was delayed for an hour, so we ____ to the station.
+m08-eng-007: Choose the correct answer. The students were chatting noisily. When the teacher walked in, they stopped ____.
+m08-eng-008: Choose the correct answer. Only after the results were announced ____ how serious the problem was.
+m08-eng-009: Choose the correct answer. This is the village ____ my grandmother was born.
+m08-eng-010: Choose the correct answer. Take an umbrella ____ it rains this afternoon.
+m08-eng-011: Laptop A costs 18,000 baht and Laptop B costs 24,000 baht. Which sentence is correct?
+m08-eng-012: Choose the correct answer. I forgot my pen. Could you ____ me yours, please?
+m08-eng-013: Which sentences are grammatically correct? 1) The book that I borrowed from the library is overdue. 2) The students who they won the prize are from my school. 3
+m08-eng-014: Which sentences are grammatically correct? 1) Everyone in the team are ready to start. 2) Neither of the answers is correct. 3) Either of the two roads leads to
+m08-eng-015: Which sentence contains an error in the use of much or many ?
+m08-eng-016: Which sentence has the closest meaning to the following? “No sooner had the lecture started than the power went out.”
+m08-eng-017: Choose the correct answer. The lecture was so ____ that half of the audience fell asleep.
+m08-eng-018: Choose the correct answer. After she ____ the application form, she handed it to the clerk.
+m08-eng-019: Choose the word or phrase closest in meaning to the part in bold. The company plans to phase out plastic bags by the end of the year.
+m08-eng-020: Choose the word closest in meaning to the word in bold. The teacher gave the student some candid feedback, so he knew exactly what to improve.
+m08-eng-021: Which word is NOT close in meaning to the word in bold? The villagers were reluctant to move to the new site.
+m08-eng-022: Which sentence uses principal or principle correctly?
+m08-eng-023: Which words can correctly complete the sentence? The festival attracted a ____ crowd, so the organisers ran out of food. 1) huge 2) massive 3) sizeable
+m08-eng-024: Nong is always the first to volunteer when the class needs help, and she never waits to be asked. Which adjective best describes her?
+m08-eng-025: Choose the word or phrase closest in meaning to the part in bold. Only half of the invited guests turned up at the meeting.
+m08-eng-026: Which verb phrase is NOT a natural English collocation?
+m08-eng-027: Choose the correct answer. Wind and sunlight are ____ sources of energy because they can never be used up.
+m08-eng-028: Choose the correct answer. The mayor promised to ____ the problem of flooding before the rainy season starts.
+m08-eng-029: Complete the conversation. Student: Excuse me, may I borrow this dictionary overnight? Librarian: ____
+m08-eng-030: Which of the following is NOT an appropriate way to ask a stranger for directions?
+m08-eng-031: Read the conversation. A: Are you coming to the party tonight? B: I can't. I have to hit the books because my exam is on Monday. What does B mean?
+m08-eng-032: Which of the following can be used to accept an invitation? 1) I'd love to, thank you. 2) That sounds great. What time? 3) I'm afraid I can't make it.
+m08-eng-033: Complete the conversation. Receptionist: Good morning, Sakaeo Hospital. How can I help you? Caller: ____
+m08-eng-034: A colleague tells you she has just been promoted. What would you say?
+m08-eng-035: Complete the conversation. Tourist: Excuse me, is there a pharmacy near here? Local: ____
+m08-eng-036: At a friend's house, the host offers you more rice, but you are full. Which response is NOT appropriate?
+m08-eng-037: Which statement best expresses the main idea of the passage?
+m08-eng-038: According to the passage, which statement is NOT true?
+m08-eng-039: The word convinced in the sentence “Some parents, however, are not convinced.” is closest in meaning to
+m08-eng-040: Which statements are supported by the passage? 1) Students are not allowed to use AI tools at all. 2) Students may use AI tools to come up with ideas. 3) The in
+m08-eng-041: A teacher wants to follow the method used at Phanom Secondary School. Which plan matches the passage?
+m08-eng-042: Which title is most suitable for the passage?
+m08-eng-043: Why is the first rain of the season not stored?
+m08-eng-044: The passage suggests that poorer families
+m08-eng-045: The phrase run out of in the first sentence is closest in meaning to
+m08-eng-046: Which statements are supported by the passage? 1) A teacher suggested collecting rainwater from roofs. 2) Rainwater from every rainfall is stored in the tanks. 
+m08-eng-047: According to the passage, why do many teenagers get too little sleep?
+m08-eng-048: The passage suggests all of the following as difficulties of later start times EXCEPT
+m08-eng-049: The writer's view of later school start times can best be described as
+m08-eng-050: The word disturb in the passage is closest in meaning to
