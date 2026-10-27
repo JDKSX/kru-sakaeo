@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600&family=Trirong:wght@600&family=Sarabun:wght@400;700&family=IBM+Plex+Mono:wght@500&display=swap">
 <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
-<link rel="stylesheet" href="ks-ds.css?v=mvqg93nz">
+<link rel="stylesheet" href="ks-ds.css?v=mvqgbamb">
 <style>
 @page{size:A4;margin:0}
 body{background:var(--surface-2)}
@@ -93,7 +93,7 @@ pre{font-family:"IBM Plex Mono",Menlo,monospace;font-size:8.6pt;line-height:1.38
 </div>
 <main class="stage" id="stage"><div class="state card pad"><div class="skel" style="height:20px"></div></div></main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
-<script src="common.js?v=mvqg93nz"></script>
+<script src="common.js?v=mvqgbamb"></script>
 <script>
 const Q=new URLSearchParams(location.search),cid=Q.get("c"),part=Q.get("p")||"A";
 let mode=Q.get("m")||"exam",M,C,items,N;
@@ -203,7 +203,7 @@ async function render(){
   document.title=({exam:"ข้อสอบ",sheet:"กระดาษคำตอบ",key:"เฉลย"})[mode]+" · "+title();
   stage.innerHTML="";
   stage.classList.toggle("compact",mode!=="sheet"&&cp.checked);
-  await Promise.all(['400 11pt Sarabun','700 11pt Sarabun','500 9pt "IBM Plex Mono"'].map(f=>document.fonts.load(f).catch(()=>0)));await document.fonts.ready;groupPs();
+  await Promise.all([['400 11pt Sarabun','กขคง ข้อ ศึกษา Aa1'],['700 11pt Sarabun','กขคง ข้อ ศึกษา Aa1'],['500 9pt "IBM Plex Mono"','Aa1()=']].map(([f,s])=>document.fonts.load(f,s).catch(()=>0)));await document.fonts.ready;groupPs();
   let pages=1;
   if(mode==="sheet"){const p=newPage("sheet",null,1);p.innerHTML=sheetSVG()}
   else{
@@ -213,6 +213,8 @@ async function render(){
   }
   document.getElementById("info").textContent=`${pages} หน้า A4`;
   fit();
+  /* ถ้าฟอนต์โหลดเสร็จทีหลังจนคอลัมน์ล้น ให้จัดหน้าใหม่ 1 ครั้ง */
+  if(!render.retried){render.retried=true;setTimeout(()=>{if([...stage.querySelectorAll(".col")].some(c=>{const l=c.lastElementChild;return l&&l.offsetTop+l.offsetHeight>c.clientHeight+1}))render()},1500)}
 }
 (async function(){
   try{
