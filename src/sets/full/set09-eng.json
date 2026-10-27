@@ -506,18 +506,18 @@
   "q": "Which verb can <b>NOT</b> be used naturally with the noun “speech”?",
   "c": [
    "give",
-   "do",
+   "take",
    "make",
    "deliver"
   ],
   "a": 1,
   "n": [
    "ผิด: give a speech เป็น collocation ที่ถูกต้อง",
-   "✓ ถูก: ใช้ give / make / deliver a speech ไม่ใช้ do a speech",
+   "✓ ถูก: ใช้ give / make / deliver a speech ไม่ใช้ take a speech",
    "ผิด: make a speech เป็น collocation ที่ถูกต้อง",
    "ผิด: deliver a speech เป็น collocation ที่ถูกต้อง"
   ],
-  "tip": "speech: give/make/deliver; homework/research/a favour: do; decision/mistake/progress: make"
+  "tip": "speech: give / make / deliver · take ใช้กับ a break, a photo ไม่ใช้กับ speech · homework/research/a favour: do"
  },
  {
   "id": "m09-eng-027",
