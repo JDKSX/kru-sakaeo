@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>พิมพ์ · ติวครูผู้ช่วย คอมฯ สระแก้ว</title>
+<meta name="theme-color" content="#132A66">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600&family=Trirong:wght@600&family=Sarabun:wght@400;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="stylesheet" href="ks-ds.css">
+<style>
+@page{size:A4;margin:0}
+body{background:var(--surface-2)}
+/* แถบเครื่องมือ */
+.tb{position:sticky;top:0;z-index:10;background:var(--primary-deep);color:#fff;padding:calc(10px + env(safe-area-inset-top,0px)) var(--cpad) 10px;display:grid;gap:10px}
+.tb .r1{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.tb .ttl{display:grid;line-height:1.3;min-width:0}
+.tb .ttl b{font:600 1.05rem var(--serif)}
+.tb .ttl small{color:var(--rail-muted);font-size:var(--fs-2)}
+.tb .r2{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.seg{display:flex;gap:3px;background:rgba(255,255,255,.08);padding:3px;border-radius:var(--r2);overflow-x:auto;max-width:100%}
+.seg button{font:600 var(--fs-3) var(--sans);border:0;background:transparent;color:var(--rail-muted);padding:8px 12px;border-radius:8px;cursor:pointer;white-space:nowrap;display:inline-flex;gap:6px;align-items:center;min-height:40px}
+.seg button[aria-pressed="true"]{background:#fff;color:var(--primary-deep)}
+.tb .btn{min-height:40px}
+.tb .btn.ghost{color:#fff;border-color:rgba(255,255,255,.35)}
+.tb label.tg{display:inline-flex;gap:6px;align-items:center;font-size:var(--fs-2);color:var(--rail-muted);cursor:pointer}
+.tb .info{font-size:var(--fs-1);color:var(--rail-muted)}
+.stage{padding:16px 12px 40px}
+.state{max-width:560px;margin:40px auto}
+/* หน้ากระดาษ A4 */
+.pw{margin:0 auto 14px;position:relative}
+.page{width:210mm;height:296.8mm;background:#fff;color:#000;box-shadow:var(--sh-2);transform-origin:top left;display:flex;flex-direction:column;padding:11mm 13mm 9mm;overflow:hidden;font-family:"Sarabun","Noto Sans Thai",sans-serif;font-size:11pt;line-height:1.48}
+.page.sheet{padding:0}
+.pg-h{display:flex;justify-content:space-between;gap:4mm;font-size:8.5pt;color:#333;border-bottom:.5pt solid #777;padding-bottom:1.2mm;margin-bottom:3mm}
+.pg-b{flex:1;min-height:0;display:flex;flex-direction:column}
+.pg-f{text-align:center;font-size:8.5pt;color:#333;padding-top:2mm}
+.cols{flex:1;min-height:0;display:flex;gap:6mm}
+.col{flex:1;min-width:0;overflow:hidden;position:relative}
+.col+.col{border-left:.4pt solid #bbb;padding-left:6mm}
+.head{border:1.1pt solid #000;padding:2.6mm 3.6mm;display:grid;gap:1.6mm;margin-bottom:3mm}
+.head h1{font:700 14pt "Sarabun",sans-serif;margin:0;line-height:1.3}
+.fields{display:grid;grid-template-columns:2.2fr 1fr 1fr;gap:3mm;font-size:10pt}
+.fields span{border-bottom:.6pt dotted #000;padding-bottom:.8mm}
+.rule{font-size:9.5pt}
+.sec{font-weight:700;font-size:11.5pt;border-bottom:1.1pt solid #000;margin:1mm 0 1mm;padding:1mm 0}
+.q{padding:1.6mm 0 1.9mm;border-bottom:.35pt solid #c4c4c4}
+.s{display:grid;grid-template-columns:8mm 1fr}
+.n{font-weight:700}
+.ps{border:.6pt solid #888;padding:1.3mm 2.2mm;margin:1mm 0 1.3mm 8mm;font-size:10pt;white-space:pre-wrap}
+pre{font-family:"IBM Plex Mono",Menlo,monospace;font-size:8.6pt;line-height:1.38;margin:1mm 0 1.3mm 8mm;padding:1.3mm 2.2mm;border-left:2pt solid #000;background:#f1f1f1;white-space:pre-wrap;overflow-wrap:anywhere}
+.ch{display:grid;grid-template-columns:1fr 1fr;gap:.3mm 4mm;margin-left:8mm}
+.ch.long{grid-template-columns:1fr}
+.ch div{display:grid;grid-template-columns:5.5mm 1fr;overflow-wrap:anywhere}
+.one .ch{grid-template-columns:1fr 1fr 1fr 1fr}.one .ch.mid{grid-template-columns:1fr 1fr}.one .ch.long{grid-template-columns:1fr}
+.keytab{display:grid;grid-template-columns:repeat(10,1fr);border-top:.6pt solid #000;border-left:.6pt solid #000;font-size:9pt;margin-bottom:3mm}
+.keytab span{border-right:.6pt solid #000;border-bottom:.6pt solid #000;padding:.5mm 1mm;text-align:center;font-variant-numeric:tabular-nums}
+.ans{font-weight:700;margin-left:8mm}
+.why{margin:.4mm 0 0 8mm;font-size:9.6pt}
+.why div{display:grid;grid-template-columns:5.5mm 1fr}
+.why .ok{font-weight:700}
+.psref{margin:.6mm 0 0 8mm;font-size:9pt;font-style:italic}
+.compact .page{font-size:10pt;line-height:1.42}.compact .ps{font-size:9.4pt}.compact .why,.compact .tip{font-size:9pt}
+.tip{margin:.8mm 0 0 8mm;font-size:9.6pt;border-left:2pt solid #000;padding-left:2mm}
+.page svg{display:block;width:210mm;height:296.8mm}
+.bare .tb{display:none}.bare body{background:#fff}.bare .stage{padding:0}.bare .pw{margin:0}.bare .page{box-shadow:none}
+@media print{
+  body{background:#fff}
+  .tb,.state{display:none!important}
+  .stage{padding:0}
+  .pw{width:auto!important;height:auto!important;margin:0}
+  .page{transform:none!important;box-shadow:none;break-after:page}
+  .pw:last-child .page{break-after:auto}
+}
+</style>
+</head>
+<body>
+<div class="tb" role="toolbar" aria-label="เครื่องมือพิมพ์">
+  <div class="r1">
+    <div class="ttl"><b id="ttl">กำลังโหลด…</b><small id="sub">ติวครูผู้ช่วย คอมฯ สระแก้ว</small></div>
+    <div class="r2"><button type="button" class="btn acc" id="pr"><i class="ph ph-printer" aria-hidden="true"></i>พิมพ์ / บันทึก PDF</button><a class="btn ghost" id="back" href="index.html#exams"><i class="ph ph-arrow-left" aria-hidden="true"></i>กลับ</a></div>
+  </div>
+  <div class="r2">
+    <div class="seg" id="seg">
+      <button type="button" data-m="exam" aria-pressed="false"><i class="ph ph-file-text" aria-hidden="true"></i>ข้อสอบ</button>
+      <button type="button" data-m="sheet" aria-pressed="false"><i class="ph ph-grid-nine" aria-hidden="true"></i>กระดาษคำตอบ</button>
+      <button type="button" data-m="key" aria-pressed="false"><i class="ph ph-key" aria-hidden="true"></i>เฉลย</button>
+    </div>
+    <label class="tg" id="cpw"><input type="checkbox" id="cp"> ประหยัดกระดาษ (2 คอลัมน์)</label>
+    <span class="info" id="info"></span>
+  </div>
+</div>
+<main class="stage" id="stage"><div class="state card pad"><div class="skel" style="height:20px"></div></div></main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="common.js"></script>
+<script>
+const Q=new URLSearchParams(location.search),cid=Q.get("c"),part=Q.get("p")||"A";
+let mode=Q.get("m")||"exam",M,C,items,N;
+const stage=document.getElementById("stage");
+const mm=v=>v*96/25.4;
+document.getElementById("pr").onclick=()=>window.print();
+document.getElementById("back").href=cid?`index.html#set/${cid}`:"index.html#exams";
+const cp=document.getElementById("cp");cp.checked=store.get("ks-compact",true);
+cp.onchange=()=>{store.set("ks-compact",cp.checked);render()};
+document.getElementById("seg").onclick=e=>{const b=e.target.closest("button");if(!b)return;mode=b.dataset.m;Q.set("m",mode);history.replaceState(null,"","?"+Q);render()};
+
+if(Q.get("bare"))document.documentElement.classList.add("bare");
+function fit(){
+  if(Q.get("bare"))return;
+  const k=Math.min(1,(stage.clientWidth-8)/mm(210));
+  stage.querySelectorAll(".pw").forEach(w=>{w.style.width=mm(210)*k+"px";w.style.height=mm(296.8)*k+"px";w.firstElementChild.style.transform=k<1?`scale(${k})`:""});
+}
+addEventListener("resize",fit);
+
+function newPage(cls,hdr,pageNo){
+  const w=document.createElement("div");w.className="pw";
+  const p=document.createElement("section");p.className="page"+(cls?" "+cls:"");
+  p.setAttribute("aria-label","หน้า "+pageNo);
+  w.appendChild(p);stage.appendChild(w);
+  if(hdr){p.innerHTML=`<div class="pg-h"><span>${esc(hdr)}</span><span>ติวครูผู้ช่วย คอมฯ สระแก้ว · ไม่ใช่ข้อสอบจริง</span></div><div class="pg-b"></div><div class="pg-f">หน้า ${pageNo}</div>`}
+  return p;
+}
+/* ไหลบล็อกลงคอลัมน์ทีละหน้า วัดความสูงจริง */
+function flow(blocks,{hdr,cols,first}){
+  let pageNo=0,page,colEls,ci;
+  const open=()=>{pageNo++;page=newPage("",hdr,pageNo);const b=page.querySelector(".pg-b");
+    if(pageNo===1&&first)b.appendChild(first);
+    const box=document.createElement("div");box.className="cols"+(cols===1?" one":"");b.appendChild(box);
+    colEls=[...Array(cols)].map(()=>{const c=document.createElement("div");c.className="col";box.appendChild(c);return c});ci=0};
+  const over=c=>{const l=c.lastElementChild;return l&&l.offsetTop+l.offsetHeight>c.clientHeight-1};
+  open();
+  for(const el of blocks){
+    let c=colEls[ci];c.appendChild(el);
+    if(over(c)&&c.children.length>1){
+      c.removeChild(el);
+      const carry=[];const last=c.lastElementChild;if(last&&last.classList.contains("sec")){c.removeChild(last);carry.push(last)}
+      ci++;if(ci>=colEls.length)open();
+      c=colEls[ci];carry.forEach(x=>c.appendChild(x));c.appendChild(el);
+    }
+  }
+  const total=pageNo;stage.querySelectorAll(".pg-f").forEach((f,i)=>f.textContent=`หน้า ${i+1} / ${total}`);
+  return total;
+}
+const div=(cls,html)=>{const d=document.createElement("div");d.className=cls;d.innerHTML=html;return d};
+/* บทความที่ใช้ร่วมกันหลายข้อ พิมพ์ครั้งเดียว */
+let psInfo={};
+function groupPs(){psInfo={};let i=0;while(i<N){const ps=items[i].ps;if(!ps){i++;continue}let j=i;while(j+1<N&&items[j+1].ps===ps)j++;psInfo[i]={show:true,a:i+1,b:j+1};for(let k=i+1;k<=j;k++)psInfo[k]={show:false,a:i+1,b:j+1};i=j+1}}
+const psHtml=i=>{const g=psInfo[i];if(!g)return"";if(!g.show)return`<div class="psref">(ใช้บทความเดียวกับข้อ ${g.a}${g.b>g.a?"–"+g.b:""})</div>`;return`${g.b>g.a?`<div class="psref">ใช้บทความต่อไปนี้ตอบข้อ ${g.a}–${g.b}</div>`:""}<div class="ps">${esc(items[i].ps)}</div>`};
+const qBody=(q,i)=>`<div class="s"><span class="n">${i+1}.</span><span>${q.q}</span></div>${psHtml(i)}${q.code?`<pre>${esc(q.code)}</pre>`:""}`;
+
+function examBlocks(){
+  const out=[];let cur="";
+  items.forEach((q,i)=>{
+    if(q.s!==cur){cur=q.s;out.push(div("sec",SUBJ[q.s][1]))}
+    const o=orderOf(q),L=o.map(ci=>String(q.c[ci]).length),long=L.some(x=>x>32)||(q.code&&L.some(x=>x>18)),mid=L.some(x=>x>12);
+    out.push(div("q",qBody(q,i)+`<div class="ch${long?" long":""}${mid?" mid":""}">${o.map((ci,pos)=>`<div><span>${TH[pos]}.</span><span>${esc(q.c[ci])}</span></div>`).join("")}</div>`));
+  });return out;
+}
+function keyBlocks(){
+  const out=[];let cur="";
+  items.forEach((q,i)=>{
+    if(q.s!==cur){cur=q.s;out.push(div("sec",SUBJ[q.s][1]))}
+    const o=orderOf(q);
+    out.push(div("q",qBody(q,i)+`<div class="ans">ตอบ ${TH[keyOf(q)]}. ${esc(q.c[q.a])}</div><div class="why">${o.map((ci,pos)=>`<div class="${ci===q.a?"ok":""}"><span>${TH[pos]}.</span><span>${esc(q.n[ci])}</span></div>`).join("")}</div><div class="tip">เทคนิค · ${esc(q.tip)}</div>`));
+  });return out;
+}
+function title(){return `${C.title} · ${C.parts[part].label}`}
+function timeText(){return C.kind==="full"?(part==="A"?"09.00–16.30 น. (คิดวิเคราะห์ 150 นาที · อังกฤษ 90 นาที · ข้าราชการที่ดี 60 นาที)":"09.00–16.00 น. (วิชาเอก 150 นาที · การสอน 90 นาที · กฎหมาย 30 นาที)"):Math.ceil(N*1.5)+" นาที"}
+
+/* ---------- กระดาษคำตอบ (SVG มิลลิเมตร) ---------- */
+function sheetSVG(){
+  const S=SHEET,v=sheetCode(cid,part),url=appBase()+`index.html#g/${cid}/${part}`;
+  let g="";
+  for(const [x,y] of S.marks)g+=`<rect x="${x-S.mk/2}" y="${y-S.mk/2}" width="${S.mk}" height="${S.mk}" fill="#000"/>`;
+  for(const [x,y,b] of sheetIdBoxes(v))g+=`<rect x="${x-S.idBox/2}" y="${y-S.idBox/2}" width="${S.idBox}" height="${S.idBox}" fill="${b?"#000":"#fff"}" stroke="#000" stroke-width="0.25"/>`;
+  g+=`<text x="${S.idX0+16*S.idPitch-1}" y="${S.idY+1.2}" font-size="3" fill="#333">รหัสกระดาษ ${v} (ห้ามเขียนทับแถบนี้)</text>`;
+  /* หัวกระดาษ */
+  g+=`<text x="17" y="27.5" font-size="5.6" font-weight="700" fill="#000">กระดาษคำตอบ</text>`;
+  g+=`<text x="17" y="34" font-size="4" fill="#000">${esc(title())}</text>`;
+  g+=`<text x="17" y="42" font-size="3.4" fill="#000">ชื่อ-สกุล</text><line x1="31" y1="42.6" x2="110" y2="42.6" stroke="#000" stroke-width="0.25" stroke-dasharray="0.6 0.8"/>`;
+  g+=`<text x="114" y="42" font-size="3.4" fill="#000">วันที่</text><line x1="123" y1="42.6" x2="158" y2="42.6" stroke="#000" stroke-width="0.25" stroke-dasharray="0.6 0.8"/>`;
+  g+=`<text x="17" y="49" font-size="3" fill="#222">ฝนวงกลมให้เต็มด้วยปากกาสีเข้มหรือดินสอ 2B ข้อละ 1 วง · ห้ามพับหรือเขียนทับสี่เหลี่ยมดำที่มุม</text>`;
+  g+=`<text x="17" y="53.6" font-size="3" fill="#222">ตรวจ: สแกน QR หรือเปิดเว็บ เมนูข้อสอบ › ชุดนี้ › "สแกนตรวจ" แล้วถ่ายรูปทั้งแผ่นให้เห็นสี่เหลี่ยมดำครบ 4 มุม</text>`;
+  if(window.qrcode){const qr=qrcode(0,"M");qr.addData(url);qr.make();const n=qr.getModuleCount(),sz=24,cs=sz/n,ox=170,oy=21.5;
+    let d="";for(let r=0;r<n;r++)for(let c=0;c<n;c++)if(qr.isDark(r,c))d+=`M${(ox+c*cs).toFixed(3)} ${(oy+r*cs).toFixed(3)}h${cs.toFixed(3)}v${cs.toFixed(3)}h-${cs.toFixed(3)}z`;
+    g+=`<path d="${d}" fill="#000"/><text x="${ox+sz/2}" y="${oy+sz+3}" font-size="2.5" text-anchor="middle" fill="#333">สแกนเพื่อเปิดหน้าตรวจ</text>`}
+  /* หัวคอลัมน์ + วง */
+  const cols=Math.ceil(N/S.rows);
+  for(let c=0;c<cols;c++)for(let k=0;k<4;k++){const [x]=bubbleAt(c*S.rows,k);g+=`<text x="${x}" y="${S.y0-4.2}" font-size="3.2" font-weight="700" text-anchor="middle" fill="#000">${TH[k]}</text>`}
+  for(let i=0;i<N;i++){
+    const [lx,ly]=rowLabelAt(i);g+=`<text x="${lx}" y="${ly+1.15}" font-size="3.1" font-weight="700" text-anchor="end" fill="#000">${i+1}</text>`;
+    for(let k=0;k<4;k++){const [x,y]=bubbleAt(i,k);g+=`<circle cx="${x}" cy="${y}" r="${S.r}" fill="none" stroke="#000" stroke-width="0.3"/>`}
+    const row=i%S.rows;if(row%5===4&&row<S.rows-1&&i<N-1){const [x0]=rowLabelAt(i),[x1]=bubbleAt(i,3);g+=`<line x1="${x0-7}" y1="${ly+S.pitch/2}" x2="${x1+3.4}" y2="${ly+S.pitch/2}" stroke="#9a9a9a" stroke-width="0.15"/>`}
+  }
+  g+=`<text x="17" y="277.8" font-size="2.6" fill="#444">ติวครูผู้ช่วย คอมฯ สระแก้ว · กระดาษนี้ใช้คู่กับ${esc(C.title)} ${esc(C.parts[part].label)} เท่านั้น</text>`;
+  return `<svg viewBox="0 0 210 296.8" xmlns="http://www.w3.org/2000/svg" font-family="Sarabun, 'Noto Sans Thai', sans-serif" role="img" aria-label="กระดาษคำตอบ ${N} ข้อ">${g}</svg>`;
+}
+
+async function render(){
+  document.querySelectorAll("#seg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.m===mode));
+  document.getElementById("cpw").hidden=mode==="sheet";
+  document.title=({exam:"ข้อสอบ",sheet:"กระดาษคำตอบ",key:"เฉลย"})[mode]+" · "+title();
+  stage.innerHTML="";
+  stage.classList.toggle("compact",mode!=="sheet"&&cp.checked);
+  await Promise.all(['400 11pt Sarabun','700 11pt Sarabun','500 9pt "IBM Plex Mono"'].map(f=>document.fonts.load(f).catch(()=>0)));await document.fonts.ready;groupPs();
+  let pages=1;
+  if(mode==="sheet"){const p=newPage("sheet",null,1);p.innerHTML=sheetSVG()}
+  else{
+    const cols=cp.checked?2:1,hdr=title();
+    if(mode==="exam")pages=flow(examBlocks(),{hdr,cols,first:div("head",`<h1>แบบทดสอบฝึก · ${esc(title())}</h1><div class="fields"><span>ชื่อ-สกุล</span><span>วันที่</span><span>${N} ข้อ</span></div><div class="rule">เวลา ${timeText()} · เลือกคำตอบที่ถูกต้องที่สุดเพียงข้อเดียว แล้วฝนในกระดาษคำตอบ (พิมพ์แยกจากปุ่ม "กระดาษคำตอบ") · ขีด ✗ ตัดตัวเลือกบนข้อสอบได้</div>`)});
+    else pages=flow(keyBlocks(),{hdr:"เฉลย · "+hdr,cols,first:div("",`<div class="head"><h1>เฉลยและคำอธิบาย · ${esc(title())}</h1><div class="rule">ลำดับตัวเลือกตรงกับข้อสอบ กระดาษคำตอบ และบนเว็บ · ตรวจคำตอบก่อน แล้วค่อยอ่านเหตุผลของข้อที่ผิด</div></div><div class="keytab">${items.map((q,i)=>`<span>${i+1}. ${TH[keyOf(q)]}</span>`).join("")}</div>`)});
+  }
+  document.getElementById("info").textContent=`${pages} หน้า A4`;
+  fit();
+}
+(async function(){
+  try{
+    M=await loadManifest();C=M.collections.find(x=>x.id===cid);
+    if(!C||!C.parts[part]){stage.innerHTML=`<div class="state card"><div class="empty"><i class="ph ph-file-x" aria-hidden="true"></i><b>ไม่พบชุดข้อสอบนี้</b><a class="btn pri" href="index.html#exams">กลับหน้าข้อสอบ</a></div></div>`;document.getElementById("ttl").textContent="ไม่พบชุดข้อสอบ";return}
+    items=partItems(await loadCollection(cid),part);N=items.length;
+    document.getElementById("ttl").textContent=C.title;document.getElementById("sub").textContent=C.parts[part].label+" · "+N+" ข้อ";
+    await render();
+  }catch(e){stage.innerHTML=`<div class="state card"><div class="empty"><i class="ph ph-wifi-slash" aria-hidden="true"></i><b>โหลดข้อมูลไม่สำเร็จ</b><span>ตรวจการเชื่อมต่ออินเทอร์เน็ต แล้วรีเฟรชหน้าอีกครั้ง</span></div></div>`}
+})();
+</script>
+</body>
+</html>

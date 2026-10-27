@@ -1,8 +1,8 @@
 // node src/build.js — assemble the static site into the repo root (~/kru-sakaeo)
 const fs=require('fs'),path=require('path');
-const S=__dirname,out=path.join(S,'..');
+const S=__dirname,out=process.env.OUT?path.resolve(process.env.OUT):path.join(S,'..'),SITE=process.env.SITE||'site-src';
 for(const d of ['data','sheets'])fs.mkdirSync(path.join(out,d),{recursive:true});
-for(const f of ['index.html','print.html','common.js'])fs.copyFileSync(path.join(S,'site-src',f),path.join(out,f));
+for(const f of fs.readdirSync(path.join(S,SITE)).filter(f=>/\.(html|js|css)$/.test(f)&&!f.endsWith('.tpl.html')))fs.copyFileSync(path.join(S,SITE,f),path.join(out,f));
 const SUBJ={ana:"A",eng:"A",gov:"A",com:"B",ped:"B",law:"B"};
 const untag=t=>String(t).replace(/<b>(.*?)<\/b>/g,'“$1”').replace(/<br\s*\/?>/g,' ').replace(/<[^>]+>/g,'');
 const strip=q=>{const o={id:q.id,s:q.s,p:q.p,q:q.q,c:q.c.map(untag),a:q.a,n:q.n.map(untag),tip:untag(q.tip)};if(q.ps)o.ps=q.ps;if(q.code)o.code=q.code;return o};
@@ -25,7 +25,7 @@ const basic=read(path.join(S,'sets/basic.json'));write('basic',basic);
 cols.push({id:'basic',kind:'topic',title:'ชุดพื้นฐาน (ทุกวิชา)',count:basic.length,desc:'ข้อสอบชุดแรก ครอบคลุมทุกวิชา เหมาะเริ่มต้น',parts:partsOf(basic)});
 const names={1:"เลขฐาน ตรรกะ สถาปัตยกรรม ระบบปฏิบัติการ",2:"อัลกอริทึม โปรแกรม โครงสร้างข้อมูล",3:"เครือข่าย ความปลอดภัย ฐานข้อมูล",4:"หลักสูตร การสอน AI และข้อมูล"};
 for(const k of [1,2,3,4]){const d=read(path.join(S,'sets/topic',`set${k}.json`));const id='topic-'+k;write(id,d);cols.push({id,kind:'topic',title:`วิชาเอกตามหัวข้อ ${k} · ${names[k]}`,count:d.length,desc:'ฝึกวิชาเอกคอมพิวเตอร์ทีละหัวข้อ',parts:{B:{label:`วิชาเอก (${d.length} ข้อ)`}}})}
-const tpl=fs.readFileSync(path.join(S,'site-src','sheet.tpl.html'),'utf8');const sheets=[];
+const tpl=fs.readFileSync(path.join(S,fs.existsSync(path.join(S,SITE,'sheet.tpl.html'))?SITE:'site-src','sheet.tpl.html'),'utf8');const sheets=[];
 for(const f of fs.readdirSync(path.join(S,'sheets')).filter(f=>/^[ab]\d-[a-z]+\.html$/.test(f)).sort()){
   const raw=fs.readFileSync(path.join(S,'sheets',f),'utf8');const t=(raw.match(/<!--\s*title:\s*(.*?)\s*-->/)||[,f])[1];
   const body=raw.replace(/<!--\s*title:.*?-->\s*/,'').replace(/<table/g,'<div class="wrapx"><table').replace(/<\/table>/g,'</table></div>');
