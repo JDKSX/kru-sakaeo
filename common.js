@@ -42,3 +42,44 @@ function parseAnswers(text, n) {
   }
   return map;
 }
+
+/* ---------- กระดาษคำตอบ (OMR) — พิกัดเป็นมิลลิเมตรบน A4 210×297 ใช้ร่วมกันทั้งตอนพิมพ์และตอนสแกน ---------- */
+const SHEET = {
+  W: 210, H: 297,
+  mk: 9,                                   /* ขนาดสี่เหลี่ยมมุม */
+  marks: [[13.5, 13.5], [196.5, 13.5], [196.5, 283.5], [13.5, 283.5]], /* TL TR BR BL (จุดศูนย์กลาง) */
+  idY: 13.5, idX0: 48, idPitch: 5.2, idBox: 3.6, idBits: 8,
+  rows: 40, y0: 63, pitch: 5.35, x0: 17, colPitch: 36.6, numRight: 8.6, bx0: 12.4, bPitch: 6.2, r: 2.1
+};
+/* รหัสกระดาษ: full-NN → NN · basic → 50 · topic-k → 50+k ; ค่า = รหัส×2 + (ภาค ข ? 1 : 0) */
+function sheetCode(cid, part) {
+  let c = 0, m;
+  if ((m = /^full-(\d+)$/.exec(cid))) c = +m[1];
+  else if (cid === "basic") c = 50;
+  else if ((m = /^topic-(\d+)$/.exec(cid))) c = 50 + +m[1];
+  return c * 2 + (part === "B" ? 1 : 0);
+}
+function sheetDecode(v) {
+  const c = v >> 1, part = v & 1 ? "B" : "A";
+  const cid = c >= 1 && c <= 30 ? "full-" + String(c).padStart(2, "0") : c === 50 ? "basic" : c > 50 && c < 60 ? "topic-" + (c - 50) : null;
+  return cid ? { cid, part } : null;
+}
+/* กล่องรหัส 16 ช่อง: บิตละ 2 ช่อง (บิต, กลับบิต) */
+function sheetIdBoxes(v) {
+  const out = [];
+  for (let b = 0; b < SHEET.idBits; b++) {
+    const bit = (v >> (SHEET.idBits - 1 - b)) & 1;
+    out.push([SHEET.idX0 + (2 * b) * SHEET.idPitch, SHEET.idY, bit], [SHEET.idX0 + (2 * b + 1) * SHEET.idPitch, SHEET.idY, 1 - bit]);
+  }
+  return out;
+}
+/* จุดศูนย์กลางวงกลมของข้อ i (0-based) ตัวเลือก k (0..3) */
+function bubbleAt(i, k) {
+  const col = Math.floor(i / SHEET.rows), row = i % SHEET.rows;
+  return [SHEET.x0 + col * SHEET.colPitch + SHEET.bx0 + k * SHEET.bPitch, SHEET.y0 + row * SHEET.pitch];
+}
+function rowLabelAt(i) {
+  const col = Math.floor(i / SHEET.rows), row = i % SHEET.rows;
+  return [SHEET.x0 + col * SHEET.colPitch + SHEET.numRight, SHEET.y0 + row * SHEET.pitch];
+}
+const appBase = () => location.href.replace(/[^/]*([?#].*)?$/, "");

@@ -1,6 +1,6 @@
 // node src/build.js — assemble the static site into the repo root (~/kru-sakaeo)
 const fs=require('fs'),path=require('path');
-const S=__dirname,out=process.env.OUT?path.resolve(process.env.OUT):path.join(S,'..'),SITE=process.env.SITE||'site-src';
+const S=__dirname,out=process.env.OUT?path.resolve(process.env.OUT):path.join(S,'..'),SITE=process.env.SITE||'site-v2';
 for(const d of ['data','sheets'])fs.mkdirSync(path.join(out,d),{recursive:true});
 for(const f of fs.readdirSync(path.join(S,SITE)).filter(f=>/\.(html|js|css)$/.test(f)&&!f.endsWith('.tpl.html')))fs.copyFileSync(path.join(S,SITE,f),path.join(out,f));
 const SUBJ={ana:"A",eng:"A",gov:"A",com:"B",ped:"B",law:"B"};

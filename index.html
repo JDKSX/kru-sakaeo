@@ -4,154 +4,129 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>ติวครูผู้ช่วย คอมฯ สระแก้ว</title>
-<meta name="theme-color" content="#111A3A">
+<meta name="description" content="ฝึกข้อสอบครูผู้ช่วย วิชาเอกคอมพิวเตอร์ สพม.สระแก้ว ปี 2569 · ทำออนไลน์ พิมพ์ข้อสอบ และสแกนตรวจกระดาษคำตอบ">
+<meta name="theme-color" content="#132A66">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Trirong:wght@500;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
+<link rel="stylesheet" href="ks-ds.css">
 <style>
-/* exam-room palette: navy ink + gold highlighter; question cards = answer-sheet rows with OMR bubbles */
-:root{
-  --paper:#F4F5F8; --sheet:#FFFFFF; --ink:#151A2B; --muted:#5C6478; --line:#DCE0E8;
-  --navy:#111A3A; --gold:#C9921E; --gold-soft:#FBF1DC;
-  --ok:#16794A; --ok-soft:#E2F3EA; --bad:#B3261E; --bad-soft:#FBE7E5; --cut:#9AA1B2;
-  --f-head:"Bai Jamjuree","IBM Plex Sans Thai",system-ui,sans-serif;
-  --f-body:"IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
-}
-@media (prefers-color-scheme: dark){:root{
-  --paper:#0F1322; --sheet:#171C2E; --ink:#E7EAF2; --muted:#9AA2B8; --line:#2A3148;
-  --navy:#C9D3F5; --gold:#F0C063; --gold-soft:#3A3018;
-  --ok:#5CC890; --ok-soft:#173326; --bad:#F2867D; --bad-soft:#3B1D1B; --cut:#646C84; color-scheme:dark}}
-*{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.65}
-.wrap{max-width:860px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-right,0px)) 80px max(16px,env(safe-area-inset-left,0px))}
-h1,h2,h3{font-family:var(--f-head);line-height:1.3;margin:0;text-wrap:balance}
-h1{font-size:1.6rem;font-weight:700}
-h2{font-size:1.2rem;font-weight:600}
-h3{font-size:1.02rem;font-weight:600}
-p{margin:0}
-a{color:inherit}
-b{font-weight:600}
-.muted{color:var(--muted)}
-.eyebrow{font-family:var(--f-head);font-size:.78rem;letter-spacing:.08em;font-weight:600;color:var(--gold)}
-.card{background:var(--sheet);border:1px solid var(--line);border-radius:12px}
-.stack{display:grid;gap:12px}
-button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
-
-header.top{background:var(--navy);color:#fff;padding:calc(14px + env(safe-area-inset-top,0px)) 0 0}
-@media (prefers-color-scheme: dark){header.top{background:#0A0E1C}}
-header.top .wrap{padding-bottom:0;display:grid;gap:10px}
-header.top h1{color:#fff}
-header.top .eyebrow{color:#F0C063}
-.cd{font-family:var(--f-head);font-size:.95rem;color:rgba(255,255,255,.8)}
-nav.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;margin-top:4px}
-nav.tabs a{font:600 .95rem var(--f-head);text-decoration:none;color:rgba(255,255,255,.65);padding:10px 12px;border-bottom:3px solid transparent;white-space:nowrap}
-nav.tabs a.on{color:#fff;border-bottom-color:#F0C063}
-main{padding-top:18px}
-
-/* home */
-.today{padding:16px;display:grid;gap:8px;border-left:4px solid var(--gold)}
-.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
-.grid2>*{min-width:0}
-.stat{padding:12px 14px}
-.stat b{display:block;font-family:var(--f-head);font-size:1.5rem;color:var(--navy);font-variant-numeric:tabular-nums}
-.stat span{font-size:.85rem;color:var(--muted)}
-
-/* exam list */
-.coll{padding:14px 16px;display:grid;gap:10px}
-.coll .h{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:baseline}
-.parts{display:grid;gap:8px}
-.part{display:grid;gap:6px;padding-top:8px;border-top:1px dashed var(--line)}
-.part .lbl{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-family:var(--f-head);font-weight:600}
-.acts{display:flex;gap:6px;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;gap:6px;font:600 .88rem var(--f-head);border:1px solid var(--line);background:var(--sheet);color:var(--ink);padding:8px 12px;border-radius:9px;cursor:pointer;text-decoration:none;min-height:40px}
-.btn.pri{background:var(--navy);color:var(--sheet);border-color:var(--navy)}
-.btn[aria-pressed="true"]{background:var(--navy);color:var(--sheet);border-color:var(--navy)}
-.score-chip{font-family:var(--f-head);font-size:.82rem;color:var(--muted);font-variant-numeric:tabular-nums}
-.score-chip.pass{color:var(--ok)} .score-chip.fail{color:var(--bad)}
-.pending{color:var(--muted);font-size:.9rem}
-
-/* quiz */
-.bar{padding:12px 14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:4}
-.score{font-family:var(--f-head);font-variant-numeric:tabular-nums}
-.score b{font-size:1.25rem;color:var(--navy)}
+/* หน้าหลัก */
+.hero{display:grid;gap:10px;padding:18px 20px;border-left:5px solid var(--accent)}
+.stat{padding:14px 16px;display:grid;gap:2px}
+.stat b{font:600 1.7rem var(--serif);color:var(--primary);font-variant-numeric:tabular-nums}
+.stat span{font-size:var(--fs-2);color:var(--ink-3)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));gap:10px;counter-reset:st}
+.step{padding:14px;display:grid;gap:6px;align-content:start}
+.step .ic{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--primary-soft);color:var(--primary);font-size:1.3rem}
+.step b::before{counter-increment:st;content:counter(st) ". ";color:var(--accent-ink)}
+/* การ์ดชุดข้อสอบ (ชั้น 1) */
+.setcard{display:grid;gap:10px;padding:16px 18px;text-decoration:none;color:inherit;position:relative;transition:border-color .15s,box-shadow .15s}
+.setcard:hover{border-color:var(--primary);box-shadow:var(--sh-2)}
+.setcard .top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.setcard .no{width:46px;height:46px;border-radius:12px;background:var(--primary);color:var(--on-primary);display:grid;place-items:center;font:700 1.25rem var(--serif);flex:none}
+.setcard .go{color:var(--ink-4);font-size:1.3rem}
+.setcard .parts{display:grid;gap:6px}
+.setcard .prow{display:flex;justify-content:space-between;gap:8px;align-items:center;font-size:var(--fs-2);border-top:1px dashed var(--line);padding-top:6px}
+.setcard.topic .no{background:var(--accent-soft);color:var(--accent-ink)}
+/* หน้าชุด (ชั้น 2) */
+.part{padding:18px 20px;display:grid;gap:12px}
+.part .hd{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:flex-start}
+.subjects{display:flex;gap:6px;flex-wrap:wrap}
+.grp{display:grid;gap:6px}
+.grp>span{font-size:var(--fs-1);font-weight:600;color:var(--ink-3)}
+.last{display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center;font-size:var(--fs-2)}
+.last .meter{grid-column:1/-1}
+/* ทำข้อสอบออนไลน์ */
+.qbar{position:sticky;top:0;z-index:5;padding:10px 14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+@media (max-width:899px){.qbar{top:62px}}
+.qbar .score{font-variant-numeric:tabular-nums}
+.qbar .score b{font:600 1.3rem var(--serif);color:var(--primary)}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
-.chip{font:500 .85rem var(--f-head);border:1px solid var(--line);background:var(--sheet);color:var(--muted);padding:5px 11px;border-radius:99px;cursor:pointer}
-.chip[aria-pressed="true"]{border-color:var(--gold);color:var(--ink);background:var(--gold-soft)}
-.hint{font-size:.88rem;color:var(--muted)}
-.q{padding:16px;display:grid;gap:12px}
-.q .meta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-family:var(--f-head);font-size:.78rem}
-.q .num{font-weight:700;color:var(--muted);margin-right:2px}
-.tag{border:1px solid var(--line);border-radius:99px;padding:0 8px;color:var(--muted)}
-.tag.pt{border-color:var(--gold);color:var(--gold)}
-.passage{background:var(--paper);border-radius:8px;padding:10px 12px;font-size:.95rem;white-space:pre-wrap}
-pre.code{margin:0;background:var(--paper);border-radius:8px;padding:10px 12px;font:500 .88rem/1.55 var(--f-mono);overflow-x:auto}
+.q{padding:16px 18px;display:grid;gap:12px}
+.q .meta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:var(--fs-1)}
+.q .meta .no{font-weight:700;color:var(--ink-2);font-size:var(--fs-2)}
+.passage{background:var(--surface-2);border-radius:var(--r2);padding:10px 14px;font-size:var(--fs-3);white-space:pre-wrap}
+pre.code{margin:0;background:var(--surface-2);border-radius:var(--r2);padding:10px 14px;font:500 .88rem/1.55 var(--mono);overflow-x:auto}
 .choices{display:grid;gap:6px}
 .row{display:grid;grid-template-columns:1fr auto;gap:6px;align-items:start}
-.ch{display:flex;gap:10px;align-items:flex-start;text-align:left;font:inherit;color:inherit;background:none;border:1px solid var(--line);border-radius:9px;padding:8px 10px;cursor:pointer;min-width:0}
+.ch{display:flex;gap:10px;align-items:flex-start;text-align:left;font:inherit;color:inherit;background:var(--surface);border:1px solid var(--line);border-radius:var(--r2);padding:9px 12px;cursor:pointer;min-width:0;min-height:44px}
+.ch:hover:not(:disabled){border-color:var(--primary)}
 .ch:disabled{cursor:default}
 .ch .txt{min-width:0;display:grid;gap:3px;overflow-wrap:anywhere}
-.ch .note{font-size:.86rem;color:var(--muted);line-height:1.45}
-.bub{flex:none;width:1.7em;height:1.7em;border-radius:50%;border:1.5px solid var(--muted);display:grid;place-items:center;font-family:var(--f-head);font-size:.8rem;font-weight:600;color:var(--muted)}
-.cut{font:600 .78rem var(--f-head);border:1px dashed var(--line);background:none;color:var(--muted);border-radius:8px;padding:9px;cursor:pointer}
-.row.isCut .txt>span:first-child{text-decoration:line-through;color:var(--cut)}
-.row.isCut .bub{border-color:var(--cut);color:var(--cut)}
-.row.isCut .cut{border-style:solid;color:var(--bad)}
-.ch.right{background:var(--ok-soft);border-color:var(--ok)}
-.ch.right .bub{background:var(--ok);border-color:var(--ok);color:var(--sheet)}
-.ch.pick.wrong{background:var(--bad-soft);border-color:var(--bad)}
-.ch.pick.wrong .bub{background:var(--bad);border-color:var(--bad);color:var(--sheet)}
-.ch.right .note{color:var(--ok)}
-.tip{font-size:.92rem;background:var(--gold-soft);border-radius:8px;padding:8px 12px}
-.tip b{color:var(--gold)}
-.res{font-family:var(--f-head);font-weight:600}
-.res.ok{color:var(--ok)} .res.no{color:var(--bad)}
-
-/* grade */
-textarea{width:100%;min-height:140px;font:500 1rem var(--f-mono);border:1px solid var(--line);border-radius:10px;padding:10px;background:var(--sheet);color:var(--ink)}
+.ch .nt{font-size:var(--fs-2);color:var(--ink-3);line-height:1.5}
+.bub{flex:none;width:1.75em;height:1.75em;border-radius:50%;border:1.5px solid var(--ink-3);display:grid;place-items:center;font-size:.82rem;font-weight:600;color:var(--ink-2)}
+.cut{font:600 var(--fs-1) var(--sans);border:1px dashed var(--line);background:none;color:var(--ink-3);border-radius:var(--r1);padding:9px 10px;cursor:pointer;min-height:44px}
+.row.isCut .txt>span:first-child{text-decoration:line-through;color:var(--ink-4)}
+.row.isCut .bub{border-color:var(--ink-4);color:var(--ink-4)}
+.row.isCut .cut{border-style:solid;color:var(--bad-ink)}
+.ch.right{background:var(--ok-soft);border-color:var(--ok-ink)}
+.ch.right .bub{background:var(--ok-ink);border-color:var(--ok-ink);color:var(--surface)}
+.ch.right .nt{color:var(--ok-deep)}
+.ch.pick.wrong{background:var(--bad-soft);border-color:var(--bad-ink)}
+.ch.pick.wrong .bub{background:var(--bad-ink);border-color:var(--bad-ink);color:var(--surface)}
+.res{font-weight:600}.res.ok{color:var(--ok-ink)}.res.no{color:var(--bad-ink)}
+/* ตรวจ */
+.scan-out{display:grid;gap:14px}
+@media (min-width:900px){.scan-out.two{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}}
+.ovl{width:100%;height:auto;border-radius:var(--r2);border:1px solid var(--line);display:block}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:var(--fs-2);color:var(--ink-2)}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;border:2.5px solid;vertical-align:-1px;margin-right:4px}
+.fixlist{display:grid;gap:8px}
+.fix{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:8px 10px;border-radius:var(--r2);background:var(--warn-soft)}
+.fix b{min-width:56px}
+.fix .opt{display:flex;gap:4px}
+.fix .opt button{min-width:40px;min-height:40px;border-radius:var(--r1);border:1px solid var(--line);background:var(--surface);font:600 var(--fs-3) var(--sans);color:var(--ink-1);cursor:pointer}
+.fix .opt button[aria-pressed="true"]{background:var(--primary);border-color:var(--primary);color:var(--on-primary)}
+textarea{width:100%;min-height:150px;font:500 1rem var(--mono);border:1px solid var(--line);border-radius:var(--r2);padding:10px 12px;background:var(--surface);color:var(--ink-1)}
+.big{font:600 var(--fs-8) var(--serif);color:var(--primary);font-variant-numeric:tabular-nums;line-height:1.1}
 .subj{display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
-.meter{grid-column:1/-1;height:8px;background:var(--paper);border-radius:99px;position:relative;overflow:hidden}
-.meter i{position:absolute;inset:0 auto 0 0;background:var(--ok);border-radius:99px}
-.meter i.low{background:var(--bad)}
-.meter::after{content:"";position:absolute;left:60%;top:-2px;bottom:-2px;width:2px;background:var(--ink);opacity:.5}
+.subj .meter{grid-column:1/-1}
 details.wq{border-top:1px solid var(--line);padding:10px 0}
-details.wq summary{cursor:pointer;font-family:var(--f-head)}
-
-/* plan / tech / sheets */
-.day{display:grid;grid-template-columns:auto 60px 1fr;gap:10px;align-items:start;padding:12px 14px}
-.day input{width:20px;height:20px;margin-top:3px;accent-color:var(--ok)}
-.day .d{font-family:var(--f-head);font-weight:600;font-size:.88rem;line-height:1.35}
-.day .d small{display:block;font-weight:500;color:var(--muted);font-size:.78rem}
+details.wq summary{cursor:pointer;font-weight:500}
+input[type=file]{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+/* แผน / เทคนิค / ชีท */
+.day{display:grid;grid-template-columns:auto 72px 1fr;gap:12px;align-items:start;padding:12px 16px;cursor:pointer}
+.day input{width:22px;height:22px;margin-top:3px;accent-color:var(--ok-ink)}
+.day .d{font-weight:600;font-size:var(--fs-2);line-height:1.35}
+.day .d small{display:block;font-weight:500;color:var(--ink-3);font-size:var(--fs-1)}
 .day .t{min-width:0;display:grid;gap:2px}
-.day .sub{font-size:.9rem;color:var(--muted)}
-.day.today{border-color:var(--gold);box-shadow:inset 4px 0 0 var(--gold)}
+.day .t .sub{font-size:var(--fs-2);color:var(--ink-3)}
+.day.today{border-color:var(--accent);box-shadow:inset 4px 0 0 var(--accent)}
 .day.done .t{opacity:.55}
-.pat{padding:14px 16px;display:grid;gap:6px}
-.pat .how{font-size:.93rem;border-left:3px solid var(--gold);padding-left:10px}
-.sheetrow{padding:14px 16px;display:flex;gap:10px;justify-content:space-between;align-items:center;flex-wrap:wrap}
-footer{margin-top:32px;font-size:.84rem;color:var(--muted)}
+.pat{padding:16px 18px;display:grid;gap:6px}
+.pat .how{font-size:var(--fs-3);border-left:3px solid var(--accent);padding-left:10px}
+.sheetrow{padding:14px 18px;display:flex;gap:12px;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.sheetrow .ic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:var(--primary-soft);color:var(--primary);font-size:1.3rem;flex:none}
 @media (prefers-reduced-motion:no-preference){.ch{transition:background .15s,border-color .15s}}
 </style>
 </head>
 <body>
-<header class="top">
-  <div class="wrap">
-    <div>
-      <div class="eyebrow">ครูผู้ช่วย ปี 2569 · วิชาเอกคอมพิวเตอร์ · สพม.สระแก้ว</div>
-      <h1>ติวครูผู้ช่วย คอมฯ สระแก้ว</h1>
-      <p class="cd" id="cd">ภาค ก เสาร์ 14 พ.ย. 69 · ภาค ข อาทิตย์ 15 พ.ย. 69</p>
-    </div>
-    <nav class="tabs" aria-label="เมนู">
-      <a href="#home" data-v="home">หน้าหลัก</a><a href="#exams" data-v="exams">ข้อสอบ</a><a href="#sheets" data-v="sheets">ชีทอ่าน</a><a href="#plan" data-v="plan">แผน 19 วัน</a><a href="#tech" data-v="tech">เทคนิค</a>
-    </nav>
+<a class="skip" href="#content">ข้ามไปเนื้อหา</a>
+<div class="shell">
+  <aside class="rail" aria-label="เมนูหลัก">
+    <a class="brand" href="#home"><span class="mark" aria-hidden="true">ค</span><span class="t"><b>ติวครูผู้ช่วย</b><small>คอมพิวเตอร์ · สพม.สระแก้ว</small></span></a>
+    <nav id="nav1"></nav>
+    <div class="count" aria-live="polite"><small>นับถอยหลังสอบภาค ก</small><b id="cdDays">–</b><small id="cdText">เสาร์ 14 พ.ย. 69 · 09.00 น.</small><div class="bar"><i id="cdBar" style="width:0"></i></div><small id="cdPlan">แผนอ่าน 0/19 วัน</small></div>
+  </aside>
+  <div class="main">
+    <header class="topbar"><a class="brand" href="#home"><span class="mark" aria-hidden="true">ค</span><span class="t"><b>ติวครูผู้ช่วย คอมฯ</b><small>สพม.สระแก้ว · ปี 2569</small></span></a><span class="cd-chip"><i class="ph-fill ph-timer" aria-hidden="true"></i><span id="cdChip">–</span></span></header>
+    <div class="ctx" id="ctx"></div>
+    <main class="content" id="content" tabindex="-1" aria-live="polite"><div class="card pad stack"><div class="skel" style="height:22px;width:40%"></div><div class="skel" style="height:16px"></div><div class="skel" style="height:16px;width:80%"></div></div></main>
+    <p class="foot">ข้อสอบบนเว็บนี้เขียนขึ้นเพื่อฝึกรูปแบบการพลิกโจทย์ตามหลักสูตรสอบของ ก.ค.ศ. ไม่ใช่ข้อสอบจริง · ความคืบหน้าและรูปที่สแกนอยู่ในเครื่องนี้เท่านั้น</p>
   </div>
-</header>
-<main class="wrap" id="view" aria-live="polite"><p class="muted">กำลังโหลด…</p></main>
+  <nav class="tabbar" id="nav2" aria-label="เมนูหลัก"></nav>
+</div>
 
 <script src="common.js"></script>
+<script src="omr.js"></script>
 <script>
 let M=null;const cache={};
+const NAV=[["home","หน้าหลัก","ph-house"],["exams","ข้อสอบ","ph-exam"],["sheets","ชีทอ่าน","ph-book-open-text"],["plan","แผน 19 วัน","ph-calendar-check"],["tech","เทคนิค","ph-lightbulb"]];
+document.getElementById("nav1").innerHTML=NAV.map(([v,t,i])=>`<a href="#${v}" data-v="${v}"><i class="ph ${i}" aria-hidden="true"></i>${t}</a>`).join("");
+document.getElementById("nav2").innerHTML=NAV.map(([v,t,i])=>`<a href="#${v}" data-v="${v}"><i class="ph ${i}" aria-hidden="true"></i>${t.replace(" 19 วัน","")}</a>`).join("");
 const PLAN=[
  ["2026-10-26","จ 26 ต.ค.","ลองทำข้อสอบเก่าภาค ก 1 ชุดแบบจับเวลา เพื่อดูว่าเสียคะแนนส่วนไหน","ทำชุดพื้นฐานภาค ก บนเว็บนี้"],
  ["2026-10-27","อ 27 ต.ค.","คิดวิเคราะห์เชิงปริมาณ: อนุกรม ร้อยละ อัตราส่วน","ข้าราชการที่ดี: ระเบียบบริหารราชการแผ่นดิน"],
@@ -165,7 +140,7 @@ const PLAN=[
  ["2026-11-04","พ 4 พ.ย.","ข้าราชการที่ดี: วิธีปฏิบัติราชการทางปกครอง จริยธรรม","Active Learning, Computational Thinking"],
  ["2026-11-05","พฤ 5 พ.ย.","คิดวิเคราะห์: ตาราง ความเพียงพอของข้อมูล","วิชาเอก: SDLC, AI, IoT"],
  ["2026-11-06","ศ 6 พ.ย.","วัดผล วิจัยในชั้นเรียน ประกันคุณภาพ","กฎหมาย: ข้าราชการครูฯ สภาครูฯ"],
- ["2026-11-07","ส 7 พ.ย.","ทดลองสอบภาค ก ชุดเต็ม 200 ข้อ ตามเวลาจริง 09.00–16.30","ตรวจด้วยหน้า \"ตรวจกระดาษคำตอบ\""],
+ ["2026-11-07","ส 7 พ.ย.","ทดลองสอบภาค ก ชุดเต็ม 200 ข้อ ตามเวลาจริง 09.00–16.30","พิมพ์กระดาษคำตอบ แล้วสแกนตรวจบนเว็บ"],
  ["2026-11-08","อา 8 พ.ย.","ทดลองสอบภาค ข ชุดเต็ม 200 ข้อ ตามเวลาจริง","คุ้มครองเด็ก ปฐมวัย ระเบียบบริหารราชการ ศธ."],
  ["2026-11-09","จ 9 พ.ย.","ซ่อมหมวดที่ได้ต่ำกว่า 60% จากภาค ก","ทำข้อที่ผิดซ้ำ"],
  ["2026-11-10","อ 10 พ.ย.","ซ่อมหมวดที่ได้ต่ำกว่า 60% จากภาค ข","ยุทธศาสตร์ชาติ แผนการศึกษาแห่งชาติ นโยบาย ศธ. ปีปัจจุบัน"],
@@ -182,101 +157,132 @@ const PATS=[
  ["คำเด็ดขาด","ทุก · เท่านั้น · เสมอ · แน่นอน","โจทย์การสอนและตรรกะ: คำเด็ดขาดที่เกินข้อมูลมักผิด · โจทย์กฎหมาย: คำเด็ดขาดอาจถูก"],
  ["คำนวณ / ไล่โค้ด","ตัวลวงมาจากจุดที่คนมักคิดผิด","เขียนค่าตัวแปรทุกรอบลงกระดาษ ใช้ทางลัดตัดก่อน เช่น บิตท้ายบอกคู่หรือคี่"]
 ];
+const EXAM=Date.parse("2026-11-14T09:00:00+07:00");
 function todayISO(){return new Date(Date.now()+7*36e5).toISOString().slice(0,10)}
 const scoreKey=(c,p)=>"ks-grade-"+c+"-"+p;
+const ic=(n,extra="")=>`<i class="ph ${n}${extra}" aria-hidden="true"></i>`;
+function toast(msg){const t=document.createElement("div");t.className="toast";t.setAttribute("role","status");t.textContent=msg;document.body.appendChild(t);setTimeout(()=>t.remove(),2600)}
+function setCtx(crumbs,title,sub){
+  document.getElementById("ctx").innerHTML=`${crumbs.length?`<nav class="crumb" aria-label="ตำแหน่ง">${crumbs.map(([t,h],i)=>(i?ic("ph-caret-right"):"")+(h?`<a href="${h}">${t}</a>`:`<span>${t}</span>`)).join("")}</nav>`:""}<h1>${title}</h1>${sub?`<p class="sub">${sub}</p>`:""}`;
+  document.title=(title.replace(/<[^>]+>/g,"")+" · ติวครูผู้ช่วย คอมฯ สระแก้ว");
+}
+const lastScore=(c,p)=>store.get(scoreKey(c,p),null);
+function scoreBadge(g){if(!g)return`<span class="badge">ยังไม่ได้ตรวจ</span>`;const pct=Math.round(g.ok/g.n*100);return`<span class="badge ${g.pass?"ok":"bad"} num">${g.ok}/${g.n} · ${pct}%</span>`}
+const shortPart=p=>p==="A"?"ภาค ก":"ภาค ข";
 
-/* ---------- views ---------- */
-async function vHome(){
-  const t=todayISO(),i=PLAN.findIndex(p=>p[0]===t),done=store.get("ks-plan",{});
-  const today=i>=0?PLAN[i]:null;
-  const ans=store.get("ks-ans",{}),n=Object.keys(ans).length;
-  const fulls=M.collections.filter(c=>c.kind==="full");
+/* ---------- หน้าหลัก ---------- */
+function vHome(){
+  const t=todayISO(),i=PLAN.findIndex(p=>p[0]===t),done=store.get("ks-plan",{}),today=i>=0?PLAN[i]:null;
+  const ans=store.get("ks-ans",{}),n=Object.keys(ans).length,fulls=M.collections.filter(c=>c.kind==="full");
+  const graded=fulls.flatMap(c=>["A","B"].map(p=>lastScore(c.id,p))).filter(Boolean).length;
+  setCtx([],"สวัสดีครับ พร้อมฝึกหรือยัง","ครูผู้ช่วย ปี 2569 · วิชาเอกคอมพิวเตอร์ (รหัส 34) · สพม.สระแก้ว");
   return `<div class="stack">
-  ${today?`<div class="card today"><span class="eyebrow">วันนี้ · วันที่ ${i+1} จาก 19</span><h2>${today[2]}</h2><p class="muted">${today[3]}</p><label class="hint"><input type="checkbox" id="td" ${done[t]?"checked":""}> อ่านครบแล้ว</label></div>`:`<div class="card today"><span class="eyebrow">แผนอ่าน</span><p>นอกช่วงแผน 26 ต.ค. – 13 พ.ย. 69</p></div>`}
-  <div class="grid2">
+  <section class="card hero">${today?`<span class="eyebrow">วันนี้ · วันที่ ${i+1} จาก 19</span><h2>${today[2]}</h2><p class="muted">${today[3]}</p><label class="hint"><input type="checkbox" id="td" ${done[t]?"checked":""}> อ่านครบแล้ว</label>`:`<span class="eyebrow">แผนอ่าน</span><p>นอกช่วงแผน 26 ต.ค. – 13 พ.ย. 69 · ฝึกจากข้อสอบชุดเต็มได้เลย</p>`}</section>
+  <div class="grid-stat">
     <div class="card stat"><b>${PLAN.filter(p=>done[p[0]]).length}/19</b><span>วันที่อ่านครบ</span></div>
     <div class="card stat"><b>${n}</b><span>ข้อที่ทำออนไลน์แล้ว</span></div>
     <div class="card stat"><b>${fulls.length}/10</b><span>ชุดเต็มที่พร้อมใช้</span></div>
+    <div class="card stat"><b>${graded}</b><span>ภาคที่ตรวจกระดาษแล้ว</span></div>
   </div>
-  <div class="card coll"><h2>เริ่มตรงไหนดี</h2>
-    <p>ไม่มีเวลาอ่าน ให้<b>ฝึกจากข้อสอบ</b>: ทำทีละหมวด 10–20 ข้อ อ่านเหตุผลของทุกตัวเลือกหลังตอบ แล้วกด "เฉพาะข้อที่ผิด" ทวนก่อนนอน</p>
-    <p>มีเวลาเต็มวัน (7–8 พ.ย.) ให้<b>พิมพ์ชุดเต็ม</b> ทำตามเวลาจริง แล้วกรอกคำตอบในหน้า "ตรวจกระดาษคำตอบ" หรือถ่ายรูปส่งให้ Claude ตรวจ</p>
-    <div class="acts"><a class="btn pri" href="#exams">ไปที่ข้อสอบ</a><a class="btn" href="#sheets">ชีทอ่าน</a></div></div>
+  <div class="sec-h"><h2>ฝึกแบบกระดาษจริง 4 ขั้น</h2><a class="btn sm" href="#exams">${ic("ph-exam")}เลือกชุดข้อสอบ</a></div>
+  <div class="steps">
+    <div class="card step"><span class="ic">${ic("ph-printer")}</span><b>พิมพ์ข้อสอบ</b><span class="hint">A4 แยกหน้า 2 คอลัมน์ ประหยัดกระดาษ</span></div>
+    <div class="card step"><span class="ic">${ic("ph-grid-nine")}</span><b>พิมพ์กระดาษคำตอบ</b><span class="hint">แผ่นเดียว 200 ข้อ มี QR ผูกกับชุดนั้น</span></div>
+    <div class="card step"><span class="ic">${ic("ph-pencil-simple")}</span><b>ทำตามเวลาจริง</b><span class="hint">ภาค ก 09.00–16.30 · ภาค ข 09.00–16.00</span></div>
+    <div class="card step"><span class="ic">${ic("ph-scan")}</span><b>สแกนตรวจ</b><span class="hint">ถ่ายรูปกระดาษคำตอบ ระบบตรวจและสรุปรายวิชาให้</span></div>
+  </div>
+  <div class="note tip">${ic("ph-lightbulb")}<span>วันธรรมดาไม่มีเวลาอ่าน ให้ทำออนไลน์ทีละหมวด 10–20 ข้อ อ่านเหตุผลของทุกตัวเลือกหลังตอบ แล้วกด "เฉพาะข้อที่ผิด" ทวนก่อนนอน</span></div>
   </div>`;
 }
+/* ---------- รายการชุด (ชั้น 1) ---------- */
 function vExams(){
-  const res=(c,p)=>{const g=store.get(scoreKey(c,p),null);if(!g)return"";const pct=Math.round(g.ok/g.n*100);return `<span class="score-chip ${g.pass?"pass":"fail"}">ตรวจล่าสุด ${g.ok}/${g.n} (${pct}%)</span>`};
-  const block=c=>`<div class="card coll"><div class="h"><h2>${c.title}</h2><span class="muted">${c.count} ข้อ</span></div><p class="hint">${c.desc||""}</p><div class="parts">${
-    Object.keys(c.parts).map(p=>`<div class="part"><div class="lbl"><span>${c.parts[p].label}</span>${res(c.id,p)}</div><div class="acts">
-      <a class="btn pri" href="#q/${c.id}/${p}">ทำออนไลน์</a>
-      <a class="btn" href="print.html?c=${c.id}&p=${p}&m=exam" target="_blank" rel="noopener">พิมพ์ข้อสอบ</a>
-      <a class="btn" href="#g/${c.id}/${p}">ตรวจกระดาษคำตอบ</a>
-      <a class="btn" href="print.html?c=${c.id}&p=${p}&m=key" target="_blank" rel="noopener">พิมพ์เฉลย</a></div></div>`).join("")}</div></div>`;
+  setCtx([["หน้าหลัก","#home"],["ข้อสอบ"]],"ข้อสอบ","ชุดเต็มมีจำนวนข้อตามคะแนนเต็มในประกาศ (1 ข้อ = 1 คะแนน) · ต้องได้ 60% ขึ้นไปทุกภาค");
+  const card=c=>{const no=c.kind==="full"?c.no:"#";return `<a class="card setcard${c.kind==="full"?"":" topic"}" href="#set/${c.id}"><div class="top"><span class="no">${c.kind==="full"?no:ic("ph-stack")}</span><span style="flex:1;min-width:0"><h3>${c.title}</h3><span class="hint">${c.count} ข้อ</span></span><span class="go">${ic("ph-caret-right")}</span></div><div class="parts">${Object.keys(c.parts).map(p=>`<div class="prow"><span>${c.parts[p].label}</span>${scoreBadge(lastScore(c.id,p))}</div>`).join("")}</div></a>`};
   const full=M.collections.filter(c=>c.kind==="full"),other=M.collections.filter(c=>c.kind!=="full");
   const missing=[];for(let k=1;k<=10;k++)if(!full.find(c=>c.no===k))missing.push(k);
-  return `<div class="stack"><h2>ข้อสอบเต็มชุด (ภาค ก 200 + ภาค ข 200 ข้อ)</h2>
-  <p class="hint">จำนวนข้อตามคะแนนเต็มในประกาศ ถือว่า 1 ข้อ = 1 คะแนน · ต้องได้ 60% ขึ้นไปทุกภาค · ลำดับตัวเลือกบนกระดาษตรงกับบนเว็บ</p>
-  ${full.map(block).join("")}
-  ${missing.length?`<p class="pending card coll">ชุดที่ ${missing.join(", ")} กำลังจัดทำ จะขึ้นในหน้านี้เมื่อพร้อม</p>`:""}
-  <h2 style="margin-top:12px">ชุดฝึกตามหัวข้อ</h2>${other.map(block).join("")}</div>`;
+  return `<div class="stack"><div class="sec-h"><h2>ข้อสอบเต็มชุด</h2><span class="badge pri">${full.length} จาก 10 ชุด</span></div>
+  <div class="grid-auto">${full.map(card).join("")}</div>
+  ${missing.length?`<div class="note info">${ic("ph-hourglass-medium")}<span>ชุดที่ ${missing.join(", ")} กำลังจัดทำ จะขึ้นในหน้านี้หลังตรวจข้อเท็จจริงเสร็จ</span></div>`:""}
+  <div class="sec-h"><h2>ชุดฝึกตามหัวข้อ</h2></div><div class="grid-auto">${other.map(card).join("")}</div></div>`;
 }
+/* ---------- หน้าชุด (ชั้น 2) ---------- */
+async function vSet(cid){
+  const c=M.collections.find(x=>x.id===cid);if(!c)return notFound();
+  setCtx([["หน้าหลัก","#home"],["ข้อสอบ","#exams"],[c.title]],c.title,`${c.count} ข้อ · ลำดับตัวเลือกบนกระดาษ กระดาษคำตอบ เฉลย และบนเว็บ ตรงกันทุกที่`);
+  const items=await getItems(cid);
+  const panel=p=>{const its=partItems(items,p),subs=[...new Set(its.map(q=>q.s))],g=lastScore(cid,p);
+    return `<section class="card part"><div class="hd"><div><span class="eyebrow">${PARTNAME[p]||shortPart(p)}</span><h2>${c.parts[p].label}</h2></div>${scoreBadge(g)}</div>
+    <div class="subjects">${subs.map(s=>`<span class="badge">${SUBJ[s][1]} ${its.filter(q=>q.s===s).length}</span>`).join("")}</div>
+    ${g?`<div class="last"><span>ตรวจล่าสุด ${new Date(g.at).toLocaleDateString("th-TH",{day:"numeric",month:"short",year:"2-digit"})}</span><b class="num">${Math.round(g.ok/g.n*100)}%</b><span class="meter"><i class="${g.ok/g.n<.6?"low":""}" style="width:${g.ok/g.n*100}%"></i></span></div>`:""}
+    <div class="grp"><span>ฝึกบนเว็บ</span><div class="acts"><a class="btn pri" href="#q/${cid}/${p}">${ic("ph-play")}ทำออนไลน์</a></div></div>
+    <div class="grp"><span>ฝึกบนกระดาษ</span><div class="acts">
+      <a class="btn" href="print.html?c=${cid}&p=${p}&m=exam" target="_blank" rel="noopener">${ic("ph-file-text")}พิมพ์ข้อสอบ</a>
+      <a class="btn" href="print.html?c=${cid}&p=${p}&m=sheet" target="_blank" rel="noopener">${ic("ph-grid-nine")}พิมพ์กระดาษคำตอบ</a>
+      <a class="btn acc" href="#g/${cid}/${p}">${ic("ph-scan")}สแกนตรวจ</a>
+      <a class="btn ghost" href="print.html?c=${cid}&p=${p}&m=key" target="_blank" rel="noopener">${ic("ph-key")}พิมพ์เฉลย</a></div></div></section>`};
+  return `<div class="stack">${Object.keys(c.parts).map(panel).join("")}</div>`;
+}
+function notFound(){setCtx([["หน้าหลัก","#home"],["ข้อสอบ","#exams"]],"ไม่พบชุดข้อสอบนี้","");return `<div class="card"><div class="empty">${ic("ph-file-x")}<b>ลิงก์นี้ไม่ตรงกับชุดข้อสอบใด</b><a class="btn pri" href="#exams">ไปหน้าข้อสอบ</a></div></div>`}
 function vSheets(){
-  const parts={A:"ภาค ก",B:"ภาค ข"};
-  return `<div class="stack"><h2>ชีทอ่าน (พิมพ์ได้)</h2><p class="hint">แต่ละชีทอ่านจบใน 15–25 นาที เน้นจุดที่ข้อสอบชอบพลิก · กดเปิดแล้วใช้ปุ่มพิมพ์ด้านบนของชีท</p>
-  ${M.sheets.length?M.sheets.map(s=>`<div class="card sheetrow"><div><span class="eyebrow">${parts[s.part]}</span><h3>${s.title}</h3></div><a class="btn pri" href="sheets/${s.id}.html" target="_blank" rel="noopener">อ่าน / พิมพ์</a></div>`).join(""):`<p class="pending card coll">ชีทกำลังจัดทำ</p>`}</div>`;
+  setCtx([["หน้าหลัก","#home"],["ชีทอ่าน"]],"ชีทอ่าน","แต่ละชีทอ่านจบใน 15–25 นาที เน้นจุดที่ข้อสอบชอบพลิก · เปิดแล้วกดพิมพ์ได้");
+  return `<div class="stack">${M.sheets.length?M.sheets.map(s=>`<div class="card sheetrow"><span style="display:flex;gap:12px;align-items:center;min-width:0"><span class="ic">${ic("ph-book-open-text")}</span><span><span class="eyebrow">${shortPart(s.part)}</span><h3>${s.title}</h3></span></span><a class="btn pri" href="sheets/${s.id}.html" target="_blank" rel="noopener">${ic("ph-printer")}อ่าน / พิมพ์</a></div>`).join(""):`<div class="card"><div class="empty">${ic("ph-book")}<b>ชีทกำลังจัดทำ</b></div></div>`}</div>`;
 }
 function vPlan(){
   const d=store.get("ks-plan",{}),t=todayISO();
-  return `<div class="stack"><p class="tip"><b>ทุกวัน</b> · คิดวิเคราะห์ 20 ข้อจับเวลา + อังกฤษ 10 ข้อ จากข้อสอบบนเว็บนี้ · วันธรรมดา ~1–2 ชม. เสาร์–อาทิตย์ 4–6 ชม.</p>${PLAN.map(([iso,lab,main,sub],i)=>`<label class="card day${iso===t?" today":""}${d[iso]?" done":""}"><input type="checkbox" data-iso="${iso}" ${d[iso]?"checked":""}><span class="d">วันที่ ${i+1}<small>${lab}</small></span><span class="t"><span>${main}</span><span class="sub">${sub}</span></span></label>`).join("")}</div>`;
+  setCtx([["หน้าหลัก","#home"],["แผน 19 วัน"]],"แผนอ่าน 19 วัน","26 ต.ค. – 13 พ.ย. 69 · ติ๊กเมื่ออ่านครบ ความคืบหน้าเก็บในเครื่องนี้");
+  return `<div class="stack"><div class="note tip">${ic("ph-clock")}<span><b>ทุกวัน</b> คิดวิเคราะห์ 20 ข้อจับเวลา + อังกฤษ 10 ข้อ จากข้อสอบบนเว็บนี้ · วันธรรมดา ~1–2 ชม. เสาร์–อาทิตย์ 4–6 ชม.</span></div>${PLAN.map(([iso,lab,main,sub],i)=>`<label class="card day${iso===t?" today":""}${d[iso]?" done":""}"><input type="checkbox" data-iso="${iso}" ${d[iso]?"checked":""}><span class="d">วันที่ ${i+1}<small>${lab}</small></span><span class="t"><span>${main}</span><span class="sub">${sub}</span></span></label>`).join("")}</div>`;
 }
 function vTech(){
+  setCtx([["หน้าหลัก","#home"],["เทคนิค"]],"เทคนิคตัดตัวเลือก","ข้อสอบจริงพลิกโจทย์ 7 แบบ ฝึกจำรูปแบบแล้วตัดตัวเลือกให้เหลือน้อยที่สุด");
   return `<div class="stack"><div class="card pat"><h2>ทำทุกข้อด้วย 5 ขั้น</h2><ol style="margin:0;padding-left:1.3em;display:grid;gap:6px">
   <li><b>ขีดคำสำคัญ:</b> ไม่ · ยกเว้น · ที่สุด · อันดับแรก · แน่นอน · อาจ</li><li><b>ตอบในใจก่อนดูตัวเลือก</b></li><li><b>ใส่เครื่องหมายทุกตัวเลือก</b> ✓ / ✗ / ? (บนเว็บใช้ปุ่ม "ตัด")</li><li><b>เหลือ 2 ข้อ</b> เลือกข้อที่ตอบโจทย์ตรงกว่าและครอบคลุมกว่า</li><li><b>ไม่เว้นว่าง</b></li></ol></div>
-  ${PATS.map((p,i)=>`<div class="card pat"><span class="eyebrow">แบบที่ ${i+1}</span><h3>${p[0]}</h3><p class="muted">${p[1]}</p><p class="how">${p[2]}</p></div>`).join("")}</div>`;
+  <div class="grid-auto">${PATS.map((p,i)=>`<div class="card pat"><span class="eyebrow">แบบที่ ${i+1}</span><h3>${p[0]}</h3><p class="muted">${p[1]}</p><p class="how">${p[2]}</p></div>`).join("")}</div></div>`;
 }
 async function getItems(cid){if(!cache[cid])cache[cid]=await loadCollection(cid);return cache[cid]}
+
+/* ---------- ทำออนไลน์ ---------- */
 async function vQuiz(cid,part){
-  const c=M.collections.find(x=>x.id===cid);if(!c)return`<p>ไม่พบชุดนี้</p>`;
+  const c=M.collections.find(x=>x.id===cid);if(!c||!c.parts[part])return notFound();
   const items=partItems(await getItems(cid),part);
+  setCtx([["หน้าหลัก","#home"],["ข้อสอบ","#exams"],[c.title,"#set/"+cid],["ทำออนไลน์ "+shortPart(part)]],`ทำออนไลน์ · ${c.parts[part].label}`,c.title);
   setTimeout(()=>mountQuiz(c,part,items),0);
-  return `<div class="stack"><a class="hint" href="#exams">← กลับไปหน้าข้อสอบ</a><h2>${c.title} · ${c.parts[part].label}</h2><div id="quiz" class="stack"></div></div>`;
+  return `<div id="quiz" class="stack"></div>`;
 }
 function mountQuiz(c,part,items){
   const root=document.getElementById("quiz");if(!root)return;
-  const subs=[...new Set(items.map(q=>q.s))];
-  let filter="all",onlyWrong=false,limit=20;
-  root.innerHTML=`<div class="card bar"><span class="score" id="sc"></span><span class="acts"><button class="btn" id="ow" aria-pressed="false">เฉพาะข้อที่ผิด</button><button class="btn" id="rs">เริ่มใหม่</button></span></div>
+  const subs=[...new Set(items.map(q=>q.s))];let filter="all",onlyWrong=false,limit=20;
+  root.innerHTML=`<div class="card qbar"><span class="score" id="sc"></span><span class="acts"><button class="btn sm" id="ow" aria-pressed="false">${ic("ph-x-circle")}เฉพาะข้อที่ผิด</button><button class="btn sm" id="rs">${ic("ph-arrow-counter-clockwise")}เริ่มใหม่</button></span></div>
   ${subs.length>1?`<div class="chips" id="fl"><button class="chip" data-f="all" aria-pressed="true">ทั้งหมด</button>${subs.map(s=>`<button class="chip" data-f="${s}" aria-pressed="false">${SUBJ[s][1]} (${items.filter(q=>q.s===s).length})</button>`).join("")}</div>`:""}
-  <p class="hint">กด "ตัด" ข้อที่ผิดแน่ ๆ ก่อน แล้วค่อยเลือกคำตอบ · หลังตอบจะเห็นเหตุผลของทุกตัวเลือก</p><div id="list" class="stack"></div><button class="btn" id="more" hidden>แสดงเพิ่มอีก 20 ข้อ</button>`;
+  <p class="hint">กด "ตัด" ข้อที่ผิดแน่ ๆ ก่อน แล้วค่อยเลือกคำตอบ · หลังตอบจะเห็นเหตุผลของทุกตัวเลือก</p><div id="list" class="stack"></div><button class="btn" id="more" hidden>${ic("ph-caret-down")}แสดงเพิ่มอีก 20 ข้อ</button>`;
   const list=root.querySelector("#list"),more=root.querySelector("#more");
   function draw(){
     const ans=store.get("ks-ans",{});list.innerHTML="";
     const shown=items.map((q,i)=>[q,i]).filter(([q])=>(filter==="all"||q.s===filter)&&(!onlyWrong||(ans[q.id]!==undefined&&ans[q.id]!==q.a)));
     shown.slice(0,limit).forEach(([q,i])=>list.appendChild(card(q,i+1,ans,draw)));
     more.hidden=shown.length<=limit;
-    if(!shown.length)list.innerHTML=`<p class="card q muted">${onlyWrong?"ยังไม่มีข้อที่ตอบผิด":"ไม่มีข้อในหมวดนี้"}</p>`;
+    if(!shown.length)list.innerHTML=`<div class="card"><div class="empty">${ic(onlyWrong?"ph-confetti":"ph-tray")}<b>${onlyWrong?"ยังไม่มีข้อที่ตอบผิด":"ไม่มีข้อในหมวดนี้"}</b></div></div>`;
     const dn=items.filter(q=>ans[q.id]!==undefined).length,ok=items.filter(q=>ans[q.id]===q.a).length;
     root.querySelector("#sc").innerHTML=`ถูก <b>${ok}</b> / ${dn} ข้อที่ทำ · ทั้งหมด ${items.length}`;
   }
   more.onclick=()=>{limit+=20;draw()};
   root.querySelector("#fl")?.addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;filter=b.dataset.f;limit=20;root.querySelectorAll("#fl .chip").forEach(x=>x.setAttribute("aria-pressed",x===b));draw()});
   root.querySelector("#ow").onclick=e=>{onlyWrong=!onlyWrong;limit=20;e.currentTarget.setAttribute("aria-pressed",onlyWrong);draw()};
-  root.querySelector("#rs").onclick=()=>{const a=store.get("ks-ans",{});items.forEach(q=>delete a[q.id]);store.set("ks-ans",a);draw()};
+  root.querySelector("#rs").onclick=()=>{if(!confirm("ล้างคำตอบออนไลน์ของภาคนี้ทั้งหมด?"))return;const a=store.get("ks-ans",{});items.forEach(q=>delete a[q.id]);store.set("ks-ans",a);draw();toast("ล้างคำตอบแล้ว")};
   draw();
 }
 function card(q,no,ans,redraw){
   const pick=ans[q.id],done=pick!==undefined,order=orderOf(q);
   const el=document.createElement("article");el.className="card q";
-  el.innerHTML=`<div class="meta"><span class="num">ข้อ ${no}</span><span class="tag">${SUBJ[q.s][1]}</span><span class="tag pt">${esc(q.p)}</span></div>${q.ps?`<p class="passage">${esc(q.ps)}</p>`:""}<p>${q.q}</p>`;
+  el.innerHTML=`<div class="meta"><span class="no">ข้อ ${no}</span><span class="badge">${SUBJ[q.s][1]}</span><span class="badge acc">${esc(q.p)}</span></div>${q.ps?`<p class="passage">${esc(q.ps)}</p>`:""}<p>${q.q}</p>`;
   if(q.code){const pre=document.createElement("pre");pre.className="code";pre.textContent=q.code;el.appendChild(pre)}
   const box=document.createElement("div");box.className="choices";
   order.forEach((ci,pos)=>{
     const row=document.createElement("div");row.className="row";
     const b=document.createElement("button");b.type="button";b.className="ch";
     b.innerHTML=`<span class="bub" aria-hidden="true">${TH[pos]}</span><span class="txt"><span></span></span>`;
-    b.querySelector(".txt>span").textContent=q.c[ci];
+    b.querySelector(".txt>span").textContent=q.c[ci];b.setAttribute("aria-label",`ตัวเลือก ${TH[pos]}: ${q.c[ci]}`);
     if(done){b.disabled=true;if(ci===q.a)b.classList.add("right");if(ci===pick){b.classList.add("pick");if(ci!==q.a)b.classList.add("wrong")}
-      const nt=document.createElement("span");nt.className="note";nt.textContent=q.n[ci];b.querySelector(".txt").appendChild(nt)}
+      const nt=document.createElement("span");nt.className="nt";nt.textContent=q.n[ci];b.querySelector(".txt").appendChild(nt)}
     b.onclick=()=>{const a=store.get("ks-ans",{});a[q.id]=ci;store.set("ks-ans",a);redraw()};
     row.appendChild(b);
     if(!done){const c=document.createElement("button");c.type="button";c.className="cut";c.textContent="ตัด";c.setAttribute("aria-label","ตัดตัวเลือก "+TH[pos]);c.onclick=()=>{row.classList.toggle("isCut");c.textContent=row.classList.contains("isCut")?"คืน":"ตัด"};row.appendChild(c)}
@@ -284,57 +290,105 @@ function card(q,no,ans,redraw){
   });
   el.appendChild(box);
   if(done){const r=document.createElement("p");r.className="res "+(pick===q.a?"ok":"no");r.textContent=pick===q.a?"ถูก":"ยังไม่ถูก · คำตอบคือ "+TH[order.indexOf(q.a)];el.appendChild(r);
-    const t=document.createElement("p");t.className="tip";t.innerHTML="<b>เทคนิค</b> · ";t.appendChild(document.createTextNode(q.tip));el.appendChild(t)}
+    const t=document.createElement("div");t.className="note tip";t.innerHTML=ic("ph-lightbulb")+"<span><b>เทคนิค</b> · </span>";t.lastChild.appendChild(document.createTextNode(q.tip));el.appendChild(t)}
   return el;
 }
+
+/* ---------- ตรวจกระดาษคำตอบ: สแกน + พิมพ์เอง ---------- */
 async function vGrade(cid,part){
-  const c=M.collections.find(x=>x.id===cid);if(!c)return`<p>ไม่พบชุดนี้</p>`;
+  const c=M.collections.find(x=>x.id===cid);if(!c||!c.parts[part])return notFound();
   const items=partItems(await getItems(cid),part);
+  setCtx([["หน้าหลัก","#home"],["ข้อสอบ","#exams"],[c.title,"#set/"+cid],["ตรวจ "+shortPart(part)]],`ตรวจกระดาษคำตอบ · ${c.parts[part].label}`,c.title+" · ใช้กับกระดาษคำตอบที่พิมพ์จากเว็บนี้");
   setTimeout(()=>mountGrade(c,part,items),0);
-  return `<div class="stack"><a class="hint" href="#exams">← กลับไปหน้าข้อสอบ</a><h2>ตรวจกระดาษคำตอบ · ${c.title} · ${c.parts[part].label}</h2><div id="grade" class="stack"></div></div>`;
+  return `<div id="grade" class="stack"></div>`;
 }
 function mountGrade(c,part,items){
-  const root=document.getElementById("grade");if(!root)return;const N=items.length;
-  const draftK="ks-draft-"+c.id+"-"+part;
-  root.innerHTML=`<div class="card coll"><p>พิมพ์คำตอบจากกระดาษ ${N} ข้อ ได้ 2 แบบ</p><ul class="hint" style="margin:0;padding-left:1.2em"><li>ระบุเลขข้อ: <code>1ก 2ค 3ง 4ข</code> (เว้นข้อที่ไม่ได้ทำได้)</li><li>หรือพิมพ์เรียงต่อกัน: <code>กคงข…</code> ใช้ <code>-</code> แทนข้อที่เว้น</li></ul>
-  <textarea id="ta" placeholder="1ก 2ค 3ง …"></textarea><div class="acts"><button class="btn pri" id="go">ตรวจคำตอบ</button><span class="hint" id="cnt"></span></div></div><div id="out" class="stack"></div>`;
+  const root=document.getElementById("grade");if(!root)return;
+  const N=items.length,draftK="ks-draft-"+c.id+"-"+part,keyAt=i=>keyOf(items[i]);
+  root.innerHTML=`<div class="tabs" role="tablist" aria-label="วิธีตรวจ"><button role="tab" id="tb-s" aria-selected="true" aria-controls="pn-s">${ic("ph-scan")}สแกน / ถ่ายรูป</button><button role="tab" id="tb-m" aria-selected="false" aria-controls="pn-m">${ic("ph-keyboard")}พิมพ์คำตอบเอง</button></div>
+  <section id="pn-s" role="tabpanel" aria-labelledby="tb-s" class="stack">
+    <div class="card pad stack">
+      <div class="note info">${ic("ph-camera")}<span>วางกระดาษบนพื้นเรียบสีเข้ม แสงสม่ำเสมอ ถ่ายตรง ๆ ให้เห็น<b>สี่เหลี่ยมดำครบ 4 มุม</b> · รูปประมวลผลในเครื่องนี้ ไม่ถูกส่งไปที่ใด</span></div>
+      <div class="acts"><label class="btn acc" for="f-cam">${ic("ph-camera")}ถ่ายรูปกระดาษคำตอบ</label><input type="file" id="f-cam" accept="image/*" capture="environment"><label class="btn" for="f-pick">${ic("ph-image")}เลือกรูปจากเครื่อง</label><input type="file" id="f-pick" accept="image/*"><a class="btn ghost" href="print.html?c=${c.id}&p=${part}&m=sheet" target="_blank" rel="noopener">${ic("ph-grid-nine")}ยังไม่มีกระดาษ? พิมพ์ที่นี่</a></div>
+    </div>
+    <div id="scan" class="stack"></div>
+  </section>
+  <section id="pn-m" role="tabpanel" aria-labelledby="tb-m" class="stack" hidden>
+    <div class="card pad stack"><p>พิมพ์คำตอบ ${N} ข้อ ได้ 2 แบบ</p><ul class="hint" style="margin:0;padding-left:1.2em"><li>ระบุเลขข้อ: <code>1ก 2ค 3ง 4ข</code> (ข้ามข้อที่เว้นได้)</li><li>หรือพิมพ์เรียงต่อกัน: <code>กคงข…</code> ใช้ <code>-</code> แทนข้อที่เว้น</li></ul>
+    <label class="hint" for="ta">คำตอบ</label><textarea id="ta" placeholder="1ก 2ค 3ง …"></textarea><div class="acts" style="align-items:center"><button class="btn pri" id="go">${ic("ph-check-circle")}ตรวจคำตอบ</button><span class="hint" id="cnt"></span></div></div>
+  </section>
+  <div id="out" class="stack"></div>`;
+  const tabs=[["tb-s","pn-s"],["tb-m","pn-m"]];
+  tabs.forEach(([t,p])=>root.querySelector("#"+t).onclick=()=>tabs.forEach(([t2,p2])=>{root.querySelector("#"+t2).setAttribute("aria-selected",t2===t);root.querySelector("#"+p2).hidden=p2!==p}));
   const ta=root.querySelector("#ta");ta.value=store.get(draftK,"");
   const upd=()=>{const m=parseAnswers(ta.value,N);root.querySelector("#cnt").textContent="อ่านได้ "+Object.keys(m).length+" / "+N+" ข้อ";store.set(draftK,ta.value)};
   ta.oninput=upd;upd();
-  root.querySelector("#go").onclick=()=>{
-    const m=parseAnswers(ta.value,N),out=root.querySelector("#out");
-    let ok=0;const bySub={};const wrong=[];
-    items.forEach((q,i)=>{const no=i+1,k=keyOf(q),g=m[no];bySub[q.s]=bySub[q.s]||[0,0];bySub[q.s][1]++;if(g===k){ok++;bySub[q.s][0]++}else wrong.push([q,no,g,k])});
-    const pass=Object.values(bySub).every(([a,n])=>a/n>=.6)&&ok/N>=.6;
-    store.set(scoreKey(c.id,part),{ok,n:N,pass,at:Date.now()});
-    out.innerHTML=`<div class="card coll"><h2>${ok} / ${N} คะแนน (${Math.round(ok/N*100)}%)</h2><p class="res ${ok/N>=.6?"ok":"no"}">${ok/N>=.6?"ผ่านเกณฑ์ 60% ของภาคนี้":"ยังไม่ถึงเกณฑ์ 60% ของภาคนี้ (ต้องได้ "+Math.ceil(N*.6)+")"}</p>
-    ${Object.entries(bySub).map(([s,[a,n]])=>`<div class="subj"><span>${SUBJ[s][1]}</span><b>${a}/${n} (${Math.round(a/n*100)}%)</b><span class="meter"><i class="${a/n<.6?"low":""}" style="width:${a/n*100}%"></i></span></div>`).join("")}
-    <p class="hint">เส้นตรงกลางแถบคือ 60%</p></div>
-    <div class="card coll"><h2>ข้อที่ผิดหรือเว้น (${wrong.length})</h2>${wrong.map(([q,no,g,k])=>{const o=orderOf(q);return `<details class="wq"><summary>ข้อ ${no} · ตอบ ${g===undefined?"เว้น":TH[g]} · เฉลย ${TH[k]} · ${SUBJ[q.s][1]}</summary><div class="stack" style="margin-top:8px">${q.ps?`<p class="passage">${esc(q.ps)}</p>`:""}<p>${q.q}</p>${q.code?`<pre class="code">${esc(q.code)}</pre>`:""}${o.map((ci,pos)=>`<p class="${ci===q.a?"res ok":""}">${TH[pos]}. ${esc(q.c[ci])}<br><span class="hint">${esc(q.n[ci])}</span></p>`).join("")}<p class="tip"><b>เทคนิค</b> · ${esc(q.tip)}</p></div></details>`}).join("")||"<p>ไม่มี ยอดเยี่ยม</p>"}</div>`;
-    out.scrollIntoView({behavior:"smooth"});
-  };
+  root.querySelector("#go").onclick=()=>showResult(c,part,items,parseAnswers(ta.value,N),"พิมพ์เอง");
+
+  const scanBox=root.querySelector("#scan");
+  async function onFile(e){
+    const f=e.target.files[0];e.target.value="";if(!f)return;
+    scanBox.innerHTML=`<div class="card pad stack" aria-busy="true"><b>กำลังอ่านกระดาษคำตอบ…</b><div class="skel" style="height:220px"></div></div>`;
+    root.querySelector("#out").innerHTML="";
+    let r;try{r=await OMR.scan(f,N)}catch(err){r={ok:false,reason:"error"}}
+    if(!r.ok){scanBox.innerHTML=`<div class="card pad stack"><div class="note bad">${ic("ph-warning-circle")}<span><b>อ่านกระดาษไม่ได้</b> · ระบบหาสี่เหลี่ยมดำครบ 4 มุมหรือแถบรหัสกระดาษไม่เจอ</span></div><ul class="hint" style="margin:0;padding-left:1.2em"><li>ถ่ายให้เห็นทั้งแผ่น ไม่ตัดมุม และไม่มีนิ้วบังสี่เหลี่ยมดำ</li><li>วางกระดาษบนพื้นสีเข้ม เลี่ยงเงาพาดผ่านกระดาษ</li><li>ใช้กระดาษคำตอบที่พิมพ์จากเว็บนี้ (มีแถบรหัสด้านบน)</li><li>ถ้ายังไม่ได้ ใช้แท็บ "พิมพ์คำตอบเอง" แทน</li></ul></div>`;return}
+    if(!r.meta||r.meta.cid!==c.id||r.meta.part!==part){
+      const other=r.meta&&M.collections.find(x=>x.id===r.meta.cid);
+      scanBox.innerHTML=`<div class="card pad stack"><div class="note warn">${ic("ph-swap")}<span><b>กระดาษนี้ไม่ใช่ของ${esc(c.title)} ${shortPart(part)}</b>${other?` · เป็นกระดาษของ${esc(other.title)} ${shortPart(r.meta.part)}`:""}</span></div>${other?`<div class="acts"><a class="btn pri" href="#g/${other.id}/${r.meta.part}">${ic("ph-arrow-right")}ไปหน้าตรวจของชุดนั้น</a></div><p class="hint">ไปแล้วถ่ายหรือเลือกรูปเดิมอีกครั้ง</p>`:""}</div>`;return}
+    const ans=r.ans.slice(),flagged=[];r.ans.forEach((a,i)=>{if(r.flag[i]||a===-2)flagged.push(i)});
+    const blank=ans.filter(a=>a===-1).length;
+    scanBox.innerHTML=`<div class="scan-out two"><div class="card pad stack"><b>ภาพที่ระบบอ่าน</b><div id="ov"></div><div class="legend"><span><i style="border-color:var(--ok-ink)"></i>ตรงเฉลย</span><span><i style="border-color:var(--bad-ink)"></i>ไม่ตรงเฉลย</span><span><i style="border-color:#E4621B"></i>ไม่ชัด ตรวจซ้ำ</span></div></div>
+      <div class="card pad stack"><div class="acts"><span class="badge pri num">อ่านได้ ${N-blank} ข้อ</span><span class="badge ${flagged.length?"warn":"ok"} num">ไม่ชัด ${flagged.length} ข้อ</span><span class="badge num">เว้น ${blank} ข้อ</span></div>
+      ${flagged.length?`<p class="hint">ข้อที่ไม่ชัด (ฝนจาง ฝนหลายวง หรือมีรอยลบ) ดูรูปแล้วเลือกคำตอบที่ตั้งใจ</p><div class="fixlist" id="fx">${flagged.map(i=>`<div class="fix" data-i="${i}"><b>ข้อ ${i+1}</b><span class="opt">${TH.map((t,k)=>`<button type="button" data-k="${k}" aria-pressed="${ans[i]===k}" aria-label="ข้อ ${i+1} ตอบ ${t}">${t}</button>`).join("")}<button type="button" data-k="-1" aria-pressed="${ans[i]<0}" aria-label="ข้อ ${i+1} เว้น">เว้น</button></span></div>`).join("")}</div>`:`<div class="note ok">${ic("ph-check-circle")}<span>อ่านชัดทุกข้อ</span></div>`}
+      <div class="acts"><button class="btn pri" id="sc-go">${ic("ph-check-circle")}ตรวจคะแนน</button><button class="btn ghost" id="sc-edit">${ic("ph-pencil-simple")}แก้คำตอบทั้งหมดแบบพิมพ์</button></div></div></div>`;
+    const ov=OMR.overlay(r,N,keyAt,1100);ov.className="ovl";ov.setAttribute("role","img");ov.setAttribute("aria-label","รูปกระดาษคำตอบพร้อมวงที่ระบบอ่านได้");scanBox.querySelector("#ov").appendChild(ov);
+    scanBox.querySelector("#fx")?.addEventListener("click",e=>{const b=e.target.closest("button[data-k]");if(!b)return;const row=b.closest(".fix"),i=+row.dataset.i;ans[i]=+b.dataset.k;row.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x===b))});
+    const toMap=()=>{const m={};ans.forEach((a,i)=>{if(a>=0)m[i+1]=a});return m};
+    scanBox.querySelector("#sc-go").onclick=()=>showResult(c,part,items,toMap(),"สแกน");
+    scanBox.querySelector("#sc-edit").onclick=()=>{ta.value=ans.map((a,i)=>a>=0?`${i+1}${TH[a]}`:"").filter(Boolean).join(" ");upd();root.querySelector("#tb-m").click();ta.focus();toast("ใส่คำตอบที่สแกนได้ลงช่องพิมพ์แล้ว")};
+  }
+  root.querySelector("#f-cam").onchange=onFile;root.querySelector("#f-pick").onchange=onFile;
+}
+function showResult(c,part,items,m,how){
+  const N=items.length,out=document.getElementById("out");
+  let ok=0;const bySub={},wrong=[];
+  items.forEach((q,i)=>{const no=i+1,k=keyOf(q),g=m[no];bySub[q.s]=bySub[q.s]||[0,0];bySub[q.s][1]++;if(g===k){ok++;bySub[q.s][0]++}else wrong.push([q,no,g,k])});
+  const pass=ok/N>=.6;
+  store.set(scoreKey(c.id,part),{ok,n:N,pass,at:Date.now(),how});
+  out.innerHTML=`<section class="card pad stack"><span class="eyebrow">ผลตรวจ · ${how}</span><div style="display:flex;gap:14px;align-items:baseline;flex-wrap:wrap"><span class="big">${ok}<span class="muted" style="font-size:.5em"> / ${N}</span></span><span class="badge ${pass?"ok":"bad"}">${Math.round(ok/N*100)}% · ${pass?"ผ่านเกณฑ์ 60%":"ยังไม่ถึง 60% (ต้องได้ "+Math.ceil(N*.6)+")"}</span></div>
+  ${Object.entries(bySub).map(([s,[a,n]])=>`<div class="subj"><span>${SUBJ[s][1]}</span><b class="num">${a}/${n} (${Math.round(a/n*100)}%)</b><span class="meter"><i class="${a/n<.6?"low":""}" style="width:${a/n*100}%"></i></span></div>`).join("")}
+  <p class="hint">เส้นในแถบคือ 60% · หมวดที่แถบแดงคือหมวดที่ควรซ่อมก่อน</p></section>
+  <section class="card pad"><h2>ข้อที่ผิดหรือเว้น (${wrong.length})</h2>${wrong.map(([q,no,g,k])=>{const o=orderOf(q);return `<details class="wq"><summary>ข้อ ${no} · ตอบ ${g===undefined?"เว้น":TH[g]} · เฉลย ${TH[k]} · ${SUBJ[q.s][1]}</summary><div class="stack" style="margin-top:8px">${q.ps?`<p class="passage">${esc(q.ps)}</p>`:""}<p>${q.q}</p>${q.code?`<pre class="code">${esc(q.code)}</pre>`:""}${o.map((ci,pos)=>`<p class="${ci===q.a?"res ok":""}">${TH[pos]}. ${esc(q.c[ci])}<br><span class="hint">${esc(q.n[ci])}</span></p>`).join("")}<div class="note tip">${ic("ph-lightbulb")}<span><b>เทคนิค</b> · ${esc(q.tip)}</span></div></div></details>`}).join("")||`<div class="empty">${ic("ph-confetti")}<b>ถูกทุกข้อ ยอดเยี่ยม</b></div>`}</section>`;
+  out.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
+  toast(`บันทึกผล ${ok}/${N} แล้ว`);
 }
 
 /* ---------- router ---------- */
 async function route(){
-  const h=(location.hash||"#home").slice(1).split("/");const v=h[0]||"home";
-  document.querySelectorAll("nav.tabs a").forEach(a=>a.classList.toggle("on",a.dataset.v===v||(a.dataset.v==="exams"&&(v==="q"||v==="g"))));
-  const el=document.getElementById("view");
-  let html="";
+  const h=(location.hash||"#home").slice(1).split("/"),v=h[0]||"home";
+  const sec=["q","g","set"].includes(v)?"exams":v;
+  document.querySelectorAll("#nav1 a,#nav2 a").forEach(a=>{const on=a.dataset.v===sec;a.classList.toggle("on",on);on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current")});
+  const el=document.getElementById("content");let html="";
   try{
-    if(v==="home")html=await vHome();else if(v==="exams")html=vExams();else if(v==="sheets")html=vSheets();else if(v==="plan")html=vPlan();else if(v==="tech")html=vTech();
-    else if(v==="q")html=await vQuiz(h[1],h[2]);else if(v==="g")html=await vGrade(h[1],h[2]);else html=await vHome();
-  }catch(e){html=`<p class="card coll">โหลดข้อมูลไม่สำเร็จ ลองรีเฟรชหน้าอีกครั้ง</p>`}
-  el.innerHTML=html+`<footer>ข้อสอบบนเว็บนี้เขียนขึ้นเพื่อฝึกรูปแบบการพลิกโจทย์ตามหลักสูตรสอบของ ก.ค.ศ. ไม่ใช่ข้อสอบจริง · ความคืบหน้าเก็บในเบราว์เซอร์นี้เท่านั้น</footer>`;
-  el.querySelectorAll("input[data-iso]").forEach(cb=>cb.onchange=()=>{const d=store.get("ks-plan",{});d[cb.dataset.iso]=cb.checked;store.set("ks-plan",d);route()});
-  const td=el.querySelector("#td");if(td)td.onchange=()=>{const d=store.get("ks-plan",{});d[todayISO()]=td.checked;store.set("ks-plan",d)};
-  if(v!=="q"&&v!=="g")window.scrollTo(0,0);
+    if(v==="home")html=vHome();else if(v==="exams")html=vExams();else if(v==="sheets")html=vSheets();else if(v==="plan")html=vPlan();else if(v==="tech")html=vTech();
+    else if(v==="set")html=await vSet(h[1]);else if(v==="q")html=await vQuiz(h[1],h[2]);else if(v==="g")html=await vGrade(h[1],h[2]);else html=vHome();
+  }catch(e){setCtx([["หน้าหลัก","#home"]],"โหลดข้อมูลไม่สำเร็จ","");html=`<div class="card"><div class="empty">${ic("ph-wifi-slash")}<b>โหลดข้อมูลไม่สำเร็จ</b><span>ตรวจการเชื่อมต่ออินเทอร์เน็ต แล้วรีเฟรชหน้าอีกครั้ง</span><button class="btn pri" onclick="location.reload()">โหลดใหม่</button></div></div>`}
+  el.innerHTML=html;
+  el.querySelectorAll("input[data-iso]").forEach(cb=>cb.onchange=()=>{const d=store.get("ks-plan",{});d[cb.dataset.iso]=cb.checked;store.set("ks-plan",d);tick();route()});
+  const td=el.querySelector("#td");if(td)td.onchange=()=>{const d=store.get("ks-plan",{});d[todayISO()]=td.checked;store.set("ks-plan",d);tick();toast(td.checked?"บันทึกว่าอ่านครบแล้ว":"ยกเลิกแล้ว")};
+  if(!["q","g"].includes(v))window.scrollTo(0,0);
 }
-(function(){const el=document.getElementById("cd"),t=Date.parse("2026-11-14T09:00:00+07:00");
- function tick(){const ms=t-Date.now();if(ms<=0)return;const dd=Math.floor(ms/864e5),hh=Math.floor(ms%864e5/36e5);el.textContent=`ภาค ก เสาร์ 14 พ.ย. 69 เวลา 09.00 น. · อีก ${dd} วัน ${hh} ชม.`}
- tick();setInterval(tick,60000)})();
+function tick(){
+  const ms=EXAM-Date.now(),dd=Math.max(0,Math.floor(ms/864e5)),hh=Math.max(0,Math.floor(ms%864e5/36e5));
+  const done=store.get("ks-plan",{}),nd=PLAN.filter(p=>done[p[0]]).length;
+  document.getElementById("cdDays").innerHTML=ms>0?`${dd} <span>วัน ${hh} ชม.</span>`:"วันสอบ";
+  document.getElementById("cdChip").textContent=ms>0?`อีก ${dd} วัน`:"วันสอบ";
+  document.getElementById("cdBar").style.width=Math.min(100,nd/19*100)+"%";
+  document.getElementById("cdPlan").textContent=`แผนอ่าน ${nd}/19 วัน`;
+}
+tick();setInterval(tick,60000);
 addEventListener("hashchange",route);
-loadManifest().then(m=>{M=m;route()}).catch(()=>{document.getElementById("view").innerHTML='<p class="card coll">โหลดข้อมูลไม่สำเร็จ</p>'});
+loadManifest().then(m=>{M=m;route()}).catch(()=>{document.getElementById("content").innerHTML=`<div class="card"><div class="empty"><i class="ph ph-wifi-slash" aria-hidden="true"></i><b>โหลดข้อมูลไม่สำเร็จ</b><span>ตรวจการเชื่อมต่ออินเทอร์เน็ต แล้วรีเฟรชหน้าอีกครั้ง</span></div></div>`});
 </script>
 </body>
 </html>
