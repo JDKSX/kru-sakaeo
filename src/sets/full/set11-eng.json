@@ -957,7 +957,7 @@
   "q": "Which of the following is <b>NOT</b> true according to the passage?",
   "ps": "In one experiment, university students watched the same lecture and took notes either by hand or on a laptop. The students with laptops typed more words, but they often copied the speaker almost word for word. Those writing by hand could not keep up, so they had to listen, pick out the main ideas and put them into their own words. When tested a week later, both groups answered factual questions equally well, but the handwriting group did better on questions that required an understanding of ideas. The researchers do not say that laptops should be banned. They warn only that fast typing can encourage students to record information without thinking about it. Students with certain disabilities may, of course, benefit greatly from typing.",
   "c": [
-   "The handwriting group had to listen and choose the main ideas of the whole lecture.",
+   "The handwriting group had to listen and pick out the main ideas.",
    "The students were tested one week after the lecture.",
    "The laptop group answered factual questions much better than the handwriting group.",
    "Some students with disabilities may benefit greatly from typing."
