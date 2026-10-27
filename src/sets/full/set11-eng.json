@@ -1,0 +1,1016 @@
+[
+ {
+  "id": "m11-eng-001",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The delegates leave Bangkok at noon tomorrow. At this time tomorrow afternoon, they ____ over the Andaman Sea on their way to the conference.",
+  "c": [
+   "will have flown",
+   "flew",
+   "will be flying",
+   "have been flying"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: will have flown เป็น future perfect หมายถึงบินเสร็จสิ้นก่อนเวลานั้น ไม่ตรงกับภาพที่กำลังบินอยู่เหนือทะเล",
+   "ผิด: flew เป็น past simple ขัดกับ tomorrow ที่เป็นอนาคต",
+   "✓ ถูก: at this time tomorrow บอกว่ากำลังทำอยู่ ณ จุดเวลาหนึ่งในอนาคต จึงใช้ future continuous (will be + V-ing)",
+   "ผิด: have been flying เป็น present perfect continuous ใช้กับช่วงเวลาที่ต่อเนื่องถึงปัจจุบัน ไม่ใช่จุดเวลาในอนาคต"
+  ],
+  "tip": "at this time tomorrow / this time next week → will be + V-ing (กำลังทำ ณ เวลานั้น); by + เวลาอนาคต → will have + V3 (ทำเสร็จก่อนเวลานั้น)"
+ },
+ {
+  "id": "m11-eng-002",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains a <b>dangling (misplaced) modifier</b>?",
+  "c": [
+   "Walking along the beach, Nok found a beautiful shell.",
+   "Having finished the exam, the students were allowed to leave.",
+   "Tired after the long trip, Ann went straight to bed.",
+   "Opening the door, a strange noise startled the teacher."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: Walking along the beach ขยาย Nok ซึ่งเป็นผู้เดินจริง ถูกต้อง",
+   "ผิด: Having finished the exam ขยาย the students ซึ่งเป็นผู้สอบเสร็จจริง ถูกต้อง",
+   "ผิด: Tired after the long trip ขยาย Ann ซึ่งเป็นผู้เหนื่อยจริง ถูกต้อง",
+   "✓ ถูก: ผู้ที่เปิดประตูคือครู แต่ประธานของประโยคหลังคำนำคือ a strange noise ซึ่งเปิดประตูไม่ได้ จึงเป็น dangling modifier"
+  ],
+  "tip": "วลี V-ing/V3 ที่ขึ้นต้นประโยค ต้องขยายประธานของประโยคหลังคำนั้นโดยตรง และประธานต้องเป็นผู้ทำการกระทำนั้นได้จริง"
+ },
+ {
+  "id": "m11-eng-003",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences use a <b>reporting verb</b> correctly?<br>1) She denied taking the money from the cash box.<br>2) He admitted to make a serious mistake in the budget.<br>3) The coach congratulated the team on winning the final.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 ผิดเพราะ admit to ต้องตามด้วย V-ing (admitted to making) หรือ admit + V-ing/that-clause และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 1 ถูกเพราะ deny + V-ing และข้อความ 3 ถูกเพราะ congratulate + กรรม + on + V-ing",
+   "ผิด: ข้อความ 2 ผิดเพราะ admitted to make ใช้ infinitive ไม่ได้ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่ใช้ admitted to make ซึ่งผิดไว้ด้วย"
+  ],
+  "tip": "deny / admit / suggest / avoid + V-ing; promise / refuse / agree + to V; congratulate + กรรม + on + V-ing"
+ },
+ {
+  "id": "m11-eng-004",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Ann has never been to Japan, but she talks as if she ____ there for years.",
+  "c": [
+   "has lived",
+   "lives",
+   "would live",
+   "had lived"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: has lived ใช้เมื่อเป็นไปได้ว่าเป็นจริง แต่โจทย์บอกว่าเธอไม่เคยไปญี่ปุ่น จึงเป็นสิ่งที่ไม่จริง",
+   "ผิด: lives เป็น present simple ไม่เข้ากับ for years และไม่แสดงสิ่งที่ตรงข้ามกับความจริง",
+   "ผิด: would live ไม่ใช้หลัง as if เพื่อบอกประสบการณ์ในอดีต",
+   "✓ ถูก: as if ตามด้วยสิ่งที่ตรงข้ามกับความจริงในอดีต (เธอไม่เคยไปญี่ปุ่น) ใช้ past perfect (had + V3)"
+  ],
+  "tip": "as if / as though + สิ่งที่ไม่จริง: ปัจจุบัน → V2 (were); อดีต → had + V3"
+ },
+ {
+  "id": "m11-eng-005",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The equipment in the laboratory is very expensive. You had better not ____ the laboratory door open.",
+  "c": [
+   "to leave",
+   "leaving",
+   "leave",
+   "left"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: to leave ใช้หลัง had better ไม่ได้ เพราะ had better เป็นกริยาช่วยแบบ modal",
+   "ผิด: leaving (V-ing) ใช้หลัง had better ไม่ได้",
+   "✓ ถูก: had better (not) ตามด้วยกริยาช่อง 1 ไม่มี to จึงใช้ leave",
+   "ผิด: left (V2/V3) ใช้หลัง had better not ไม่ได้"
+  ],
+  "tip": "had better (not) + V1 โดยไม่มี to เช่นเดียวกับ modal verbs (should, must, can)"
+ },
+ {
+  "id": "m11-eng-006",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of the <b>passive voice</b>?",
+  "c": [
+   "The meeting was cancelled because of the storm that hit the province.",
+   "The winners will be announced on Friday afternoon.",
+   "A serious accident was happened near the school gate last night.",
+   "She was given a scholarship by the university."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: cancel เป็นกริยาสกรรม was cancelled ถูกต้อง",
+   "ผิด: will be announced เป็น future passive ถูกต้อง",
+   "✓ ถูก: happen เป็นกริยาอกรรม ไม่มีกรรมมารับการกระทำ จึงทำเป็น passive ไม่ได้ ต้องเป็น A serious accident happened",
+   "ผิด: was given a scholarship เป็น passive ของ give ที่มีกรรมสองตัว ถูกต้อง"
+  ],
+  "tip": "กริยาอกรรม (happen, occur, arrive, die, fall) ไม่มี passive ให้ใช้ Active เสมอ เช่น An accident happened"
+ },
+ {
+  "id": "m11-eng-007",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The notice on the school board reads: “We regret ____ you that the workshop has been postponed until next month.”",
+  "c": [
+   "informing",
+   "inform",
+   "informed",
+   "to inform"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: regret + V-ing หมายถึงเสียใจที่ได้ทำสิ่งนั้นไปแล้ว ไม่ตรงกับการแจ้งข่าวในประกาศ",
+   "ผิด: inform (กริยาช่อง 1) ตามหลัง regret โดยตรงไม่ได้",
+   "ผิด: informed (V2/V3) ตามหลัง regret โดยตรงไม่ได้",
+   "✓ ถูก: regret + to V ใช้แจ้งข่าวที่เสียใจที่ต้องบอก พบในประกาศทางการ"
+  ],
+  "tip": "regret to inform/say/tell = เสียใจที่ต้อง(แจ้ง); regret + V-ing = เสียใจที่ได้ทำไปแล้ว"
+ },
+ {
+  "id": "m11-eng-008",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of <b>-ed / -ing adjectives</b>?",
+  "c": [
+   "The final results were disappointing to everyone.",
+   "The students felt very exciting about the field trip.",
+   "Nok was fascinated by the documentary about coral reefs.",
+   "It was an exhausting journey, so we slept early."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: disappointing บรรยายผลสอบที่ทำให้ผิดหวัง ถูกต้อง",
+   "✓ ถูก: ผู้ที่รู้สึกตื่นเต้นต้องใช้ excited ไม่ใช่ exciting ซึ่งใช้บรรยายสิ่งที่ทำให้ตื่นเต้น",
+   "ผิด: fascinated บรรยายความรู้สึกของ Nok ถูกต้อง",
+   "ผิด: exhausting บรรยายการเดินทางที่ทำให้เหนื่อย ถูกต้อง"
+  ],
+  "tip": "-ed ใช้กับผู้ที่รู้สึก (excited students); -ing ใช้กับสิ่งที่ทำให้รู้สึก (an exciting trip)"
+ },
+ {
+  "id": "m11-eng-009",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The school hired fifty new staff, ____ were teachers.",
+  "c": [
+   "most of them",
+   "most of who",
+   "most of which",
+   "most of whom"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: most of them ทำให้เกิดประโยคสองประโยคต่อกันด้วย comma เพียงตัวเดียว (comma splice)",
+   "ผิด: who ใช้เป็นกรรมของบุพบทไม่ได้ ต้องเป็น whom",
+   "ผิด: which ใช้กับสิ่งของ ไม่ใช้กับบุคคล",
+   "✓ ถูก: ประโยคย่อยแบบ non-defining ใช้ quantifier + of + whom เมื่อหมายถึงบุคคล (most of whom)"
+  ],
+  "tip": "บุคคล: some/most/all/none + of + whom; สิ่งของ: of + which เช่น fifty books, most of which were old"
+ },
+ {
+  "id": "m11-eng-010",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences are grammatically correct?<br>1) The news about the exam results is encouraging.<br>2) The police is investigating the theft of the laptops.<br>3) Two kilometres is too far to walk in this heat.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 ผิดเพราะ the police เป็นพหูพจน์ ต้องใช้ are และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 1 ถูกเพราะ news เป็น uncountable ใช้ is และข้อความ 3 ถูกเพราะระยะทางที่มองเป็นหน่วยเดียวใช้กริยาเอกพจน์",
+   "ผิด: ข้อความ 2 ผิดเพราะ the police ใช้กริยาพหูพจน์ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่ใช้ the police is ซึ่งผิดไว้ด้วย"
+  ],
+  "tip": "news, mathematics, economics → กริยาเอกพจน์; the police, the people, cattle → กริยาพหูพจน์; ระยะทาง เวลา เงิน ที่มองเป็นหน่วยเดียว → เอกพจน์"
+ },
+ {
+  "id": "m11-eng-011",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The new stadium holds 30,000 people, while the old one held only 10,000. The new stadium is ____ the old one.",
+  "c": [
+   "three times so large as",
+   "as three times large as",
+   "three times as large as",
+   "three times as large than"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ใช้ so ... as ตามหลัง times ในประโยคเปรียบเทียบนี้ไม่ได้",
+   "ผิด: ลำดับคำผิด ตัวคูณ three times ต้องอยู่หน้า as ตัวแรก",
+   "✓ ถูก: การเปรียบเทียบแบบพหุคูณใช้รูป number + times + as + adjective + as",
+   "ผิด: as large ต้องคู่กับ as ไม่ใช่ than"
+  ],
+  "tip": "ตัวคูณ: twice / three times / half + as + adj + as เช่น twice as expensive as"
+ },
+ {
+  "id": "m11-eng-012",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of a <b>determiner (each / every / all / both)</b>?",
+  "c": [
+   "Each of the volunteers at the book fair has received a certificate.",
+   "Every students in the club must pay the membership fee.",
+   "All the tickets were sold within an hour.",
+   "Both of the proposals look promising."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: Each of + นามพหูพจน์ + กริยาเอกพจน์ ถูกต้อง",
+   "✓ ถูก: every ตามด้วยนามเอกพจน์นับได้ ต้องเป็น every student ไม่ใช่ every students",
+   "ผิด: All the + นามพหูพจน์ + กริยาพหูพจน์ ถูกต้อง",
+   "ผิด: Both of + นามพหูพจน์ ใช้กับสองสิ่ง ถูกต้อง"
+  ],
+  "tip": "every / each + นามเอกพจน์; all / both + นามพหูพจน์; each of / every one of + นามพหูพจน์ + กริยาเอกพจน์"
+ },
+ {
+  "id": "m11-eng-013",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>It was not until the lights went out ____ she realised that the generator had failed.",
+  "c": [
+   "that",
+   "when",
+   "which",
+   "what"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: โครงสร้าง cleft sentence It was not until ... that ... เน้นเวลาที่เหตุการณ์เกิดขึ้น",
+   "ผิด: when ใช้แทน that ในโครงสร้าง It was not until ... ไม่ได้",
+   "ผิด: which ใช้เชื่อมประโยคย่อยที่ขยายนาม ไม่ใช่ที่ปิดโครงสร้างเน้นนี้",
+   "ผิด: what ใช้เป็นคำนามประโยคย่อย ไม่เหมาะกับโครงสร้างนี้"
+  ],
+  "tip": "It was not until + เวลา/เหตุการณ์ + that + ประโยค = เพิ่งจะ...เมื่อ..."
+ },
+ {
+  "id": "m11-eng-014",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which part of the sentence contains an error in the use of a <b>conjunction or preposition</b>?<br>Because of Somsak was injured, he could not play in the final, so his team had to win the trophy without him.",
+  "c": [
+   "could not play",
+   "so",
+   "Because of",
+   "without him"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: could not play เป็นรูปปฏิเสธของ modal ที่ถูกต้อง",
+   "ผิด: so เชื่อมเหตุกับผลที่ตามมา ถูกต้อง",
+   "✓ ถูก: Because of ต้องตามด้วยนามหรือวลีนาม แต่ที่นี่ตามด้วยประโยค Somsak was injured จึงต้องใช้ Because",
+   "ผิด: without him เป็นบุพบทวลีที่ถูกต้อง"
+  ],
+  "tip": "because of / due to / despite + นามหรือ V-ing; because / although / since + ประโยค (ประธาน + กริยา)"
+ },
+ {
+  "id": "m11-eng-015",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The documents ____ on the desk exactly where Ms. Siri had left them the day before.",
+  "c": [
+   "laid",
+   "lay",
+   "lied",
+   "were laying"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: laid เป็น past ของ lay (วาง) ซึ่งเป็นกริยาสกรรมที่ต้องมีกรรม แต่ประโยคนี้ไม่มีกรรม",
+   "✓ ถูก: lie (วางอยู่) มี past simple เป็น lay ซึ่งเป็นกริยาอกรรม ใช้ได้โดยไม่ต้องมีกรรม",
+   "ผิด: lied เป็น past ของ lie ที่แปลว่าโกหก ไม่ตรงความหมาย",
+   "ผิด: were laying ผิดรูปและต้องมีกรรมรองรับ"
+  ],
+  "tip": "lie – lay – lain = วางอยู่/นอนอยู่ (ไม่มีกรรม); lay – laid – laid = วาง (ต้องมีกรรม); lie – lied – lied = โกหก"
+ },
+ {
+  "id": "m11-eng-016",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which sentence has the closest meaning to the following?<br>“Unless the participants register by Friday, they cannot join the camp.”",
+  "c": [
+   "If the participants register by Friday, they cannot join the camp.",
+   "The participants who do not register by Friday can still join the camp.",
+   "Even if the participants register by Friday, they cannot join the camp.",
+   "If the participants do not register by Friday, they cannot join the camp."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ประโยคนี้บอกว่าถ้าลงทะเบียนแล้วเข้าค่ายไม่ได้ ความหมายกลับกัน",
+   "ผิด: ประโยคนี้บอกว่าไม่ลงทะเบียนก็ยังเข้าร่วมได้ ขัดกับต้นฉบับ",
+   "ผิด: Even if บอกว่าแม้ลงทะเบียนแล้วก็ยังเข้าค่ายไม่ได้ ซึ่งผิดความหมาย",
+   "✓ ถูก: unless = if ... not จึงมีความหมายเดียวกับ If the participants do not register by Friday"
+  ],
+  "tip": "unless + ประโยคบอกเล่า = if + ประโยคปฏิเสธ (Unless you study = If you don't study)"
+ },
+ {
+  "id": "m11-eng-017",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of a <b>linking adverb (however, therefore)</b>?",
+  "c": [
+   "The exam was difficult; however, most students passed it.",
+   "The exam was difficult. However, most students passed it.",
+   "The exam was difficult, but most students passed it.",
+   "The exam was difficult, however most students passed it."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ใช้เครื่องหมาย ; นำหน้า however และมี comma ตามหลัง ถูกต้อง",
+   "ผิด: แยกเป็นสองประโยคด้วยจุด แล้วขึ้นต้นด้วย However ถูกต้อง",
+   "ผิด: but เป็น conjunction ใช้เชื่อมสองประโยคด้วย comma ได้ ถูกต้อง",
+   "✓ ถูก: however เป็นคำวิเศษณ์เชื่อมความ ไม่ใช่ conjunction จึงเชื่อมสองประโยคด้วย comma อย่างเดียวไม่ได้"
+  ],
+  "tip": "however / therefore / moreover เชื่อมประโยคด้วย ; หรือ . นำหน้าและมี comma ตามหลัง ส่วน but / and / so ใช้ comma ได้"
+ },
+ {
+  "id": "m11-eng-018",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>Whether the school will extend the deadline ____ on the committee's decision.",
+  "c": [
+   "depend",
+   "depending",
+   "depends",
+   "to depend"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: depend เป็นรูปพหูพจน์ ไม่ตรงกับประธานที่เป็น noun clause",
+   "ผิด: depending เป็น V-ing ใช้เป็นกริยาแท้ของประโยคไม่ได้",
+   "✓ ถูก: ประธานคือ noun clause ทั้งก้อน (Whether ... deadline) ถือเป็นเอกพจน์ ใช้กริยา depends",
+   "ผิด: to depend เป็น infinitive ใช้เป็นกริยาแท้ไม่ได้"
+  ],
+  "tip": "ประโยคนามที่ขึ้นต้นด้วย whether / what / that ทำหน้าที่เป็นประธาน ใช้กริยาเอกพจน์"
+ },
+ {
+  "id": "m11-eng-019",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word closest in meaning to the word in bold.<br>Floppy disks have become <b>obsolete</b> because almost nobody uses them any more.",
+  "c": [
+   "outdated",
+   "unreliable",
+   "fashionable",
+   "valuable"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: obsolete = ล้าสมัยจนเลิกใช้ ตรงกับ outdated",
+   "ผิด: unreliable แปลว่าไว้ใจไม่ได้ ไม่ใช่ล้าสมัย",
+   "ผิด: fashionable แปลว่าทันสมัยนิยม ตรงข้ามกับ obsolete",
+   "ผิด: valuable แปลว่ามีค่า ไม่ตรงกับเรื่องที่ไม่มีใครใช้แล้ว"
+  ],
+  "tip": "obsolete = outdated = no longer used; ตรงข้ามคือ up to date, modern, current"
+ },
+ {
+  "id": "m11-eng-020",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>The two delegations met for three days to <b>iron out</b> their differences before signing the agreement.",
+  "c": [
+   "emphasise",
+   "resolve",
+   "increase",
+   "conceal"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: emphasise แปลว่าเน้นย้ำ ซึ่งไม่ใช่การแก้ความต่าง",
+   "✓ ถูก: iron out = แก้ไขปัญหาหรือความไม่ลงรอยให้เรียบร้อย ตรงกับ resolve",
+   "ผิด: increase แปลว่าเพิ่ม ซึ่งขัดกับการลดความต่างเพื่อลงนามข้อตกลง",
+   "ผิด: conceal แปลว่าปกปิด ซึ่งไม่ตรงกับการประชุมเพื่อตกลงกัน"
+  ],
+  "tip": "iron out = settle/resolve; sort out = จัดการ; smooth over = ทำให้เรื่องผ่านไปด้วยดี"
+ },
+ {
+  "id": "m11-eng-021",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which word is <b>NOT</b> close in meaning to the word in bold?<br>The ancient bowl was so <b>fragile</b> that the museum kept it behind glass.",
+  "c": [
+   "delicate",
+   "brittle",
+   "sturdy",
+   "breakable"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: delicate แปลว่าบอบบางเสียหายง่าย ใกล้เคียงกับ fragile",
+   "ผิด: brittle แปลว่าเปราะ หักง่าย ใกล้เคียงกับ fragile",
+   "✓ ถูก: sturdy แปลว่าแข็งแรงทนทาน ตรงข้ามกับ fragile",
+   "ผิด: breakable แปลว่าแตกหักได้ง่าย ใกล้เคียงกับ fragile"
+  ],
+  "tip": "fragile = delicate = brittle = breakable; ตรงข้ามคือ sturdy, durable, tough"
+ },
+ {
+  "id": "m11-eng-022",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence uses <b>stationary</b> or <b>stationery</b> correctly?",
+  "c": [
+   "The car was stationery at the traffic light when the truck hit it.",
+   "She works in a stationary shop near the university gate.",
+   "Please do not leave the stationary scattered on the floor of the classroom.",
+   "The school ordered pens, paper and other stationery for the new term."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: รถที่จอดนิ่งต้องใช้ stationary (สะกด -ary) แปลว่าหยุดนิ่ง ไม่ใช่ stationery",
+   "ผิด: ร้านเครื่องเขียนต้องเป็น stationery shop ไม่ใช่ stationary shop",
+   "ผิด: เครื่องเขียนบนพื้นต้องเป็น stationery ไม่ใช่ stationary",
+   "✓ ถูก: stationery (สะกด -ery) แปลว่าเครื่องเขียน ใช้ถูกกับ pens, paper"
+  ],
+  "tip": "stationERy = เครื่องเขียน (e ใน envelope); stationARy = หยุดนิ่ง (a ใน car)"
+ },
+ {
+  "id": "m11-eng-023",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which verbs can correctly complete the sentence?<br>Parents who are unhappy with the new rules may ____ a complaint with the school office.<br>1) lodge<br>2) submit<br>3) hold",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: lodge a complaint และ submit a complaint เป็น collocation ที่ถูกต้องทั้งคู่ ส่วน hold ใช้กับ complaint ไม่ได้",
+   "ผิด: ชุดนี้รวม hold a complaint ซึ่งไม่ใช่ collocation และตัด submit ที่ใช้ได้ออก",
+   "ผิด: ชุดนี้ตัด lodge ที่ใช้ได้ออก และรวม hold ที่ใช้ไม่ได้",
+   "ผิด: รวม hold ซึ่งใช้กับ complaint ไม่ได้ไว้ด้วย"
+  ],
+  "tip": "complaint ใช้กับ lodge / file / make / submit; hold ใช้กับ a meeting, a conference, an opinion"
+ },
+ {
+  "id": "m11-eng-024",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "A committee member cannot choose between two equally good proposals and keeps changing his mind for a whole week. Which adjective best describes him?",
+  "c": [
+   "indecisive",
+   "stubborn",
+   "impartial",
+   "overconfident"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: indecisive = ตัดสินใจไม่ได้ เปลี่ยนใจไปมา ตรงกับพฤติกรรมในเรื่อง",
+   "ผิด: stubborn แปลว่าดื้อรั้นไม่ยอมเปลี่ยนใจ ตรงข้ามกับการเปลี่ยนใจไปมา",
+   "ผิด: impartial แปลว่าเป็นกลางไม่ลำเอียง ไม่ได้อธิบายการตัดสินใจไม่ได้",
+   "ผิด: overconfident แปลว่ามั่นใจในตนเองเกินไป ไม่ตรงกับการลังเลตลอดสัปดาห์"
+  ],
+  "tip": "ตัดสินใจไม่ได้ ลังเล = indecisive; ดื้อไม่ยอมเปลี่ยน = stubborn; เป็นกลาง = impartial"
+ },
+ {
+  "id": "m11-eng-025",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>The tour company had to <b>cut back on</b> its expenses after the number of tourists fell sharply.",
+  "c": [
+   "increase",
+   "reduce",
+   "record",
+   "delay"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: increase แปลว่าเพิ่ม ตรงข้ามกับ cut back on",
+   "✓ ถูก: cut back on = ลดปริมาณหรือค่าใช้จ่าย ตรงกับ reduce",
+   "ผิด: record แปลว่าบันทึก ไม่ใช่ความหมายของ cut back on",
+   "ผิด: delay แปลว่าเลื่อน ไม่ใช่ความหมายของ cut back on"
+  ],
+  "tip": "cut back on = reduce; cut down on = ลดการบริโภค; cut off = ตัดขาด"
+ },
+ {
+  "id": "m11-eng-026",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which verb can <b>NOT</b> be used naturally with the noun “a risk”?",
+  "c": [
+   "take",
+   "run",
+   "do",
+   "pose"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: take a risk = เสี่ยง เป็น collocation ที่ถูกต้อง",
+   "ผิด: run a risk = เสี่ยงต่อภัยบางอย่าง เป็น collocation ที่ถูกต้อง",
+   "✓ ถูก: do a risk ไม่ใช่ collocation ในภาษาอังกฤษมาตรฐาน",
+   "ผิด: pose a risk = ก่อให้เกิดความเสี่ยง เป็น collocation ที่ถูกต้อง"
+  ],
+  "tip": "risk ใช้กับ take / run / pose / reduce / avoid; ไม่ใช้ do a risk (ใช้ do กับ homework, a favour, research)"
+ },
+ {
+  "id": "m11-eng-027",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The charity asked for donations after the typhoon, and the response was so ____ that the warehouse was full within three days.",
+  "c": [
+   "overwhelming",
+   "disappointing",
+   "hesitant",
+   "negligible"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: overwhelming = มากมายท่วมท้น สอดคล้องกับคลังเต็มภายในสามวัน",
+   "ผิด: disappointing แปลว่าน่าผิดหวัง ขัดกับเหตุการณ์ที่คลังเต็มภายในสามวัน",
+   "ผิด: hesitant แปลว่าลังเล ใช้บรรยายคน ไม่เหมาะกับผลตอบรับที่ทำให้คลังเต็ม",
+   "ผิด: negligible แปลว่าน้อยจนแทบไม่มีความหมาย ขัดกับเหตุการณ์"
+  ],
+  "tip": "so ____ that ... เป็นเหตุผลที่นำไปสู่ผลลัพธ์ ให้ดูผลลัพธ์ (คลังเต็ม) แล้วเลือกคำที่มีระดับมากที่สุด"
+ },
+ {
+  "id": "m11-eng-028",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The new law places strict ____ on the use of single-use plastic bags in supermarkets.",
+  "c": [
+   "restrictively",
+   "restrictions",
+   "restrictive",
+   "restricted"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: restrictively เป็น adverb ใช้เป็นกรรมของ places ไม่ได้",
+   "✓ ถูก: หลัง adjective strict ต้องเป็นคำนาม จึงใช้ restrictions (places strict restrictions on)",
+   "ผิด: restrictive เป็น adjective ไม่ใช่นามที่เป็นกรรมของ places",
+   "ผิด: restricted เป็น adjective/V3 ไม่ใช่นามที่เป็นกรรมของ places"
+  ],
+  "tip": "adjective + ____ ต้องเติมคำนาม; place restrictions on = กำหนดข้อจำกัดต่อ"
+ },
+ {
+  "id": "m11-eng-029",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Customer: I bought this phone charger yesterday, but it doesn't work. Can I get a refund?<br>Clerk: ____",
+  "c": [
+   "You're welcome. I'm glad you like it.",
+   "No, thanks. I'm just looking around.",
+   "It's much cheaper than the other brands on the shelf near the door.",
+   "I'm sorry to hear that. Could I see your receipt, please?"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: You're welcome ใช้ตอบคำขอบคุณ ไม่ใช่ตอบคำขอคืนเงิน",
+   "ผิด: No, thanks. I'm just looking ใช้ตอบพนักงานที่ถามว่าจะให้ช่วยหรือไม่ ผิดบทบาท",
+   "ผิด: การเปรียบเทียบราคาไม่ตอบคำขอคืนเงิน",
+   "✓ ถูก: พนักงานแสดงความเสียใจและขอดูใบเสร็จก่อนคืนเงิน เหมาะกับสถานการณ์การขอคืนสินค้า"
+  ],
+  "tip": "ลูกค้าขอคืนเงิน → พนักงานตอบสุภาพและขอหลักฐาน (receipt) หรือสอบถามปัญหา"
+ },
+ {
+  "id": "m11-eng-030",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> an appropriate way to ask a lecturer to explain a point again?",
+  "c": [
+   "Wait. You explained that very badly, so say it again.",
+   "Excuse me, could you go over the last point once more, please?",
+   "I'm sorry, I didn't quite follow that. Would you mind explaining it again?",
+   "Sorry to interrupt, but could you clarify what you mean by “sampling”?"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: เป็นการตำหนิผู้บรรยายและสั่งให้พูดซ้ำอย่างไม่สุภาพ",
+   "ผิด: Excuse me, could you ... once more, please? เป็นการขอให้อธิบายซ้ำอย่างสุภาพ",
+   "ผิด: I didn't quite follow that. Would you mind ...? สุภาพและโทษที่ตัวผู้ฟังเอง",
+   "ผิด: Sorry to interrupt, but could you clarify ...? เป็นการขอให้ชี้แจงอย่างสุภาพ"
+  ],
+  "tip": "ขอให้อธิบายซ้ำ: ใช้ Excuse me / Sorry to interrupt + could you / would you mind; ไม่ตำหนิผู้พูดและไม่สั่ง"
+ },
+ {
+  "id": "m11-eng-031",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Read the conversation.<br>A: Did you and your co-teacher agree on how to grade the group projects?<br>B: Yes, we had a long talk, and now we're on the same page.<br>What does B mean?",
+  "c": [
+   "They are reading the same book together.",
+   "They are using the same sheet of paper.",
+   "They now share the same understanding.",
+   "They have just had another argument."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ไม่ได้หมายถึงอ่านหนังสือเล่มเดียวกันจริง ๆ เพราะเป็นสำนวน",
+   "ผิด: ไม่ได้หมายถึงใช้กระดาษแผ่นเดียวกันจริง ๆ เพราะเป็นสำนวน",
+   "✓ ถูก: on the same page = มีความเข้าใจหรือความเห็นตรงกัน",
+   "ผิด: ขัดกับ now และ agree ที่บอกว่าตกลงกันได้แล้ว"
+  ],
+  "tip": "be on the same page = เห็นตรงกัน/เข้าใจตรงกัน; ฟังบริบท (agree, long talk) ก่อนแปลสำนวน"
+ },
+ {
+  "id": "m11-eng-032",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>A: Would you rather meet on Monday or on Tuesday?<br>B: ____",
+  "c": [
+   "Two o'clock in the afternoon would be fine.",
+   "Either day is fine with me. I'll go with whichever suits you better.",
+   "No, I wouldn't. I don't like meetings.",
+   "Yes, I met her last Monday and last Tuesday."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ตอบเป็นเวลา ไม่ตอบว่าเลือกวันไหนจึงไม่ตรงกับคำถาม",
+   "✓ ถูก: ตอบคำถามเลือกระหว่างสองวันโดยบอกว่าวันไหนก็ได้ สอดคล้องกับคำถาม",
+   "ผิด: คำถามแบบเลือก Monday or Tuesday ไม่ตอบด้วย No ได้ และเนื้อหาไม่เกี่ยวกับการเลือกวัน",
+   "ผิด: ตอบเรื่องที่ผ่านมาในอดีตและไม่ได้เลือกวัน"
+  ],
+  "tip": "Would you rather A or B? ต้องตอบเลือก A หรือ B หรือบอกว่าอย่างไหนก็ได้ ไม่ตอบ Yes/No"
+ },
+ {
+  "id": "m11-eng-033",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> a polite way to ask a neighbour to turn down loud music?",
+  "c": [
+   "Would you mind turning the music down a little? I'm trying to study.",
+   "Sorry to bother you, but the music is a bit loud for me.",
+   "I wonder if you could keep the volume down, please.",
+   "Turn that noise off now, or I'll call the police!"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: Would you mind ...? เป็นการขอร้องสุภาพและให้เหตุผล",
+   "ผิด: Sorry to bother you, but ... เป็นการเกริ่นสุภาพก่อนบอกปัญหา",
+   "ผิด: I wonder if you could ... เป็นการขอร้องที่สุภาพมาก",
+   "✓ ถูก: เป็นการสั่งและขู่ ไม่สุภาพ"
+  ],
+  "tip": "ขอร้องสุภาพ: Would you mind + V-ing / I wonder if you could / Sorry to bother you, but ...; ไม่ใช้คำสั่งหรือขู่"
+ },
+ {
+  "id": "m11-eng-034",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Student: I'm sorry, but I haven't finished my report. Could I possibly have a couple more days?<br>Teacher: ____",
+  "c": [
+   "All right, you may hand it in on Friday, but not any later than that.",
+   "Congratulations! I'm glad you finished it early.",
+   "Yes, I did. I handed it in two days ago.",
+   "That's a good idea. Let's meet at the library."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ครูตอบรับคำขอเลื่อนส่งงานพร้อมกำหนดเส้นตายใหม่ เหมาะกับสถานการณ์",
+   "ผิด: นักเรียนยังทำไม่เสร็จ คำแสดงความยินดีที่ทำเสร็จเร็วจึงไม่ตรงกับเหตุการณ์",
+   "ผิด: คำตอบ Yes, I did เป็นคำตอบของคำถามอื่น ไม่ใช่คำขอเลื่อนส่งงาน",
+   "ผิด: คำตอบเรื่องนัดไปห้องสมุดไม่ตอบคำขอเลื่อนส่งงาน"
+  ],
+  "tip": "ขอเลื่อนส่งงานแบบ Could I possibly ...? → ตอบรับหรือปฏิเสธพร้อมเงื่อนไข เช่น All right, but ... / I'm afraid not."
+ },
+ {
+  "id": "m11-eng-035",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following can be used to <b>express a preference</b>?<br>1) I'd prefer tea to coffee.<br>2) I'd rather stay at home tonight.<br>3) I'm afraid I can't join you.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ข้อความ 1 และ 2 ใช้บอกสิ่งที่ชอบมากกว่าหรืออยากทำมากกว่า",
+   "ผิด: ข้อความ 3 เป็นการปฏิเสธคำเชิญ ไม่ใช่การบอกความชอบ และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: ข้อความ 3 เป็นการปฏิเสธคำเชิญ ไม่ใช่การบอกความชอบ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 3 ที่เป็นการปฏิเสธไว้ด้วย"
+  ],
+  "tip": "บอกความชอบ: I'd prefer A to B / I'd rather + V1 / I prefer A to B; I'm afraid I can't ... เป็นการปฏิเสธ"
+ },
+ {
+  "id": "m11-eng-036",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Read the conversation.<br>A: The principal has decided to move sports day to next month.<br>B: Really? That's news to me.<br>What does B mean?",
+  "c": [
+   "B is delighted with the news about the change.",
+   "B wrote the news report.",
+   "B disagrees with the principal.",
+   "B had not heard about it before."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ไม่ได้แสดงความดีใจ B เพียงบอกว่าเพิ่งทราบ",
+   "ผิด: ไม่ได้หมายถึงการเขียนข่าว เพราะเป็นสำนวน",
+   "ผิด: ไม่ได้แสดงว่า B คัดค้านการตัดสินใจ",
+   "✓ ถูก: That's news to me = ฉันเพิ่งรู้เรื่องนี้ ไม่เคยได้ยินมาก่อน"
+  ],
+  "tip": "That's news to me = เพิ่งรู้ครั้งแรก; ไม่ได้แปลว่าเขียนข่าวหรือคัดค้าน"
+ },
+ {
+  "id": "m11-eng-037",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The passage is mainly about",
+  "ps": "Most households own a drill that is used for perhaps ten minutes a year. Noticing this, a group of residents in one Chiang Rai neighbourhood opened a “tool library” in a spare room of the community hall. For a small yearly fee, members can borrow drills, ladders, sewing machines and gardening equipment for up to one week. Volunteers repair broken items and teach beginners how to use them safely. The founders say the library saves families money and keeps useful tools out of the rubbish. However, the room is small, so only the most popular items can be kept, and some members return tools late. The group hopes to rent a larger space next year and to start evening workshops on basic home repairs.",
+  "c": [
+   "a shop that sells cheap drills and ladders to families",
+   "a neighbourhood scheme that lets residents borrow tools they rarely need",
+   "a repair workshop that charges owners for fixing broken tools",
+   "a series of evening classes on basic home repairs"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความไม่ได้เล่าถึงร้านขายเครื่องมือ",
+   "✓ ถูก: ใจความหลักคือโครงการให้ยืมเครื่องมือที่ใช้นาน ๆ ครั้งภายในชุมชน",
+   "ผิด: อาสาสมัครซ่อมให้ และบทความไม่ได้บอกว่าเก็บค่าซ่อม",
+   "ผิด: เวิร์กช็อปภาคค่ำเป็นเพียงแผนในอนาคต ไม่ใช่ใจความหลัก"
+  ],
+  "tip": "ใจความหลักต้องครอบคลุมทั้งบทความ ไม่ใช่รายละเอียดย่อยหรือแผนในอนาคต"
+ },
+ {
+  "id": "m11-eng-038",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> true according to the passage?",
+  "ps": "Most households own a drill that is used for perhaps ten minutes a year. Noticing this, a group of residents in one Chiang Rai neighbourhood opened a “tool library” in a spare room of the community hall. For a small yearly fee, members can borrow drills, ladders, sewing machines and gardening equipment for up to one week. Volunteers repair broken items and teach beginners how to use them safely. The founders say the library saves families money and keeps useful tools out of the rubbish. However, the room is small, so only the most popular items can be kept, and some members return tools late. The group hopes to rent a larger space next year and to start evening workshops on basic home repairs.",
+  "c": [
+   "Members can borrow items for up to one week.",
+   "Volunteers repair broken items and teach beginners.",
+   "The library has already started evening workshops on home repairs.",
+   "The room used by the library is small."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความระบุว่ายืมได้นานสุดหนึ่งสัปดาห์",
+   "ผิด: บทความระบุว่าอาสาสมัครซ่อมของและสอนผู้เริ่มต้น",
+   "✓ ถูก: บทความบอกว่ากลุ่มเพียงหวังจะเริ่มเวิร์กช็อปภาคค่ำในปีหน้า จึงยังไม่ได้เริ่ม",
+   "ผิด: บทความระบุว่าห้องมีขนาดเล็ก"
+  ],
+  "tip": "ข้อ NOT true คือข้อที่ขัดกับบทความ แผนที่ hopes to ยังไม่ได้เกิดขึ้นจริง"
+ },
+ {
+  "id": "m11-eng-039",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>spare</b> in the second sentence is closest in meaning to",
+  "ps": "Most households own a drill that is used for perhaps ten minutes a year. Noticing this, a group of residents in one Chiang Rai neighbourhood opened a “tool library” in a spare room of the community hall. For a small yearly fee, members can borrow drills, ladders, sewing machines and gardening equipment for up to one week. Volunteers repair broken items and teach beginners how to use them safely. The founders say the library saves families money and keeps useful tools out of the rubbish. However, the room is small, so only the most popular items can be kept, and some members return tools late. The group hopes to rent a larger space next year and to start evening workshops on basic home repairs.",
+  "c": [
+   "damaged",
+   "refurbished",
+   "rented",
+   "unoccupied"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: damaged แปลว่าเสียหาย ไม่ใช่ความหมายของ spare",
+   "ผิด: refurbished แปลว่าปรับปรุงใหม่ ไม่ใช่ความหมายของ spare",
+   "ผิด: rented แปลว่าเช่ามา ขัดกับบทความที่ว่าเป็นห้องของ community hall",
+   "✓ ถูก: spare room = ห้องที่ไม่ได้ใช้งานอยู่ ตรงกับ unoccupied"
+  ],
+  "tip": "spare = extra, not in use; a spare room / a spare key / spare time"
+ },
+ {
+  "id": "m11-eng-040",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements are supported by the passage?<br>1) Some members return borrowed tools late.<br>2) The library charges a yearly fee.<br>3) The library has branches in several neighbourhoods.",
+  "ps": "Most households own a drill that is used for perhaps ten minutes a year. Noticing this, a group of residents in one Chiang Rai neighbourhood opened a “tool library” in a spare room of the community hall. For a small yearly fee, members can borrow drills, ladders, sewing machines and gardening equipment for up to one week. Volunteers repair broken items and teach beginners how to use them safely. The founders say the library saves families money and keeps useful tools out of the rubbish. However, the room is small, so only the most popular items can be kept, and some members return tools late. The group hopes to rent a larger space next year and to start evening workshops on basic home repairs.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ข้อความ 1 ตรงกับ some members return tools late และข้อความ 2 ตรงกับ a small yearly fee",
+   "ผิด: ข้อความ 3 ไม่มีในบทความ และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: ข้อความ 3 ไม่มีในบทความ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 3 ที่บทความไม่ได้กล่าวถึงไว้ด้วย"
+  ],
+  "tip": "ตรวจทีละข้อความกับบทความ ข้อความที่บทความไม่ได้พูดถึงถือว่าไม่ได้รับการสนับสนุน"
+ },
+ {
+  "id": "m11-eng-041",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A man wants to fix his fence this weekend, but he has never used a power drill. According to the passage, what could he do?",
+  "ps": "Most households own a drill that is used for perhaps ten minutes a year. Noticing this, a group of residents in one Chiang Rai neighbourhood opened a “tool library” in a spare room of the community hall. For a small yearly fee, members can borrow drills, ladders, sewing machines and gardening equipment for up to one week. Volunteers repair broken items and teach beginners how to use them safely. The founders say the library saves families money and keeps useful tools out of the rubbish. However, the room is small, so only the most popular items can be kept, and some members return tools late. The group hopes to rent a larger space next year and to start evening workshops on basic home repairs.",
+  "c": [
+   "Buy a drill from the library at a low price",
+   "Join an evening workshop at the community hall tonight",
+   "Borrow a drill and ask a volunteer to show him how to use it safely",
+   "Ask the founders to build the fence for him"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ห้องสมุดเครื่องมือให้ยืม ไม่ได้ขายของ",
+   "ผิด: เวิร์กช็อปภาคค่ำเป็นเพียงแผนที่จะเริ่มในปีหน้า จึงยังไม่มีให้เข้าร่วม",
+   "✓ ถูก: บทความบอกว่ายืมสว่านได้ และอาสาสมัครสอนผู้เริ่มต้นใช้เครื่องมืออย่างปลอดภัย",
+   "ผิด: บทความไม่ได้บอกว่าผู้ก่อตั้งรับสร้างรั้วให้"
+  ],
+  "tip": "นำข้อมูลในบทความ (ยืมของ + อาสาสมัครสอนใช้) ไปจับกับสถานการณ์ของคนในเรื่อง"
+ },
+ {
+  "id": "m11-eng-042",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Why did the charity turn boats into classrooms?",
+  "ps": "Every rainy season, floods cut off many villages in a low-lying district, and children cannot travel to school by road. To solve the problem, a local charity has turned several wooden boats into floating classrooms. Each boat runs on solar panels, so it needs no fuel, and carries a small library and a few laptops. In the morning the boat travels along the river and collects children from village landings; in the afternoon it takes them home. Teachers say that attendance has risen, especially among girls, who used to stay at home when the water was high. Critics point out, however, that one boat can serve only about thirty pupils at a time and that the laptops are of little use when cloudy weather reduces the power. The charity accepts these limits but plans to build more boats.",
+  "c": [
+   "Floods stop children from reaching school by road.",
+   "Fuel for the boats was too expensive for the villagers.",
+   "The government had asked it to teach children to sail.",
+   "There were not enough teachers in the district's villages."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความบอกว่าน้ำท่วมตัดขาดหมู่บ้านทำให้เด็กไปโรงเรียนทางถนนไม่ได้",
+   "ผิด: เรือใช้พลังงานแสงอาทิตย์ ไม่ต้องใช้เชื้อเพลิง ไม่ใช่เหตุผลที่ตั้งโครงการ",
+   "ผิด: บทความไม่ได้กล่าวว่ารัฐบาลขอให้สอนเด็กพายเรือ",
+   "ผิด: บทความไม่ได้พูดถึงการขาดแคลนครู"
+  ],
+  "tip": "ถามเหตุผลของโครงการให้หาประโยคที่บอกปัญหาก่อนมีโครงการ (ในที่นี้คือ floods cut off many villages)"
+ },
+ {
+  "id": "m11-eng-043",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "The passage mentions all of the following about the boats EXCEPT",
+  "ps": "Every rainy season, floods cut off many villages in a low-lying district, and children cannot travel to school by road. To solve the problem, a local charity has turned several wooden boats into floating classrooms. Each boat runs on solar panels, so it needs no fuel, and carries a small library and a few laptops. In the morning the boat travels along the river and collects children from village landings; in the afternoon it takes them home. Teachers say that attendance has risen, especially among girls, who used to stay at home when the water was high. Critics point out, however, that one boat can serve only about thirty pupils at a time and that the laptops are of little use when cloudy weather reduces the power. The charity accepts these limits but plans to build more boats.",
+  "c": [
+   "They run on solar panels, so they need no fuel at all.",
+   "They are operated by the local government.",
+   "They carry books and laptops.",
+   "They take children home in the afternoon."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความระบุว่าเรือใช้แผงโซลาร์เซลล์",
+   "✓ ถูก: บทความบอกว่าเรือเป็นของมูลนิธิท้องถิ่น (a local charity) ไม่ใช่ของรัฐบาลท้องถิ่น",
+   "ผิด: บทความระบุว่ามีห้องสมุดขนาดเล็กและแล็ปท็อป",
+   "ผิด: บทความระบุว่าตอนบ่ายเรือพาเด็ก ๆ กลับบ้าน"
+  ],
+  "tip": "EXCEPT = หาข้อที่บทความไม่ได้พูดถึง ให้ตรวจที่ผู้ดำเนินงาน (charity) อย่างละเอียด"
+ },
+ {
+  "id": "m11-eng-044",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "The phrase <b>these limits</b> in the last sentence refers to",
+  "ps": "Every rainy season, floods cut off many villages in a low-lying district, and children cannot travel to school by road. To solve the problem, a local charity has turned several wooden boats into floating classrooms. Each boat runs on solar panels, so it needs no fuel, and carries a small library and a few laptops. In the morning the boat travels along the river and collects children from village landings; in the afternoon it takes them home. Teachers say that attendance has risen, especially among girls, who used to stay at home when the water was high. Critics point out, however, that one boat can serve only about thirty pupils at a time and that the laptops are of little use when cloudy weather reduces the power. The charity accepts these limits but plans to build more boats.",
+  "c": [
+   "the length of the rainy season and the depth of the water",
+   "the small number of pupils per boat and the laptops' dependence on sunlight",
+   "the cost of building a boat and paying its teachers",
+   "the low attendance of girls in the villages"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความไม่ได้กล่าวถึงความลึกของน้ำเป็นข้อจำกัดของเรือ",
+   "✓ ถูก: these limits อ้างถึงข้อวิจารณ์สองข้อก่อนหน้า คือรับนักเรียนได้เพียงราวสามสิบคนและแล็ปท็อปใช้ได้น้อยเมื่อฟ้าครึ้ม",
+   "ผิด: บทความไม่ได้พูดถึงต้นทุนการสร้างเรือหรือค่าจ้างครู",
+   "ผิด: บทความบอกว่าอัตราการเข้าเรียนสูงขึ้น ไม่ใช่ข้อจำกัด"
+  ],
+  "tip": "สรรพนามหรือวลีอ้างอิง (these, this, they) มักชี้ไปที่ข้อความก่อนหน้า ให้ย้อนอ่านประโยคก่อนหน้า"
+ },
+ {
+  "id": "m11-eng-045",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements are supported by the passage?<br>1) Some girls stayed at home when the water was high before the boats began.<br>2) The laptops may be less useful on cloudy days.<br>3) The charity believes its critics are completely wrong.",
+  "ps": "Every rainy season, floods cut off many villages in a low-lying district, and children cannot travel to school by road. To solve the problem, a local charity has turned several wooden boats into floating classrooms. Each boat runs on solar panels, so it needs no fuel, and carries a small library and a few laptops. In the morning the boat travels along the river and collects children from village landings; in the afternoon it takes them home. Teachers say that attendance has risen, especially among girls, who used to stay at home when the water was high. Critics point out, however, that one boat can serve only about thirty pupils at a time and that the laptops are of little use when cloudy weather reduces the power. The charity accepts these limits but plans to build more boats.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ข้อความ 1 ตรงกับ girls who used to stay at home และข้อความ 2 ตรงกับ laptops are of little use when cloudy",
+   "ผิด: ข้อความ 3 ไม่ตรงกับบทความ เพราะมูลนิธิยอมรับข้อจำกัด และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: ข้อความ 3 ไม่ตรงกับบทความ เพราะมูลนิธิยอมรับข้อจำกัด และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 3 ที่ขัดกับบทความไว้ด้วย"
+  ],
+  "tip": "accepts these limits ตรงข้ามกับการเชื่อว่าผู้วิจารณ์ผิดทั้งหมด ระวังข้อความที่ใช้คำแรงเกินบทความ เช่น completely"
+ },
+ {
+  "id": "m11-eng-046",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A district has about ninety children who need to travel by river to school. Based on the passage, what problem would one boat probably face there?",
+  "ps": "Every rainy season, floods cut off many villages in a low-lying district, and children cannot travel to school by road. To solve the problem, a local charity has turned several wooden boats into floating classrooms. Each boat runs on solar panels, so it needs no fuel, and carries a small library and a few laptops. In the morning the boat travels along the river and collects children from village landings; in the afternoon it takes them home. Teachers say that attendance has risen, especially among girls, who used to stay at home when the water was high. Critics point out, however, that one boat can serve only about thirty pupils at a time and that the laptops are of little use when cloudy weather reduces the power. The charity accepts these limits but plans to build more boats.",
+  "c": [
+   "It would run out of fuel before the end of the morning.",
+   "The teachers would refuse to travel along the river.",
+   "It could not take the children home in the afternoon.",
+   "It could not carry all the children at the same time."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: เรือใช้พลังงานแสงอาทิตย์และไม่ต้องใช้เชื้อเพลิง",
+   "ผิด: บทความไม่ได้กล่าวว่าครูปฏิเสธการเดินทาง",
+   "ผิด: บทความระบุว่าเรือพาเด็กกลับบ้านตอนบ่ายตามปกติ",
+   "✓ ถูก: บทความบอกว่าเรือหนึ่งลำรับนักเรียนได้ประมาณสามสิบคนในแต่ละครั้ง จึงรับเก้าสิบคนพร้อมกันไม่ได้"
+  ],
+  "tip": "นำข้อจำกัดในบทความ (ประมาณสามสิบคนต่อลำ) ไปคำนวณกับสถานการณ์ที่ถามเก้าสิบคน"
+ },
+ {
+  "id": "m11-eng-047",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "What is the main purpose of the passage?",
+  "ps": "In one experiment, university students watched the same lecture and took notes either by hand or on a laptop. The students with laptops typed more words, but they often copied the speaker almost word for word. Those writing by hand could not keep up, so they had to listen, pick out the main ideas and put them into their own words. When tested a week later, both groups answered factual questions equally well, but the handwriting group did better on questions that required an understanding of ideas. The researchers do not say that laptops should be banned. They warn only that fast typing can encourage students to record information without thinking about it. Students with certain disabilities may, of course, benefit greatly from typing.",
+  "c": [
+   "To report the results of an experiment comparing two ways of taking notes",
+   "To persuade schools to ban laptops from all lectures",
+   "To teach students how to type faster in class",
+   "To describe how students with disabilities learn"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความเล่าผลการทดลองเปรียบเทียบการจดโน้ตด้วยมือกับการพิมพ์",
+   "ผิด: บทความระบุว่านักวิจัยไม่ได้บอกว่าควรห้ามแล็ปท็อป",
+   "ผิด: บทความไม่ได้สอนเทคนิคพิมพ์เร็ว",
+   "ผิด: การกล่าวถึงนักเรียนที่มีความบกพร่องเป็นเพียงข้อสังเกตท้ายบท ไม่ใช่จุดประสงค์หลัก"
+  ],
+  "tip": "จุดประสงค์หลักของผู้เขียนดูจากเนื้อหาส่วนใหญ่ของบทความ ไม่ใช่ประโยคท้ายบท"
+ },
+ {
+  "id": "m11-eng-048",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> true according to the passage?",
+  "ps": "In one experiment, university students watched the same lecture and took notes either by hand or on a laptop. The students with laptops typed more words, but they often copied the speaker almost word for word. Those writing by hand could not keep up, so they had to listen, pick out the main ideas and put them into their own words. When tested a week later, both groups answered factual questions equally well, but the handwriting group did better on questions that required an understanding of ideas. The researchers do not say that laptops should be banned. They warn only that fast typing can encourage students to record information without thinking about it. Students with certain disabilities may, of course, benefit greatly from typing.",
+  "c": [
+   "The handwriting group had to listen and choose the main ideas of the whole lecture.",
+   "The students were tested one week after the lecture.",
+   "The laptop group answered factual questions much better than the handwriting group.",
+   "Some students with disabilities may benefit greatly from typing."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความบอกว่ากลุ่มจดด้วยมือต้องเลือกใจความสำคัญ",
+   "ผิด: บทความระบุว่าทดสอบหนึ่งสัปดาห์หลังการบรรยาย",
+   "✓ ถูก: บทความบอกว่าทั้งสองกลุ่มตอบคำถามเชิงข้อเท็จจริงได้ดีพอ ๆ กัน",
+   "ผิด: บทความระบุว่านักเรียนบางกลุ่มที่มีความบกพร่องอาจได้ประโยชน์มากจากการพิมพ์"
+  ],
+  "tip": "ข้อ NOT true ให้เทียบแต่ละตัวเลือกกับประโยคในบทความ equally well ขัดกับ much better"
+ },
+ {
+  "id": "m11-eng-049",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "What can be inferred about students who copy a speaker word for word?",
+  "ps": "In one experiment, university students watched the same lecture and took notes either by hand or on a laptop. The students with laptops typed more words, but they often copied the speaker almost word for word. Those writing by hand could not keep up, so they had to listen, pick out the main ideas and put them into their own words. When tested a week later, both groups answered factual questions equally well, but the handwriting group did better on questions that required an understanding of ideas. The researchers do not say that laptops should be banned. They warn only that fast typing can encourage students to record information without thinking about it. Students with certain disabilities may, of course, benefit greatly from typing.",
+  "c": [
+   "They always understand the lecture better than other students.",
+   "They are unable to type at a normal speed.",
+   "They may not think carefully about the ideas as they write.",
+   "They prefer to take notes by hand."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความระบุว่ากลุ่มนี้ทำข้อสอบด้านความเข้าใจได้ไม่ดีเท่า จึงไม่ใช่ว่าเข้าใจดีกว่าเสมอ",
+   "ผิด: บทความบอกว่ากลุ่มแล็ปท็อปพิมพ์ได้จำนวนคำมากกว่า จึงไม่ใช่พิมพ์ไม่ทัน",
+   "✓ ถูก: บทความบอกว่าการพิมพ์เร็วอาจทำให้บันทึกโดยไม่คิด จึงอนุมานได้ว่านักเรียนที่คัดลอกคำต่อคำอาจไม่ได้คิดใคร่ครวญความคิด",
+   "ผิด: กลุ่มที่คัดลอกคำต่อคำคือกลุ่มที่ใช้แล็ปท็อป ไม่ใช่กลุ่มที่จดด้วยมือ"
+  ],
+  "tip": "คำว่า inferred ต้องเลือกข้อสรุปที่บทความรองรับ ไม่ใช่ข้อที่ใช้คำเด็ดขาดอย่าง always หรือ unable"
+ },
+ {
+  "id": "m11-eng-050",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A teacher allows laptops in her class. Which advice agrees with the passage?",
+  "ps": "In one experiment, university students watched the same lecture and took notes either by hand or on a laptop. The students with laptops typed more words, but they often copied the speaker almost word for word. Those writing by hand could not keep up, so they had to listen, pick out the main ideas and put them into their own words. When tested a week later, both groups answered factual questions equally well, but the handwriting group did better on questions that required an understanding of ideas. The researchers do not say that laptops should be banned. They warn only that fast typing can encourage students to record information without thinking about it. Students with certain disabilities may, of course, benefit greatly from typing.",
+  "c": [
+   "Put the main ideas into your own words instead of copying the speaker.",
+   "Type as many words as you can so that nothing is missed.",
+   "Close your laptop and never take notes during a lecture.",
+   "Avoid factual questions because handwriting does not help with them."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: สอดคล้องกับบทความที่ว่าการเลือกใจความและเรียบเรียงด้วยคำของตนเองช่วยให้เข้าใจดีขึ้น",
+   "ผิด: การพิมพ์ให้ได้จำนวนคำมากที่สุดคือสิ่งที่นำไปสู่การคัดลอกโดยไม่คิด",
+   "ผิด: นักวิจัยไม่ได้บอกให้ห้ามใช้แล็ปท็อป และไม่ได้บอกให้เลิกจดโน้ต",
+   "ผิด: บทความระบุว่าคำถามเชิงข้อเท็จจริงสองกลุ่มทำได้ใกล้เคียงกัน ไม่ใช่เหตุผลให้หลีกเลี่ยง"
+  ],
+  "tip": "ข้อแนะนำที่ถูกต้องต้องมีหลักฐานในบทความรองรับ ไม่ใช่คำเด็ดขาดอย่าง never หรือ avoid"
+ }
+]
