@@ -2,7 +2,9 @@
 const fs=require('fs'),path=require('path');
 const S=__dirname,out=process.env.OUT?path.resolve(process.env.OUT):path.join(S,'..'),SITE=process.env.SITE||'site-v2';
 for(const d of ['data','sheets'])fs.mkdirSync(path.join(out,d),{recursive:true});
-for(const f of fs.readdirSync(path.join(S,SITE)).filter(f=>/\.(html|js|css)$/.test(f)&&!f.endsWith('.tpl.html')))fs.copyFileSync(path.join(S,SITE,f),path.join(out,f));
+const VER=Date.now().toString(36);/* กันเบราว์เซอร์ใช้ไฟล์เก่าจากแคช */
+const bust=s=>s.replace(/((?:src|href)=")((?:\.\.\/)?(?:common|omr)\.js|(?:\.\.\/)?ks-ds\.css)"/g,(m,a,f)=>a+f+'?v='+VER+'"');
+for(const f of fs.readdirSync(path.join(S,SITE)).filter(f=>/\.(html|js|css)$/.test(f)&&!f.endsWith('.tpl.html'))){const src=path.join(S,SITE,f),dst=path.join(out,f);if(f.endsWith('.html'))fs.writeFileSync(dst,bust(fs.readFileSync(src,'utf8')));else fs.copyFileSync(src,dst)}
 const SUBJ={ana:"A",eng:"A",gov:"A",com:"B",ped:"B",law:"B"};
 const untag=t=>String(t).replace(/<b>(.*?)<\/b>/g,'“$1”').replace(/<br\s*\/?>/g,' ').replace(/<[^>]+>/g,'');
 const strip=q=>{const o={id:q.id,s:q.s,p:q.p,q:q.q,c:q.c.map(untag),a:q.a,n:q.n.map(untag),tip:untag(q.tip)};if(q.ps)o.ps=q.ps;if(q.code)o.code=q.code;return o};
