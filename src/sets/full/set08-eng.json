@@ -1,0 +1,1016 @@
+[
+ {
+  "id": "m08-eng-001",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>The instructor warns Ann, “You won't pass the driving test ____ you practise more.”",
+  "c": [
+   "if",
+   "unless",
+   "as long as",
+   "so that"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: if ทำให้ความหมายเป็นถ้าฝึกเพิ่มจะสอบไม่ผ่าน ซึ่งขัดกับเจตนาของคำเตือน",
+   "✓ ถูก: unless แปลว่าถ้าไม่ ใช้เตือนว่าถ้าไม่ฝึกเพิ่มจะสอบไม่ผ่าน",
+   "ผิด: as long as แปลว่าตราบใดที่ ทำให้ความหมายเพี้ยนเป็นตราบใดที่ฝึกเพิ่มก็จะสอบไม่ผ่าน",
+   "ผิด: so that ใช้บอกจุดประสงค์ ไม่ใช่เงื่อนไข"
+  ],
+  "tip": "unless = if ... not: You won't pass unless you practise = You won't pass if you don't practise"
+ },
+ {
+  "id": "m08-eng-002",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The principal cancelled the school trip, ____ disappointed many students.",
+  "c": [
+   "which",
+   "that",
+   "whose",
+   "who"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: which ขยายทั้งประโยคหน้า (การยกเลิกทริป) และใช้ตามหลังเครื่องหมายจุลภาคได้",
+   "ผิด: that ใช้ใน relative clause แบบจำกัดความ ไม่ใช้ตามหลังเครื่องหมายจุลภาค",
+   "ผิด: whose แสดงความเป็นเจ้าของ ไม่ใช่ตัวเชื่อมที่ขยายประโยคหน้า",
+   "ผิด: who ใช้กับคน แต่สิ่งที่ทำให้ผิดหวังคือเหตุการณ์ทั้งประโยค"
+  ],
+  "tip": "ประโยคหลังจุลภาคที่ขยายทั้งประโยคหน้า ใช้ , which เท่านั้น (ห้ามใช้ that)"
+ },
+ {
+  "id": "m08-eng-003",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>If Ploy had accepted the scholarship in Japan, she ____ there now.",
+  "c": [
+   "would have studied",
+   "will study",
+   "had studied",
+   "would be studying"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: would have studied ใช้บอกผลในอดีต แต่ now ชี้ว่าเป็นปัจจุบัน",
+   "ผิด: will study เป็นอนาคตจริง ไม่ใช่การสมมติ",
+   "ผิด: had studied เป็น past perfect ใช้ในอนุประโยคเงื่อนไข ไม่ใช้เป็นผลลัพธ์",
+   "✓ ถูก: if-clause เป็นอดีต (had accepted) แต่ผลลัพธ์เป็นปัจจุบัน (now) จึงเป็นเงื่อนไขผสมที่ใช้ would + V1"
+  ],
+  "tip": "mixed conditional: If + had V3 (อดีต), S + would + V1 (ผลปัจจุบัน)"
+ },
+ {
+  "id": "m08-eng-004",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which part of the sentence contains an error in the use of <b>tense</b>?<br>If it <b>will rain</b> tomorrow, the football match <b>will be</b> postponed, and the players <b>will need</b> to <b>attend</b> the next practice session.",
+  "c": [
+   "will rain",
+   "will be",
+   "will need",
+   "attend"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ใน if-clause ของเงื่อนไขประเภทที่ 1 ต้องใช้ present simple (rains) ไม่ใช้ will",
+   "ผิด: will be postponed เป็นผลลัพธ์ในอนาคต ถูกต้อง",
+   "ผิด: will need to เป็นผลลัพธ์ในอนาคต ถูกต้อง",
+   "ผิด: attend ตามหลัง need to ใช้รูปกริยาแท้ถูกต้อง"
+  ],
+  "tip": "If-clause (type 1) ใช้ present simple; main clause ใช้ will + V1 — ห้ามใช้ will ใน if-clause"
+ },
+ {
+  "id": "m08-eng-005",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence uses a preposition of time <b>incorrectly</b>?",
+  "c": [
+   "The exam starts at nine o'clock.",
+   "The test will be held in Sunday morning.",
+   "We have a long holiday in April.",
+   "She was born on 14 February."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: at ใช้กับเวลาที่ระบุนาฬิกา ถูกต้อง",
+   "✓ ถูก: ช่วงเวลาของวันที่ระบุวันเจาะจง ใช้ on Sunday morning ไม่ใช้ in",
+   "ผิด: in ใช้กับเดือน ถูกต้อง",
+   "ผิด: on ใช้กับวันที่ ถูกต้อง"
+  ],
+  "tip": "at + เวลา/จุดเวลา; on + วัน/วันที่ (รวม on Sunday morning); in + เดือน ปี ฤดู ช่วงของวัน"
+ },
+ {
+  "id": "m08-eng-006",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>The train was delayed for an hour, so we ____ to the station.",
+  "c": [
+   "needn't have hurried",
+   "needn't hurry",
+   "can't have been hurrying",
+   "hadn't hurried"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: needn't have + V3 แปลว่าไม่จำเป็นต้องทำแต่ได้ทำไปแล้ว ตรงกับการรีบไปทั้งที่รถไฟล่าช้า",
+   "ผิด: needn't hurry เป็นรูปปัจจุบันหรืออนาคต แต่การรีบเกิดขึ้นแล้วในอดีต",
+   "ผิด: can't have been hurrying แปลว่าเป็นไปไม่ได้ที่กำลังรีบ ซึ่งขัดกับบริบทว่ารีบไปแล้ว",
+   "ผิด: hadn't hurried แปลว่าไม่ได้รีบ ซึ่งขัดกับเหตุผลที่ว่าไม่จำเป็นต้องรีบแต่รีบไปแล้ว"
+  ],
+  "tip": "needn't have + V3 = ทำไปแล้วทั้งที่ไม่จำเป็น; didn't need to + V1 = ไม่จำเป็นต้องทำ (อาจทำหรือไม่ก็ได้)"
+ },
+ {
+  "id": "m08-eng-007",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>The students were chatting noisily. When the teacher walked in, they stopped ____.",
+  "c": [
+   "to chat again",
+   "chatting",
+   "chat",
+   "chatted"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: stop to chat again แปลว่าหยุดเพื่อไปคุยอีก ซึ่งตรงข้ามกับเหตุการณ์",
+   "✓ ถูก: stop + V-ing แปลว่าหยุดทำสิ่งนั้น ตรงกับเมื่อครูเข้ามา นักเรียนหยุดคุย",
+   "ผิด: stop ไม่ตามด้วยกริยาช่องที่ 1 ตรง ๆ",
+   "ผิด: stop ไม่ตามด้วยกริยาช่องที่ 2"
+  ],
+  "tip": "stop + V-ing = หยุดทำสิ่งนั้น; stop + to V = หยุดไปทำสิ่งอื่น"
+ },
+ {
+  "id": "m08-eng-008",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>Only after the results were announced ____ how serious the problem was.",
+  "c": [
+   "we realised",
+   "we did realise",
+   "had we realised",
+   "did we realise"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ไม่ได้กลับประธานตามที่ only after กำหนด",
+   "ผิด: ลำดับ we did ไม่กลับประธานกับกริยาช่วย",
+   "ผิด: had we realised เป็น past perfect ไม่เข้ากับ announced ซึ่งเป็นอดีตธรรมดา",
+   "✓ ถูก: Only after + อนุประโยค ที่ขึ้นต้นประโยคต้องกลับประธาน ใช้ did + S + V1"
+  ],
+  "tip": "Only after / Only when / Hardly / Not until ขึ้นต้นประโยค → กลับประธานกับกริยาช่วย (did we realise)"
+ },
+ {
+  "id": "m08-eng-009",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>This is the village ____ my grandmother was born.",
+  "c": [
+   "where",
+   "which",
+   "that",
+   "when"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: village เป็นสถานที่ และตามหลังต้องมีอนุประโยคครบ จึงใช้ where แทน in which",
+   "ผิด: which ต้องมีบุพบท in นำหน้าจึงถูก (in which)",
+   "ผิด: that ต้องมีบุพบท in ตามท้ายประโยคจึงถูก",
+   "ผิด: when ใช้กับเวลา ไม่ใช่สถานที่"
+  ],
+  "tip": "สถานที่ + where (= in which); เวลา + when; เหตุผล + why"
+ },
+ {
+  "id": "m08-eng-010",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Take an umbrella ____ it rains this afternoon.",
+  "c": [
+   "unless",
+   "so that",
+   "in case",
+   "although"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: unless แปลว่าถ้าไม่ ทำให้ความหมายขัดกัน",
+   "ผิด: so that ใช้บอกจุดประสงค์และตามด้วยผลที่ต้องการ ไม่ใช่เหตุการณ์ที่อาจเกิด",
+   "✓ ถูก: in case แปลว่าเผื่อว่า ใช้เตรียมของไว้ก่อนเพราะอาจเกิดเหตุการณ์ขึ้น",
+   "ผิด: although ใช้แสดงความขัดแย้ง ไม่เข้ากับการเตรียมไว้"
+  ],
+  "tip": "in case + S + V = เผื่อว่า; if = ถ้า (ทำหลังเหตุการณ์เกิดจริง)"
+ },
+ {
+  "id": "m08-eng-011",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Laptop A costs 18,000 baht and Laptop B costs 24,000 baht. Which sentence is correct?",
+  "c": [
+   "Laptop B is not as expensive as Laptop A.",
+   "Laptop A is more expensive than Laptop B.",
+   "Laptop A is as expensive as Laptop B.",
+   "Laptop A is not as expensive as Laptop B."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: กลับด้าน เพราะ B แพงกว่า A",
+   "ผิด: A ราคาต่ำกว่า จึงแพงกว่า B ไม่ได้",
+   "ผิด: ราคาทั้งสองไม่เท่ากัน จึงใช้ as expensive as ไม่ได้",
+   "✓ ถูก: A ราคา 18,000 ต่ำกว่า B ที่ 24,000 จึงพูดว่า A ไม่แพงเท่า B"
+  ],
+  "tip": "not as + adj + as = น้อยกว่า; ตรวจตัวเลขก่อนว่าฝั่งใดมีค่ามากกว่า"
+ },
+ {
+  "id": "m08-eng-012",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>I forgot my pen. Could you ____ me yours, please?",
+  "c": [
+   "lend",
+   "borrow",
+   "lent",
+   "to lend"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: lend someone something แปลว่าให้ยืม ผู้พูดต้องการให้อีกฝ่ายให้ยืม",
+   "ผิด: borrow แปลว่าขอยืม และไม่ใช้โครงสร้าง borrow me",
+   "ผิด: lent เป็นรูปอดีต แต่ตามหลัง could ต้องใช้ V1",
+   "ผิด: to lend มี to เกินหลัง could"
+  ],
+  "tip": "lend = ให้ยืม (ให้เขา); borrow = ยืม (จากเขา); Could you lend me...? / Could I borrow...?"
+ },
+ {
+  "id": "m08-eng-013",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences are grammatically correct?<br>1) The book that I borrowed from the library is overdue.<br>2) The students who they won the prize are from my school.<br>3) This is the house where I grew up.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 ผิดเพราะมีสรรพนาม they ซ้ำหลัง who และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 1 และ 3 ถูก: that และ where ใช้ถูกต้อง",
+   "ผิด: ข้อความ 2 ผิดเพราะ who ทำหน้าที่ประธานแล้ว ไม่ต้องมี they และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่ใช้ who they ซ้ำซ้อนไว้ด้วย"
+  ],
+  "tip": "relative pronoun ทำหน้าที่แทนประธาน/กรรมอยู่แล้ว ห้ามมีสรรพนามซ้ำ เช่น who they"
+ },
+ {
+  "id": "m08-eng-014",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences are grammatically correct?<br>1) Everyone in the team are ready to start.<br>2) Neither of the answers is correct.<br>3) Either of the two roads leads to the village.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 1 ผิดเพราะ everyone เป็นเอกพจน์ ต้องใช้ is และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "ผิด: ข้อความ 1 ผิดเพราะ everyone เป็นเอกพจน์ และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 2 และ 3 ถูก: neither of / either of ใช้กับกริยาเอกพจน์",
+   "ผิด: รวมข้อความ 1 ที่ใช้ are ผิดไว้ด้วย"
+  ],
+  "tip": "everyone, everybody, neither of, either of, each of → กริยาเอกพจน์"
+ },
+ {
+  "id": "m08-eng-015",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of <b>much</b> or <b>many</b>?",
+  "c": [
+   "We don't have much time left.",
+   "How much books do you need for the course?",
+   "She has made many friends since she moved here.",
+   "There are too many cars on the road this morning."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: time นับไม่ได้ ใช้ much ถูกต้อง",
+   "✓ ถูก: books นับได้ ต้องใช้ How many books",
+   "ผิด: friends นับได้พหูพจน์ ใช้ many ถูกต้อง",
+   "ผิด: cars นับได้พหูพจน์ ใช้ too many ถูกต้อง"
+  ],
+  "tip": "นับได้พหูพจน์ → many/few; นับไม่ได้ → much/little"
+ },
+ {
+  "id": "m08-eng-016",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence has the closest meaning to the following?<br><b>“No sooner had the lecture started than the power went out.”</b>",
+  "c": [
+   "The lecture started after the power had gone out.",
+   "The power went out because the lecture had started.",
+   "The power went out as soon as the lecture started.",
+   "The lecture did not start until the power came back."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ลำดับเวลากลับกัน: ไฟดับหลังบรรยายเริ่ม ไม่ใช่ก่อน",
+   "ผิด: because บอกเหตุผล แต่ no sooner ... than บอกลำดับเวลา",
+   "✓ ถูก: No sooner ... than ... แปลว่าทันทีที่...ก็ ตรงกับ as soon as",
+   "ผิด: ประโยคนี้บอกว่าบรรยายเริ่มแล้วไฟจึงดับ ไม่ได้บอกว่าต้องรอไฟมา"
+  ],
+  "tip": "No sooner had + S + V3 + than + S + V2 = ทันทีที่...ก็...; อนุประโยคแรกกลับประธาน"
+ },
+ {
+  "id": "m08-eng-017",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The lecture was so ____ that half of the audience fell asleep.",
+  "c": [
+   "bored",
+   "boring",
+   "boredom",
+   "bores"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: bored ใช้บรรยายคนที่รู้สึกเบื่อ ไม่ใช่การบรรยาย",
+   "✓ ถูก: ใช้ -ing บรรยายสิ่งที่ทำให้เกิดความรู้สึก (the lecture น่าเบื่อ)",
+   "ผิด: boredom เป็นนาม ไม่ใช่คุณศัพท์หลัง so",
+   "ผิด: bores เป็นกริยารูปเอกพจน์ ไม่ใช่คุณศัพท์หลัง so"
+  ],
+  "tip": "-ing บรรยายสิ่งที่ก่อให้เกิดความรู้สึก (boring); -ed บรรยายคนที่รู้สึก (bored)"
+ },
+ {
+  "id": "m08-eng-018",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>After she ____ the application form, she handed it to the clerk.",
+  "c": [
+   "has completed",
+   "will complete",
+   "had completed",
+   "completes"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: has completed เป็น present perfect ใช้เล่าปัจจุบันไม่ใช่อดีต",
+   "ผิด: will complete เป็นอนาคต ขัดกับ handed",
+   "✓ ถูก: เหตุการณ์กรอกแบบฟอร์มเสร็จก่อนยื่น (handed เป็นอดีต) จึงใช้ past perfect",
+   "ผิด: completes เป็น present simple ขัดกับ handed ที่เป็นอดีต"
+  ],
+  "tip": "เหตุการณ์ที่เกิดก่อนอีกเหตุการณ์ในอดีต → past perfect (had + V3)"
+ },
+ {
+  "id": "m08-eng-019",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>The company plans to <b>phase out</b> plastic bags by the end of the year.",
+  "c": [
+   "start producing more of",
+   "gradually stop using",
+   "sell at a lower price",
+   "test carefully"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: start producing more ตรงข้ามกับ phase out",
+   "✓ ถูก: phase out แปลว่าค่อย ๆ เลิกใช้หรือเลิกผลิตทีละน้อย",
+   "ผิด: sell at a lower price แปลว่าขายถูกลง ไม่ใช่การเลิกใช้",
+   "ผิด: test carefully แปลว่าทดสอบ ไม่ใช่ความหมายของ phase out"
+  ],
+  "tip": "phase out = gradually stop; phase in = gradually introduce"
+ },
+ {
+  "id": "m08-eng-020",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word closest in meaning to the word in bold.<br>The teacher gave the student some <b>candid</b> feedback, so he knew exactly what to improve.",
+  "c": [
+   "harsh",
+   "delayed",
+   "rare",
+   "honest"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: harsh แปลว่ารุนแรง แต่ candid หมายถึงตรงไปตรงมา ไม่จำเป็นต้องรุนแรง",
+   "ผิด: delayed แปลว่าล่าช้า ไม่เกี่ยวกับ candid",
+   "ผิด: rare แปลว่าหายาก ไม่ใช่ความหมายของ candid",
+   "✓ ถูก: candid แปลว่าตรงไปตรงมา จริงใจ ทำให้นักเรียนรู้ว่าต้องปรับปรุงอะไร"
+  ],
+  "tip": "candid = honest = frank = พูดตรงไปตรงมา (ไม่จำเป็นต้องหยาบหรือรุนแรง)"
+ },
+ {
+  "id": "m08-eng-021",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which word is <b>NOT</b> close in meaning to the word in bold?<br>The villagers were <b>reluctant</b> to move to the new site.",
+  "c": [
+   "eager",
+   "unwilling",
+   "hesitant",
+   "disinclined"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: eager แปลว่ากระตือรือร้น ตรงข้ามกับ reluctant",
+   "ผิด: unwilling แปลว่าไม่เต็มใจ ใกล้เคียง reluctant",
+   "ผิด: hesitant แปลว่าลังเล ใกล้เคียง reluctant",
+   "ผิด: disinclined แปลว่าไม่อยากทำ ใกล้เคียง reluctant"
+  ],
+  "tip": "reluctant = unwilling = hesitant = disinclined; ตรงข้าม: eager, willing, keen"
+ },
+ {
+  "id": "m08-eng-022",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which sentence uses <b>principal</b> or <b>principle</b> correctly?",
+  "c": [
+   "The principle explained the principal behind the new rule.",
+   "She is a woman of high principal.",
+   "The principal explained the principle behind the new rule.",
+   "He refused to break the school's principal of honesty."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: สลับคำ: principle ไม่ใช่คนที่อธิบาย และ principal ไม่ใช่หลักการ",
+   "ผิด: หลักการส่วนตัวของบุคคลต้องใช้ principles ไม่ใช่ principal",
+   "✓ ถูก: principal (ผู้อำนวยการ/หลัก) ทำหน้าที่ประธาน และ principle (หลักการ) เป็นกรรมหลัง the",
+   "ผิด: หลักความซื่อสัตย์ต้องใช้ principle ไม่ใช่ principal"
+  ],
+  "tip": "principal = ผู้อำนวยการ/สำคัญที่สุด; principle = หลักการ/หลักปฏิบัติ"
+ },
+ {
+  "id": "m08-eng-023",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which words can correctly complete the sentence?<br>The festival attracted a ____ crowd, so the organisers ran out of food.<br>1) huge<br>2) massive<br>3) sizeable",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: huge และ massive ถูก แต่ชุดนี้ตัด sizeable ที่ใช้ได้ออก",
+   "ผิด: huge และ sizeable ถูก แต่ชุดนี้ตัด massive ที่ใช้ได้ออก",
+   "ผิด: massive และ sizeable ถูก แต่ชุดนี้ตัด huge ที่ใช้ได้ออก",
+   "✓ ถูก: a huge / massive / sizeable crowd ใช้ได้ทั้งสามคำ หมายถึงฝูงชนจำนวนมาก"
+  ],
+  "tip": "คำที่หมายถึงขนาดใหญ่ใช้ขยาย crowd ได้หลายคำ: huge, massive, sizeable, large"
+ },
+ {
+  "id": "m08-eng-024",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Nong is always the first to volunteer when the class needs help, and she never waits to be asked. Which adjective best describes her?",
+  "c": [
+   "proactive",
+   "reluctant",
+   "passive",
+   "indifferent"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: proactive แปลว่าลงมือทำก่อนโดยไม่รอให้ใครบอก ตรงกับพฤติกรรมของหนอง",
+   "ผิด: reluctant แปลว่าไม่เต็มใจ ตรงข้ามกับเธอ",
+   "ผิด: passive แปลว่ารอรับ ไม่ลงมือก่อน ตรงข้ามกับเธอ",
+   "ผิด: indifferent แปลว่าไม่สนใจ ตรงข้ามกับการอาสาช่วย"
+  ],
+  "tip": "proactive = ลงมือทำก่อนโดยไม่ต้องรอสั่ง; ตรงข้าม: passive, reactive"
+ },
+ {
+  "id": "m08-eng-025",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>Only half of the invited guests <b>turned up</b> at the meeting.",
+  "c": [
+   "stayed away",
+   "spoke up",
+   "arrived",
+   "gave up"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: stay away แปลว่าไม่มา ตรงข้ามกับ turn up",
+   "ผิด: speak up แปลว่าพูดเสียงดังหรือกล้าพูด",
+   "✓ ถูก: turn up แปลว่าปรากฏตัว มาถึง",
+   "ผิด: give up แปลว่ายอมแพ้"
+  ],
+  "tip": "turn up = arrive / appear; turn down = refuse or lower; turn out = result"
+ },
+ {
+  "id": "m08-eng-026",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which verb phrase is <b>NOT</b> a natural English collocation?",
+  "c": [
+   "make homework",
+   "do homework",
+   "take a break",
+   "make an effort"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: homework ใช้กับ do ไม่ใช้ make",
+   "ผิด: do homework เป็น collocation ที่ถูกต้อง",
+   "ผิด: take a break เป็น collocation ที่ถูกต้อง",
+   "ผิด: make an effort เป็น collocation ที่ถูกต้อง"
+  ],
+  "tip": "do: homework, research, a favour; make: an effort, a mistake, a decision; take: a break, a photo, a risk"
+ },
+ {
+  "id": "m08-eng-027",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Wind and sunlight are ____ sources of energy because they can never be used up.",
+  "c": [
+   "disposable",
+   "renewable",
+   "scarce",
+   "toxic"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: disposable แปลว่าใช้แล้วทิ้ง ไม่ใช่ลักษณะของแหล่งพลังงาน",
+   "✓ ถูก: renewable แปลว่าทดแทนได้ ไม่หมดสิ้น ตรงกับ can never be used up",
+   "ผิด: scarce แปลว่าหายาก ขัดกับ never be used up",
+   "ผิด: toxic แปลว่ามีพิษ ไม่เกี่ยวกับการไม่หมดสิ้น"
+  ],
+  "tip": "renewable energy = พลังงานทดแทน เช่น ลม แสงอาทิตย์ น้ำ"
+ },
+ {
+  "id": "m08-eng-028",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The mayor promised to ____ the problem of flooding before the rainy season starts.",
+  "c": [
+   "admire",
+   "forgive",
+   "decorate",
+   "tackle"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: admire แปลว่าชื่นชม ไม่เข้ากับการแก้ปัญหาน้ำท่วม",
+   "ผิด: forgive แปลว่าให้อภัย ไม่เข้ากับปัญหาน้ำท่วม",
+   "ผิด: decorate แปลว่าตกแต่ง ไม่เข้ากับปัญหาน้ำท่วม",
+   "✓ ถูก: tackle a problem แปลว่าลงมือแก้ปัญหา"
+  ],
+  "tip": "tackle / deal with / address + problem = จัดการแก้ปัญหา"
+ },
+ {
+  "id": "m08-eng-029",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Student: Excuse me, may I borrow this dictionary overnight?<br>Librarian: ____",
+  "c": [
+   "You're welcome. Here is the dictionary, and you may keep it for a whole week.",
+   "I'm afraid not. Reference books must stay in the library.",
+   "Yes, I'd love to borrow it too.",
+   "Sure, it was borrowed by me last night."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: You're welcome ใช้ตอบคำขอบคุณ ไม่ใช่ตอบคำขอยืม",
+   "✓ ถูก: ปฏิเสธอย่างสุภาพ (I'm afraid not) พร้อมให้เหตุผลตามกฎห้องสมุด",
+   "ผิด: บรรณารักษ์ไม่ได้เป็นคนยืม จึงตอบว่าอยากยืมด้วยไม่ได้",
+   "ผิด: ตอบไม่ตรงคำถามและไม่สมเหตุสมผล"
+  ],
+  "tip": "ปฏิเสธสุภาพ: I'm afraid not. / I'm sorry, but ... + เหตุผล"
+ },
+ {
+  "id": "m08-eng-030",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> an appropriate way to ask a stranger for directions?",
+  "c": [
+   "Excuse me, could you tell me the way to the bus station?",
+   "Sorry to bother you, but do you know where the bus station is?",
+   "Pardon me, how can I get to the bus station?",
+   "Tell me where the bus station is."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: Excuse me, could you tell me ... สุภาพและใช้ได้",
+   "ผิด: Sorry to bother you, but ... สุภาพและใช้ได้",
+   "ผิด: Pardon me, how can I get to ... สุภาพและใช้ได้",
+   "✓ ถูก: ประโยคเป็นคำสั่งและไม่สุภาพเมื่อถามทางคนแปลกหน้า"
+  ],
+  "tip": "ถามทางสุภาพ: Excuse me, could you tell me the way to ...? / Do you know where ... is?"
+ },
+ {
+  "id": "m08-eng-031",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Read the conversation.<br>A: Are you coming to the party tonight?<br>B: I can't. I have to hit the books because my exam is on Monday.<br>What does B mean?",
+  "c": [
+   "B needs to buy some new books.",
+   "B has to study hard.",
+   "B has to return books to the library.",
+   "B is going to a book fair."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ไม่ได้หมายถึงการซื้อหนังสือ",
+   "✓ ถูก: hit the books เป็นสำนวน แปลว่าตั้งใจอ่านหนังสือเตรียมสอบ",
+   "ผิด: ไม่ได้หมายถึงการคืนหนังสือ",
+   "ผิด: ไม่ได้หมายถึงการไปงานหนังสือ"
+  ],
+  "tip": "hit the books = study hard; under the weather = ไม่สบาย; a piece of cake = ง่ายมาก"
+ },
+ {
+  "id": "m08-eng-032",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following can be used to accept an invitation?<br>1) I'd love to, thank you.<br>2) That sounds great. What time?<br>3) I'm afraid I can't make it.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ข้อความ 1 และ 2 เป็นการตอบรับคำเชิญ",
+   "ผิด: ข้อความ 3 เป็นการปฏิเสธ และชุดนี้ตัดข้อความ 2 ที่เป็นการรับออก",
+   "ผิด: ข้อความ 3 เป็นการปฏิเสธ และชุดนี้ตัดข้อความ 1 ที่เป็นการรับออก",
+   "ผิด: รวมข้อความ 3 ที่เป็นการปฏิเสธไว้ด้วย"
+  ],
+  "tip": "ตอบรับ: I'd love to. / That sounds great. / Yes, I'd be happy to.; ปฏิเสธ: I'm afraid I can't make it."
+ },
+ {
+  "id": "m08-eng-033",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Receptionist: Good morning, Sakaeo Hospital. How can I help you?<br>Caller: ____",
+  "c": [
+   "I'm fine, thank you. And you?",
+   "You're welcome. Goodbye.",
+   "Good morning. I'd like to make an appointment with Dr. Pim, please.",
+   "Yes, this is Sakaeo Hospital."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: I'm fine เป็นคำตอบของ How are you? ไม่ใช่คำถามนี้",
+   "ผิด: You're welcome และ Goodbye เป็นคำตอบรับขอบคุณและลา ไม่ใช่ตอบคำถามแรก",
+   "✓ ถูก: ตอบคำถาม How can I help you? ด้วยการบอกความต้องการของผู้โทร",
+   "ผิด: ผู้โทรไม่ใช่โรงพยาบาล จึงพูดว่า this is Sakaeo Hospital ไม่ได้"
+  ],
+  "tip": "How can I help you? → บอกจุดประสงค์ เช่น I'd like to ... / I'm calling about ..."
+ },
+ {
+  "id": "m08-eng-034",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "A colleague tells you she has just been promoted. What would you say?",
+  "c": [
+   "I'm sorry to hear that.",
+   "Congratulations! You really deserve it.",
+   "Never mind. Better luck next time.",
+   "Take care of yourself, and I will see you again very soon."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: I'm sorry to hear that ใช้กับข่าวร้าย",
+   "✓ ถูก: การได้เลื่อนตำแหน่งเป็นข่าวดี จึงแสดงความยินดี",
+   "ผิด: Never mind. Better luck next time ใช้ปลอบเมื่อผิดหวัง",
+   "ผิด: Take care and see you soon ใช้ลาจากกัน ไม่ใช่แสดงความยินดี"
+  ],
+  "tip": "ข่าวดี → Congratulations! / Well done! / I'm so happy for you.; ข่าวร้าย → I'm sorry to hear that."
+ },
+ {
+  "id": "m08-eng-035",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Complete the conversation.<br>Tourist: Excuse me, is there a pharmacy near here?<br>Local: ____",
+  "c": [
+   "Yes, I'm a pharmacist myself, but I don't work in any shop in this area.",
+   "No, I'm not near here.",
+   "It costs about fifty baht.",
+   "Yes, there's one next to the post office, just around the corner."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ผู้ถามต้องการทราบร้านขายยา ไม่ได้ถามว่าอีกฝ่ายเป็นเภสัชกรหรือไม่",
+   "ผิด: ประโยคตอบสับสน เพราะคำถามถามถึงร้านขายยาที่ใกล้ ไม่ได้ถามตำแหน่งของคนตอบ",
+   "ผิด: ราคาไม่เกี่ยวกับคำถาม",
+   "✓ ถูก: ตอบคำถามว่ามีร้านขายยาไหม พร้อมบอกตำแหน่ง"
+  ],
+  "tip": "ถามว่ามีสถานที่ไหม → ตอบ Yes/No + ตำแหน่ง เช่น next to, opposite, around the corner"
+ },
+ {
+  "id": "m08-eng-036",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "At a friend's house, the host offers you more rice, but you are full. Which response is <b>NOT</b> appropriate?",
+  "c": [
+   "No. I don't like your cooking.",
+   "No, thank you. It was delicious, but I'm full.",
+   "I'd love to, but I really couldn't eat any more.",
+   "I'm fine, thank you. Everything was lovely."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: เป็นคำตอบที่หยาบคายและทำให้เจ้าบ้านเสียใจ",
+   "ผิด: ปฏิเสธอย่างสุภาพและชมอาหาร",
+   "ผิด: ปฏิเสธอย่างสุภาพ โดยบอกว่าอิ่มแล้ว",
+   "ผิด: ปฏิเสธอย่างสุภาพและชมโดยรวม"
+  ],
+  "tip": "ปฏิเสธอาหารสุภาพ: No, thank you, it was delicious but I'm full. / I couldn't eat another bite."
+ },
+ {
+  "id": "m08-eng-037",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which statement best expresses the main idea of the passage?",
+  "ps": "Many teachers are worried about students using artificial intelligence tools to write their essays. At Phanom Secondary School, however, teachers decided to try a different approach. Instead of banning the tools, they allow students to use them only to brainstorm ideas. Students then write the first draft by hand in class, so teachers can see each learner's own thinking. Finally, students must explain in a short interview why they chose certain words and ideas. Teachers say this method makes copying difficult, because a student who has not written the essay cannot explain it. Some parents, however, are not convinced. They argue that students will still be tempted to rely on the tools at home, where no one is watching.",
+  "c": [
+   "AI tools should be banned from every school in the country.",
+   "Interviews are the best way to test students in every subject.",
+   "Parents are the main users of AI tools in schools.",
+   "A school allows AI tools only in limited ways so that students' work stays their own."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความบอกว่าโรงเรียนไม่ได้แบนเครื่องมือ และไม่ได้เสนอให้แบนทุกโรงเรียน",
+   "ผิด: บทความไม่ได้พูดถึงการสอบทุกวิชาด้วยการสัมภาษณ์",
+   "ผิด: บทความไม่ได้บอกว่าผู้ปกครองเป็นผู้ใช้หลัก",
+   "✓ ถูก: บทความเล่าว่าโรงเรียนอนุญาตให้ใช้เครื่องมือ AI เพียงเพื่อหาไอเดีย แล้วให้เขียนด้วยมือและสัมภาษณ์เพื่อรักษาความเป็นผลงานของนักเรียน"
+  ],
+  "tip": "ใจความหลักต้องครอบคลุมวิธีการและเป้าหมายของโรงเรียน ไม่ใช่ข้อความที่ขยายเกินบทความ"
+ },
+ {
+  "id": "m08-eng-038",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "According to the passage, which statement is <b>NOT</b> true?",
+  "ps": "Many teachers are worried about students using artificial intelligence tools to write their essays. At Phanom Secondary School, however, teachers decided to try a different approach. Instead of banning the tools, they allow students to use them only to brainstorm ideas. Students then write the first draft by hand in class, so teachers can see each learner's own thinking. Finally, students must explain in a short interview why they chose certain words and ideas. Teachers say this method makes copying difficult, because a student who has not written the essay cannot explain it. Some parents, however, are not convinced. They argue that students will still be tempted to rely on the tools at home, where no one is watching.",
+  "c": [
+   "Teachers prohibit all use of AI tools.",
+   "Students write the first draft by hand in class.",
+   "Students are interviewed about their choice of words and ideas.",
+   "Some parents doubt that the method works at home."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความบอกว่าครูอนุญาตให้ใช้เครื่องมือเพื่อหาไอเดีย จึงไม่ได้ห้ามทั้งหมด",
+   "ผิด: บทความบอกว่านักเรียนเขียนร่างแรกด้วยมือในชั้นเรียน",
+   "ผิด: บทความบอกว่านักเรียนต้องอธิบายการเลือกคำและความคิดในการสัมภาษณ์",
+   "ผิด: บทความบอกว่าผู้ปกครองบางคนไม่มั่นใจว่าวิธีนี้ได้ผลที่บ้าน"
+  ],
+  "tip": "ข้อ NOT true มักมีคำเด็ดขาด เช่น all, only, never ที่ขัดกับบทความ"
+ },
+ {
+  "id": "m08-eng-039",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>convinced</b> in the sentence “Some parents, however, are not convinced.” is closest in meaning to",
+  "ps": "Many teachers are worried about students using artificial intelligence tools to write their essays. At Phanom Secondary School, however, teachers decided to try a different approach. Instead of banning the tools, they allow students to use them only to brainstorm ideas. Students then write the first draft by hand in class, so teachers can see each learner's own thinking. Finally, students must explain in a short interview why they chose certain words and ideas. Teachers say this method makes copying difficult, because a student who has not written the essay cannot explain it. Some parents, however, are not convinced. They argue that students will still be tempted to rely on the tools at home, where no one is watching.",
+  "c": [
+   "confused",
+   "embarrassed",
+   "persuaded",
+   "impatient"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: confused แปลว่าสับสน ไม่ใช่ความหมายของ convinced",
+   "ผิด: embarrassed แปลว่าอาย ไม่ใช่ความหมายของ convinced",
+   "✓ ถูก: not convinced แปลว่ายังไม่เชื่อ ไม่ถูกโน้มน้าวให้เห็นด้วย ตรงกับ persuaded",
+   "ผิด: impatient แปลว่าใจร้อน ไม่ใช่ความหมายของ convinced"
+  ],
+  "tip": "convinced = persuaded = มั่นใจ/ถูกโน้มน้าวให้เชื่อ; not convinced = ยังไม่เชื่อ"
+ },
+ {
+  "id": "m08-eng-040",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements are supported by the passage?<br>1) Students are not allowed to use AI tools at all.<br>2) Students may use AI tools to come up with ideas.<br>3) The interview helps teachers check whether students understand their own essays.",
+  "ps": "Many teachers are worried about students using artificial intelligence tools to write their essays. At Phanom Secondary School, however, teachers decided to try a different approach. Instead of banning the tools, they allow students to use them only to brainstorm ideas. Students then write the first draft by hand in class, so teachers can see each learner's own thinking. Finally, students must explain in a short interview why they chose certain words and ideas. Teachers say this method makes copying difficult, because a student who has not written the essay cannot explain it. Some parents, however, are not convinced. They argue that students will still be tempted to rely on the tools at home, where no one is watching.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 1 ผิดเพราะนักเรียนใช้เครื่องมือเพื่อหาไอเดียได้ และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "ผิด: ข้อความ 1 ผิดเพราะบทความไม่ได้ห้ามใช้ และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 2 ตรงกับ brainstorm ideas และข้อความ 3 ตรงกับ explain in a short interview",
+   "ผิด: รวมข้อความ 1 ที่ขัดกับบทความไว้ด้วย"
+  ],
+  "tip": "คำว่า not allowed at all ขัดกับ only to brainstorm ให้ตัดข้อความนั้นก่อน"
+ },
+ {
+  "id": "m08-eng-041",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A teacher wants to follow the method used at Phanom Secondary School. Which plan matches the passage?",
+  "ps": "Many teachers are worried about students using artificial intelligence tools to write their essays. At Phanom Secondary School, however, teachers decided to try a different approach. Instead of banning the tools, they allow students to use them only to brainstorm ideas. Students then write the first draft by hand in class, so teachers can see each learner's own thinking. Finally, students must explain in a short interview why they chose certain words and ideas. Teachers say this method makes copying difficult, because a student who has not written the essay cannot explain it. Some parents, however, are not convinced. They argue that students will still be tempted to rely on the tools at home, where no one is watching.",
+  "c": [
+   "Students write at home with AI tools and submit the essay online.",
+   "Students are banned from AI tools and write only at home.",
+   "Students interview each other about their parents' opinions.",
+   "Students brainstorm with AI tools, write a first draft by hand in class, then explain their choices in an interview."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: การเขียนที่บ้านด้วย AI ไม่ตรงกับร่างแรกที่เขียนด้วยมือในชั้นเรียน",
+   "ผิด: บทความบอกว่าครูไม่ได้แบนเครื่องมือ และร่างแรกเขียนในชั้นเรียน",
+   "ผิด: การสัมภาษณ์ในบทความเป็นการให้นักเรียนอธิบายงานของตน ไม่ใช่สัมภาษณ์เรื่องความเห็นของผู้ปกครอง",
+   "✓ ถูก: แผนนี้ตรงกับขั้นตอนในบทความ: ระดมความคิดด้วย AI เขียนร่างแรกด้วยมือ แล้วสัมภาษณ์"
+  ],
+  "tip": "โจทย์ประยุกต์ให้เรียงขั้นตอนตามบทความ: brainstorm → draft by hand → interview"
+ },
+ {
+  "id": "m08-eng-042",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which title is most suitable for the passage?",
+  "ps": "In the dry season, the village of Ban Huay Sai used to run out of water for nearly three months. Then a local teacher suggested collecting rainwater from the roofs of the houses and the school. Each household built a large concrete tank beside the house, and pipes carried the water from the roof into it. The first rain of the season is not stored, because it washes dust and bird droppings from the roof. Water from later rains is kept for washing and watering vegetables. For drinking, villagers still boil water or buy bottled water. Now most families have enough water for six months, but the tanks are expensive to build, so poorer families often share one tank between two or three households.",
+  "c": [
+   "How to Build a Concrete Tank at Home",
+   "Why Bottled Water Is Dangerous",
+   "Collecting Rain: A Village's Answer to Water Shortage",
+   "The Dry Season Festival of Ban Huay Sai"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความไม่ได้สอนวิธีสร้างถัง เพียงบอกว่าแต่ละครัวเรือนสร้างถัง",
+   "ผิด: บทความไม่ได้กล่าวว่าน้ำขวดเป็นอันตราย",
+   "✓ ถูก: ชื่อเรื่องต้องครอบคลุมใจความหลัก คือหมู่บ้านใช้การเก็บน้ำฝนแก้ปัญหาน้ำขาดแคลน",
+   "ผิด: บทความไม่ได้กล่าวถึงเทศกาลใดของหมู่บ้าน"
+  ],
+  "tip": "ชื่อเรื่องที่ดีต้องครอบคลุมทั้งบทความ ไม่ใช่รายละเอียดย่อย"
+ },
+ {
+  "id": "m08-eng-043",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Why is the first rain of the season not stored?",
+  "ps": "In the dry season, the village of Ban Huay Sai used to run out of water for nearly three months. Then a local teacher suggested collecting rainwater from the roofs of the houses and the school. Each household built a large concrete tank beside the house, and pipes carried the water from the roof into it. The first rain of the season is not stored, because it washes dust and bird droppings from the roof. Water from later rains is kept for washing and watering vegetables. For drinking, villagers still boil water or buy bottled water. Now most families have enough water for six months, but the tanks are expensive to build, so poorer families often share one tank between two or three households.",
+  "c": [
+   "It washes dust and bird droppings from the roof.",
+   "It is too heavy for the pipes to carry.",
+   "The tanks are already full by then.",
+   "It is needed for watering vegetables."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความบอกว่าฝนแรกชะล้างฝุ่นและมูลนกจากหลังคา จึงไม่เก็บ",
+   "ผิด: บทความไม่ได้กล่าวว่าน้ำหนักมากเกินไป",
+   "ผิด: บทความไม่ได้กล่าวว่าถังเต็มแล้ว",
+   "ผิด: บทความบอกว่าน้ำจากฝนรอบหลังใช้รดผัก ไม่ใช่ฝนแรก"
+  ],
+  "tip": "ถามเหตุผลให้หาคำเชื่อม because ในบทความ"
+ },
+ {
+  "id": "m08-eng-044",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "The passage suggests that poorer families",
+  "ps": "In the dry season, the village of Ban Huay Sai used to run out of water for nearly three months. Then a local teacher suggested collecting rainwater from the roofs of the houses and the school. Each household built a large concrete tank beside the house, and pipes carried the water from the roof into it. The first rain of the season is not stored, because it washes dust and bird droppings from the roof. Water from later rains is kept for washing and watering vegetables. For drinking, villagers still boil water or buy bottled water. Now most families have enough water for six months, but the tanks are expensive to build, so poorer families often share one tank between two or three households.",
+  "c": [
+   "do not need water in the dry season",
+   "refuse to drink rainwater",
+   "cannot always afford a tank for each household",
+   "prefer bottled water for all their needs"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความไม่ได้บอกว่าไม่ต้องการน้ำ",
+   "ผิด: บทความไม่ได้บอกว่าปฏิเสธน้ำฝน",
+   "✓ ถูก: บทความบอกว่าถังแพงจึงต้องแบ่งกันใช้หนึ่งถังระหว่างสองถึงสามครัวเรือน",
+   "ผิด: บทความไม่ได้บอกว่าซื้อน้ำขวดสำหรับทุกความต้องการ"
+  ],
+  "tip": "ข้อสรุปต้องอิงเหตุผลในบทความ: tanks are expensive → share one tank"
+ },
+ {
+  "id": "m08-eng-045",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The phrase <b>run out of</b> in the first sentence is closest in meaning to",
+  "ps": "In the dry season, the village of Ban Huay Sai used to run out of water for nearly three months. Then a local teacher suggested collecting rainwater from the roofs of the houses and the school. Each household built a large concrete tank beside the house, and pipes carried the water from the roof into it. The first rain of the season is not stored, because it washes dust and bird droppings from the roof. Water from later rains is kept for washing and watering vegetables. For drinking, villagers still boil water or buy bottled water. Now most families have enough water for six months, but the tanks are expensive to build, so poorer families often share one tank between two or three households.",
+  "c": [
+   "carry away slowly",
+   "pay for",
+   "get rid of",
+   "have no more"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: carry away slowly แปลว่าค่อย ๆ ขนไป ไม่ใช่น้ำหมด",
+   "ผิด: pay for แปลว่าจ่ายค่า ไม่ใช่น้ำหมด",
+   "ผิด: get rid of แปลว่ากำจัดทิ้ง ไม่ใช่น้ำหมด",
+   "✓ ถูก: run out of water แปลว่าน้ำหมด ไม่มีเหลือ"
+  ],
+  "tip": "run out of = use up everything and have none left"
+ },
+ {
+  "id": "m08-eng-046",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements are supported by the passage?<br>1) A teacher suggested collecting rainwater from roofs.<br>2) Rainwater from every rainfall is stored in the tanks.<br>3) Some villagers still boil water or buy bottled water for drinking.",
+  "ps": "In the dry season, the village of Ban Huay Sai used to run out of water for nearly three months. Then a local teacher suggested collecting rainwater from the roofs of the houses and the school. Each household built a large concrete tank beside the house, and pipes carried the water from the roof into it. The first rain of the season is not stored, because it washes dust and bird droppings from the roof. Water from later rains is kept for washing and watering vegetables. For drinking, villagers still boil water or buy bottled water. Now most families have enough water for six months, but the tanks are expensive to build, so poorer families often share one tank between two or three households.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 ผิดเพราะฝนแรกของฤดูไม่ถูกเก็บ และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 1 ตรงกับ a local teacher suggested และข้อความ 3 ตรงกับ boil water or buy bottled water",
+   "ผิด: ข้อความ 2 ผิดเพราะฝนแรกไม่ถูกเก็บ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่ขัดกับบทความไว้ด้วย"
+  ],
+  "tip": "every / all ในข้อความมักขัดกับข้อยกเว้นในบทความ (ฝนแรกไม่เก็บ)"
+ },
+ {
+  "id": "m08-eng-047",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "According to the passage, why do many teenagers get too little sleep?",
+  "ps": "Teenagers naturally fall asleep later at night than children or adults, but many schools begin classes before eight o'clock. As a result, a large number of students get less sleep than doctors recommend. Some schools have experimented with starting an hour later. In one study, students at these schools slept longer each night, arrived late less often and reported feeling less tired. However, the change is not simple. Later start times mean later finishing times, which can disturb sports practice and after-school jobs. Bus schedules and parents' work hours may also need to be changed. For these reasons, some principals say that the benefits must be balanced against the difficulties.",
+  "c": [
+   "They fall asleep later at night, but school starts early.",
+   "They have too much homework every night.",
+   "Doctors tell them to sleep less.",
+   "They wake up in the middle of the night."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความบอกว่าวัยรุ่นหลับดึกตามธรรมชาติ แต่โรงเรียนเริ่มก่อนแปดโมง จึงนอนไม่พอ",
+   "ผิด: บทความไม่ได้กล่าวเรื่องการบ้าน",
+   "ผิด: บทความบอกว่าแพทย์แนะนำให้นอนมากกว่า",
+   "ผิด: บทความไม่ได้กล่าวว่าตื่นกลางดึก"
+  ],
+  "tip": "As a result ชี้ผลลัพธ์ ให้ย้อนอ่านประโยคก่อนหน้าเพื่อหาสาเหตุ"
+ },
+ {
+  "id": "m08-eng-048",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "The passage suggests all of the following as difficulties of later start times <b>EXCEPT</b>",
+  "ps": "Teenagers naturally fall asleep later at night than children or adults, but many schools begin classes before eight o'clock. As a result, a large number of students get less sleep than doctors recommend. Some schools have experimented with starting an hour later. In one study, students at these schools slept longer each night, arrived late less often and reported feeling less tired. However, the change is not simple. Later start times mean later finishing times, which can disturb sports practice and after-school jobs. Bus schedules and parents' work hours may also need to be changed. For these reasons, some principals say that the benefits must be balanced against the difficulties.",
+  "c": [
+   "Sports practice may be disturbed.",
+   "Bus schedules may have to be changed.",
+   "Students will arrive late more often.",
+   "Parents' working hours may have to be changed."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความบอกว่าเวลาเลิกเรียนช้าลงอาจรบกวนการซ้อมกีฬา",
+   "ผิด: บทความบอกว่าตารางรถรับส่งอาจต้องเปลี่ยน",
+   "✓ ถูก: บทความบอกว่านักเรียนมาสายน้อยลง ไม่ใช่มาสายมากขึ้น จึงไม่ใช่ปัญหาของการเริ่มเรียนช้า",
+   "ผิด: บทความบอกว่าเวลาทำงานของผู้ปกครองอาจต้องเปลี่ยน"
+  ],
+  "tip": "ข้อ EXCEPT คือข้อที่ขัดกับบทความหรือไม่ได้อยู่ในรายการปัญหา"
+ },
+ {
+  "id": "m08-eng-049",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The writer's view of later school start times can best be described as",
+  "ps": "Teenagers naturally fall asleep later at night than children or adults, but many schools begin classes before eight o'clock. As a result, a large number of students get less sleep than doctors recommend. Some schools have experimented with starting an hour later. In one study, students at these schools slept longer each night, arrived late less often and reported feeling less tired. However, the change is not simple. Later start times mean later finishing times, which can disturb sports practice and after-school jobs. Bus schedules and parents' work hours may also need to be changed. For these reasons, some principals say that the benefits must be balanced against the difficulties.",
+  "c": [
+   "enthusiastic, with no concerns about the difficulties of the change",
+   "hostile to any change",
+   "uninterested in the topic",
+   "balanced, showing both advantages and difficulties"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ผู้เขียนกล่าวถึงปัญหาด้วย จึงไม่ใช่การสนับสนุนโดยไม่มีข้อกังวล",
+   "ผิด: ผู้เขียนไม่ได้ต่อต้านการเปลี่ยนแปลง",
+   "ผิด: ผู้เขียนอธิบายอย่างละเอียด จึงไม่ใช่ไม่สนใจ",
+   "✓ ถูก: ผู้เขียนเล่าทั้งประโยชน์ (นอนมากขึ้น มาสายน้อยลง) และความยุ่งยาก จึงเป็นมุมมองที่สมดุล"
+  ],
+  "tip": "ทัศนคติของผู้เขียนดูจากน้ำเสียงของทั้งบทความ ถ้ามีทั้งด้านดีและด้านลบ = balanced"
+ },
+ {
+  "id": "m08-eng-050",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>disturb</b> in the passage is closest in meaning to",
+  "ps": "Teenagers naturally fall asleep later at night than children or adults, but many schools begin classes before eight o'clock. As a result, a large number of students get less sleep than doctors recommend. Some schools have experimented with starting an hour later. In one study, students at these schools slept longer each night, arrived late less often and reported feeling less tired. However, the change is not simple. Later start times mean later finishing times, which can disturb sports practice and after-school jobs. Bus schedules and parents' work hours may also need to be changed. For these reasons, some principals say that the benefits must be balanced against the difficulties.",
+  "c": [
+   "improve gradually",
+   "replace",
+   "cancel",
+   "interfere with"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: improve gradually แปลว่าค่อย ๆ ทำให้ดีขึ้น ตรงข้ามกับ disturb",
+   "ผิด: replace แปลว่าแทนที่ ไม่ใช่ความหมายของ disturb",
+   "ผิด: cancel แปลว่ายกเลิก ซึ่งแรงกว่า disturb",
+   "✓ ถูก: disturb sports practice แปลว่ารบกวนหรือขัดขวางการซ้อมกีฬา"
+  ],
+  "tip": "disturb = interfere with = รบกวน ขัดขวาง"
+ }
+]

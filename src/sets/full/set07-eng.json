@@ -1,0 +1,1016 @@
+[
+ {
+  "id": "m07-eng-001",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>By the time the bus finally arrived, the students ____ in the rain for almost an hour.",
+  "c": [
+   "had been waiting",
+   "have been waiting",
+   "will have been waiting",
+   "waited"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: by the time + past simple ต้องใช้ past perfect (continuous) เพื่อบอกการรอที่ต่อเนื่องมาจนถึงจุดหนึ่งในอดีต",
+   "ผิด: have been waiting เป็นปัจจุบัน ใช้กับจุดอ้างอิงในอดีต (arrived) ไม่ได้",
+   "ผิด: will have been waiting เป็นอนาคต ขัดกับ arrived ที่เกิดขึ้นแล้ว",
+   "ผิด: waited (past simple) ไม่บอกว่ารอต่อเนื่องมาก่อนรถมาถึง และไม่เข้ากับ by the time"
+  ],
+  "tip": "by the time + past simple → ประโยคหลักใช้ past perfect (continuous); by the time + present → future perfect"
+ },
+ {
+  "id": "m07-eng-002",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in subject-verb agreement?",
+  "c": [
+   "Each of the volunteers has received a certificate.",
+   "The news about the scholarships were announced yesterday.",
+   "Mathematics is the subject that most students find challenging.",
+   "The police are investigating the missing laptops."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: Each of + พหูพจน์ ใช้กริยาเอกพจน์ has ถูกต้อง",
+   "✓ ถูก: news เป็นนามนับไม่ได้ (เอกพจน์) ต้องใช้ was announced ไม่ใช่ were",
+   "ผิด: Mathematics ลงท้ายด้วย s แต่เป็นเอกพจน์ ใช้ is ถูกต้อง",
+   "ผิด: the police เป็นพหูพจน์เสมอ ใช้ are ถูกต้อง"
+  ],
+  "tip": "news, mathematics, physics = เอกพจน์; the police = พหูพจน์; each of + พหูพจน์ → กริยาเอกพจน์"
+ },
+ {
+  "id": "m07-eng-003",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences are grammatically correct?<br>1) It's no use worrying about things you cannot change.<br>2) She is looking forward to meet her pen friend next month.<br>3) There is no point in arguing with the referee.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 ผิดเพราะ look forward to ต้องตามด้วย V-ing (meeting) และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 1 และ 3 ถูกต้อง (It's no use + V-ing; There is no point in + V-ing)",
+   "ผิด: ข้อความ 2 ผิดเพราะ to ในที่นี้เป็นบุพบท และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่ใช้ to meet ผิดไว้ด้วย"
+  ],
+  "tip": "It's no use / There's no point (in) / look forward to ตามด้วย V-ing เสมอ (to ในที่นี้เป็นบุพบท)"
+ },
+ {
+  "id": "m07-eng-004",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence correctly reports the statement below?<br><b>“I will call you tomorrow,” Ploy told her brother.</b>",
+  "c": [
+   "Ploy told her brother that I would call him the next day.",
+   "Ploy told her brother that she would call you the next day.",
+   "Ploy told that she would call him the next day.",
+   "Ploy told her brother that she would call him the next day."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ไม่ได้เปลี่ยน I เป็น she ซึ่งหมายถึงพลอย",
+   "ผิด: ไม่ได้เปลี่ยน you เป็น him ซึ่งหมายถึงพี่ชาย",
+   "ผิด: told ต้องมีกรรมตรง (her brother) ตามหลัง ถ้าไม่มีต้องใช้ said",
+   "✓ ถูก: ถอยกาล will เป็น would เปลี่ยน I เป็น she และ you เป็น him พร้อมเปลี่ยน tomorrow เป็น the next day"
+  ],
+  "tip": "reported speech: ถอยกาล เปลี่ยนสรรพนามตามผู้พูด/ผู้ฟัง เปลี่ยนคำบอกเวลา; tell ต้องมีกรรม ส่วน say ไม่ต้องมี"
+ },
+ {
+  "id": "m07-eng-005",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence is <b>NOT</b> grammatically correct?",
+  "c": [
+   "The thief is reported to be arrested yesterday.",
+   "He is said to have invented the device in 1990.",
+   "The new bridge is expected to open next month.",
+   "It is believed that the missing hikers are still alive."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: การถูกจับเกิดในอดีต (yesterday) ต้องใช้ to have been arrested ไม่ใช่ to be arrested",
+   "ผิด: is said to have + V3 บอกเหตุการณ์ในอดีตที่ถูกกล่าวถึง ถูกต้อง",
+   "ผิด: is expected to + V1 ใช้กับเหตุการณ์ในอนาคต ถูกต้อง",
+   "ผิด: It is believed that + clause เป็นโครงสร้างที่ถูกต้อง"
+  ],
+  "tip": "S + is said/believed/reported + to have + V3 ใช้กับเหตุการณ์ก่อนเวลาที่พูด; to + V1 ใช้กับเวลาเดียวกันหรืออนาคต"
+ },
+ {
+  "id": "m07-eng-006",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which part of the sentence contains an error in the use of a <b>preposition</b>?<br>The manager <b>apologised for</b> the delay, explained the reason <b>to</b> the customers and <b>insisted of</b> paying them compensation <b>in cash</b>.",
+  "c": [
+   "apologised for",
+   "to",
+   "insisted of",
+   "in cash"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: apologise for + สิ่งที่ทำผิด ถูกต้อง",
+   "ผิด: explain something to someone ใช้ to ถูกต้อง",
+   "✓ ถูก: insist ตามด้วย on (insist on + V-ing) ไม่ใช่ of",
+   "ผิด: in cash แปลว่าเป็นเงินสด ถูกต้อง"
+  ],
+  "tip": "กริยา+บุพบทที่มักพลาด: insist on, depend on, consist of, apologise for, succeed in, look forward to"
+ },
+ {
+  "id": "m07-eng-007",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>The old bridge ____ at the moment, so drivers have to use the road through the village.",
+  "c": [
+   "is repaired",
+   "is repairing",
+   "was being repaired",
+   "is being repaired"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: is repaired เป็น present simple passive ใช้กับเหตุการณ์ทั่วไปหรือประจำ ไม่ใช่ at the moment",
+   "ผิด: is repairing เป็น active แต่สะพานซ่อมตัวเองไม่ได้",
+   "ผิด: was being repaired เป็นอดีต ขัดกับ at the moment และ have to",
+   "✓ ถูก: at the moment บอกว่ากำลังเกิดขึ้นและสะพานเป็นผู้ถูกกระทำ จึงใช้ is being + V3"
+  ],
+  "tip": "ถูกกระทำ + กำลังเกิดขึ้น = am/is/are + being + V3; อดีตกำลังเกิด = was/were + being + V3"
+ },
+ {
+  "id": "m07-eng-008",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence has the closest meaning to the following?<br><b>“The soup was so hot that she couldn't eat it.”</b>",
+  "c": [
+   "The soup was too hot for her to eat.",
+   "The soup was hot enough for her to eat.",
+   "The soup was not hot enough for her to eat.",
+   "She was too hot to eat the soup."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: too + adj + for + คน + to V แปลว่า...เกินไปจนทำไม่ได้ ตรงกับ so ... that ... couldn't",
+   "ผิด: hot enough ... to eat แปลว่าร้อนพอดีจนกินได้ ขัดกับ couldn't eat",
+   "ผิด: not hot enough แปลว่าไม่ร้อนพอ (เย็นไป) ไม่ใช่ร้อนเกินไป",
+   "ผิด: ประธานเปลี่ยนเป็นตัวเธอที่ร้อน ความหมายจึงเปลี่ยน"
+  ],
+  "tip": "so + adj + that + S + can't = too + adj + (for + คน) + to V"
+ },
+ {
+  "id": "m07-eng-009",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>I will send you the photos as soon as I ____ the office tomorrow morning.",
+  "c": [
+   "will reach",
+   "am reaching",
+   "reached",
+   "reach"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ห้ามใช้ will ในอนุประโยคบอกเวลาหลัง as soon as",
+   "ผิด: present continuous ไม่ใช่รูปที่ใช้ในอนุประโยคนี้ และไม่ได้บอกว่าเสร็จสิ้นแล้ว",
+   "ผิด: reached เป็นอดีต ขัดกับ tomorrow morning",
+   "✓ ถูก: อนุประโยคบอกเวลา (as soon as) ที่หมายถึงอนาคตใช้ present simple แทน will"
+  ],
+  "tip": "time clause (when, as soon as, before, after, until) ไม่ใช้ will ให้ใช้ present simple แทนอนาคต"
+ },
+ {
+  "id": "m07-eng-010",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>“It's high time we ____ the old computer lab,” the principal said.",
+  "c": [
+   "updated",
+   "will update",
+   "are updating",
+   "have updated"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: It's (high) time + S + past simple แสดงว่าถึงเวลาที่ควรทำแล้ว (รูปอดีตแต่ความหมายปัจจุบัน)",
+   "ผิด: will update ใช้หลัง It's high time ไม่ได้",
+   "ผิด: are updating ไม่ใช่รูปที่ใช้กับโครงสร้าง It's high time",
+   "ผิด: have updated ไม่ใช่รูปที่ใช้กับโครงสร้าง It's high time และขัดกับความหมายว่ายังไม่ได้ทำ"
+  ],
+  "tip": "It's (high/about) time + S + V2 = ควรทำได้แล้ว; หรือใช้ It's time + to V1"
+ },
+ {
+  "id": "m07-eng-011",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>“Mali can't swim,” said Nok. “____ can I,” said Pim.",
+  "c": [
+   "So",
+   "Neither",
+   "Either",
+   "Too"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: So can I ใช้ตอบรับประโยคบอกเล่า ไม่ใช่ประโยคปฏิเสธ",
+   "✓ ถูก: ตอบรับประโยคปฏิเสธว่า 'ฉันก็ไม่เหมือนกัน' ใช้ Neither + กริยาช่วย + ประธาน",
+   "ผิด: Either ใช้ท้ายประโยคปฏิเสธ (I can't either) ไม่ใช้ขึ้นต้นแบบกลับประธาน",
+   "ผิด: Too ใช้ท้ายประโยคบอกเล่า ไม่ใช้ขึ้นต้นประโยค"
+  ],
+  "tip": "ตอบรับ 'ก็เช่นกัน': บอกเล่า → So + aux + S; ปฏิเสธ → Neither/Nor + aux + S"
+ },
+ {
+  "id": "m07-eng-012",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences are grammatically correct?<br>1) The students were made to rewrite the poem.<br>2) The headmaster let the visitors park in the school yard.<br>3) We watched the children to perform on the stage.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ข้อความ 1 และ 2 ถูกต้อง (be made + to V; let + กรรม + V1)",
+   "ผิด: ข้อความ 3 ผิดเพราะ watch + กรรม + V1/V-ing ไม่มี to และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: ข้อความ 3 ผิด และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 3 ที่ใช้ to perform ผิดไว้ด้วย"
+  ],
+  "tip": "make/let/see/watch + กรรม + V1 (ไม่มี to) แต่ถ้าเป็น passive ของ make ต้องมี to: be made to V"
+ },
+ {
+  "id": "m07-eng-013",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The report ____ by the committee last week has not been published yet.",
+  "c": [
+   "submitting",
+   "submitted",
+   "was submitted",
+   "to submit"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: submitting เป็น active แต่รายงานไม่ได้เป็นผู้ส่งเอง",
+   "✓ ถูก: ย่อ relative clause แบบ passive: (which was) submitted ใช้ V3 ขยายนาม",
+   "ผิด: was submitted ทำให้มีกริยาแท้สองตัวติดกัน (was submitted ... has not been published) โดยไม่มีคำเชื่อม",
+   "ผิด: to submit บอกจุดประสงค์หรืออนาคต ไม่เข้ากับ last week"
+  ],
+  "tip": "ย่อ relative clause: passive → V3; active → V-ing; ถ้าจะใช้กริยาแท้ต้องมี who/which/that"
+ },
+ {
+  "id": "m07-eng-014",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Mr. Anan has just finished his first marathon. He says, “This is the hardest thing I ____ in my life.”",
+  "c": [
+   "will ever do",
+   "was ever doing",
+   "have ever done",
+   "had ever done"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: will ever do เป็นอนาคต ขัดกับ has just finished",
+   "ผิด: was ever doing ไม่ใช่รูปที่ใช้กับ superlative และไม่ได้บอกประสบการณ์สะสม",
+   "✓ ถูก: superlative (the hardest) + present perfect บอกประสบการณ์สูงสุดจนถึงปัจจุบัน",
+   "ผิด: had ever done เป็น past perfect ใช้เมื่อเล่าอดีต แต่นี่เป็นคำพูดขณะนี้ (He says)"
+  ],
+  "tip": "the + superlative + (that) S + have/has + ever + V3; This is the first time + S + have/has + V3"
+ },
+ {
+  "id": "m07-eng-015",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence has the closest meaning to the following?<br><b>“Should you need further help, please contact the office.”</b>",
+  "c": [
+   "Unless you need further help, please contact the office.",
+   "If you need further help, please contact the office.",
+   "Because you need further help, please contact the office.",
+   "Although you need further help, please contact the office."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: Unless แปลว่าถ้าไม่ ความหมายตรงข้าม",
+   "✓ ถูก: Should + S + V1 คือ if-clause แบบกลับประธาน มีความหมายเท่ากับ If you should need ...",
+   "ผิด: Because ทำให้กลายเป็นเหตุผลว่าต้องการความช่วยเหลือแน่นอน ไม่ใช่เงื่อนไข",
+   "ผิด: Although แสดงความขัดแย้ง ไม่ใช่เงื่อนไข"
+  ],
+  "tip": "Should + S + V1 / Were + S + to V / Had + S + V3 = if-clause แบบกลับประธาน ไม่ต้องมี if"
+ },
+ {
+  "id": "m07-eng-016",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "A club leader is disappointed with the turnout at the workshop. Which sentence did she most likely say?",
+  "c": [
+   "Few students joined the workshop.",
+   "A few students joined the workshop.",
+   "Quite a few students joined the workshop.",
+   "Several students joined the workshop."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: few (ไม่มี a) แปลว่าแทบไม่มี ให้ความหมายเชิงลบ จึงสื่อว่าผิดหวัง",
+   "ผิด: a few แปลว่ามีอยู่บ้าง ให้ความหมายเชิงบวกหรือกลาง ไม่สื่อว่าผิดหวัง",
+   "ผิด: quite a few แปลว่าค่อนข้างมาก จึงไม่ใช่ความผิดหวัง",
+   "ผิด: several แปลว่าหลายคน เป็นกลาง ไม่แสดงความผิดหวัง"
+  ],
+  "tip": "few/little (ไม่มี a) = แทบไม่มี (เชิงลบ); a few/a little = มีบ้าง (เชิงบวก); quite a few = ค่อนข้างมาก"
+ },
+ {
+  "id": "m07-eng-017",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which noun phrase shows the correct order of adjectives?",
+  "c": [
+   "a Thai lovely silk old scarf",
+   "a lovely old Thai silk scarf",
+   "an old lovely silk Thai scarf",
+   "a silk Thai old lovely scarf"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: Thai มาก่อน lovely และ old ผิดลำดับ เพราะความเห็นต้องมาก่อน",
+   "✓ ถูก: ลำดับคุณศัพท์: ความเห็น (lovely) → อายุ (old) → แหล่งกำเนิด (Thai) → วัสดุ (silk) → นาม",
+   "ผิด: old มาก่อน lovely ผิด (ความเห็นนำอายุ) และ silk มาก่อน Thai ก็ผิด",
+   "ผิด: วัสดุ silk มาก่อนแหล่งกำเนิด และความเห็น lovely มาท้ายสุด ผิดลำดับ"
+  ],
+  "tip": "ลำดับ: ความเห็น-ขนาด-อายุ-รูปร่าง-สี-แหล่งกำเนิด-วัสดุ-ประเภท + นาม"
+ },
+ {
+  "id": "m07-eng-018",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The principal expressed her ____ to the volunteers who had cleaned the canal.",
+  "c": [
+   "appreciation",
+   "appreciate",
+   "appreciated",
+   "appreciative"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: หลัง her ต้องเป็นนาม appreciation (expressed her appreciation to ...)",
+   "ผิด: appreciate เป็นกริยา ใช้เป็นกรรมของ expressed ไม่ได้",
+   "ผิด: appreciated เป็นกริยารูป V2/V3 ไม่ใช่นาม",
+   "ผิด: appreciative เป็นคุณศัพท์ ใช้เป็นกรรมของ expressed ไม่ได้ (ต้องเป็น be appreciative of)"
+  ],
+  "tip": "ตำแหน่งหลัง his/her/the ต้องเป็นนาม ดูท้ายคำ -ation, -ment, -ness เป็นนาม"
+ },
+ {
+  "id": "m07-eng-019",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word closest in meaning to the word in bold.<br>The teacher's explanation was so <b>lucid</b> that even beginners could follow it.",
+  "c": [
+   "lengthy",
+   "strict",
+   "humorous",
+   "clear"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: lengthy แปลว่ายาว ไม่ใช่ความหมายของ lucid",
+   "ผิด: strict แปลว่าเข้มงวด ไม่เกี่ยวกับความเข้าใจง่าย",
+   "ผิด: humorous แปลว่าตลก ไม่ใช่ความหมายของ lucid",
+   "✓ ถูก: lucid แปลว่าชัดเจนเข้าใจง่าย ตรงกับ so ... that even beginners could follow it"
+  ],
+  "tip": "lucid = clear = easy to understand ใช้กับ explanation, argument, writing"
+ },
+ {
+  "id": "m07-eng-020",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>The final exam was <b>called off</b> because of the storm.",
+  "c": [
+   "postponed",
+   "cancelled",
+   "supervised",
+   "marked"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: postponed แปลว่าเลื่อน ซึ่งตรงกับ put off ไม่ใช่ call off",
+   "✓ ถูก: call off แปลว่ายกเลิก",
+   "ผิด: supervised แปลว่าคุมสอบ",
+   "ผิด: marked แปลว่าตรวจให้คะแนน"
+  ],
+  "tip": "call off = cancel; put off = postpone; carry out = perform"
+ },
+ {
+  "id": "m07-eng-021",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which word is <b>NOT</b> close in meaning to the word in bold?<br>The speaker gave a <b>succinct</b> summary of the report.",
+  "c": [
+   "lengthy",
+   "brief",
+   "concise",
+   "condensed"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: lengthy แปลว่ายืดยาว ตรงข้ามกับ succinct",
+   "ผิด: brief แปลว่าสั้นกระชับ ใกล้เคียง succinct",
+   "ผิด: concise แปลว่ากระชับ ใกล้เคียง succinct",
+   "ผิด: condensed แปลว่าย่อให้กระชับ ใกล้เคียง succinct"
+  ],
+  "tip": "succinct = brief = concise = to the point; ตรงข้าม: lengthy, wordy, long-winded"
+ },
+ {
+  "id": "m07-eng-022",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which sentence uses <b>effect</b> or <b>affect</b> correctly?",
+  "c": [
+   "Heavy rain may effect the quality of this year's crops.",
+   "The affect of the new law was felt in every province.",
+   "The teacher tried to affect a change in the school's rules.",
+   "The new timetable had a positive effect on student attendance."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: effect ที่เป็นกริยาแปลว่าทำให้เกิดขึ้น ส่วน 'ส่งผลต่อ' ต้องใช้ affect",
+   "ผิด: หลัง the ต้องเป็นนาม effect ไม่ใช่ affect",
+   "ผิด: affect a change ผิด ต้องใช้ effect a change (ทำให้เกิดการเปลี่ยนแปลง)",
+   "✓ ถูก: effect เป็นนาม (ผลกระทบ) จึงตามหลัง a positive ได้"
+  ],
+  "tip": "effect = ผล (นาม: have an effect on); affect = ส่งผลต่อ (กริยา); effect เป็นกริยาแปลว่าทำให้เกิดขึ้น"
+ },
+ {
+  "id": "m07-eng-023",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which verbs can correctly complete the sentence?<br>The students will ____ research on the water quality of the local canal.<br>1) make<br>2) conduct<br>3) carry out",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: รวม make ที่ใช้กับ research ไม่ได้ไว้ด้วย และตัด carry out ที่ถูกออก",
+   "ผิด: รวม make ที่ใช้กับ research ไม่ได้ไว้ด้วย และตัด conduct ที่ถูกออก",
+   "✓ ถูก: conduct research และ carry out research เป็น collocation ที่ถูกต้อง",
+   "ผิด: รวม make ที่ผิดไว้ด้วย"
+  ],
+  "tip": "research / survey / experiment ใช้กับ conduct, carry out, do — ไม่ใช้ make (research เป็นนามนับไม่ได้)"
+ },
+ {
+  "id": "m07-eng-024",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "A teacher always shares credit with her colleagues and never talks proudly about her own achievements. Which adjective best describes her?",
+  "c": [
+   "modest",
+   "arrogant",
+   "greedy",
+   "cautious"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: modest แปลว่าถ่อมตัว ไม่โอ้อวดความสำเร็จ",
+   "ผิด: arrogant แปลว่าหยิ่งยโส ตรงข้ามกับพฤติกรรมที่เล่า",
+   "ผิด: greedy แปลว่าโลภ ซึ่งไม่เข้ากับการแบ่งเครดิตให้เพื่อน",
+   "ผิด: cautious แปลว่าระมัดระวัง ไม่เกี่ยวกับการไม่โอ้อวด"
+  ],
+  "tip": "modest = humble = ไม่โอ้อวด; ตรงข้าม: arrogant, boastful, conceited"
+ },
+ {
+  "id": "m07-eng-025",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>During the discussion, a student <b>brought up</b> an important issue about the exam schedule.",
+  "c": [
+   "ignored",
+   "raised",
+   "solved",
+   "forgot"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ignored แปลว่าเพิกเฉย ตรงข้ามกับการหยิบยกขึ้นมา",
+   "✓ ถูก: bring up an issue แปลว่าหยิบยกประเด็นขึ้นมาพูด",
+   "ผิด: solved แปลว่าแก้ปัญหาได้ ซึ่งไม่ใช่ความหมายของ bring up",
+   "ผิด: forgot แปลว่าลืม ตรงข้ามกับการหยิบยกประเด็น"
+  ],
+  "tip": "bring up = raise (a topic / a child); bring about = cause; bring out = release"
+ },
+ {
+  "id": "m07-eng-026",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which noun phrase is <b>NOT</b> a natural English collocation?",
+  "c": [
+   "strong wind",
+   "heavy traffic",
+   "heavy rain",
+   "strong rain"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: strong wind (ลมแรง) เป็น collocation ที่ถูกต้อง",
+   "ผิด: heavy traffic (การจราจรหนาแน่น) เป็น collocation ที่ถูกต้อง",
+   "ผิด: heavy rain (ฝนตกหนัก) เป็น collocation ที่ถูกต้อง",
+   "✓ ถูก: ฝนตกหนักใช้ heavy rain ไม่ใช้ strong rain"
+  ],
+  "tip": "heavy: rain, traffic, snow, smoker; strong: wind, coffee, tea, smell, evidence"
+ },
+ {
+  "id": "m07-eng-027",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Scientists warn that the damage to the coral reef may be ____; it could take hundreds of years to recover, if it recovers at all.",
+  "c": [
+   "negligible",
+   "temporary",
+   "irreversible",
+   "accidental"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: negligible แปลว่าเล็กน้อยจนไม่สำคัญ ขัดกับคำเตือนของนักวิทยาศาสตร์",
+   "ผิด: temporary แปลว่าชั่วคราว ขัดกับ hundreds of years",
+   "✓ ถูก: irreversible แปลว่าย้อนกลับคืนไม่ได้ ตรงกับการที่ปะการังอาจไม่ฟื้นเลย",
+   "ผิด: accidental แปลว่าเกิดโดยบังเอิญ ไม่ได้บอกว่าฟื้นไม่ได้"
+  ],
+  "tip": "ir- นำหน้าแปลว่าไม่/ตรงข้าม เช่น irreversible, irregular, irrelevant, irresponsible"
+ },
+ {
+  "id": "m07-eng-028",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The two schools decided to ____ their resources so that more students could use the new laboratory.",
+  "c": [
+   "hoard",
+   "squander",
+   "withdraw",
+   "pool"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: hoard แปลว่ากักตุนไว้ ซึ่งจะทำให้คนอื่นใช้ไม่ได้",
+   "ผิด: squander แปลว่าผลาญทิ้ง ไม่ช่วยให้ใช้ห้องปฏิบัติการได้มากขึ้น",
+   "ผิด: withdraw แปลว่าถอนออก ไม่เข้ากับความหมายของประโยค",
+   "✓ ถูก: pool resources แปลว่ารวมทรัพยากรไว้ใช้ร่วมกัน ทำให้นักเรียนใช้ได้มากขึ้น"
+  ],
+  "tip": "pool resources/funds = รวมทรัพยากร/เงินทุนร่วมกัน; คำใกล้เคียง: combine, share"
+ },
+ {
+  "id": "m07-eng-029",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Parent: Excuse me, I'd like to make an appointment to see Mr. Somchai about my son's grades.<br>Secretary: ____",
+  "c": [
+   "Certainly. Would Thursday at ten o'clock suit you?",
+   "Yes, he is very good at his job.",
+   "I'm afraid my son is not at home.",
+   "You're welcome. See you at the appointment."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ตอบรับคำขอนัดหมายอย่างสุภาพและเสนอวันเวลา",
+   "ผิด: ไม่ตอบคำขอนัดหมาย แต่พูดชมครู",
+   "ผิด: พูดถึงลูกของผู้ปกครองซึ่งไม่เกี่ยวกับคำขอ",
+   "ผิด: You're welcome ใช้ตอบคำขอบคุณ ไม่ใช่ตอบคำขอนัดหมาย"
+  ],
+  "tip": "ตอบรับคำขอนัดหมาย: Certainly. / Of course. + เสนอเวลา (Would ... suit you?)"
+ },
+ {
+  "id": "m07-eng-030",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "A colleague thanks you for helping carry the boxes to the storeroom. Which response is <b>NOT</b> appropriate?",
+  "c": [
+   "No problem.",
+   "My pleasure.",
+   "Don't mention it.",
+   "I'm sorry to hear that."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: No problem ใช้ตอบคำขอบคุณได้",
+   "ผิด: My pleasure ใช้ตอบคำขอบคุณได้",
+   "ผิด: Don't mention it ใช้ตอบคำขอบคุณได้",
+   "✓ ถูก: I'm sorry to hear that ใช้แสดงความเห็นใจเมื่อมีเรื่องไม่ดี ไม่ใช่ตอบคำขอบคุณ"
+  ],
+  "tip": "ตอบ Thank you: You're welcome / No problem / My pleasure / Not at all / Don't mention it"
+ },
+ {
+  "id": "m07-eng-031",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Read the conversation.<br>A: Are you coming to the football match this afternoon?<br>B: I think I'll skip it. I'm feeling a bit under the weather.<br>What does B mean?",
+  "c": [
+   "B is annoyed by the rain.",
+   "B has to work outdoors.",
+   "B is slightly ill.",
+   "B dislikes football."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: สำนวนนี้ไม่ได้เกี่ยวกับฝนหรือสภาพอากาศจริง",
+   "ผิด: ไม่มีข้อมูลว่าต้องทำงานนอกอาคาร",
+   "✓ ถูก: under the weather เป็นสำนวน แปลว่าไม่ค่อยสบาย",
+   "ผิด: B ไม่ได้บอกว่าไม่ชอบฟุตบอล แต่บอกว่าไม่สบาย"
+  ],
+  "tip": "under the weather = ไม่ค่อยสบาย; a piece of cake = ง่ายมาก; hit the books = ตั้งใจอ่านหนังสือ"
+ },
+ {
+  "id": "m07-eng-032",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following can be used to make a request politely?<br>1) Could you possibly lend me your notes?<br>2) Lend me your notes right now.<br>3) Would you mind lending me your notes?",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 เป็นคำสั่งที่ไม่สุภาพ และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 1 และ 3 เป็นการขอร้องอย่างสุภาพ",
+   "ผิด: ข้อความ 2 ไม่สุภาพ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่เป็นคำสั่งไว้ด้วย"
+  ],
+  "tip": "ขอร้องสุภาพ: Could/Would you (possibly) ...? / Would you mind + V-ing? / I wonder if you could ..."
+ },
+ {
+  "id": "m07-eng-033",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Teacher: Your presentation was really impressive, Nid!<br>Nid: ____",
+  "c": [
+   "You're welcome. It was nothing.",
+   "I'm sorry to hear that.",
+   "Thank you. I'm glad you enjoyed it.",
+   "Yes, I'm better than everyone else."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: You're welcome ใช้ตอบคำขอบคุณ ไม่ใช่ตอบคำชม",
+   "ผิด: I'm sorry to hear that ใช้แสดงความเห็นใจ ไม่ใช่ตอบคำชม",
+   "✓ ถูก: ตอบคำชมด้วยการขอบคุณและแสดงความยินดีอย่างสุภาพ",
+   "ผิด: ตอบอวดตัวเองและเปรียบเทียบกับผู้อื่น ไม่สุภาพ"
+  ],
+  "tip": "ตอบคำชม: Thank you. / Thank you, that's very kind of you. / I'm glad you liked it."
+ },
+ {
+  "id": "m07-eng-034",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "You are at a bus station and want to sit next to a stranger. What would you say?",
+  "c": [
+   "Excuse me, is this seat taken?",
+   "Excuse me, are you taken this seat?",
+   "Hey, move your bag. I want to sit.",
+   "Sorry, you can sit here with me."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ถามสุภาพว่ามีคนจองที่นั่งหรือยัง ใช้ Is this seat taken?",
+   "ผิด: ประโยคผิดไวยากรณ์ เพราะ taken this seat ใช้อย่างนี้ไม่ได้",
+   "ผิด: ออกคำสั่งและไม่สุภาพ",
+   "ผิด: เป็นการเชิญผู้อื่นนั่ง ทั้งที่ที่นั่งไม่ใช่ของเรา"
+  ],
+  "tip": "ถามที่นั่งว่าง: Excuse me, is this seat taken? / Is anyone sitting here?"
+ },
+ {
+  "id": "m07-eng-035",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "Read the conversation.<br>A: Do you think our school team will win the debate tournament this year?<br>Which response shows that B is <b>uncertain</b>?",
+  "c": [
+   "Definitely. There's no doubt about it.",
+   "I'm not sure. It could go either way.",
+   "No way. We'll never win.",
+   "Of course. We always win."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: Definitely และ no doubt แสดงว่ามั่นใจมาก",
+   "✓ ถูก: I'm not sure และ it could go either way แสดงว่าไม่แน่ใจ",
+   "ผิด: No way และ never แสดงความมั่นใจว่าจะไม่ชนะ",
+   "ผิด: Of course และ always แสดงว่ามั่นใจ"
+  ],
+  "tip": "คำแสดงความไม่แน่ใจ: I'm not sure / It could go either way / I have no idea / Maybe"
+ },
+ {
+  "id": "m07-eng-036",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> a suitable way to end a formal email to a teacher?",
+  "c": [
+   "See ya!",
+   "Yours sincerely,",
+   "Best regards,",
+   "Thank you for your time."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: See ya! เป็นภาษาพูดไม่เป็นทางการ ไม่เหมาะกับอีเมลทางการ",
+   "ผิด: Yours sincerely ใช้ปิดจดหมายทางการได้",
+   "ผิด: Best regards ใช้ปิดอีเมลทางการได้",
+   "ผิด: Thank you for your time ใช้ปิดอีเมลทางการได้"
+  ],
+  "tip": "ปิดอีเมลทางการ: Yours sincerely / Best regards / Kind regards / Thank you for your time"
+ },
+ {
+  "id": "m07-eng-037",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which of the following best summarises the passage?",
+  "ps": "When the roof of Ban Nong School was rebuilt two years ago, the community decided to add solar panels. Parents and local businesses raised most of the money, and the rest came from a provincial fund. On sunny days the panels produce more electricity than the school needs, and the extra power is sold to the local grid. The income pays for the school's internet bill and the repair of computers. Teachers have also turned the project into a lesson: students read the daily output on a screen in the hallway and compare it with the weather. However, the principal admits that the panels cannot run the air conditioners during long periods of rain, so the school still depends on the grid on cloudy days.",
+  "c": [
+   "A comparison showing that solar power is cheaper than grid electricity in every school",
+   "A complaint about the high cost of rebuilding a school roof",
+   "A report on how a school repairs its computers",
+   "A community project that gives a school solar power and a learning opportunity"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความไม่ได้เปรียบเทียบราคากับไฟฟ้าหลัก และบอกว่าโรงเรียนยังพึ่งไฟฟ้าหลักในวันฝนตก",
+   "ผิด: บทความไม่ได้บ่นเรื่องค่าซ่อมหลังคา เพียงบอกว่าหลังคาสร้างใหม่",
+   "ผิด: การซ่อมคอมพิวเตอร์เป็นเพียงรายละเอียดเล็กน้อยว่ารายได้ใช้ทำอะไร",
+   "✓ ถูก: บทความเล่าโครงการติดแผงโซลาร์เซลล์ของชุมชนที่ให้ทั้งไฟฟ้าและบทเรียนแก่นักเรียน"
+  ],
+  "tip": "ใจความหลักต้องครอบคลุมทั้งบทความ ไม่ใช่รายละเอียดย่อย"
+ },
+ {
+  "id": "m07-eng-038",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "According to the passage, which statement is <b>NOT</b> true?",
+  "ps": "When the roof of Ban Nong School was rebuilt two years ago, the community decided to add solar panels. Parents and local businesses raised most of the money, and the rest came from a provincial fund. On sunny days the panels produce more electricity than the school needs, and the extra power is sold to the local grid. The income pays for the school's internet bill and the repair of computers. Teachers have also turned the project into a lesson: students read the daily output on a screen in the hallway and compare it with the weather. However, the principal admits that the panels cannot run the air conditioners during long periods of rain, so the school still depends on the grid on cloudy days.",
+  "c": [
+   "The school sells extra electricity to the local grid.",
+   "The money for the project came only from parents.",
+   "Students can see the daily output of the panels on a screen.",
+   "The panels cannot run the air conditioners during long periods of rain."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความบอกว่าไฟฟ้าส่วนเกินถูกขายให้โครงข่ายท้องถิ่น",
+   "✓ ถูก: บทความบอกว่าเงินมาจากผู้ปกครอง ธุรกิจท้องถิ่น และกองทุนของจังหวัด ไม่ใช่ผู้ปกครองอย่างเดียว",
+   "ผิด: บทความบอกว่านักเรียนอ่านค่าไฟที่ผลิตได้จากจอในทางเดิน",
+   "ผิด: บทความบอกว่าแผงไม่สามารถรองรับเครื่องปรับอากาศในช่วงฝนตกยาวนาน"
+  ],
+  "tip": "ข้อ NOT true มักมีคำว่า only หรือคำเด็ดขาดที่ขัดกับรายละเอียดในบทความ"
+ },
+ {
+  "id": "m07-eng-039",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>admits</b> in the last sentence is closest in meaning to",
+  "ps": "When the roof of Ban Nong School was rebuilt two years ago, the community decided to add solar panels. Parents and local businesses raised most of the money, and the rest came from a provincial fund. On sunny days the panels produce more electricity than the school needs, and the extra power is sold to the local grid. The income pays for the school's internet bill and the repair of computers. Teachers have also turned the project into a lesson: students read the daily output on a screen in the hallway and compare it with the weather. However, the principal admits that the panels cannot run the air conditioners during long periods of rain, so the school still depends on the grid on cloudy days.",
+  "c": [
+   "denies",
+   "allows",
+   "invites",
+   "acknowledges"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: denies แปลว่าปฏิเสธ ตรงข้ามกับ admits",
+   "ผิด: allows แปลว่าอนุญาต เป็นความหมายอื่นของ admit ที่ไม่เข้ากับประโยคนี้",
+   "ผิด: invites แปลว่าเชิญ ไม่เข้ากับประโยคนี้",
+   "✓ ถูก: admit ในที่นี้แปลว่ายอมรับว่าเป็นความจริง ตรงกับ acknowledge"
+  ],
+  "tip": "admit = acknowledge = ยอมรับ (ความจริงหรือข้อบกพร่อง) ต่างจาก admit ที่แปลว่ารับเข้า"
+ },
+ {
+  "id": "m07-eng-040",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements are supported by the passage?<br>1) The school has no need to buy electricity from the grid.<br>2) Some of the income from the panels is used to repair computers.<br>3) Students learn from the panels by comparing the daily output with the weather.",
+  "ps": "When the roof of Ban Nong School was rebuilt two years ago, the community decided to add solar panels. Parents and local businesses raised most of the money, and the rest came from a provincial fund. On sunny days the panels produce more electricity than the school needs, and the extra power is sold to the local grid. The income pays for the school's internet bill and the repair of computers. Teachers have also turned the project into a lesson: students read the daily output on a screen in the hallway and compare it with the weather. However, the principal admits that the panels cannot run the air conditioners during long periods of rain, so the school still depends on the grid on cloudy days.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 1 ผิดเพราะวันที่ฟ้าครึ้มโรงเรียนยังพึ่งไฟฟ้าหลัก",
+   "ผิด: ข้อความ 1 ผิดเพราะโรงเรียนยังพึ่งไฟฟ้าหลักในวันที่ฟ้าครึ้ม และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 2 ตรงกับ the repair of computers และข้อความ 3 ตรงกับ compare it with the weather",
+   "ผิด: รวมข้อความ 1 ที่ขัดกับบทความไว้ด้วย"
+  ],
+  "tip": "คำว่า no need / always / only ทำให้ข้อความแคบเกินบทความ ให้ตัดทิ้งก่อน"
+ },
+ {
+  "id": "m07-eng-041",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A school in a district where it rains for weeks at a time wants to copy this project. What does the passage suggest about it?",
+  "ps": "When the roof of Ban Nong School was rebuilt two years ago, the community decided to add solar panels. Parents and local businesses raised most of the money, and the rest came from a provincial fund. On sunny days the panels produce more electricity than the school needs, and the extra power is sold to the local grid. The income pays for the school's internet bill and the repair of computers. Teachers have also turned the project into a lesson: students read the daily output on a screen in the hallway and compare it with the weather. However, the principal admits that the panels cannot run the air conditioners during long periods of rain, so the school still depends on the grid on cloudy days.",
+  "c": [
+   "It would earn more income than Ban Nong School.",
+   "It would no longer have to pay for internet access.",
+   "It would not be able to use solar panels at all.",
+   "It would still need electricity from the grid during the rainy periods."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความไม่ได้สนับสนุนว่าจะได้รายได้มากกว่า และฝนตกนานน่าจะผลิตไฟได้น้อยลง",
+   "ผิด: บทความไม่ได้บอกว่าโรงเรียนอื่นจะเลิกจ่ายค่าอินเทอร์เน็ต",
+   "ผิด: บทความบอกเพียงว่าแผงใช้ไม่ได้เต็มที่ในช่วงฝนตกยาวนาน ไม่ได้บอกว่าใช้ไม่ได้เลย",
+   "✓ ถูก: บทความบอกว่าโรงเรียนยังพึ่งไฟฟ้าหลักในวันที่ฟ้าครึ้มและช่วงฝนตกยาวนาน โรงเรียนในพื้นที่ฝนตกนานจึงน่าจะเป็นเช่นเดียวกัน"
+  ],
+  "tip": "ข้อสรุปจากการอ่านต้องอ้างอิงเฉพาะข้อมูลในบทความ อย่าสรุปไกลเกินไป"
+ },
+ {
+  "id": "m07-eng-042",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The writer's main purpose is to",
+  "ps": "In many Thai villages, health volunteers help keep their neighbours healthy. Each volunteer visits about ten households every month. They measure blood pressure, remind elderly people to take their medicine and record the results in a notebook. When they find something worrying, such as very high blood pressure, they contact the nearest health centre. Volunteers do not receive a salary, but they get a small monthly allowance and training from the local hospital. A local survey found that villages with active volunteers had fewer emergency hospital visits for common illnesses. However, the programme faces a challenge. Many volunteers are over fifty, and few young people want to join. Without new volunteers, the programme may weaken in the future.",
+  "c": [
+   "persuade readers to become doctors in remote villages",
+   "describe the work of village health volunteers and a problem they face",
+   "compare Thai hospitals with hospitals in other countries",
+   "criticise the local hospital for its training programme"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความไม่ได้ชวนให้เป็นแพทย์",
+   "✓ ถูก: บทความอธิบายงานของอาสาสมัครสาธารณสุขและปัญหาที่โครงการเผชิญ",
+   "ผิด: บทความไม่ได้เปรียบเทียบโรงพยาบาลของประเทศต่าง ๆ",
+   "ผิด: บทความไม่ได้วิจารณ์โรงพยาบาล แต่บอกว่าโรงพยาบาลฝึกอบรมให้"
+  ],
+  "tip": "จุดประสงค์ของผู้เขียนมักตรงกับภาพรวม: อธิบายสิ่งหนึ่งแล้วชี้ปัญหา"
+ },
+ {
+  "id": "m07-eng-043",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "All of the following are tasks of the volunteers mentioned in the passage <b>EXCEPT</b>",
+  "ps": "In many Thai villages, health volunteers help keep their neighbours healthy. Each volunteer visits about ten households every month. They measure blood pressure, remind elderly people to take their medicine and record the results in a notebook. When they find something worrying, such as very high blood pressure, they contact the nearest health centre. Volunteers do not receive a salary, but they get a small monthly allowance and training from the local hospital. A local survey found that villages with active volunteers had fewer emergency hospital visits for common illnesses. However, the programme faces a challenge. Many volunteers are over fifty, and few young people want to join. Without new volunteers, the programme may weaken in the future.",
+  "c": [
+   "measuring blood pressure",
+   "reminding elderly people to take their medicine",
+   "prescribing medicine to sick villagers",
+   "contacting the health centre about worrying results"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความกล่าวว่าอาสาสมัครวัดความดันโลหิต",
+   "ผิด: บทความกล่าวว่าอาสาสมัครเตือนผู้สูงอายุให้กินยา",
+   "✓ ถูก: บทความไม่ได้กล่าวถึงการสั่งจ่ายยา อาสาสมัครเพียงเตือนผู้สูงอายุให้กินยา",
+   "ผิด: บทความกล่าวว่าอาสาสมัครติดต่อศูนย์สุขภาพเมื่อพบสิ่งน่ากังวล"
+  ],
+  "tip": "ข้อ EXCEPT คือข้อที่บทความไม่ได้พูดถึง ให้ไล่ขีดข้อที่พบในบทความทีละข้อ"
+ },
+ {
+  "id": "m07-eng-044",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>they</b> in the sentence beginning “When they find something worrying” refers to",
+  "ps": "In many Thai villages, health volunteers help keep their neighbours healthy. Each volunteer visits about ten households every month. They measure blood pressure, remind elderly people to take their medicine and record the results in a notebook. When they find something worrying, such as very high blood pressure, they contact the nearest health centre. Volunteers do not receive a salary, but they get a small monthly allowance and training from the local hospital. A local survey found that villages with active volunteers had fewer emergency hospital visits for common illnesses. However, the programme faces a challenge. Many volunteers are over fifty, and few young people want to join. Without new volunteers, the programme may weaken in the future.",
+  "c": [
+   "elderly people",
+   "volunteers",
+   "households",
+   "health centres"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: elderly people อยู่ในประโยคก่อนหน้า แต่เป็นผู้ถูกเตือนให้กินยา ไม่ใช่ผู้ที่ติดต่อศูนย์สุขภาพ",
+   "✓ ถูก: ผู้ที่พบสิ่งน่ากังวลและติดต่อศูนย์สุขภาพคืออาสาสมัคร",
+   "ผิด: households คือบ้านที่อาสาสมัครไปเยี่ยม ไม่ใช่ผู้กระทำ",
+   "ผิด: health centres เป็นสถานที่ที่ถูกติดต่อ ไม่ใช่ผู้พบสิ่งน่ากังวล"
+  ],
+  "tip": "สรรพนามอ้างถึงนามที่เป็นผู้กระทำของประโยคก่อนหน้า ไม่ใช่นามที่อยู่ใกล้ที่สุดเสมอไป"
+ },
+ {
+  "id": "m07-eng-045",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements can be inferred from the passage?<br>1) Volunteers' visits may help detect health problems early.<br>2) Volunteers give their time without being paid a regular salary.<br>3) The programme may become weaker if young people do not join.",
+  "ps": "In many Thai villages, health volunteers help keep their neighbours healthy. Each volunteer visits about ten households every month. They measure blood pressure, remind elderly people to take their medicine and record the results in a notebook. When they find something worrying, such as very high blood pressure, they contact the nearest health centre. Volunteers do not receive a salary, but they get a small monthly allowance and training from the local hospital. A local survey found that villages with active volunteers had fewer emergency hospital visits for common illnesses. However, the programme faces a challenge. Many volunteers are over fifty, and few young people want to join. Without new volunteers, the programme may weaken in the future.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ข้อความ 1 และ 2 ถูกต้อง แต่ชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "ผิด: ข้อความ 1 และ 3 ถูกต้อง แต่ชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: ข้อความ 2 และ 3 ถูกต้อง แต่ชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "✓ ถูก: ทั้งสามข้อสรุปได้จากบทความ: พบความดันสูงแล้วแจ้งศูนย์สุขภาพ, ไม่รับเงินเดือน, ขาดอาสาสมัครรุ่นใหม่อาจทำให้โครงการอ่อนแอ"
+  ],
+  "tip": "ถ้าทุกข้อความมีหลักฐานในบทความ คำตอบคือ 1, 2, 3 อย่าตัดข้อใดทิ้งเพราะกลัวว่าครบเกินไป"
+ },
+ {
+  "id": "m07-eng-046",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A village has many volunteers over sixty and wants to keep its programme strong. What does the passage suggest the village should do?",
+  "ps": "In many Thai villages, health volunteers help keep their neighbours healthy. Each volunteer visits about ten households every month. They measure blood pressure, remind elderly people to take their medicine and record the results in a notebook. When they find something worrying, such as very high blood pressure, they contact the nearest health centre. Volunteers do not receive a salary, but they get a small monthly allowance and training from the local hospital. A local survey found that villages with active volunteers had fewer emergency hospital visits for common illnesses. However, the programme faces a challenge. Many volunteers are over fifty, and few young people want to join. Without new volunteers, the programme may weaken in the future.",
+  "c": [
+   "Stop giving volunteers the monthly allowance.",
+   "Ask the hospital to end its training.",
+   "Encourage younger people to become volunteers.",
+   "Reduce the number of households each volunteer visits."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: การตัดเงินค่าตอบแทนไม่ช่วยให้มีคนเข้าร่วมมากขึ้น และบทความไม่ได้เสนอเช่นนี้",
+   "ผิด: การยกเลิกการอบรมขัดกับบทบาทของโรงพยาบาลที่บทความกล่าวถึง",
+   "✓ ถูก: บทความระบุว่าถ้าไม่มีอาสาสมัครใหม่ โครงการอาจอ่อนแอ จึงควรชักชวนคนรุ่นใหม่",
+   "ผิด: บทความไม่ได้เสนอให้ลดจำนวนครัวเรือน และไม่ได้แก้ปัญหาขาดอาสาสมัครรุ่นใหม่"
+  ],
+  "tip": "โจทย์ประยุกต์ให้จับปัญหาในบทความไปเทียบกับสถานการณ์ใหม่ ปัญหาคือขาดคนรุ่นใหม่ ทางแก้จึงต้องเพิ่มคนรุ่นใหม่"
+ },
+ {
+  "id": "m07-eng-047",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "According to the passage, what happened after much of the mangrove forest was cleared?",
+  "ps": "The coastal village of Ban Khlong Yai lost nearly half of its mangrove forest to shrimp farms in the 1990s. Without the trees, waves began to wear away the shoreline, and fishermen noticed that the number of crabs and fish was falling. In 2010, the villagers started replanting seedlings with help from a university. Planting was only the first step. They learned that seedlings planted too far from the shore died quickly, so they now plant in carefully chosen areas and check them every month. Today, the forest has grown back to about two-thirds of its former size. Fishermen report larger catches, and tourists pay to take boat tours through the trees. Some villagers, however, still worry that new shrimp farms may be built nearby.",
+  "c": [
+   "Tourists started to take boat tours.",
+   "The villagers moved their homes inland.",
+   "Waves began to wear away the shoreline.",
+   "A university built a new fishing port."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: การท่องเที่ยวเกิดขึ้นหลังป่ากลับมา ไม่ใช่หลังป่าถูกทำลาย",
+   "ผิด: บทความไม่ได้กล่าวว่าชาวบ้านย้ายบ้าน",
+   "✓ ถูก: บทความบอกว่าเมื่อไม่มีต้นไม้ คลื่นเริ่มกัดเซาะชายฝั่ง",
+   "ผิด: บทความกล่าวเพียงว่ามหาวิทยาลัยช่วยปลูกป่า ไม่ได้สร้างท่าเรือ"
+  ],
+  "tip": "ถามลำดับเหตุการณ์ให้ดูคำเชื่อม เช่น Without the trees, ... แล้วจับว่าเกิดอะไรตามมา"
+ },
+ {
+  "id": "m07-eng-048",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The phrase <b>wear away</b> in the passage is closest in meaning to",
+  "ps": "The coastal village of Ban Khlong Yai lost nearly half of its mangrove forest to shrimp farms in the 1990s. Without the trees, waves began to wear away the shoreline, and fishermen noticed that the number of crabs and fish was falling. In 2010, the villagers started replanting seedlings with help from a university. Planting was only the first step. They learned that seedlings planted too far from the shore died quickly, so they now plant in carefully chosen areas and check them every month. Today, the forest has grown back to about two-thirds of its former size. Fishermen report larger catches, and tourists pay to take boat tours through the trees. Some villagers, however, still worry that new shrimp farms may be built nearby.",
+  "c": [
+   "slowly build up",
+   "carefully protect",
+   "gradually destroy",
+   "quickly cover"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: slowly build up แปลว่าค่อย ๆ สะสมเพิ่ม ตรงข้ามกับ wear away",
+   "ผิด: carefully protect แปลว่าปกป้อง ขัดกับการที่ชายฝั่งถูกคลื่นกัดเซาะ",
+   "✓ ถูก: wear away แปลว่าค่อย ๆ สึกกร่อนหรือถูกทำลายไปทีละน้อย",
+   "ผิด: quickly cover แปลว่าปกคลุมอย่างรวดเร็ว ไม่ใช่ความหมายของ wear away"
+  ],
+  "tip": "wear away = erode = ค่อย ๆ สึกกร่อน; wear out = ใช้จนเสื่อมสภาพ"
+ },
+ {
+  "id": "m07-eng-049",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "All of the following are mentioned as part of the replanting effort <b>EXCEPT</b>",
+  "ps": "The coastal village of Ban Khlong Yai lost nearly half of its mangrove forest to shrimp farms in the 1990s. Without the trees, waves began to wear away the shoreline, and fishermen noticed that the number of crabs and fish was falling. In 2010, the villagers started replanting seedlings with help from a university. Planting was only the first step. They learned that seedlings planted too far from the shore died quickly, so they now plant in carefully chosen areas and check them every month. Today, the forest has grown back to about two-thirds of its former size. Fishermen report larger catches, and tourists pay to take boat tours through the trees. Some villagers, however, still worry that new shrimp farms may be built nearby.",
+  "c": [
+   "getting help from a university",
+   "planting in carefully chosen areas",
+   "building a wall along the shoreline",
+   "checking the seedlings every month"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความกล่าวว่าปลูกป่าโดยได้รับความช่วยเหลือจากมหาวิทยาลัย",
+   "ผิด: บทความกล่าวว่าปัจจุบันปลูกในพื้นที่ที่เลือกอย่างระมัดระวัง",
+   "✓ ถูก: บทความไม่ได้กล่าวถึงการสร้างกำแพงริมชายฝั่ง",
+   "ผิด: บทความกล่าวว่าตรวจกล้าไม้ทุกเดือน"
+  ],
+  "tip": "ข้อ EXCEPT คือข้อที่บทความไม่ได้เอ่ยถึง ให้ไล่ตรวจแต่ละตัวเลือกกับบทความ"
+ },
+ {
+  "id": "m07-eng-050",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which statement would the villagers most likely agree with?",
+  "ps": "The coastal village of Ban Khlong Yai lost nearly half of its mangrove forest to shrimp farms in the 1990s. Without the trees, waves began to wear away the shoreline, and fishermen noticed that the number of crabs and fish was falling. In 2010, the villagers started replanting seedlings with help from a university. Planting was only the first step. They learned that seedlings planted too far from the shore died quickly, so they now plant in carefully chosen areas and check them every month. Today, the forest has grown back to about two-thirds of its former size. Fishermen report larger catches, and tourists pay to take boat tours through the trees. Some villagers, however, still worry that new shrimp farms may be built nearby.",
+  "c": [
+   "Mangrove forests bring no benefit to local people.",
+   "The forest has already returned to its original size.",
+   "Planting seedlings without planning where to put them is not enough.",
+   "Shrimp farms will never be built near the village again."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ขัดกับบทความที่บอกว่าชาวประมงจับสัตว์น้ำได้มากขึ้นและมีนักท่องเที่ยว",
+   "ผิด: บทความบอกว่าป่าฟื้นเพียงประมาณสองในสามของขนาดเดิม",
+   "✓ ถูก: ชาวบ้านเรียนรู้ว่ากล้าไม้ที่ปลูกไกลฝั่งเกินไปตายเร็ว จึงต้องเลือกพื้นที่และตรวจสอบ",
+   "ผิด: บทความบอกว่าบางคนยังกังวลว่าฟาร์มกุ้งใหม่อาจถูกสร้างอีก"
+  ],
+  "tip": "ถามว่าใครน่าจะเห็นด้วยกับอะไร ให้ย้อนดูบทเรียนที่บทความเล่าไว้"
+ }
+]
