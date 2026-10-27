@@ -1,0 +1,1016 @@
+[
+ {
+  "id": "m10-eng-001",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Nid looks exhausted. She ____ on the lab report since eight o'clock this morning.",
+  "c": [
+   "is working",
+   "has been working",
+   "worked",
+   "will have worked"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: is working (present continuous) ไม่ใช้ร่วมกับ since",
+   "✓ ถูก: since + จุดเริ่มต้นในอดีต และเหตุการณ์ยังส่งผลถึงปัจจุบัน (looks exhausted) ใช้ present perfect continuous",
+   "ผิด: worked (past simple) บอกเหตุการณ์ที่จบแล้ว ไม่ต่อเนื่องมาถึงปัจจุบัน",
+   "ผิด: will have worked เป็น future perfect ขัดกับเหตุการณ์ที่เกิดขึ้นแล้วถึงปัจจุบัน"
+  ],
+  "tip": "since + จุดเวลาในอดีต → present perfect (continuous): has/have (been) + V-ing/V3"
+ },
+ {
+  "id": "m10-eng-002",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the word order of a <b>phrasal verb</b>?",
+  "c": [
+   "She picked up the keys from the table.",
+   "She picked the keys up from the table.",
+   "She picked up them from the table.",
+   "The nurses looked after the children."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: pick up + นาม ถูกต้อง",
+   "ผิด: pick + นาม + up ถูกต้องสำหรับ phrasal verb แบบแยกได้",
+   "✓ ถูก: phrasal verb แบบแยกได้ (pick up) ถ้ากรรมเป็นสรรพนามต้องวางสรรพนามคั่นกลาง เป็น picked them up",
+   "ผิด: look after + นาม ถูกต้อง เป็น phrasal verb ที่แยกไม่ได้"
+  ],
+  "tip": "phrasal verb แบบแยกได้: กรรมเป็นนามวางก่อนหรือหลัง up ก็ได้ แต่กรรมเป็นสรรพนามต้องคั่นกลาง (turn it down, pick them up)"
+ },
+ {
+  "id": "m10-eng-003",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences use modal verbs of obligation correctly?<br>1) You don't have to wear a tie to the seminar.<br>2) You don't have to talk during the exam; it is strictly forbidden.<br>3) Visitors must not feed the animals on the school farm.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 ผิดเพราะการห้ามอย่างเด็ดขาดต้องใช้ must not ไม่ใช่ don't have to และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: don't have to = ไม่จำเป็นต้อง และ must not = ห้าม ข้อความ 1 และ 3 ใช้ถูกความหมาย",
+   "ผิด: ข้อความ 2 ผิดเพราะ don't have to แปลว่าไม่จำเป็น ไม่ได้แปลว่าห้าม และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่ใช้ don't have to ผิดความหมายไว้ด้วย"
+  ],
+  "tip": "must not / mustn't = ห้าม; don't have to / needn't = ไม่จำเป็นต้อง (ไม่ได้ห้าม)"
+ },
+ {
+  "id": "m10-eng-004",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>Never before ____ such a polite group of students.",
+  "c": [
+   "I have met",
+   "did I met",
+   "I met",
+   "have I met"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: I have met ไม่กลับโครงสร้างหลัง Never before",
+   "ผิด: did I met ใช้ met (V2) หลัง did ไม่ได้ ต้องใช้ V1",
+   "ผิด: I met ไม่กลับโครงสร้างหลัง Never before",
+   "✓ ถูก: Never before ขึ้นต้นประโยคต้องกลับโครงสร้างให้กริยาช่วยมาก่อนประธาน และ present perfect ใช้บอกประสบการณ์ถึงปัจจุบัน"
+  ],
+  "tip": "Never/Rarely/Seldom/Hardly/Little + กริยาช่วย + ประธาน (Never before have I ...)"
+ },
+ {
+  "id": "m10-eng-005",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which part of the sentence contains an error in the <b>verb form</b>?<br>After <b>finishing</b> the written test, the candidates <b>were allowed</b> <b>leaving</b> the room <b>quietly</b>.",
+  "c": [
+   "finishing",
+   "were allowed",
+   "leaving",
+   "quietly"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: After + V-ing ถูกต้อง",
+   "ผิด: were allowed เป็น passive ที่ถูกต้อง",
+   "✓ ถูก: allow (passive) ตามด้วย to-infinitive ต้องเป็น were allowed to leave",
+   "ผิด: quietly เป็นกริยาวิเศษณ์ที่ขยายการออกจากห้อง ถูกต้อง"
+  ],
+  "tip": "allow/permit/enable/encourage + กรรม + to V (passive: be allowed to V)"
+ },
+ {
+  "id": "m10-eng-006",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>Her handwriting is the same ____ her mother's.",
+  "c": [
+   "as",
+   "like",
+   "than",
+   "to"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: the same as = เหมือนกับ",
+   "ผิด: the same like ไม่ใช่โครงสร้างมาตรฐาน (like ใช้ในรูป look like, similar to)",
+   "ผิด: than ใช้กับ comparative",
+   "ผิด: the same to ไม่ใช่โครงสร้างที่ถูกต้อง"
+  ],
+  "tip": "the same as / as ... as = เท่ากัน; different from; similar to; than ใช้กับ comparative"
+ },
+ {
+  "id": "m10-eng-007",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of a <b>relative pronoun</b>?",
+  "c": [
+   "The book that I lent you is overdue.",
+   "The woman whose son won the prize at the science fair is my neighbour.",
+   "The village where I grew up is now a town.",
+   "The students who they won the contest received medals."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: that I lent you ถูกต้อง (relative pronoun เป็นกรรม)",
+   "ผิด: whose son แสดงความเป็นเจ้าของ ถูกต้อง",
+   "ผิด: where I grew up ใช้ where กับสถานที่ ถูกต้อง",
+   "✓ ถูก: who เป็นประธานของประโยคขยายอยู่แล้ว จึงใส่ they ซ้ำไม่ได้"
+  ],
+  "tip": "relative pronoun แทนนามในประโยคขยายอยู่แล้ว ห้ามมีสรรพนามซ้ำ (who they ✗)"
+ },
+ {
+  "id": "m10-eng-008",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The hall is not big ____ to hold all six hundred students.",
+  "c": [
+   "much",
+   "enough",
+   "so",
+   "very"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: much ไม่ใช้ในโครงสร้างนี้",
+   "✓ ถูก: adjective + enough + to V (big enough to hold)",
+   "ผิด: so + adj + that ไม่ตามด้วย to V แบบนี้",
+   "ผิด: very ไม่ใช้กับ to V ในโครงสร้างนี้"
+  ],
+  "tip": "adj + enough + to V (good enough to join); too + adj + to V = มากเกินกว่าจะ"
+ },
+ {
+  "id": "m10-eng-009",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which question is grammatically correct?",
+  "c": [
+   "How long you have been teaching at this school?",
+   "How long have you teach at this school?",
+   "How long have you been teaching at this school?",
+   "How long are you teaching at this school since?"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: How long you have ... ไม่กลับลำดับกริยาช่วยกับประธาน",
+   "ผิด: have you teach ใช้ teach (V1) หลัง have ไม่ได้ ต้องเป็น been teaching",
+   "✓ ถูก: คำถาม How long ใช้ลำดับ have + ประธาน + been + V-ing เพื่อถามช่วงเวลาถึงปัจจุบัน",
+   "ผิด: are you teaching ... since ไม่ถูกกาล และ since ต้องมีจุดเวลาตามหลัง"
+  ],
+  "tip": "คำถาม Wh- ต้องกลับกริยาช่วยมาก่อนประธาน; how long + present perfect (continuous) ถามช่วงเวลาถึงปัจจุบัน"
+ },
+ {
+  "id": "m10-eng-010",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of an <b>adjective or adverb</b>?",
+  "c": [
+   "The students listened careful to the instructions.",
+   "She speaks English very fluently.",
+   "He drives too fast on this road.",
+   "It was an extremely difficult question."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: listened ต้องขยายด้วยกริยาวิเศษณ์ carefully ไม่ใช่คุณศัพท์ careful",
+   "ผิด: fluently ขยายกริยา speaks ถูกต้อง",
+   "ผิด: fast ใช้เป็นกริยาวิเศษณ์ได้ ถูกต้อง",
+   "ผิด: extremely (adv.) ขยายคุณศัพท์ difficult ถูกต้อง"
+  ],
+  "tip": "ขยายกริยา → adverb (carefully); ขยายนาม → adjective; fast และ hard ใช้รูปเดียวกันได้ทั้ง adjective/adverb"
+ },
+ {
+  "id": "m10-eng-011",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Somchai ____ the message. His phone was switched off all day.",
+  "c": [
+   "can't have received",
+   "must have received",
+   "needn't have received",
+   "should receive"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: can't have + V3 ใช้อนุมานว่าเป็นไปไม่ได้ที่เหตุการณ์ในอดีตจะเกิดขึ้น เพราะโทรศัพท์ปิดทั้งวัน",
+   "ผิด: must have received อนุมานว่าน่าจะได้รับแล้ว ซึ่งตรงข้ามกับหลักฐาน",
+   "ผิด: needn't have received ไม่ใช่รูปที่ใช้อนุมาน",
+   "ผิด: should receive ไม่ใช่รูปอดีต"
+  ],
+  "tip": "อนุมานอดีต: must have V3 (น่าจะแน่นอน) / can't have V3 (เป็นไปไม่ได้) / may have V3 (อาจจะ)"
+ },
+ {
+  "id": "m10-eng-012",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The principal ____ the staff that the meeting had been cancelled.",
+  "c": [
+   "said",
+   "announced",
+   "informed",
+   "explained"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: say ไม่ตามด้วยบุคคลโดยตรง ต้องเป็น said to the staff",
+   "ผิด: announce ต้องใช้ announce to + บุคคล",
+   "✓ ถูก: inform + บุคคล + that-clause (แจ้งให้ผู้อื่นทราบ) เป็นกริยาที่ต้องมีกรรมที่เป็นบุคคลตามหลังโดยตรง",
+   "ผิด: explain ต้องใช้ explain to + บุคคล"
+  ],
+  "tip": "ตามด้วยบุคคลโดยตรง: tell, inform, remind, notify, assure; ต้องมี to ก่อนบุคคล: say, announce, explain, suggest"
+ },
+ {
+  "id": "m10-eng-013",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The company refused ____ the contract because the terms were unclear.",
+  "c": [
+   "to sign",
+   "signing",
+   "sign",
+   "for signing"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: refuse + to V",
+   "ผิด: refuse ไม่ตามด้วย V-ing",
+   "ผิด: refuse ตามด้วย to-infinitive ไม่ใช่กริยาช่องที่ 1 เปล่า ๆ",
+   "ผิด: for signing ไม่ใช้ตามหลัง refuse"
+  ],
+  "tip": "refuse, decide, plan, promise, manage + to V; avoid, enjoy, finish, suggest + V-ing"
+ },
+ {
+  "id": "m10-eng-014",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>She spoke slowly ____ everyone could understand.",
+  "c": [
+   "in order",
+   "because of",
+   "in spite",
+   "so that"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: in order ต้องตามด้วย to V (in order to) หรือใช้ในรูป in order that",
+   "ผิด: because of ต้องตามด้วยนามและแสดงเหตุผล ไม่ใช่จุดประสงค์",
+   "ผิด: in spite ต้องมี of และแสดงความขัดแย้ง",
+   "✓ ถูก: so that + ประโยค แสดงจุดประสงค์"
+  ],
+  "tip": "so that + ประโยค = เพื่อที่จะ; in order to / so as to + V1"
+ },
+ {
+  "id": "m10-eng-015",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>Everything ____ she said at the meeting was true.",
+  "c": [
+   "that",
+   "what",
+   "whom",
+   "whose"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: หลัง everything / all / nothing / something ใช้ that เป็น relative pronoun",
+   "ผิด: what ไม่ใช้ตามหลังนามที่ถูกขยาย (everything what ✗)",
+   "ผิด: whom ใช้แทนคน",
+   "ผิด: whose แสดงความเป็นเจ้าของ"
+  ],
+  "tip": "everything / all / anything / nothing + that; what = the thing(s) that (ไม่มีนามนำหน้า)"
+ },
+ {
+  "id": "m10-eng-016",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences are grammatically correct?<br>1) She is the only teacher who have a doctorate in physics.<br>2) The students whose project won the prize will visit Japan.<br>3) The report, which I read last night, is very informative.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 1 ผิดเพราะ who ขยาย the only teacher (เอกพจน์) ต้องใช้ has และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "ผิด: ข้อความ 1 ผิดเพราะ who ขยาย the only teacher (เอกพจน์) ต้องใช้ has และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "✓ ถูก: whose project ใช้ถูกต้อง และประโยคขยายที่คั่นด้วยจุลภาคใช้ which ถูกต้อง",
+   "ผิด: รวมข้อความ 1 ที่ใช้ who have ผิดไว้ด้วย"
+  ],
+  "tip": "relative pronoun ที่เป็นประธานต้องให้กริยาสอดคล้องกับนามที่ขยาย (the only teacher who has); whose + นาม แทนความเป็นเจ้าของ"
+ },
+ {
+  "id": "m10-eng-017",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>____ the survey, most students prefer online quizzes to paper tests.",
+  "c": [
+   "According with",
+   "According to",
+   "Accordingly to",
+   "As according to"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: according with ไม่ใช่บุพบทที่ถูกต้อง ต้องใช้ to",
+   "✓ ถูก: according to + แหล่งข้อมูล = ตาม ...",
+   "ผิด: accordingly เป็นกริยาวิเศษณ์ ไม่ตามด้วย to + นามแบบนี้",
+   "ผิด: as according to ซ้ำซ้อนและไม่ใช่รูปมาตรฐาน"
+  ],
+  "tip": "according to + แหล่งข้อมูล (the survey, the report); in accordance with + กฎระเบียบ"
+ },
+ {
+  "id": "m10-eng-018",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>This is the first time I ____ a robot competition.",
+  "c": [
+   "attended",
+   "am attending",
+   "have attended",
+   "had attended"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: attended (past simple) ไม่ใช้หลัง This is the first time",
+   "ผิด: am attending (present continuous) ไม่บอกประสบการณ์สะสมถึงปัจจุบัน",
+   "✓ ถูก: This is the first time + present perfect",
+   "ผิด: had attended (past perfect) ใช้กับ It was the first time ..."
+  ],
+  "tip": "This is the first time + S + have/has V3; It was the first time + S + had V3"
+ },
+ {
+  "id": "m10-eng-019",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word closest in meaning to the word in bold.<br>The school received a <b>substantial</b> donation from its former students.",
+  "c": [
+   "anonymous",
+   "symbolic",
+   "unexpected",
+   "considerable"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: anonymous แปลว่าไม่ระบุชื่อ",
+   "ผิด: symbolic แปลว่าเป็นสัญลักษณ์ ซึ่งมักหมายถึงจำนวนไม่มาก",
+   "ผิด: unexpected แปลว่าไม่คาดคิด ไม่ใช่ความหมายของ substantial",
+   "✓ ถูก: substantial แปลว่าจำนวนมากและมีนัยสำคัญ ตรงกับ considerable"
+  ],
+  "tip": "substantial = considerable = large in amount; ตรงข้ามคือ trivial, negligible (เล็กน้อย)"
+ },
+ {
+  "id": "m10-eng-020",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>The teacher asked the students to <b>hand in</b> their projects by Friday.",
+  "c": [
+   "submit",
+   "revise",
+   "copy",
+   "borrow"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: hand in = ส่ง ตรงกับ submit",
+   "ผิด: revise แปลว่าแก้ไขปรับปรุง",
+   "ผิด: copy แปลว่าคัดลอก",
+   "ผิด: borrow แปลว่ายืม"
+  ],
+  "tip": "hand in = submit; hand out = distribute; hand over = give to another person; hand down = pass to the next generation"
+ },
+ {
+  "id": "m10-eng-021",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which word is <b>NOT</b> close in meaning to the word in bold?<br>The <b>diligent</b> assistant stayed until all the files were sorted.",
+  "c": [
+   "hardworking",
+   "industrious",
+   "conscientious",
+   "lazy"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: hardworking แปลว่าขยัน ใกล้เคียง diligent",
+   "ผิด: industrious แปลว่าขยันขันแข็ง ใกล้เคียง diligent",
+   "ผิด: conscientious แปลว่าทำงานอย่างรอบคอบและรับผิดชอบ ใกล้เคียง diligent",
+   "✓ ถูก: lazy แปลว่าขี้เกียจ ตรงข้ามกับ diligent"
+  ],
+  "tip": "diligent = hardworking = industrious; ตรงข้ามคือ lazy, idle"
+ },
+ {
+  "id": "m10-eng-022",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which sentence uses <b>adapt</b> or <b>adopt</b> correctly?",
+  "c": [
+   "The school decided to adapt a new grading policy next year after a long meeting.",
+   "Many species cannot adopt to the rapid change in climate.",
+   "Teachers need to adapt their lessons to suit different learners.",
+   "The family wants to adapt a stray puppy from the shelter."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: การนำนโยบายใหม่มาใช้ต้องใช้ adopt ไม่ใช่ adapt",
+   "ผิด: การปรับตัวให้เข้ากับสภาพแวดล้อมต้องใช้ adapt to ไม่ใช่ adopt to",
+   "✓ ถูก: adapt = ปรับให้เหมาะกับ จึงใช้ adapt lessons to suit ...",
+   "ผิด: การรับสุนัขมาเลี้ยงต้องใช้ adopt ไม่ใช่ adapt"
+  ],
+  "tip": "adapt = ปรับตัว/ปรับให้เหมาะ (adapt to); adopt = รับมาใช้/รับเลี้ยง (adopt a policy, adopt a child)"
+ },
+ {
+  "id": "m10-eng-023",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which verbs can correctly complete the sentence?<br>The company decided to ____ a new branch in Rayong.<br>1) open<br>2) set up<br>3) make",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: open a branch และ set up a branch เป็น collocation ที่ถูกต้อง",
+   "ผิด: make a branch ไม่เป็นธรรมชาติ และชุดนี้ตัด set up ที่ถูกออก",
+   "ผิด: make a branch ไม่เป็นธรรมชาติ และชุดนี้ตัด open ที่ถูกออก",
+   "ผิด: รวม make ที่ใช้กับ branch ไม่ได้ไว้ด้วย"
+  ],
+  "tip": "open / set up / establish + branch, office, school; make ใช้กับ decision, mistake, progress"
+ },
+ {
+  "id": "m10-eng-024",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Ms. Siri never gives up, even when a project faces many obstacles. Which adjective describes her best?",
+  "c": [
+   "hesitant",
+   "indifferent",
+   "persistent",
+   "vague"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: hesitant แปลว่าลังเล",
+   "ผิด: indifferent แปลว่าเฉยเมย ไม่ใส่ใจ",
+   "✓ ถูก: persistent แปลว่ามุ่งมั่นไม่ยอมแพ้ ตรงกับพฤติกรรมที่บรรยาย",
+   "ผิด: vague แปลว่าคลุมเครือ ใช้กับข้อมูลหรือคำพูด ไม่ใช้บรรยายความมุ่งมั่น"
+  ],
+  "tip": "persistent = determined ไม่ยอมแพ้; hesitant = ลังเล; indifferent = เฉยเมย"
+ },
+ {
+  "id": "m10-eng-025",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>The teacher had to <b>go over</b> the lesson again because many students were confused.",
+  "c": [
+   "review",
+   "skip",
+   "cancel",
+   "grade"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: go over = ทบทวน อธิบายซ้ำ ตรงกับ review",
+   "ผิด: skip แปลว่าข้าม ขัดกับการอธิบายซ้ำ",
+   "ผิด: cancel แปลว่ายกเลิก",
+   "ผิด: grade แปลว่าให้คะแนน"
+  ],
+  "tip": "go over = review; go on = continue; go through = examine / experience"
+ },
+ {
+  "id": "m10-eng-026",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which verb can <b>NOT</b> be used naturally with the noun “attention”?",
+  "c": [
+   "pay",
+   "draw",
+   "attract",
+   "make"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: pay attention เป็น collocation ที่ถูกต้อง",
+   "ผิด: draw attention เป็น collocation ที่ถูกต้อง",
+   "ผิด: attract attention เป็น collocation ที่ถูกต้อง",
+   "✓ ถูก: ไม่ใช้ make attention ใช้ pay / draw / attract attention"
+  ],
+  "tip": "attention: pay / draw / attract / catch / get; ไม่ใช้ make attention"
+ },
+ {
+  "id": "m10-eng-027",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>The mayor's promise was too ____ to be believed: it did not say what would be done or when.",
+  "c": [
+   "specific",
+   "vague",
+   "honest",
+   "humble"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: specific แปลว่าชัดเจนเฉพาะเจาะจง ตรงข้ามกับเนื้อหาของประโยค",
+   "✓ ถูก: vague แปลว่าคลุมเครือ ไม่ชัดเจน ตรงกับที่ไม่ได้บอกว่าจะทำอะไรและเมื่อไร",
+   "ผิด: honest แปลว่าซื่อสัตย์ ไม่อธิบายว่าทำไมจึงเชื่อไม่ได้",
+   "ผิด: humble แปลว่าถ่อมตน ไม่เข้ากับบริบท"
+  ],
+  "tip": "vague = ไม่ชัดเจน คลุมเครือ; specific / precise = ชัดเจน เฉพาะเจาะจง"
+ },
+ {
+  "id": "m10-eng-028",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>Planting trees along the river can help ____ the effects of flooding.",
+  "c": [
+   "aggravate",
+   "celebrate",
+   "mitigate",
+   "postpone"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: aggravate แปลว่าทำให้แย่ลง ตรงข้ามกับ mitigate",
+   "ผิด: celebrate แปลว่าฉลอง ไม่เหมาะกับ effects of flooding",
+   "✓ ถูก: mitigate = บรรเทา ลดความรุนแรง",
+   "ผิด: postpone แปลว่าเลื่อน ใช้กับเหตุการณ์ที่มีกำหนด"
+  ],
+  "tip": "mitigate = alleviate = reduce the severity; aggravate = worsen"
+ },
+ {
+  "id": "m10-eng-029",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Customer: Excuse me, do you have this shirt in a larger size?<br>Shop assistant: ____",
+  "c": [
+   "No, thank you. I don't need anything else from the shop today.",
+   "Let me check for you. Just a moment, please.",
+   "You're welcome. I wear a medium size.",
+   "Yes, you may. Please sit down."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: No, thank you ใช้ปฏิเสธข้อเสนอ ไม่ใช่ตอบคำถามของลูกค้า",
+   "✓ ถูก: ตอบคำถามเรื่องไซส์ด้วยการอาสาตรวจสอบให้อย่างสุภาพ",
+   "ผิด: You're welcome ใช้ตอบคำขอบคุณ และไม่ตอบคำถามเรื่องไซส์",
+   "ผิด: Yes, you may ใช้ตอบคำขออนุญาต ไม่ใช่ตอบคำถามเรื่องไซส์"
+  ],
+  "tip": "พนักงานขายรับคำถาม: Let me check for you. / I'll see if we have one. / I'm afraid we're out of stock."
+ },
+ {
+  "id": "m10-eng-030",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> an appropriate way to disagree politely in a meeting?",
+  "c": [
+   "That is the silliest idea I have ever heard.",
+   "I see your point, but I see it differently.",
+   "I'm afraid I don't quite agree.",
+   "That's interesting, but have you considered another option?"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: เป็นการดูหมิ่นความคิดของผู้อื่น ไม่สุภาพ",
+   "ผิด: I see your point, but ... เป็นการแย้งอย่างสุภาพ",
+   "ผิด: I'm afraid I don't quite agree เป็นการแย้งอย่างสุภาพ",
+   "ผิด: That's interesting, but have you considered ...? เป็นการแย้งอย่างสุภาพ"
+  ],
+  "tip": "แย้งอย่างสุภาพ: I see your point, but ... / I'm afraid I don't quite agree. / Have you considered ...?"
+ },
+ {
+  "id": "m10-eng-031",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Read the conversation.<br>A: Have you finished marking the exam papers yet?<br>B: Not at all. I'm up to my ears in work this week.<br>What does B mean?",
+  "c": [
+   "B has already finished the papers.",
+   "B is having trouble with his hearing.",
+   "B is extremely busy.",
+   "B is waiting for the papers to arrive."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: Not at all แปลว่ายังไม่เสร็จเลย",
+   "ผิด: สำนวนนี้ไม่ได้พูดถึงการได้ยิน",
+   "✓ ถูก: up to one's ears in work เป็นสำนวน แปลว่างานล้นมือ ยุ่งมาก",
+   "ผิด: B บอกว่ามีงานล้นมือ ไม่ได้บอกว่ารอรับกระดาษข้อสอบ"
+  ],
+  "tip": "up to my ears in work = ยุ่งมาก; swamped / snowed under = งานท่วม"
+ },
+ {
+  "id": "m10-eng-032",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following can be used to express surprise?<br>1) Really? I had no idea!<br>2) You must be joking!<br>3) That's a surprise!",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ข้อความ 3 (That's a surprise!) ก็ใช้แสดงความประหลาดใจได้เช่นกัน จึงตัดทิ้งไม่ได้",
+   "ผิด: ข้อความ 2 (You must be joking!) ก็ใช้แสดงความประหลาดใจได้เช่นกัน จึงตัดทิ้งไม่ได้",
+   "ผิด: ข้อความ 1 (Really? I had no idea!) ก็ใช้แสดงความประหลาดใจได้เช่นกัน จึงตัดทิ้งไม่ได้",
+   "✓ ถูก: Really? / You must be joking! / That's a surprise! ล้วนใช้แสดงความประหลาดใจ"
+  ],
+  "tip": "แสดงความประหลาดใจ: Really? / You're kidding! / You must be joking! / I can't believe it! / That's a surprise!"
+ },
+ {
+  "id": "m10-eng-033",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Teacher: Would you mind leading the science fair project this year?<br>You (already busy with another project): ____",
+  "c": [
+   "Yes, of course. I'm too busy to do it, but I will try to find the time.",
+   "No. Ask someone else.",
+   "Never mind. It's not my problem.",
+   "I'd love to, but I'm afraid I'm already committed to another project."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: Yes, of course เป็นการตอบรับ ซึ่งขัดกับประโยคที่ตามมาว่า too busy",
+   "ผิด: ปฏิเสธห้วน ๆ ไม่สุภาพ",
+   "ผิด: Never mind ใช้ปลอบเมื่อมีคนขอโทษ และประโยคหลังไม่สุภาพ",
+   "✓ ถูก: ปฏิเสธอย่างสุภาพโดยบอกความรู้สึกและเหตุผล"
+  ],
+  "tip": "ปฏิเสธคำขออย่างสุภาพ: I'd love to, but ... / I'm afraid I can't because ..."
+ },
+ {
+  "id": "m10-eng-034",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "You want to ask a colleague to swap duty days with you next Friday. What would you say?",
+  "c": [
+   "You must swap duty days with me next Friday because I have more work than you.",
+   "Would it be possible for you to swap duty days with me next Friday?",
+   "Why do you never swap duty days with anyone?",
+   "Do you swap Friday next with me?"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: must เป็นการบังคับ ไม่สุภาพ",
+   "✓ ถูก: ขอร้องอย่างสุภาพด้วย Would it be possible for you to ...?",
+   "ผิด: เป็นการต่อว่า ไม่ใช่การขอร้อง",
+   "ผิด: ลำดับคำและความหมายไม่เป็นธรรมชาติ"
+  ],
+  "tip": "ขอร้องอย่างสุภาพ: Would it be possible for you to ...? / Could you possibly ...? / Would you mind + V-ing?"
+ },
+ {
+  "id": "m10-eng-035",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "Read the conversation.<br>A: Do you think all teachers should learn to code?<br>B: It would help, but I wouldn't say it is necessary for everyone.<br>Which statement describes B's opinion?",
+  "c": [
+   "All teachers must learn to code.",
+   "No teacher should ever learn to code, because it is too difficult for them.",
+   "Coding could be useful for teachers, but not everyone needs it.",
+   "Only computer teachers are allowed to learn to code."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: must เด็ดขาดเกินไป เพราะ B บอกว่าไม่จำเป็นสำหรับทุกคน",
+   "ผิด: no ... ever เด็ดขาดเกินไป เพราะ B บอกว่ามีประโยชน์",
+   "✓ ถูก: B เห็นว่ามีประโยชน์ (It would help) แต่ไม่จำเป็นสำหรับทุกคน",
+   "ผิด: only ... allowed ไม่มีในบทสนทนา"
+  ],
+  "tip": "ตัวเลือกที่มี all / must / no ... ever / only มักเด็ดขาดเกินกว่าความเห็นแบบมีเงื่อนไข (would help but not necessary)"
+ },
+ {
+  "id": "m10-eng-036",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> a suitable way to start a conversation with someone you have just met at a seminar?",
+  "c": [
+   "How much money do you earn each month?",
+   "Hello. I don't think we have met. I'm Anan.",
+   "Are you enjoying the seminar so far?",
+   "What subject do you teach?"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: การถามรายได้กับคนที่เพิ่งพบเป็นเรื่องส่วนตัวและไม่สุภาพ",
+   "ผิด: แนะนำตัวเป็นการเริ่มสนทนาที่สุภาพ",
+   "ผิด: ถามความรู้สึกต่อการสัมมนาเป็นการเริ่มสนทนาที่เหมาะสม",
+   "ผิด: ถามวิชาที่สอนเป็นการเริ่มสนทนาที่เหมาะสมในงานของครู"
+  ],
+  "tip": "เริ่มสนทนากับคนที่เพิ่งพบ: แนะนำตัว ถามเรื่องงานสัมมนา หรือวิชาที่สอน หลีกเลี่ยงเรื่องรายได้และเรื่องส่วนตัว"
+ },
+ {
+  "id": "m10-eng-037",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which title would best suit the passage?",
+  "ps": "At a primary school in the northeast, many pupils used to arrive without having eaten breakfast. Teachers noticed that these children often felt sleepy by ten o'clock and found it hard to concentrate. Two years ago the school began serving a simple breakfast of rice porridge, an egg and fruit before the first lesson. Local farmers donate the eggs and vegetables, and parents take turns to cook. Since then, the number of late arrivals has fallen, and teachers say that pupils take part more actively in morning lessons. The school has not yet studied whether test scores have improved, so the principal says it is too early to claim that breakfast alone raises grades. She adds that the programme also teaches children to eat together and to wash their hands before meals.",
+  "c": [
+   "Why Farmers Should Stop Donating Food",
+   "Test Scores Rise Sharply After Breakfast",
+   "How to Cook Rice Porridge for Children",
+   "A School Breakfast Programme and Its Early Results"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความไม่ได้เสนอให้เกษตรกรเลิกบริจาค",
+   "ผิด: บทความบอกว่ายังไม่ได้ศึกษาผลต่อคะแนนสอบ",
+   "ผิด: การทำข้าวต้มเป็นรายละเอียดเล็กน้อย ไม่ใช่เรื่องหลัก",
+   "✓ ถูก: บทความเล่าโครงการอาหารเช้าของโรงเรียนและผลที่เห็นในระยะแรก"
+  ],
+  "tip": "ชื่อเรื่องที่ดีต้องครอบคลุมใจความหลักและไม่ระบุเกินกว่าบทความ"
+ },
+ {
+  "id": "m10-eng-038",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following can <b>NOT</b> be concluded from the passage?",
+  "ps": "At a primary school in the northeast, many pupils used to arrive without having eaten breakfast. Teachers noticed that these children often felt sleepy by ten o'clock and found it hard to concentrate. Two years ago the school began serving a simple breakfast of rice porridge, an egg and fruit before the first lesson. Local farmers donate the eggs and vegetables, and parents take turns to cook. Since then, the number of late arrivals has fallen, and teachers say that pupils take part more actively in morning lessons. The school has not yet studied whether test scores have improved, so the principal says it is too early to claim that breakfast alone raises grades. She adds that the programme also teaches children to eat together and to wash their hands before meals.",
+  "c": [
+   "The breakfast has raised the pupils' test scores.",
+   "Some pupils used to come to school without breakfast.",
+   "Parents help to prepare the meals.",
+   "Fewer pupils arrive late than before."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความบอกว่ายังไม่ได้ศึกษาว่าคะแนนสอบดีขึ้นหรือไม่ จึงสรุปไม่ได้",
+   "ผิด: บทความระบุว่าเด็กจำนวนมากเคยมาโดยไม่ได้กินอาหารเช้า",
+   "ผิด: บทความระบุว่าผู้ปกครองผลัดกันทำอาหาร",
+   "ผิด: บทความระบุว่าจำนวนผู้มาสายลดลง"
+  ],
+  "tip": "ข้อที่สรุปไม่ได้คือข้อที่เกินหลักฐานในบทความ เช่น ผลต่อคะแนนที่ยังไม่ได้ศึกษา"
+ },
+ {
+  "id": "m10-eng-039",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>concentrate</b> in the second sentence is closest in meaning to",
+  "ps": "At a primary school in the northeast, many pupils used to arrive without having eaten breakfast. Teachers noticed that these children often felt sleepy by ten o'clock and found it hard to concentrate. Two years ago the school began serving a simple breakfast of rice porridge, an egg and fruit before the first lesson. Local farmers donate the eggs and vegetables, and parents take turns to cook. Since then, the number of late arrivals has fallen, and teachers say that pupils take part more actively in morning lessons. The school has not yet studied whether test scores have improved, so the principal says it is too early to claim that breakfast alone raises grades. She adds that the programme also teaches children to eat together and to wash their hands before meals.",
+  "c": [
+   "relax",
+   "speak",
+   "focus",
+   "remember"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: relax แปลว่าผ่อนคลาย",
+   "ผิด: speak แปลว่าพูด",
+   "✓ ถูก: concentrate = มุ่งความสนใจ ตรงกับ focus",
+   "ผิด: remember แปลว่าจำได้ ไม่ใช่การจดจ่อ"
+  ],
+  "tip": "concentrate (on) = focus (on) = จดจ่อ"
+ },
+ {
+  "id": "m10-eng-040",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements are supported by the passage?<br>1) The principal believes that breakfast alone has raised the pupils' grades.<br>2) Local farmers contribute some of the food for the programme.<br>3) The programme also teaches children about good habits at mealtimes.",
+  "ps": "At a primary school in the northeast, many pupils used to arrive without having eaten breakfast. Teachers noticed that these children often felt sleepy by ten o'clock and found it hard to concentrate. Two years ago the school began serving a simple breakfast of rice porridge, an egg and fruit before the first lesson. Local farmers donate the eggs and vegetables, and parents take turns to cook. Since then, the number of late arrivals has fallen, and teachers say that pupils take part more actively in morning lessons. The school has not yet studied whether test scores have improved, so the principal says it is too early to claim that breakfast alone raises grades. She adds that the programme also teaches children to eat together and to wash their hands before meals.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 1 ผิดเพราะครูใหญ่บอกว่ายังเร็วเกินไปที่จะอ้างว่าอาหารเช้าอย่างเดียวทำให้เกรดสูงขึ้น และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "ผิด: ข้อความ 1 ผิดเพราะครูใหญ่บอกว่ายังเร็วเกินไปที่จะอ้างเช่นนั้น และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 2 ตรงกับ farmers donate ... และข้อความ 3 ตรงกับการสอนให้กินด้วยกันและล้างมือ",
+   "ผิด: รวมข้อความ 1 ที่ขัดกับบทความไว้ด้วย"
+  ],
+  "tip": "alone / only / always ในข้อความมักเกินกว่าบทความ ให้ตรวจกับคำพูดของผู้เขียนหรือผู้ให้ข้อมูล"
+ },
+ {
+  "id": "m10-eng-041",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Another school wants to start a similar programme with a small budget. Based on the passage, what could it do?",
+  "ps": "At a primary school in the northeast, many pupils used to arrive without having eaten breakfast. Teachers noticed that these children often felt sleepy by ten o'clock and found it hard to concentrate. Two years ago the school began serving a simple breakfast of rice porridge, an egg and fruit before the first lesson. Local farmers donate the eggs and vegetables, and parents take turns to cook. Since then, the number of late arrivals has fallen, and teachers say that pupils take part more actively in morning lessons. The school has not yet studied whether test scores have improved, so the principal says it is too early to claim that breakfast alone raises grades. She adds that the programme also teaches children to eat together and to wash their hands before meals.",
+  "c": [
+   "Wait until test scores improve before serving any food.",
+   "Ask local farmers and parents to contribute food and help with the cooking.",
+   "Serve breakfast only to the pupils who arrive late or who look sleepy in class.",
+   "Stop teaching hygiene so that there is more time for lessons."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: คะแนนสอบไม่ใช่เงื่อนไขของโครงการ และบทความบอกว่าเด็กที่ไม่ได้กินอาหารเช้าจะง่วงและขาดสมาธิ",
+   "✓ ถูก: บทความระบุว่าเกษตรกรบริจาคอาหารและผู้ปกครองผลัดกันทำอาหาร ซึ่งช่วยลดภาระงบประมาณ",
+   "ผิด: โครงการให้เด็กทุกคนกินร่วมกัน ไม่ใช่เฉพาะเด็กที่มาสาย",
+   "ผิด: บทความบอกว่าโครงการสอนล้างมือและกินร่วมกัน ไม่ได้ให้เลิก"
+  ],
+  "tip": "ข้อประยุกต์ให้ใช้วิธีที่บทความเล่าไว้ (ความร่วมมือของชุมชน) กับสถานการณ์ใหม่"
+ },
+ {
+  "id": "m10-eng-042",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "The writer's attitude toward unplugged activities can best be described as",
+  "ps": "Not every school has enough computers for coding lessons, so some teachers use “unplugged” activities instead. In one popular exercise, pupils write simple instructions on cards and guide a classmate, who plays the part of a robot, across the classroom floor. If the instructions are unclear, the “robot” goes in the wrong direction, and the class must find and correct the error, just as programmers debug a program. Teachers report that these games help pupils understand sequences and loops without touching a keyboard. However, researchers warn that unplugged lessons cannot replace real programming practice. Pupils still need time on computers to learn how code is typed and tested. Most teachers therefore use the activities as an introduction before moving to screens.",
+  "c": [
+   "completely negative",
+   "positive but cautious",
+   "uninterested",
+   "enthusiastic without any reservation"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ผู้เขียนกล่าวถึงข้อดีของกิจกรรม จึงไม่ใช่ทัศนคติเชิงลบทั้งหมด",
+   "✓ ถูก: ผู้เขียนเห็นว่ามีประโยชน์ในการแนะนำแนวคิด แต่เตือนว่าไม่อาจทดแทนการเขียนโปรแกรมจริง",
+   "ผิด: ผู้เขียนอธิบายอย่างละเอียด จึงไม่ใช่ความไม่สนใจ",
+   "ผิด: ผู้เขียนยกคำเตือนของนักวิจัย จึงไม่ใช่ความกระตือรือร้นโดยไม่มีข้อสงวน"
+  ],
+  "tip": "ทัศนคติของผู้เขียน: ดูทั้งข้อดีและคำเตือน ถ้ามีทั้งสองอย่าง = positive but cautious"
+ },
+ {
+  "id": "m10-eng-043",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "All of the following are mentioned as part of the “robot” exercise <b>EXCEPT</b>",
+  "ps": "Not every school has enough computers for coding lessons, so some teachers use “unplugged” activities instead. In one popular exercise, pupils write simple instructions on cards and guide a classmate, who plays the part of a robot, across the classroom floor. If the instructions are unclear, the “robot” goes in the wrong direction, and the class must find and correct the error, just as programmers debug a program. Teachers report that these games help pupils understand sequences and loops without touching a keyboard. However, researchers warn that unplugged lessons cannot replace real programming practice. Pupils still need time on computers to learn how code is typed and tested. Most teachers therefore use the activities as an introduction before moving to screens.",
+  "c": [
+   "pupils writing instructions on cards",
+   "a classmate playing the part of the robot",
+   "the class correcting the mistake when the robot goes the wrong way",
+   "pupils typing their instructions on a keyboard"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความระบุว่าเด็กเขียนคำสั่งลงบนการ์ด",
+   "ผิด: บทความระบุว่าเพื่อนร่วมชั้นแสดงเป็นหุ่นยนต์",
+   "ผิด: บทความระบุว่าทั้งชั้นช่วยหาและแก้ข้อผิดพลาด",
+   "✓ ถูก: บทความบอกว่าเกมเหล่านี้ทำโดยไม่ต้องแตะคีย์บอร์ด (without touching a keyboard)"
+  ],
+  "tip": "ข้อ EXCEPT คือข้อที่บทความไม่ได้กล่าว หรือกล่าวตรงข้าม ให้ไล่ตรวจแต่ละตัวเลือกกับประโยคในบทความ"
+ },
+ {
+  "id": "m10-eng-044",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>debug</b> in the third sentence is closest in meaning to",
+  "ps": "Not every school has enough computers for coding lessons, so some teachers use “unplugged” activities instead. In one popular exercise, pupils write simple instructions on cards and guide a classmate, who plays the part of a robot, across the classroom floor. If the instructions are unclear, the “robot” goes in the wrong direction, and the class must find and correct the error, just as programmers debug a program. Teachers report that these games help pupils understand sequences and loops without touching a keyboard. However, researchers warn that unplugged lessons cannot replace real programming practice. Pupils still need time on computers to learn how code is typed and tested. Most teachers therefore use the activities as an introduction before moving to screens.",
+  "c": [
+   "find and correct errors in",
+   "write for the first time",
+   "delete completely",
+   "copy from another source"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: debug = หาและแก้ข้อผิดพลาดของโปรแกรม ตรงกับที่ชั้นเรียนหาและแก้คำสั่งที่ผิด",
+   "ผิด: write for the first time แปลว่าเขียนขึ้นครั้งแรก",
+   "ผิด: delete completely แปลว่าลบทิ้งทั้งหมด",
+   "ผิด: copy from another source แปลว่าคัดลอกจากแหล่งอื่น"
+  ],
+  "tip": "debug = find and fix errors (bugs) in a program"
+ },
+ {
+  "id": "m10-eng-045",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements can be inferred from the passage?<br>1) Unplugged activities can be used in schools that have few computers.<br>2) Unplugged lessons are enough for pupils to learn every part of programming.<br>3) Many teachers use unplugged activities before moving to computers.",
+  "ps": "Not every school has enough computers for coding lessons, so some teachers use “unplugged” activities instead. In one popular exercise, pupils write simple instructions on cards and guide a classmate, who plays the part of a robot, across the classroom floor. If the instructions are unclear, the “robot” goes in the wrong direction, and the class must find and correct the error, just as programmers debug a program. Teachers report that these games help pupils understand sequences and loops without touching a keyboard. However, researchers warn that unplugged lessons cannot replace real programming practice. Pupils still need time on computers to learn how code is typed and tested. Most teachers therefore use the activities as an introduction before moving to screens.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 ผิดเพราะนักวิจัยเตือนว่า unplugged ทดแทนการฝึกจริงไม่ได้ และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 1 สรุปได้จากประโยคแรก และข้อความ 3 สรุปได้จากประโยคสุดท้ายว่าครูส่วนใหญ่ใช้เป็นบทนำก่อนใช้จอ",
+   "ผิด: ข้อความ 2 ผิดเพราะนักวิจัยเตือนว่า unplugged ทดแทนการฝึกจริงไม่ได้ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่ขัดกับคำเตือนของนักวิจัยไว้ด้วย"
+  ],
+  "tip": "enough / every / all เกินกว่าบทความที่เตือนว่า unplugged ทดแทนการฝึกบนคอมพิวเตอร์ไม่ได้"
+ },
+ {
+  "id": "m10-eng-046",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A teacher has only two computers for a class of forty. What does the passage suggest she could do?",
+  "ps": "Not every school has enough computers for coding lessons, so some teachers use “unplugged” activities instead. In one popular exercise, pupils write simple instructions on cards and guide a classmate, who plays the part of a robot, across the classroom floor. If the instructions are unclear, the “robot” goes in the wrong direction, and the class must find and correct the error, just as programmers debug a program. Teachers report that these games help pupils understand sequences and loops without touching a keyboard. However, researchers warn that unplugged lessons cannot replace real programming practice. Pupils still need time on computers to learn how code is typed and tested. Most teachers therefore use the activities as an introduction before moving to screens.",
+  "c": [
+   "Cancel the coding lessons until the school can afford many more computers.",
+   "Replace all computer practice with unplugged games.",
+   "Let pupils skip learning how to correct errors.",
+   "Start with unplugged games, then give pupils short turns on the computers."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความไม่ได้แนะนำให้ยกเลิกบทเรียน",
+   "ผิด: บทความเตือนว่า unplugged ทดแทนการฝึกบนคอมพิวเตอร์ไม่ได้",
+   "ผิด: บทความบอกว่ากิจกรรมช่วยให้เด็กเรียนรู้การหาและแก้ข้อผิดพลาด",
+   "✓ ถูก: ใช้เกม unplugged แนะนำแนวคิดก่อน แล้วให้ฝึกบนคอมพิวเตอร์ตามที่บทความแนะนำ"
+  ],
+  "tip": "คำแนะนำจากบทความ: ใช้ unplugged เป็นบทนำ แล้วค่อยฝึกกับคอมพิวเตอร์จริง"
+ },
+ {
+  "id": "m10-eng-047",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "What led to the start of the scheme?",
+  "ps": "In a busy district of Bangkok, a group of street food vendors has stopped using foam boxes. Instead, customers pay a small deposit for a stainless steel lunch box, which they return to any participating stall to get their money back. The scheme began after a survey showed that a single stall could use more than 300 foam boxes on a weekday. Vendors say the steel boxes cost more at first, but they save money within a few months because they no longer need to buy disposable ones. Some customers, however, forget to return the boxes, and a few vendors worry that too many may be lost. The organisers hope to solve this problem by adding a mobile app that reminds customers to return their boxes.",
+  "c": [
+   "A law banning all foam boxes in Bangkok",
+   "Complaints from customers about food prices",
+   "A survey showing how many foam boxes one stall used",
+   "A shortage of stainless steel in the market"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความไม่ได้กล่าวถึงกฎหมายห้ามกล่องโฟม",
+   "ผิด: บทความไม่ได้กล่าวถึงเสียงบ่นเรื่องราคาอาหาร",
+   "✓ ถูก: บทความระบุว่าโครงการเริ่มหลังผลสำรวจที่พบว่าร้านเดียวใช้กล่องโฟมจำนวนมาก",
+   "ผิด: บทความไม่ได้กล่าวถึงการขาดแคลนสแตนเลส"
+  ],
+  "tip": "คำถามสาเหตุให้หาประโยคที่มี after / because / began when"
+ },
+ {
+  "id": "m10-eng-048",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "The passage suggests all of the following about the stainless steel boxes <b>EXCEPT</b>",
+  "ps": "In a busy district of Bangkok, a group of street food vendors has stopped using foam boxes. Instead, customers pay a small deposit for a stainless steel lunch box, which they return to any participating stall to get their money back. The scheme began after a survey showed that a single stall could use more than 300 foam boxes on a weekday. Vendors say the steel boxes cost more at first, but they save money within a few months because they no longer need to buy disposable ones. Some customers, however, forget to return the boxes, and a few vendors worry that too many may be lost. The organisers hope to solve this problem by adding a mobile app that reminds customers to return their boxes.",
+  "c": [
+   "They can be returned to any participating stall.",
+   "Customers may keep them without paying anything.",
+   "They cost vendors more at the beginning.",
+   "They help vendors save money over time."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความระบุว่าคืนที่ร้านใดก็ได้ที่ร่วมโครงการ",
+   "✓ ถูก: ลูกค้าต้องจ่ายค่ามัดจำและคืนกล่องเพื่อรับเงินคืน ไม่ได้เก็บไว้ฟรี",
+   "ผิด: บทความระบุว่าตอนแรกกล่องสแตนเลสมีต้นทุนสูงกว่า",
+   "ผิด: บทความระบุว่าประหยัดเงินได้ภายในไม่กี่เดือน"
+  ],
+  "tip": "ข้อ EXCEPT ที่ถาม suggests ให้ตรวจว่าตัวเลือกใดขัดกับสิ่งที่บทความอธิบาย"
+ },
+ {
+  "id": "m10-eng-049",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>disposable</b> in the fourth sentence is closest in meaning to",
+  "ps": "In a busy district of Bangkok, a group of street food vendors has stopped using foam boxes. Instead, customers pay a small deposit for a stainless steel lunch box, which they return to any participating stall to get their money back. The scheme began after a survey showed that a single stall could use more than 300 foam boxes on a weekday. Vendors say the steel boxes cost more at first, but they save money within a few months because they no longer need to buy disposable ones. Some customers, however, forget to return the boxes, and a few vendors worry that too many may be lost. The organisers hope to solve this problem by adding a mobile app that reminds customers to return their boxes.",
+  "c": [
+   "meant to be thrown away after use",
+   "extremely expensive",
+   "easy to carry",
+   "made of metal"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: disposable = ใช้แล้วทิ้ง ตรงกับกล่องโฟมที่ต้องซื้อใหม่อยู่เรื่อย ๆ",
+   "ผิด: ราคาแพงมากขัดกับบริบทที่ว่าการเลิกซื้อกล่องใช้แล้วทิ้งช่วยประหยัดเงิน",
+   "ผิด: พกพาสะดวกไม่ใช่ความหมายของ disposable",
+   "ผิด: ทำจากโลหะไม่ใช่ความหมายของ disposable และกล่องสแตนเลสคือสิ่งที่นำมาแทน"
+  ],
+  "tip": "disposable = ใช้แล้วทิ้ง (single-use); ตรงข้ามคือ reusable"
+ },
+ {
+  "id": "m10-eng-050",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A vendor in the scheme is worried that many boxes are not being returned. Which solution does the passage mention?",
+  "ps": "In a busy district of Bangkok, a group of street food vendors has stopped using foam boxes. Instead, customers pay a small deposit for a stainless steel lunch box, which they return to any participating stall to get their money back. The scheme began after a survey showed that a single stall could use more than 300 foam boxes on a weekday. Vendors say the steel boxes cost more at first, but they save money within a few months because they no longer need to buy disposable ones. Some customers, however, forget to return the boxes, and a few vendors worry that too many may be lost. The organisers hope to solve this problem by adding a mobile app that reminds customers to return their boxes.",
+  "c": [
+   "Raising the deposit to a very high price so that nobody dares to keep a box",
+   "Stopping the use of stainless steel boxes",
+   "Asking customers to buy a new box every time",
+   "Adding a mobile app that reminds customers to return their boxes"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความไม่ได้กล่าวถึงการขึ้นเงินมัดจำ",
+   "ผิด: บทความไม่ได้กล่าวถึงการเลิกใช้กล่องสแตนเลส",
+   "ผิด: การซื้อกล่องใหม่ทุกครั้งขัดกับแนวคิดของโครงการ",
+   "✓ ถูก: ผู้จัดงานหวังแก้ปัญหาด้วยแอปที่เตือนลูกค้าให้คืนกล่อง"
+  ],
+  "tip": "คำถามหาทางแก้ปัญหา ให้หาประโยคที่มี hope to solve / solution ในบทความ"
+ }
+]

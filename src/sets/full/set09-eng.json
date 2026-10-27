@@ -1,0 +1,1016 @@
+[
+ {
+  "id": "m09-eng-001",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>By the end of this semester, Ms. Nok ____ at this school for exactly twenty years.",
+  "c": [
+   "will have been working",
+   "has been working",
+   "will work",
+   "worked"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: by the end of + เวลาในอนาคต ใช้ future perfect (continuous) บอกว่าทำงานต่อเนื่องมาครบ 20 ปี ณ จุดนั้น",
+   "ผิด: has been working เป็น present perfect continuous บอกช่วงเวลาถึงปัจจุบัน ไม่ใช่จุดในอนาคตที่ระบุด้วย by the end of this semester",
+   "ผิด: will work (future simple) ไม่บอกว่าทำงานสะสมมาครบ 20 ปี ณ จุดนั้น",
+   "ผิด: worked (past simple) ขัดกับ by the end of this semester ที่เป็นอนาคต"
+  ],
+  "tip": "by the end of / by + เวลาอนาคต + for + ระยะเวลา → future perfect (continuous): will have (been) + V-ing/V3"
+ },
+ {
+  "id": "m09-eng-002",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of a <b>reflexive pronoun</b>?",
+  "c": [
+   "She cut herself badly while she was slicing the vegetables.",
+   "The children dressed themselves this morning.",
+   "The teacher asked the students to behave them in the library.",
+   "I taught myself to use the new software."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: cut herself ใช้ herself ตรงกับประธาน she ถูกต้อง",
+   "ผิด: dressed themselves ใช้ themselves ตรงกับประธาน the children ถูกต้อง",
+   "✓ ถูก: behave oneself ต้องใช้ reflexive pronoun ให้ตรงกับประธาน (behave themselves) ไม่ใช้ them",
+   "ผิด: taught myself ใช้ myself ตรงกับประธาน I ถูกต้อง"
+  ],
+  "tip": "กรรมที่เป็นคนเดียวกับประธานต้องใช้ -self/-selves (behave yourself, enjoy ourselves); ใช้ me/them/him แทนไม่ได้"
+ },
+ {
+  "id": "m09-eng-003",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences are grammatically correct?<br>1) When I was a child, I would walk to school every day.<br>2) She would own a small farm when she was young.<br>3) We used to have a dog when I was little.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 ผิดเพราะ own เป็นกริยาบอกสภาพ (stative) ใช้ would บอกนิสัยในอดีตไม่ได้ และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: would + กริยาการกระทำ (walk) ใช้บอกนิสัยในอดีตได้ และ used to ใช้ได้ทั้งนิสัยและสภาพในอดีต",
+   "ผิด: ข้อความ 2 ผิดเพราะ would ใช้กับกริยาบอกสภาพอย่าง own ไม่ได้ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่ใช้ would กับกริยาบอกสภาพ own ไว้ด้วย"
+  ],
+  "tip": "นิสัยในอดีต: used to ใช้ได้กับกริยาทุกชนิด; would ใช้ได้เฉพาะกริยาการกระทำ ไม่ใช้กับ have (ครอบครอง), own, be, know"
+ },
+ {
+  "id": "m09-eng-004",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>She fell asleep ____ the lecture on economics.",
+  "c": [
+   "while",
+   "during",
+   "for",
+   "since"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: while ต้องตามด้วยประโยคหรือ V-ing ไม่ใช้นำวลีนาม the lecture โดยตรง",
+   "✓ ถูก: during + นามหรือวลีนามที่เป็นเหตุการณ์ (the lecture) บอกว่าเกิดขึ้นในช่วงนั้น",
+   "ผิด: for ใช้กับช่วงเวลาที่วัดได้ เช่น for two hours ไม่ใช้กับเหตุการณ์ the lecture",
+   "ผิด: since บอกจุดเริ่มต้นของช่วงเวลาและใช้กับกาลที่ต่อเนื่องถึงปัจจุบัน ไม่เข้ากับประโยคนี้"
+  ],
+  "tip": "during + นาม (during the lecture); while + ประโยค (while she was listening); for + ระยะเวลา (for two hours)"
+ },
+ {
+  "id": "m09-eng-005",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains a mistake in the use of a <b>passive or causative</b> structure?",
+  "c": [
+   "The new library is said to have been built in 1995.",
+   "She had her bicycle repaired by a local mechanic.",
+   "The manager is expected to announce the results tomorrow.",
+   "The students were suggested to submit the form by Friday."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: is said to have been + V3 ใช้รายงานเหตุการณ์ในอดีตได้ถูกต้อง",
+   "ผิด: have + กรรม + V3 (causative) ถูกต้อง",
+   "ผิด: be expected to + V ถูกต้อง",
+   "✓ ถูก: suggest ไม่ใช้โครงสร้าง suggest + กรรม + to V จึงทำ passive แบบนี้ไม่ได้ ต้องเป็น It was suggested that the students (should) submit ..."
+  ],
+  "tip": "suggest ใช้ that-clause หรือ V-ing เท่านั้น ไม่ตามด้วย กรรม + to V; ส่วน advise/ask/tell/expect + กรรม + to V ได้"
+ },
+ {
+  "id": "m09-eng-006",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>Reading novels in English ____ students expand their vocabulary.",
+  "c": [
+   "help",
+   "helps",
+   "are helping",
+   "to help"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: help เป็นรูปพหูพจน์ ไม่สอดคล้องกับประธาน gerund ที่เป็นเอกพจน์",
+   "✓ ถูก: gerund (Reading ...) ที่เป็นประธานถือเป็นเอกพจน์ กริยาในปัจจุบันจึงเติม s เป็น helps",
+   "ผิด: are helping เป็นพหูพจน์ ไม่สอดคล้องกับประธานเอกพจน์",
+   "ผิด: to help เป็น infinitive ไม่ใช่กริยาแท้ของประโยค"
+  ],
+  "tip": "V-ing หรือ to-infinitive ที่ทำหน้าที่เป็นประธาน ใช้กริยาเอกพจน์ (Teaching requires patience)"
+ },
+ {
+  "id": "m09-eng-007",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which part of the sentence contains an error in the use of a <b>comparative</b>?<br>The new tablet is <b>much</b> cheaper than the old one, <b>although</b> its battery is <b>more longer</b> and its screen is <b>brighter</b>.",
+  "c": [
+   "much",
+   "although",
+   "more longer",
+   "brighter"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: much ใช้เน้น comparative (much cheaper) ถูกต้อง",
+   "ผิด: although ใช้เชื่อมสองประโยคที่มีความหมายขัดกันได้ถูกต้อง",
+   "✓ ถูก: longer เป็น comparative อยู่แล้ว (คำพยางค์เดียว + er) จึงเติม more ซ้ำไม่ได้",
+   "ผิด: brighter เป็นรูป comparative ของ bright ถูกต้อง"
+  ],
+  "tip": "ห้ามใช้ comparative ซ้อน เช่น more better, more longer; ใช้ much/far/a lot เน้น comparative ได้ (ไม่ใช้ very)"
+ },
+ {
+  "id": "m09-eng-008",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Nong is very shy. She dislikes ____ by teachers in front of the whole class.",
+  "c": [
+   "being criticised",
+   "criticising",
+   "to criticise",
+   "criticised"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: dislike + V-ing และ Nong เป็นผู้ถูกกระทำ จึงใช้ passive gerund (being + V3)",
+   "ผิด: criticising (active) แปลว่าเป็นผู้วิจารณ์ ซึ่งขัดกับ by teachers ที่บอกว่า Nong เป็นผู้ถูกวิจารณ์",
+   "ผิด: to criticise เป็น active infinitive ขัดกับ by teachers ที่บอกว่า Nong เป็นผู้ถูกกระทำ",
+   "ผิด: criticised (V3) เดี่ยว ๆ ใช้ตามหลัง dislike ไม่ได้ ต้องมี being นำหน้า"
+  ],
+  "tip": "verb + V-ing ที่ประธานเป็นผู้ถูกกระทำ → being + V3 (enjoy being praised, dislike being interrupted)"
+ },
+ {
+  "id": "m09-eng-009",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>I clearly remember ____ my wallet on the table last night, but now I cannot find it.",
+  "c": [
+   "to put",
+   "put",
+   "for putting",
+   "putting"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: remember to + V = จำได้ว่าต้องทำ (ยังไม่ได้ทำ) ไม่ตรงกับเหตุการณ์ที่ทำไปแล้ว",
+   "ผิด: put (รูป V1/V2) ใช้ตามหลัง remember โดยตรงไม่ได้",
+   "ผิด: for putting ไม่ใช้ตามหลัง remember",
+   "✓ ถูก: remember + V-ing = จำได้ว่าเคยทำสิ่งนั้นไปแล้ว ตรงกับ last night"
+  ],
+  "tip": "remember/forget/stop/regret + V-ing = เรื่องที่เกิดขึ้นแล้ว; + to V = เรื่องที่ต้องทำ/กำลังจะทำ"
+ },
+ {
+  "id": "m09-eng-010",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of a <b>modal verb</b>?",
+  "c": [
+   "The students can use the library until eight o'clock.",
+   "She may to join us later if she finishes the report.",
+   "All visitors must wear a name tag.",
+   "You should have called before you came."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: can + use ถูกต้อง",
+   "✓ ถูก: modal verb (may) ตามด้วยกริยาช่องที่ 1 ไม่มี to จึงต้องเป็น may join",
+   "ผิด: must + wear ถูกต้อง",
+   "ผิด: should have + V3 ถูกต้อง ใช้บอกว่าสิ่งที่ควรทำแต่ไม่ได้ทำ"
+  ],
+  "tip": "modal (can, may, must, should, will) + V1 ไม่มี to; ยกเว้น ought to, have to, used to"
+ },
+ {
+  "id": "m09-eng-011",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Nok brought three extra pens to the exam, but the school had already provided everything she needed. She ____ them.",
+  "c": [
+   "mustn't have brought",
+   "couldn't have brought",
+   "needn't have brought",
+   "needn't bring"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: mustn't have + V3 ใช้อนุมานว่าน่าจะไม่ได้ทำ แต่ประโยคบอกชัดว่า Nok นำมาแล้ว",
+   "ผิด: couldn't have + V3 แสดงว่าเป็นไปไม่ได้ที่จะทำ ขัดกับข้อเท็จจริงที่นำมาแล้ว",
+   "✓ ถูก: needn't have + V3 = ทำไปแล้วโดยไม่จำเป็น ตรงกับที่โรงเรียนจัดของให้ครบอยู่แล้ว",
+   "ผิด: needn't bring อ้างถึงปัจจุบันหรืออนาคต ไม่ใช่สิ่งที่ทำไปแล้ว"
+  ],
+  "tip": "needn't have + V3 = ทำไปแล้วโดยไม่จำเป็น; didn't need to + V = ไม่จำเป็นต้องทำ (ไม่บอกว่าทำหรือไม่)"
+ },
+ {
+  "id": "m09-eng-012",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The director was not satisfied ____ the way the project was managed.",
+  "c": [
+   "with",
+   "of",
+   "for",
+   "from"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: satisfied with + สิ่งที่พอใจ",
+   "ผิด: satisfied of ไม่ใช่คำบุพบทที่ใช้ตามหลัง satisfied",
+   "ผิด: satisfied for ไม่ใช่คำบุพบทที่ใช้ตามหลัง satisfied",
+   "ผิด: satisfied from ไม่ใช่คำบุพบทที่ใช้ตามหลัง satisfied"
+  ],
+  "tip": "adjective + preposition: satisfied with, interested in, capable of, afraid of, good at, responsible for"
+ },
+ {
+  "id": "m09-eng-013",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>Neither the principal nor the teachers ____ aware of the change in the timetable until yesterday.",
+  "c": [
+   "was",
+   "is",
+   "has been",
+   "were"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: was เป็นเอกพจน์ ไม่สอดคล้องกับ the teachers",
+   "ผิด: is เป็นเอกพจน์และเป็นปัจจุบัน ขัดกับ until yesterday",
+   "ผิด: has been เป็นเอกพจน์ ไม่สอดคล้องกับ the teachers",
+   "✓ ถูก: neither ... nor ให้กริยาสอดคล้องกับประธานที่อยู่ใกล้กริยาที่สุด คือ the teachers (พหูพจน์) และ until yesterday เป็นอดีต จึงใช้ were"
+  ],
+  "tip": "neither/either ... nor / or: กริยาตามประธานตัวที่อยู่ใกล้กริยาที่สุด"
+ },
+ {
+  "id": "m09-eng-014",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The school's ____ to environmental education has attracted attention across the province.",
+  "c": [
+   "committed",
+   "commitment",
+   "commit",
+   "committedly"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: committed เป็นคุณศัพท์หรือ V3 ใช้เป็นนามหลัง The school's ไม่ได้",
+   "✓ ถูก: หลังคำแสดงความเป็นเจ้าของ (The school's) ต้องเป็นนาม commitment to + นาม แปลว่าความมุ่งมั่นต่อ ...",
+   "ผิด: commit เป็นกริยา ใช้เป็นนามไม่ได้",
+   "ผิด: committedly เป็นกริยาวิเศษณ์ ไม่ใช่นาม"
+  ],
+  "tip": "หลัง school's, her, their ต้องเป็นนาม; commitment to + นาม/V-ing"
+ },
+ {
+  "id": "m09-eng-015",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>____ the heavy rain, the sports day went ahead as planned.",
+  "c": [
+   "Although",
+   "However",
+   "Despite",
+   "Because"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: although ต้องตามด้วยประโยค (S + V) ไม่ใช่วลีนามอย่างเดียว",
+   "ผิด: however เป็นกริยาวิเศษณ์เชื่อมประโยค ไม่ใช้นำวลีนามแบบนี้",
+   "✓ ถูก: despite + นาม/วลีนาม (the heavy rain) แสดงความขัดแย้ง",
+   "ผิด: because ต้องตามด้วยประโยค และความหมายเหตุผลไม่เข้ากับ went ahead as planned"
+  ],
+  "tip": "despite/in spite of + นาม/V-ing; although/though/even though + ประโยค"
+ },
+ {
+  "id": "m09-eng-016",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences are grammatically correct?<br>1) Not only did she finish the report, but she also helped her colleagues.<br>2) He is accustomed to working late at night.<br>3) The teacher made the students to stay after class.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ข้อความ 1 กลับโครงสร้างหลัง Not only ถูกต้อง และ be accustomed to + V-ing ถูกต้อง",
+   "ผิด: ข้อความ 3 ผิดเพราะ make + กรรม + V ไม่มี to และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: ข้อความ 3 ผิดเพราะ made the students to stay ไม่ถูกต้อง และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 3 ที่ใช้ made ... to stay ผิดไว้ด้วย"
+  ],
+  "tip": "make/let + กรรม + V (ไม่มี to) แต่ passive ต้องมี to (were made to stay); be accustomed to / used to + V-ing"
+ },
+ {
+  "id": "m09-eng-017",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The course teaches students both how to design websites and ____.",
+  "c": [
+   "how to test them",
+   "testing them",
+   "to test them",
+   "that they should test"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: both ... and ต้องเชื่อมโครงสร้างที่ขนานกัน how to design websites ↔ how to test them",
+   "ผิด: testing them เป็นวลี V-ing ไม่ขนานกับ how to design",
+   "ผิด: to test them ไม่มี how จึงไม่ขนานกับ how to design websites",
+   "ผิด: that they should test เป็นอนุประโยค ไม่ขนานกับ how to design websites"
+  ],
+  "tip": "both A and B / not only A but also B / either A or B → A และ B ต้องมีรูปแบบไวยากรณ์เหมือนกัน"
+ },
+ {
+  "id": "m09-eng-018",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The assignment ought ____ by Friday.",
+  "c": [
+   "to submit",
+   "submitted",
+   "being submitted",
+   "to be submitted"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: to submit (active) ไม่ถูก เพราะ assignment ส่งตัวเองไม่ได้",
+   "ผิด: submitted ตามหลัง ought โดยตรงไม่ได้ ต้องมี to be",
+   "ผิด: being submitted ตามหลัง ought ไม่ได้ เพราะ ought ตามด้วย to-infinitive",
+   "✓ ถูก: ประธาน The assignment เป็นสิ่งที่ถูกส่ง จึงใช้ passive infinitive (to be + V3) หลัง ought"
+  ],
+  "tip": "ought to / have to / be able to + V1; ถ้าประธานเป็นผู้ถูกกระทำให้ใช้ to be + V3"
+ },
+ {
+  "id": "m09-eng-019",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word closest in meaning to the word in bold.<br>The editor was so <b>meticulous</b> that she checked every comma twice.",
+  "c": [
+   "careless",
+   "impatient",
+   "careful",
+   "generous"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: careless แปลว่าสะเพร่า ตรงข้ามกับ meticulous",
+   "ผิด: impatient แปลว่าใจร้อน ไม่เข้ากับการตรวจซ้ำอย่างละเอียด",
+   "✓ ถูก: meticulous แปลว่าพิถีพิถัน ละเอียดรอบคอบ ตรงกับการตรวจทุกจุลภาคสองรอบ",
+   "ผิด: generous แปลว่าใจกว้าง ไม่ใช่ความหมายของ meticulous"
+  ],
+  "tip": "meticulous = careful and exact (พิถีพิถัน) ตรงข้ามกับ careless, sloppy"
+ },
+ {
+  "id": "m09-eng-020",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>The committee promised to <b>look into</b> the complaint about the exam schedule.",
+  "c": [
+   "investigate",
+   "ignore",
+   "publish",
+   "approve"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: look into = ตรวจสอบหาข้อเท็จจริง ตรงกับ investigate",
+   "ผิด: ignore แปลว่าเพิกเฉย ตรงข้ามกับการรับปากว่าจะดำเนินการ",
+   "ผิด: publish แปลว่าเผยแพร่ ไม่ใช่ความหมายของ look into",
+   "ผิด: approve แปลว่าอนุมัติ ไม่ใช่ความหมายของ look into"
+  ],
+  "tip": "look into = investigate; look after = take care of; look up to = admire; look forward to = await eagerly"
+ },
+ {
+  "id": "m09-eng-021",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which word is <b>NOT</b> close in meaning to the word in bold?<br>The company's profits <b>soared</b> last year.",
+  "c": [
+   "rocketed",
+   "surged",
+   "jumped",
+   "plunged"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: rocket (v.) แปลว่าพุ่งสูงขึ้นอย่างรวดเร็ว ใกล้เคียงกับ soar",
+   "ผิด: surge แปลว่าพุ่งขึ้นอย่างรวดเร็ว ใกล้เคียงกับ soar",
+   "ผิด: jump ในที่นี้แปลว่าเพิ่มขึ้นอย่างรวดเร็ว ใกล้เคียงกับ soar",
+   "✓ ถูก: plunge แปลว่าตกฮวบ มีความหมายตรงข้ามกับ soar"
+  ],
+  "tip": "soar = rocket = surge = shoot up (พุ่งขึ้น); plunge = plummet = slump (ตกฮวบ)"
+ },
+ {
+  "id": "m09-eng-022",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which sentence uses <b>complement</b> or <b>compliment</b> correctly?",
+  "c": [
+   "She gave her colleague a warm complement on his speech.",
+   "The workshop is a useful complement to the online course.",
+   "The two courses compliment each other very well.",
+   "The teacher was pleased to receive a complement from the parents."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: คำชมที่ให้กับผู้อื่นต้องเป็น compliment ไม่ใช่ complement",
+   "✓ ถูก: complement (นาม) = สิ่งที่เสริมให้สมบูรณ์ จึงใช้ a useful complement to ...",
+   "ผิด: กริยาที่แปลว่าเสริมกันให้สมบูรณ์คือ complement ไม่ใช่ compliment",
+   "ผิด: คำชมที่ได้รับจากผู้ปกครองต้องเป็น compliment ไม่ใช่ complement"
+  ],
+  "tip": "complement = เติมเต็ม/เสริมกัน (มี e เหมือน complete); compliment = คำชม (มี i เหมือน praise)"
+ },
+ {
+  "id": "m09-eng-023",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which verbs can correctly complete the sentence?<br>The committee will ____ a decision by Friday.<br>1) do<br>2) make<br>3) reach",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: do a decision ไม่ใช่ collocation ที่ถูกต้อง และชุดนี้ตัด reach ที่ถูกออก",
+   "ผิด: do a decision ไม่ใช่ collocation ที่ถูกต้อง และชุดนี้ตัด make ที่ถูกออก",
+   "✓ ถูก: make a decision และ reach a decision เป็น collocation ที่ถูกต้อง",
+   "ผิด: รวม do ที่ใช้กับ decision ไม่ได้ไว้ด้วย"
+  ],
+  "tip": "decision ใช้กับ make/reach (take ในสำเนียงอังกฤษ) ไม่ใช้ do; do ใช้กับ homework, research, a favour, business"
+ },
+ {
+  "id": "m09-eng-024",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Mr. Anan spends money only on things he really needs and never wastes it. Which adjective describes him best?",
+  "c": [
+   "generous",
+   "reckless",
+   "greedy",
+   "thrifty"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: generous แปลว่าใจกว้างให้ง่าย ไม่ได้หมายถึงประหยัด",
+   "ผิด: reckless แปลว่าบุ่มบ่ามขาดความระมัดระวัง ตรงข้ามกับการไม่ใช้จ่ายเปลือง",
+   "ผิด: greedy แปลว่าโลภอยากได้มาก ไม่ใช่การใช้จ่ายเท่าที่จำเป็น",
+   "✓ ถูก: thrifty แปลว่าประหยัด ใช้จ่ายอย่างระมัดระวัง ตรงกับพฤติกรรมที่บรรยาย"
+  ],
+  "tip": "thrifty = frugal = ประหยัด; generous = ใจกว้าง; stingy = ตระหนี่ (ความหมายเชิงลบ)"
+ },
+ {
+  "id": "m09-eng-025",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>The deal to buy the new building <b>fell through</b> at the last minute.",
+  "c": [
+   "failed to happen",
+   "was signed",
+   "became cheaper",
+   "was celebrated"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: fall through = ล้มเหลว ไม่สำเร็จตามที่วางแผนไว้",
+   "ผิด: was signed แปลว่าลงนามเรียบร้อย ตรงข้ามกับ fall through",
+   "ผิด: became cheaper แปลว่าถูกลง ไม่ใช่ความหมายของ fall through",
+   "ผิด: was celebrated แปลว่าได้รับการเฉลิมฉลอง ไม่ใช่ความหมายของ fall through"
+  ],
+  "tip": "fall through = fail to happen; carry out = perform; call off = cancel; put off = postpone"
+ },
+ {
+  "id": "m09-eng-026",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which verb can <b>NOT</b> be used naturally with the noun “speech”?",
+  "c": [
+   "give",
+   "do",
+   "make",
+   "deliver"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: give a speech เป็น collocation ที่ถูกต้อง",
+   "✓ ถูก: ใช้ give / make / deliver a speech ไม่ใช้ do a speech",
+   "ผิด: make a speech เป็น collocation ที่ถูกต้อง",
+   "ผิด: deliver a speech เป็น collocation ที่ถูกต้อง"
+  ],
+  "tip": "speech: give/make/deliver; homework/research/a favour: do; decision/mistake/progress: make"
+ },
+ {
+  "id": "m09-eng-027",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>After the flood, clean water became so ____ that families queued for hours to fill a single bucket.",
+  "c": [
+   "abundant",
+   "optional",
+   "scarce",
+   "harmless"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: abundant แปลว่ามากมาย ขัดกับการต้องต่อคิวนาน",
+   "ผิด: optional แปลว่าไม่จำเป็นต้องมี ไม่เข้ากับน้ำสะอาดที่ทุกคนต้องการ",
+   "✓ ถูก: scarce แปลว่าขาดแคลน ตรงกับการที่ต้องต่อคิวรอเป็นชั่วโมง",
+   "ผิด: harmless แปลว่าไม่เป็นอันตราย ไม่อธิบายว่าทำไมต้องต่อคิว"
+  ],
+  "tip": "scarce = rare / in short supply ตรงข้ามกับ abundant = plentiful"
+ },
+ {
+  "id": "m09-eng-028",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>The new curriculum aims to ____ students' interest in science by linking lessons to daily life.",
+  "c": [
+   "suppress",
+   "stimulate",
+   "overlook",
+   "postpone"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: suppress แปลว่ากดไว้ ขัดกับจุดมุ่งหมายของหลักสูตร",
+   "✓ ถูก: stimulate interest = กระตุ้นความสนใจ ตรงกับจุดมุ่งหมายของหลักสูตร",
+   "ผิด: overlook แปลว่ามองข้าม ไม่ใช่การเพิ่มความสนใจ",
+   "ผิด: postpone แปลว่าเลื่อน ใช้กับเหตุการณ์ ไม่ใช่กับ interest"
+  ],
+  "tip": "stimulate/spark/arouse + interest/curiosity = กระตุ้นความสนใจ; suppress = กดไว้"
+ },
+ {
+  "id": "m09-eng-029",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Caller: Hello. May I speak to Ms. Orn, please?<br>Receptionist: ____",
+  "c": [
+   "I'm afraid she is in a meeting right now. Would you like to leave a message?",
+   "You're welcome. Please call again.",
+   "I'm fine, thank you. And you?",
+   "Yes, please. I would like to leave a message for Ms. Orn about the new timetable."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ตอบคำขอสายอย่างสุภาพ แจ้งว่าไม่ว่างและเสนอรับฝากข้อความ",
+   "ผิด: You're welcome ใช้ตอบคำขอบคุณ ไม่ใช่ตอบคำขอสาย",
+   "ผิด: I'm fine, thank you ใช้ตอบคำถามสารทุกข์สุกดิบ ไม่ใช่ตอบคำขอสาย",
+   "ผิด: เป็นประโยคที่ผู้โทรจะพูด ไม่ใช่พนักงานต้อนรับที่เสนอรับข้อความ"
+  ],
+  "tip": "รับโทรศัพท์แทน: I'm afraid ... is not available / in a meeting. Would you like to leave a message?"
+ },
+ {
+  "id": "m09-eng-030",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "You are introducing a new colleague, Mr. Anan, to the school principal at a formal meeting. Which sentence is <b>NOT</b> appropriate?",
+  "c": [
+   "Principal, this is Mr. Anan, our new IT teacher.",
+   "May I introduce Mr. Anan to you?",
+   "Hey, you. Meet Anan, the new guy.",
+   "Let me introduce you to Mr. Anan."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: Principal, this is Mr. Anan ... เป็นการแนะนำที่สุภาพและเหมาะสม",
+   "ผิด: May I introduce ... to you? เป็นการแนะนำที่สุภาพและเป็นทางการ",
+   "✓ ถูก: เป็นภาษาพูดแบบไม่เป็นทางการและไม่สุภาพ ไม่เหมาะกับการแนะนำให้ผู้อำนวยการในที่ประชุมทางการ",
+   "ผิด: Let me introduce you to ... เป็นการแนะนำที่สุภาพและเหมาะสม"
+  ],
+  "tip": "แนะนำตัวบุคคลอย่างเป็นทางการ: May I introduce ...? / Let me introduce you to ... / This is Mr. ..., our new ..."
+ },
+ {
+  "id": "m09-eng-031",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Read the conversation.<br>A: We're short of volunteers for the book fair. Would you like to join the team?<br>B: Count me in!<br>What does B mean?",
+  "c": [
+   "B wants to count the volunteers.",
+   "B agrees to take part.",
+   "B refuses to join the team.",
+   "B is not sure about joining."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ไม่ได้หมายถึงการนับจำนวนอาสาสมัครตามตัวอักษร",
+   "✓ ถูก: count me in เป็นสำนวน แปลว่านับฉันด้วย คือขอเข้าร่วม",
+   "ผิด: B ตอบรับ ไม่ได้ปฏิเสธ",
+   "ผิด: B แสดงความแน่ใจว่าจะเข้าร่วม ไม่ได้ลังเล"
+  ],
+  "tip": "Count me in = ขอเข้าร่วมด้วย; Count me out = ไม่ขอเข้าร่วม"
+ },
+ {
+  "id": "m09-eng-032",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following can be used to give a warning?<br>1) Watch out! The floor is wet.<br>2) You'd better not touch that wire.<br>3) Mind your head.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ข้อความ 3 (Mind your head.) ก็ใช้เตือนให้ระวังได้เช่นกัน จึงตัดทิ้งไม่ได้",
+   "ผิด: ข้อความ 2 (You'd better not ...) ก็ใช้เตือนได้เช่นกัน จึงตัดทิ้งไม่ได้",
+   "ผิด: ข้อความ 1 (Watch out!) ก็ใช้เตือนได้เช่นกัน จึงตัดทิ้งไม่ได้",
+   "✓ ถูก: Watch out! / You'd better not ... / Mind your head. ล้วนใช้เตือนให้ระวังอันตราย"
+  ],
+  "tip": "เตือน: Watch out! / Be careful! / Mind the step. / You'd better not + V"
+ },
+ {
+  "id": "m09-eng-033",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Colleague: I'm sorry to bother you, but could you lend me your USB drive for a moment?<br>You: ____",
+  "c": [
+   "You're welcome. Here you are.",
+   "Congratulations! I have a USB drive.",
+   "Of course. Here you are.",
+   "I'm sorry to hear that. It is not my drive."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: You're welcome ใช้ตอบคำขอบคุณ ไม่ใช่ตอบคำขอยืมของ",
+   "ผิด: Congratulations ใช้แสดงความยินดี ไม่เหมาะกับคำขอยืมของ",
+   "✓ ถูก: ตอบรับคำขอยืมของอย่างสุภาพด้วย Of course แล้วยื่นให้ด้วย Here you are",
+   "ผิด: I'm sorry to hear that ใช้แสดงความเห็นใจต่อเรื่องไม่ดี และไม่ได้ตอบคำขอ"
+  ],
+  "tip": "ตอบรับคำขอร้อง: Of course. / Sure. / No problem. / Certainly. + Here you are."
+ },
+ {
+  "id": "m09-eng-034",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "You have to leave a meeting early because of another appointment. What would you say?",
+  "c": [
+   "I'm bored, so I'm leaving.",
+   "Leave me alone. I am busy.",
+   "Please close this meeting immediately so that everyone can go home.",
+   "I'm sorry, but I have to leave now. I have another appointment."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บอกว่าเบื่อ ไม่สุภาพและไม่เหมาะกับที่ประชุม",
+   "ผิด: ไล่ผู้อื่นให้ปล่อยตนเองไว้ ไม่สุภาพ",
+   "ผิด: สั่งให้ปิดประชุมทันที ไม่ใช่การขอตัวออกอย่างสุภาพ",
+   "✓ ถูก: ขอตัวออกจากที่ประชุมอย่างสุภาพพร้อมบอกเหตุผล"
+  ],
+  "tip": "ขอตัวออกอย่างสุภาพ: I'm sorry, but I have to leave now. / Please excuse me. / I need to go because ..."
+ },
+ {
+  "id": "m09-eng-035",
+  "s": "eng",
+  "p": "คำเด็ดขาด",
+  "q": "Read the conversation.<br>A: Is the school canteen open on Saturdays?<br>B: Not always. It usually opens, but it stays closed when there is no school event.<br>Which statement describes the canteen?",
+  "c": [
+   "It is usually open but sometimes closed on Saturdays.",
+   "It is open every Saturday without exception.",
+   "It is never open on Saturdays.",
+   "It opens only when the principal is present in the school building."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: Not always และ usually opens แปลว่าส่วนใหญ่เปิดแต่บางครั้งปิด",
+   "ผิด: every Saturday without exception เด็ดขาดเกินไป ขัดกับ Not always",
+   "ผิด: never เด็ดขาดเกินไป เพราะ B บอกว่าโดยปกติเปิด",
+   "ผิด: only when the principal is present ไม่มีในบทสนทนา เงื่อนไขที่บอกคือมีกิจกรรมของโรงเรียน"
+  ],
+  "tip": "Not always ไม่เท่ากับ never; ตัวเลือกที่มี every / never / only มักเด็ดขาดเกินกว่าบทสนทนา"
+ },
+ {
+  "id": "m09-eng-036",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> a suitable way to end a phone call politely?",
+  "c": [
+   "Thank you for calling the school office today. Goodbye.",
+   "Okay, I'm hanging up now. I have no time for you.",
+   "It was nice talking to you. Take care.",
+   "I'll let you go now. Have a nice day."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: Thank you for calling. Goodbye. เป็นการจบสายที่สุภาพ",
+   "✓ ถูก: เป็นการตัดสายอย่างไม่สุภาพ แสดงว่าไม่ให้ความสำคัญกับอีกฝ่าย",
+   "ผิด: It was nice talking to you. Take care. เป็นการจบสายที่สุภาพ",
+   "ผิด: I'll let you go now. Have a nice day. เป็นการจบสายที่สุภาพ"
+  ],
+  "tip": "จบสายสุภาพ: Thank you for calling. / It was nice talking to you. / Have a nice day."
+ },
+ {
+  "id": "m09-eng-037",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The passage is mainly about",
+  "ps": "In a small village in Nan province, a group of women has revived the traditional craft of weaving with natural dyes. Ten years ago, most younger villagers had left to find work in the city, and the old looms stood unused. Then the women formed a cooperative and began dyeing cotton with leaves, bark and indigo. Their cloth costs more than factory-made fabric because the dyeing takes several days and the colours differ slightly from batch to batch. However, buyers value this uniqueness. The cooperative now sells scarves to shops in Bangkok and Chiang Mai, and a few of the daughters who left the village have returned to join the work. The members hope to open a small training centre where visitors can learn the craft for a fee, but they have not yet found the money to build it.",
+  "c": [
+   "The decline of the cotton industry in Thailand",
+   "A village cooperative that has brought back weaving with natural dyes",
+   "A training centre that teaches visitors to weave",
+   "A comparison showing that factory-made cloth is better than handmade cloth"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความไม่ได้เล่าเรื่องอุตสาหกรรมฝ้ายตกต่ำ",
+   "✓ ถูก: บทความเล่าเรื่องกลุ่มสตรีที่ฟื้นการทอผ้าย้อมสีธรรมชาติด้วยการตั้งสหกรณ์",
+   "ผิด: ศูนย์ฝึกอบรมเป็นเพียงความหวังของสมาชิกที่ยังสร้างไม่ได้ ไม่ใช่ใจความหลัก",
+   "ผิด: บทความไม่ได้ระบุว่าผ้าโรงงานดีกว่า และบอกว่าผู้ซื้อเห็นคุณค่าของผ้าย้อมธรรมชาติ"
+  ],
+  "tip": "ใจความหลักต้องครอบคลุมทั้งบทความ ไม่ใช่รายละเอียดย่อยหรือเรื่องที่ยังไม่เกิดขึ้น"
+ },
+ {
+  "id": "m09-eng-038",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following statements about the cooperative is <b>NOT</b> true according to the passage?",
+  "ps": "In a small village in Nan province, a group of women has revived the traditional craft of weaving with natural dyes. Ten years ago, most younger villagers had left to find work in the city, and the old looms stood unused. Then the women formed a cooperative and began dyeing cotton with leaves, bark and indigo. Their cloth costs more than factory-made fabric because the dyeing takes several days and the colours differ slightly from batch to batch. However, buyers value this uniqueness. The cooperative now sells scarves to shops in Bangkok and Chiang Mai, and a few of the daughters who left the village have returned to join the work. The members hope to open a small training centre where visitors can learn the craft for a fee, but they have not yet found the money to build it.",
+  "c": [
+   "The cloth costs more than factory-made fabric.",
+   "The colours may differ slightly from one batch to another.",
+   "Some daughters who left the village have returned to work.",
+   "The training centre for visitors has already been built."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความระบุว่าผ้าราคาสูงกว่าผ้าโรงงาน",
+   "ผิด: บทความระบุว่าสีต่างกันเล็กน้อยในแต่ละล็อต",
+   "ผิด: บทความระบุว่าลูกสาวบางคนกลับมาร่วมงาน",
+   "✓ ถูก: บทความบอกว่าสมาชิกยังหาเงินสร้างศูนย์ไม่ได้ จึงยังไม่ได้สร้าง"
+  ],
+  "tip": "ข้อ NOT true คือข้อที่ขัดกับบทความ ให้ไล่ตรวจแต่ละตัวเลือกกับประโยคในบทความ"
+ },
+ {
+  "id": "m09-eng-039",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>revived</b> in the first sentence is closest in meaning to",
+  "ps": "In a small village in Nan province, a group of women has revived the traditional craft of weaving with natural dyes. Ten years ago, most younger villagers had left to find work in the city, and the old looms stood unused. Then the women formed a cooperative and began dyeing cotton with leaves, bark and indigo. Their cloth costs more than factory-made fabric because the dyeing takes several days and the colours differ slightly from batch to batch. However, buyers value this uniqueness. The cooperative now sells scarves to shops in Bangkok and Chiang Mai, and a few of the daughters who left the village have returned to join the work. The members hope to open a small training centre where visitors can learn the craft for a fee, but they have not yet found the money to build it.",
+  "c": [
+   "invented",
+   "imported",
+   "restored",
+   "abandoned"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: invent แปลว่าประดิษฐ์สิ่งใหม่ แต่การทอผ้าเป็นหัตถกรรมดั้งเดิมที่มีมาก่อน",
+   "ผิด: import แปลว่านำเข้า",
+   "✓ ถูก: revive แปลว่าทำให้กลับมามีชีวิต/ฟื้นฟู ตรงกับ restore",
+   "ผิด: abandon แปลว่าทอดทิ้ง ตรงข้ามกับ revive"
+  ],
+  "tip": "revive = bring back = restore = ฟื้นฟู; ตรงข้ามคือ abandon, neglect"
+ },
+ {
+  "id": "m09-eng-040",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements are supported by the passage?<br>1) The women use materials from plants to dye cotton.<br>2) The cooperative sells its scarves only in Nan province.<br>3) The cooperative does not have enough money to build the training centre.",
+  "ps": "In a small village in Nan province, a group of women has revived the traditional craft of weaving with natural dyes. Ten years ago, most younger villagers had left to find work in the city, and the old looms stood unused. Then the women formed a cooperative and began dyeing cotton with leaves, bark and indigo. Their cloth costs more than factory-made fabric because the dyeing takes several days and the colours differ slightly from batch to batch. However, buyers value this uniqueness. The cooperative now sells scarves to shops in Bangkok and Chiang Mai, and a few of the daughters who left the village have returned to join the work. The members hope to open a small training centre where visitors can learn the craft for a fee, but they have not yet found the money to build it.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 ผิดเพราะสหกรณ์ขายให้ร้านในกรุงเทพฯ และเชียงใหม่ และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 1 ตรงกับ leaves, bark and indigo และข้อความ 3 ตรงกับ have not yet found the money",
+   "ผิด: ข้อความ 2 ผิดเพราะขายนอกจังหวัดน่านด้วย และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่ขัดกับบทความไว้ด้วย"
+  ],
+  "tip": "only/never/always ในข้อความมักทำให้แคบเกินบทความ ให้ตรวจกับบทความก่อนเลือก"
+ },
+ {
+  "id": "m09-eng-041",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Another village wants to sell naturally dyed cloth. According to the passage, what should its members expect?",
+  "ps": "In a small village in Nan province, a group of women has revived the traditional craft of weaving with natural dyes. Ten years ago, most younger villagers had left to find work in the city, and the old looms stood unused. Then the women formed a cooperative and began dyeing cotton with leaves, bark and indigo. Their cloth costs more than factory-made fabric because the dyeing takes several days and the colours differ slightly from batch to batch. However, buyers value this uniqueness. The cooperative now sells scarves to shops in Bangkok and Chiang Mai, and a few of the daughters who left the village have returned to join the work. The members hope to open a small training centre where visitors can learn the craft for a fee, but they have not yet found the money to build it.",
+  "c": [
+   "Their cloth may cost more, but buyers may value its uniqueness.",
+   "Every batch will have exactly the same colour as the last one.",
+   "The dyeing will take only a few hours for each piece.",
+   "They will not need any plants to make the dyes."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ผ้าย้อมธรรมชาติราคาสูงกว่า แต่ผู้ซื้อเห็นคุณค่าความเป็นเอกลักษณ์ตามที่บทความกล่าว",
+   "ผิด: บทความบอกว่าสีต่างกันเล็กน้อยในแต่ละล็อต",
+   "ผิด: บทความบอกว่าการย้อมใช้เวลาหลายวัน",
+   "ผิด: การย้อมใช้ใบไม้ เปลือกไม้ และคราม ซึ่งเป็นพืช"
+  ],
+  "tip": "ข้อประยุกต์ให้ใช้ข้อเท็จจริงในบทความไปตัดตัวเลือกที่ขัดกับข้อเท็จจริงเหล่านั้น"
+ },
+ {
+  "id": "m09-eng-042",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The main purpose of this passage is to",
+  "ps": "Researchers in a northern province followed two groups of five-year-old children for one year. In the first group, parents read aloud to their children for at least fifteen minutes every evening. In the second group, parents did not follow any fixed routine. At the end of the year, the children in the first group knew about 300 more words on average, and they were also better at retelling stories in their own words. The researchers point out that the family incomes in the two groups were similar, so money was probably not the reason for the difference. They add, however, that reading aloud works best when parents talk about the pictures and ask questions instead of simply reciting the text.",
+  "c": [
+   "persuade parents to buy more books for their children",
+   "compare the family incomes of two groups of parents",
+   "report a study on reading aloud to children",
+   "advise teachers on how to test children's vocabulary"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความไม่ได้ชักชวนให้ซื้อหนังสือ",
+   "ผิด: รายได้ครอบครัวเป็นเพียงรายละเอียดที่ผู้วิจัยใช้ตัดข้อโต้แย้ง ไม่ใช่จุดประสงค์หลัก",
+   "✓ ถูก: บทความรายงานผลการศึกษาที่ติดตามเด็กสองกลุ่มเกี่ยวกับการอ่านออกเสียงให้เด็กฟัง",
+   "ผิด: บทความไม่ได้แนะนำวิธีทดสอบคำศัพท์"
+  ],
+  "tip": "จุดประสงค์ของผู้เขียนดูจากภาพรวม: บทความที่เล่าผลวิจัยคือ report ไม่ใช่ persuade หรือ advise"
+ },
+ {
+  "id": "m09-eng-043",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "All of the following are true of the children in the first group <b>EXCEPT</b>",
+  "ps": "Researchers in a northern province followed two groups of five-year-old children for one year. In the first group, parents read aloud to their children for at least fifteen minutes every evening. In the second group, parents did not follow any fixed routine. At the end of the year, the children in the first group knew about 300 more words on average, and they were also better at retelling stories in their own words. The researchers point out that the family incomes in the two groups were similar, so money was probably not the reason for the difference. They add, however, that reading aloud works best when parents talk about the pictures and ask questions instead of simply reciting the text.",
+  "c": [
+   "Their parents read to them for at least fifteen minutes every evening.",
+   "They knew more words on average at the end of the year.",
+   "They were better at retelling stories in their own words.",
+   "They came from richer families than the children in the second group."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความระบุว่าผู้ปกครองกลุ่มแรกอ่านให้ฟังอย่างน้อยสิบห้านาทีทุกเย็น",
+   "ผิด: บทความระบุว่าเด็กกลุ่มแรกรู้คำศัพท์มากกว่าโดยเฉลี่ย",
+   "ผิด: บทความระบุว่าเด็กกลุ่มแรกเล่าเรื่องซ้ำด้วยคำของตนเองได้ดีกว่า",
+   "✓ ถูก: บทความบอกว่ารายได้ครอบครัวของสองกลุ่มใกล้เคียงกัน ไม่ใช่กลุ่มแรกรวยกว่า"
+  ],
+  "tip": "ข้อ EXCEPT คือข้อที่ไม่จริงตามบทความ ให้ไล่ขีดข้อที่มีหลักฐานในบทความทีละข้อ"
+ },
+ {
+  "id": "m09-eng-044",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The phrase <b>the difference</b> in the passage refers to the difference between the two groups in",
+  "ps": "Researchers in a northern province followed two groups of five-year-old children for one year. In the first group, parents read aloud to their children for at least fifteen minutes every evening. In the second group, parents did not follow any fixed routine. At the end of the year, the children in the first group knew about 300 more words on average, and they were also better at retelling stories in their own words. The researchers point out that the family incomes in the two groups were similar, so money was probably not the reason for the difference. They add, however, that reading aloud works best when parents talk about the pictures and ask questions instead of simply reciting the text.",
+  "c": [
+   "family income",
+   "vocabulary and the ability to retell stories",
+   "the age of the children",
+   "the amount of time the children spent at school each day"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: รายได้ครอบครัวใกล้เคียงกันทั้งสองกลุ่ม จึงไม่ใช่ความต่างที่ถูกอธิบาย",
+   "✓ ถูก: the difference คือความต่างด้านคำศัพท์และการเล่าเรื่องซ้ำที่พบในเด็กสองกลุ่ม",
+   "ผิด: เด็กทั้งสองกลุ่มอายุห้าขวบเท่ากัน",
+   "ผิด: บทความไม่ได้กล่าวถึงเวลาที่เด็กอยู่ที่โรงเรียน"
+  ],
+  "tip": "ข้อ reference ให้ย้อนอ่านประโยคก่อนหน้าเพื่อหาสิ่งที่ถูกเปรียบเทียบ"
+ },
+ {
+  "id": "m09-eng-045",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements can be inferred from the passage?<br>1) Regular reading aloud may help children build their vocabulary.<br>2) Talking about the pictures may make reading aloud more useful.<br>3) Children who are not read to will never learn to retell stories.",
+  "ps": "Researchers in a northern province followed two groups of five-year-old children for one year. In the first group, parents read aloud to their children for at least fifteen minutes every evening. In the second group, parents did not follow any fixed routine. At the end of the year, the children in the first group knew about 300 more words on average, and they were also better at retelling stories in their own words. The researchers point out that the family incomes in the two groups were similar, so money was probably not the reason for the difference. They add, however, that reading aloud works best when parents talk about the pictures and ask questions instead of simply reciting the text.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ข้อความ 1 สรุปได้จากผลที่เด็กกลุ่มแรกรู้คำศัพท์มากกว่า ข้อความ 2 สรุปได้จากคำแนะนำให้พูดคุยเรื่องรูปภาพ",
+   "ผิด: ข้อความ 3 ใช้ never ซึ่งเกินกว่าบทความ และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "ผิด: ข้อความ 3 ใช้ never ซึ่งเกินกว่าบทความ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 3 ที่เด็ดขาดเกินไปไว้ด้วย"
+  ],
+  "tip": "never/always/all ทำให้ข้อความเกินกว่าบทความ ให้ตัดทิ้งก่อน"
+ },
+ {
+  "id": "m09-eng-046",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A kindergarten teacher wants to get the most from story time. What does the passage suggest she should do?",
+  "ps": "Researchers in a northern province followed two groups of five-year-old children for one year. In the first group, parents read aloud to their children for at least fifteen minutes every evening. In the second group, parents did not follow any fixed routine. At the end of the year, the children in the first group knew about 300 more words on average, and they were also better at retelling stories in their own words. The researchers point out that the family incomes in the two groups were similar, so money was probably not the reason for the difference. They add, however, that reading aloud works best when parents talk about the pictures and ask questions instead of simply reciting the text.",
+  "c": [
+   "Read the text quickly without stopping to talk about the pictures.",
+   "Let the children read silently by themselves for the whole session.",
+   "Talk about the pictures and ask the children questions while reading.",
+   "Read to the children only once a week."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความบอกว่าการอ่านทวนข้อความเฉย ๆ ได้ผลน้อยกว่าการคุยเรื่องภาพและถามคำถาม",
+   "ผิด: บทความพูดถึงการอ่านออกเสียงให้เด็กฟัง ไม่ได้แนะนำให้เด็กอ่านเงียบ",
+   "✓ ถูก: บทความบอกว่าการอ่านให้ฟังได้ผลดีที่สุดเมื่อคุยเรื่องภาพและถามคำถาม",
+   "ผิด: กลุ่มที่ได้ผลดีอ่านให้ฟังทุกเย็น ไม่ใช่สัปดาห์ละครั้ง"
+  ],
+  "tip": "ข้อแนะนำจากบทความอยู่ท้ายบทความ (works best when ...) ให้ใช้เป็นเกณฑ์เลือก"
+ },
+ {
+  "id": "m09-eng-047",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Why does the city want drivers to switch to electric songthaews?",
+  "ps": "In one northern city, some diesel songthaews, the red shared pick-up taxis, are being replaced with electric ones. The change is meant to reduce air pollution, which becomes especially serious in the dry season. Drivers like the quiet engines and the lower fuel costs, but many are worried about the price of the vehicles, which is almost twice that of a used diesel truck. The city has offered low-interest loans, and some drivers are forming groups to buy vehicles together. Another problem is that there are not enough charging points on the outer roads, so electric songthaews are used mainly in the city centre. Officials say that more charging points will be built over the next three years.",
+  "c": [
+   "To make fares cheaper for tourists",
+   "To reduce air pollution",
+   "To increase the number of vehicles on the road",
+   "To replace human drivers with machines"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความไม่ได้กล่าวถึงการลดค่าโดยสารสำหรับนักท่องเที่ยว",
+   "✓ ถูก: บทความระบุว่าการเปลี่ยนเป็นรถไฟฟ้ามีเป้าหมายเพื่อลดมลพิษทางอากาศ",
+   "ผิด: บทความพูดถึงการเปลี่ยนรถ ไม่ใช่การเพิ่มจำนวนรถ",
+   "ผิด: ยังคงมีคนขับ บทความไม่ได้พูดถึงการแทนคนขับด้วยเครื่องจักร"
+  ],
+  "tip": "คำถามเหตุผลให้หาประโยคที่มี meant to / in order to / because"
+ },
+ {
+  "id": "m09-eng-048",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "The passage suggests all of the following as advantages of electric songthaews <b>EXCEPT</b>",
+  "ps": "In one northern city, some diesel songthaews, the red shared pick-up taxis, are being replaced with electric ones. The change is meant to reduce air pollution, which becomes especially serious in the dry season. Drivers like the quiet engines and the lower fuel costs, but many are worried about the price of the vehicles, which is almost twice that of a used diesel truck. The city has offered low-interest loans, and some drivers are forming groups to buy vehicles together. Another problem is that there are not enough charging points on the outer roads, so electric songthaews are used mainly in the city centre. Officials say that more charging points will be built over the next three years.",
+  "c": [
+   "quieter engines on the road",
+   "lower fuel costs for drivers",
+   "less air pollution in the city",
+   "a lower purchase price"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: บทความระบุว่าคนขับชอบเครื่องยนต์ที่เงียบ",
+   "ผิด: บทความระบุว่าคนขับชอบค่าเชื้อเพลิงที่ต่ำลง",
+   "ผิด: การลดมลพิษทางอากาศคือเป้าหมายของการเปลี่ยนรถ",
+   "✓ ถูก: บทความบอกว่ารถไฟฟ้าแพงกว่ารถดีเซลมือสองเกือบสองเท่า จึงไม่ใช่ข้อดีด้านราคาซื้อ"
+  ],
+  "tip": "ถ้าบทความเอ่ยถึงข้อดีครบทุกข้อ ให้หาข้อที่บทความระบุว่าเป็นปัญหาแทน"
+ },
+ {
+  "id": "m09-eng-049",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>serious</b> in the second sentence is closest in meaning to",
+  "ps": "In one northern city, some diesel songthaews, the red shared pick-up taxis, are being replaced with electric ones. The change is meant to reduce air pollution, which becomes especially serious in the dry season. Drivers like the quiet engines and the lower fuel costs, but many are worried about the price of the vehicles, which is almost twice that of a used diesel truck. The city has offered low-interest loans, and some drivers are forming groups to buy vehicles together. Another problem is that there are not enough charging points on the outer roads, so electric songthaews are used mainly in the city centre. Officials say that more charging points will be built over the next three years.",
+  "c": [
+   "severe",
+   "temporary",
+   "unclear",
+   "popular"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: serious pollution คือมลพิษที่รุนแรง ตรงกับ severe",
+   "ผิด: temporary แปลว่าชั่วคราว ไม่ใช่ระดับความรุนแรง",
+   "ผิด: unclear แปลว่าไม่ชัดเจน ไม่ใช่ความหมายของ serious",
+   "ผิด: popular แปลว่าเป็นที่นิยม ไม่ใช่ความหมายของ serious"
+  ],
+  "tip": "serious (ปัญหา) = severe = grave = รุนแรง; ตรงข้ามคือ slight, minor"
+ },
+ {
+  "id": "m09-eng-050",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A driver lives far from the city centre and mostly travels on the outer roads. Which problem is he most likely to face if he buys an electric songthaew?",
+  "ps": "In one northern city, some diesel songthaews, the red shared pick-up taxis, are being replaced with electric ones. The change is meant to reduce air pollution, which becomes especially serious in the dry season. Drivers like the quiet engines and the lower fuel costs, but many are worried about the price of the vehicles, which is almost twice that of a used diesel truck. The city has offered low-interest loans, and some drivers are forming groups to buy vehicles together. Another problem is that there are not enough charging points on the outer roads, so electric songthaews are used mainly in the city centre. Officials say that more charging points will be built over the next three years.",
+  "c": [
+   "He will have to pay much more for fuel.",
+   "He will not be able to get any loan.",
+   "He may have difficulty finding places to charge it.",
+   "He will be forced to use the vehicle only at night."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: รถไฟฟ้าทำให้ค่าเชื้อเพลิงต่ำลง ไม่ใช่สูงขึ้น",
+   "ผิด: เมืองมีสินเชื่อดอกเบี้ยต่ำให้คนขับ",
+   "✓ ถูก: จุดชาร์จบนถนนรอบนอกยังไม่เพียงพอ คนขับที่วิ่งสายนอกเมืองจึงอาจหาที่ชาร์จยาก",
+   "ผิด: บทความไม่ได้กล่าวว่าต้องใช้รถเฉพาะตอนกลางคืน"
+  ],
+  "tip": "นำปัญหาในบทความ (จุดชาร์จไม่พอบนถนนรอบนอก) ไปจับกับผู้ใช้ที่อยู่ในสถานการณ์นั้น"
+ }
+]
