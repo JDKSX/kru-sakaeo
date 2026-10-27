@@ -427,14 +427,14 @@
   "c": [
    "Heavy rain may effect the quality of this year's crops.",
    "The affect of the new law was felt in every province.",
-   "The teacher tried to affect a change in the school's rules.",
+   "The new schedule will effect all students from next Monday.",
    "The new timetable had a positive effect on student attendance."
   ],
   "a": 3,
   "n": [
    "ผิด: effect ที่เป็นกริยาแปลว่าทำให้เกิดขึ้น ส่วน 'ส่งผลต่อ' ต้องใช้ affect",
    "ผิด: หลัง the ต้องเป็นนาม effect ไม่ใช่ affect",
-   "ผิด: affect a change ผิด ต้องใช้ effect a change (ทำให้เกิดการเปลี่ยนแปลง)",
+   "ผิด: effect เป็นกริยาแปลว่าทำให้เกิดขึ้น ส่วน 'ส่งผลต่อ' ต้องใช้ affect",
    "✓ ถูก: effect เป็นนาม (ผลกระทบ) จึงตามหลัง a positive ได้"
   ],
   "tip": "effect = ผล (นาม: have an effect on); affect = ส่งผลต่อ (กริยา); effect เป็นกริยาแปลว่าทำให้เกิดขึ้น"
