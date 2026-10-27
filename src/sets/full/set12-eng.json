@@ -1,0 +1,1016 @@
+[
+ {
+  "id": "m12-eng-001",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>Nok ____ to apply for the scholarship, but she missed the deadline.",
+  "c": [
+   "was going",
+   "is going",
+   "has been going",
+   "goes"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: was going to + V1 บอกว่าตั้งใจจะทำในอดีตแต่ไม่ได้ทำ ซึ่งสอดคล้องกับ but she missed the deadline",
+   "ผิด: is going เป็นปัจจุบัน ขัดกับ missed ที่เป็นอดีต",
+   "ผิด: has been going เป็น present perfect continuous ไม่ใช้บอกแผนที่ไม่สำเร็จในอดีต",
+   "ผิด: goes เป็น present simple ขัดกับเหตุการณ์ที่จบแล้วในอดีต"
+  ],
+  "tip": "was/were going to + V1 = เคยตั้งใจจะทำ (แต่ไม่ได้ทำ) มักตามด้วย but ที่บอกเหตุผล"
+ },
+ {
+  "id": "m12-eng-002",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The elderly in this village ____ regularly visited by volunteer nurses.",
+  "c": [
+   "is",
+   "has been",
+   "have",
+   "are"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: is เป็นกริยาเอกพจน์ ไม่ตรงกับ the elderly ที่เป็นพหูพจน์",
+   "ผิด: has been เป็นรูปเอกพจน์ ไม่ตรงกับประธานพหูพจน์",
+   "ผิด: have visited ทำให้ประโยคเป็น active ซึ่งขาดกรรมและขัดกับ by volunteer nurses",
+   "✓ ถูก: the + adjective ใช้เรียกคนกลุ่มหนึ่งและถือเป็นพหูพจน์ จึงใช้ are"
+  ],
+  "tip": "the + adjective (the poor, the elderly, the young) = กลุ่มคน ใช้กริยาพหูพจน์"
+ },
+ {
+  "id": "m12-eng-003",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences use <b>advise</b> correctly?<br>1) She advised me to see a doctor.<br>2) She advised me seeing a doctor.<br>3) She advised seeing a doctor.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 ผิดเพราะ advise + กรรม ต้องตามด้วย to V ไม่ใช่ V-ing และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 1 ถูกเพราะ advise + กรรม + to V และข้อความ 3 ถูกเพราะ advise + V-ing เมื่อไม่มีกรรม",
+   "ผิด: ข้อความ 2 ผิดเพราะ advise + กรรม ต้องตามด้วย to V ไม่ใช่ V-ing และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่ใช้ advised me seeing ซึ่งผิดไว้ด้วย"
+  ],
+  "tip": "advise + กรรม + to V; advise + V-ing (ไม่มีกรรม) เช่นเดียวกับ recommend / suggest + V-ing"
+ },
+ {
+  "id": "m12-eng-004",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of <b>tenses with time expressions</b>?",
+  "c": [
+   "She has lived in Rayong since 2018.",
+   "They have just finished the first experiment.",
+   "We haven't seen him for a month.",
+   "I have visited the museum two weeks ago."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: since 2018 ใช้กับ present perfect ได้ถูกต้อง",
+   "ผิด: just ใช้กับ present perfect ได้ถูกต้อง",
+   "ผิด: for a month ใช้กับ present perfect (negative) ได้ถูกต้อง",
+   "✓ ถูก: two weeks ago ระบุเวลาในอดีตที่จบแล้ว ต้องใช้ past simple (visited) ไม่ใช่ present perfect"
+  ],
+  "tip": "ago / yesterday / last year / in 2010 → past simple; since / for / just / already / yet → present perfect"
+ },
+ {
+  "id": "m12-eng-005",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>We hurried to the station and arrived ____ to catch the last bus.",
+  "c": [
+   "in time",
+   "on time",
+   "at time",
+   "by time"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: in time to + V = ทันเวลาที่จะทำสิ่งนั้น ตรงกับการมาทันขึ้นรถเที่ยวสุดท้าย",
+   "ผิด: on time = ตรงเวลาตามกำหนดที่นัดไว้ ไม่เหมาะกับ to catch the last bus",
+   "ผิด: at time ไม่ใช่สำนวนที่ใช้ในความหมายนี้",
+   "ผิด: by time ไม่ใช่สำนวนที่ใช้ในความหมายนี้"
+  ],
+  "tip": "in time (to + V) = ทันที่จะ...; on time = ตรงเวลาตามกำหนด เช่น The train left on time"
+ },
+ {
+  "id": "m12-eng-006",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the <b>word order</b> of an adverb?",
+  "c": [
+   "He always arrives early on Mondays.",
+   "The teacher spoke clearly to the whole class.",
+   "They quickly finished the experiment.",
+   "She speaks very well English."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: always ที่อยู่หน้ากริยาหลักเป็นตำแหน่งที่ถูกต้อง",
+   "ผิด: clearly ที่อยู่หลังกริยาที่ไม่มีกรรมเป็นตำแหน่งที่ถูกต้อง",
+   "ผิด: quickly ที่อยู่หน้ากริยาเป็นตำแหน่งที่ถูกต้อง",
+   "✓ ถูก: adverb well ไม่ควรแทรกระหว่างกริยากับกรรม ต้องเป็น speaks English very well"
+  ],
+  "tip": "กริยา + กรรม + adverb of manner (speaks English well); ไม่แทรก adverb ระหว่างกริยากับกรรม"
+ },
+ {
+  "id": "m12-eng-007",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>“I haven't finished the report yet.” “____.”",
+  "c": [
+   "Neither have I",
+   "So haven't I",
+   "Neither do I",
+   "Neither I have"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ตอบเห็นด้วยกับประโยคปฏิเสธ ใช้ Neither + กริยาช่วยตัวเดียวกัน + ประธาน คือ Neither have I",
+   "ผิด: So ใช้ตอบรับประโยคบอกเล่า ไม่ใช้กับ haven't",
+   "ผิด: Neither do I ใช้กริยาช่วยไม่ตรงกับ haven't ในประโยคแรก",
+   "ผิด: ลำดับคำผิด ต้องกลับกริยาช่วยมาอยู่หน้าประธาน"
+  ],
+  "tip": "ตอบรับประโยคปฏิเสธ: Neither + กริยาช่วยเดิม + S; ตอบรับประโยคบอกเล่า: So + กริยาช่วยเดิม + S"
+ },
+ {
+  "id": "m12-eng-008",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>One of the twins is a teacher, and ____ is a nurse.",
+  "c": [
+   "the others",
+   "another",
+   "other",
+   "the other"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: the others เป็นพหูพจน์ ไม่ตรงกับคนเดียวที่เหลือ",
+   "ผิด: another หมายถึงอีกคนหนึ่งจากหลายคน ไม่ใช่คนสุดท้ายในสองคน",
+   "ผิด: other ใช้เป็นนามเดี่ยวโดยลำพังไม่ได้",
+   "✓ ถูก: เมื่อเหลือคนเดียวจากสองคน ใช้ the other"
+  ],
+  "tip": "สองคน/สองสิ่ง: one ... the other; หลายคน: one ... another ... the others"
+ },
+ {
+  "id": "m12-eng-009",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Choose the correct answer.<br>Anan looks confused. He seems ____ the instructions we gave him at yesterday's meeting.",
+  "c": [
+   "to misunderstand",
+   "misunderstanding",
+   "to have misunderstood",
+   "to have been misunderstood"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: to misunderstand ไม่บอกว่าเหตุการณ์เกิดขึ้นก่อน ขัดกับ yesterday's meeting",
+   "ผิด: misunderstanding (V-ing) ตามหลัง seems โดยตรงไม่ได้",
+   "✓ ถูก: seem + to have + V3 ใช้บอกว่าเหตุการณ์เกิดขึ้นก่อนเวลาที่พูด (เมื่อวาน) จึงใช้ perfect infinitive",
+   "ผิด: to have been misunderstood เป็น passive ใช้ไม่ได้ เพราะ the instructions เป็นกรรมที่ต้องการกริยา active"
+  ],
+  "tip": "seem/appear + to have + V3 = ดูเหมือนว่า(ได้)...ไปแล้ว; seem + to V = ดูเหมือนว่ากำลัง..."
+ },
+ {
+  "id": "m12-eng-010",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which sentences are grammatically correct?<br>1) The new bus is far more comfortable than the old one.<br>2) The exam was very easier than I expected.<br>3) Her second novel is a lot better than her first.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 ผิดเพราะ very ใช้ขยาย comparative ไม่ได้ ต้องใช้ much / far / a lot และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 1 ถูกเพราะ far ขยาย comparative ได้ และข้อความ 3 ถูกเพราะ a lot ขยาย better ได้",
+   "ผิด: ข้อความ 2 ผิดเพราะ very ใช้ขยาย comparative ไม่ได้ และชุดนี้ตัดข้อความ 1 ที่ถูกออก",
+   "ผิด: รวมข้อความ 2 ที่ใช้ very easier ซึ่งผิดไว้ด้วย"
+  ],
+  "tip": "ขยาย comparative ด้วย much / far / a lot / a bit / slightly; very ใช้ขยาย adjective ระดับธรรมดา (very easy)"
+ },
+ {
+  "id": "m12-eng-011",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of <b>conjunctions</b>?",
+  "c": [
+   "The road was closed, but the bus arrived on time.",
+   "Although the road was closed, but the bus arrived on time.",
+   "Although the road was closed, the bus arrived on time.",
+   "The bus arrived on time even though the road was closed."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ใช้ but เพียงตัวเดียวเชื่อมสองประโยคได้ถูกต้อง",
+   "✓ ถูก: Although และ but แสดงความขัดแย้งทั้งคู่ ใช้ซ้อนในประโยคเดียวกันไม่ได้",
+   "ผิด: ใช้ Although เพียงตัวเดียวนำประโยคย่อยได้ถูกต้อง",
+   "ผิด: even though นำประโยคย่อยท้ายประโยคได้ถูกต้อง"
+  ],
+  "tip": "Although / though / even though ใช้คู่กับ but / yet ในประโยคเดียวกันไม่ได้ เลือกใช้เพียงอย่างเดียว"
+ },
+ {
+  "id": "m12-eng-012",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The old fort is well worth ____ if you have time during your trip.",
+  "c": [
+   "visiting",
+   "to visit",
+   "visit",
+   "visited"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: worth + V-ing ใช้บอกว่าควรค่าแก่การทำสิ่งนั้น",
+   "ผิด: worth ตามด้วย to V ไม่ได้",
+   "ผิด: worth ตามด้วยกริยาช่อง 1 โดยตรงไม่ได้",
+   "ผิด: visited (V3) ไม่ใช่รูปที่ใช้ตามหลัง worth"
+  ],
+  "tip": "worth + V-ing / worth + นาม (worth reading, worth the money); it's no use / it's worth + V-ing"
+ },
+ {
+  "id": "m12-eng-013",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>You may borrow my tablet ____ you return it by Monday.",
+  "c": [
+   "as long as",
+   "unless",
+   "even though",
+   "whereas"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: as long as = ภายใต้เงื่อนไขว่า ตรงกับการอนุญาตให้ยืมแบบมีเงื่อนไข",
+   "ผิด: unless แปลว่าถ้าไม่ ทำให้ความหมายขัดกับเจตนาให้ยืม",
+   "ผิด: even though บอกความขัดแย้ง ไม่ใช่เงื่อนไข",
+   "ผิด: whereas ใช้เปรียบเทียบสองสิ่ง ไม่ใช่เงื่อนไข"
+  ],
+  "tip": "provided (that) / providing (that) / as long as / on condition that = ภายใต้เงื่อนไขว่า"
+ },
+ {
+  "id": "m12-eng-014",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The principal, along with the teachers, ____ attending the ceremony this afternoon.",
+  "c": [
+   "are",
+   "have been",
+   "is",
+   "were"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: are เป็นพหูพจน์ ไม่ตรงกับประธานเอกพจน์",
+   "ผิด: have been เป็นรูปพหูพจน์ ไม่ตรงกับประธานเอกพจน์",
+   "✓ ถูก: ประธานคือ The principal ส่วน along with the teachers เป็นเพียงส่วนเสริม จึงใช้กริยาเอกพจน์ is",
+   "ผิด: were เป็นพหูพจน์ ไม่ตรงกับประธานเอกพจน์"
+  ],
+  "tip": "along with / together with / as well as / in addition to ไม่ทำให้ประธานกลายเป็นพหูพจน์ กริยาตรงกับประธานตัวแรก"
+ },
+ {
+  "id": "m12-eng-015",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of a <b>verb pattern (gerund or infinitive)</b>?",
+  "c": [
+   "She enjoys working with young children.",
+   "The manager avoided to answer the reporter's question.",
+   "We managed to finish the report before noon.",
+   "He decided to leave the meeting early."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: enjoy + V-ing ถูกต้อง",
+   "✓ ถูก: avoid ต้องตามด้วย V-ing (avoided answering) ไม่ใช่ to V",
+   "ผิด: manage + to V ถูกต้อง",
+   "ผิด: decide + to V ถูกต้อง"
+  ],
+  "tip": "avoid / enjoy / finish / suggest / practise + V-ing; manage / decide / refuse / hope / plan + to V"
+ },
+ {
+  "id": "m12-eng-016",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>There has been a sharp increase ____ the price of rice this year.",
+  "c": [
+   "of",
+   "on",
+   "at",
+   "in"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: of ใช้บอกจำนวนที่เพิ่ม เช่น an increase of 10% ไม่ใช่นำหน้าสิ่งที่เพิ่ม",
+   "ผิด: on ไม่ใช้กับ increase ในความหมายนี้",
+   "ผิด: at ไม่ใช้กับ increase ในความหมายนี้",
+   "✓ ถูก: increase in + สิ่งที่เพิ่มขึ้น (the price) เป็นการใช้บุพบทที่ถูกต้อง"
+  ],
+  "tip": "an increase / decrease / rise / fall in + สิ่งที่เปลี่ยน; an increase of + ปริมาณที่เพิ่ม"
+ },
+ {
+  "id": "m12-eng-017",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>____ that most of the students left the hall before it ended.",
+  "c": [
+   "So the speech was boring",
+   "So boring the speech was",
+   "Such boring was the speech",
+   "So boring was the speech"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ไม่กลับกริยาไปอยู่หน้าประธาน จึงผิดโครงสร้าง inversion",
+   "ผิด: ลำดับ boring the speech was ไม่ได้กลับกริยา จึงผิดโครงสร้าง",
+   "ผิด: Such ไม่ใช้นำหน้า adjective เดี่ยวในโครงสร้างนี้",
+   "✓ ถูก: So + adjective ที่ขึ้นต้นประโยคต้องกลับกริยามาอยู่หน้าประธาน (So boring was the speech that ...)"
+  ],
+  "tip": "So + adj + be + S + that ... (inversion เพื่อเน้น) เช่น So tired was he that he fell asleep"
+ },
+ {
+  "id": "m12-eng-018",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which sentence contains an error in the use of a <b>negative</b>?",
+  "c": [
+   "I don't know anything about the new rule that the school announced.",
+   "She hardly ever eats breakfast at home.",
+   "Unless you don't hurry, we will miss the bus.",
+   "Nobody came to the meeting yesterday."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: don't ... anything ถูกต้อง เพราะมีการปฏิเสธเพียงครั้งเดียว",
+   "ผิด: hardly ever แปลว่าแทบไม่เคย ใช้ได้ถูกต้องโดยไม่ต้องมี not",
+   "✓ ถูก: unless มีความหมายปฏิเสธอยู่แล้ว (if ... not) จึงใช้ don't ซ้ำไม่ได้",
+   "ผิด: Nobody ถูกต้องเพราะไม่มีการปฏิเสธซ้ำ"
+  ],
+  "tip": "unless = if ... not จึงไม่ใช้ not ซ้ำ; หลีกเลี่ยง double negative เช่น don't know nothing"
+ },
+ {
+  "id": "m12-eng-019",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the word closest in meaning to the word in bold.<br>Wearing a helmet is <b>mandatory</b> for all riders on this route.",
+  "c": [
+   "compulsory",
+   "unnecessary",
+   "dangerous",
+   "unusual"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: mandatory = บังคับต้องทำ ตรงกับ compulsory",
+   "ผิด: unnecessary แปลว่าไม่จำเป็น ตรงข้ามกับ mandatory",
+   "ผิด: dangerous แปลว่าอันตราย ไม่ใช่ความหมายของ mandatory",
+   "ผิด: unusual แปลว่าผิดปกติ ไม่ใช่ความหมายของ mandatory"
+  ],
+  "tip": "mandatory = compulsory = required; ตรงข้ามคือ optional, voluntary"
+ },
+ {
+  "id": "m12-eng-020",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>It took Mali almost a month to <b>get over</b> the flu.",
+  "c": [
+   "pass on",
+   "recover from",
+   "run away from",
+   "stay away from"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: pass on แปลว่าส่งต่อหรือถ่ายทอด ไม่ใช่หายจากโรค",
+   "✓ ถูก: get over (an illness) = หายจาก ฟื้นจาก ตรงกับ recover from",
+   "ผิด: run away from แปลว่าวิ่งหนีจาก ไม่ใช่ความหมายของ get over",
+   "ผิด: stay away from แปลว่าหลีกเลี่ยงไม่เข้าใกล้ ไม่ใช่ความหมายของ get over"
+  ],
+  "tip": "get over = recover from (illness) / overcome (a problem); get on = ขึ้นหรือเข้ากันได้"
+ },
+ {
+  "id": "m12-eng-021",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which word is <b>NOT</b> close in meaning to the word in bold?<br>The stadium has an <b>enormous</b> car park.",
+  "c": [
+   "huge",
+   "vast",
+   "tiny",
+   "gigantic"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: huge แปลว่าใหญ่มาก ใกล้เคียงกับ enormous",
+   "ผิด: vast แปลว่ากว้างใหญ่ ใกล้เคียงกับ enormous",
+   "✓ ถูก: tiny แปลว่าเล็กมาก ตรงข้ามกับ enormous",
+   "ผิด: gigantic แปลว่ายักษ์ใหญ่ ใกล้เคียงกับ enormous"
+  ],
+  "tip": "enormous = huge = vast = gigantic; ตรงข้ามคือ tiny, minute, small"
+ },
+ {
+  "id": "m12-eng-022",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Which sentence uses <b>sensible</b> or <b>sensitive</b> correctly?",
+  "c": [
+   "The teacher was too sensible to the criticism and began to cry.",
+   "Her sensitive decision to save money for emergencies surprised no one.",
+   "The file contains sensible information about the customers' accounts.",
+   "It is sensible to carry an umbrella during the rainy season."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ไวต่อคำวิจารณ์ต้องใช้ sensitive to ไม่ใช่ sensible",
+   "ผิด: การตัดสินใจเก็บเงินสำรองที่สมเหตุสมผลต้องใช้ sensible ไม่ใช่ sensitive",
+   "ผิด: ข้อมูลที่ละเอียดอ่อนต้องใช้ sensitive information ไม่ใช่ sensible",
+   "✓ ถูก: sensible = มีเหตุผล สมเหตุสมผล ใช้ถูกกับการพกร่มในหน้าฝน"
+  ],
+  "tip": "sensible = มีเหตุผล; sensitive = ไวต่อสิ่งเร้า/ละเอียดอ่อน เช่น sensitive to criticism, sensitive information"
+ },
+ {
+  "id": "m12-eng-023",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which verbs can correctly complete the sentence?<br>With hard work, she was able to ____ her goal of becoming a teacher.<br>1) win<br>2) achieve<br>3) reach",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 1 ใช้ไม่ได้เพราะ win a goal ไม่ใช่ collocation และชุดนี้ตัดข้อความ 3 ที่ใช้ได้ออก",
+   "ผิด: ข้อความ 1 ใช้ไม่ได้เพราะ win a goal ไม่ใช่ collocation และชุดนี้ตัดข้อความ 2 ที่ใช้ได้ออก",
+   "✓ ถูก: achieve her goal และ reach her goal เป็น collocation ที่ถูกต้องทั้งคู่",
+   "ผิด: รวม win ซึ่งใช้กับ goal ไม่ได้ไว้ด้วย"
+  ],
+  "tip": "goal ใช้กับ achieve / reach / accomplish / set; win ใช้กับ a prize, a match, an election"
+ },
+ {
+  "id": "m12-eng-024",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "She always chooses her words carefully so as not to hurt anyone's feelings. Which adjective best describes her?",
+  "c": [
+   "tactful",
+   "blunt",
+   "stubborn",
+   "greedy"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: tactful = รอบคอบในการพูดเพื่อไม่ทำให้ผู้อื่นเสียใจ ตรงกับพฤติกรรมในเรื่อง",
+   "ผิด: blunt แปลว่าพูดตรงจนอาจทำร้ายความรู้สึก ตรงข้ามกับ tactful",
+   "ผิด: stubborn แปลว่าดื้อรั้น ไม่ได้อธิบายการเลือกคำพูด",
+   "ผิด: greedy แปลว่าโลภ ไม่เกี่ยวกับการเลือกคำพูด"
+  ],
+  "tip": "tactful = ระมัดระวังคำพูดไม่ให้กระทบความรู้สึกผู้อื่น; blunt = พูดตรงไม่เกรงใจ"
+ },
+ {
+  "id": "m12-eng-025",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the word or phrase closest in meaning to the part in bold.<br>Two sponsors <b>backed out of</b> the project at the last minute.",
+  "c": [
+   "took charge of",
+   "withdrew from",
+   "paid for",
+   "looked after"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: took charge of แปลว่ารับหน้าที่ดูแล ตรงข้ามกับการถอนตัว",
+   "✓ ถูก: back out of = ถอนตัวจาก ตรงกับ withdrew from",
+   "ผิด: paid for แปลว่าจ่ายเงินให้ ซึ่งไม่ใช่ความหมายของ back out of",
+   "ผิด: looked after แปลว่าดูแล ซึ่งไม่ใช่ความหมายของ back out of"
+  ],
+  "tip": "back out of = withdraw from; take part in = เข้าร่วม; pull out of = ถอนตัวออก"
+ },
+ {
+  "id": "m12-eng-026",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which verb can <b>NOT</b> be used naturally with the noun “permission”?",
+  "c": [
+   "give",
+   "grant",
+   "make",
+   "seek"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: give permission = อนุญาต เป็น collocation ที่ถูกต้อง",
+   "ผิด: grant permission = ให้อนุญาต เป็น collocation ที่ถูกต้อง",
+   "✓ ถูก: make permission ไม่ใช่ collocation ในภาษาอังกฤษมาตรฐาน",
+   "ผิด: seek permission = ขออนุญาต เป็น collocation ที่ถูกต้อง"
+  ],
+  "tip": "permission ใช้กับ give / grant / ask for / seek / get; ไม่ใช้ make permission (make ใช้กับ a decision, a mistake, an effort)"
+ },
+ {
+  "id": "m12-eng-027",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Choose the correct answer.<br>The company has a strict ____ against using personal email accounts for confidential data.",
+  "c": [
+   "policy",
+   "promise",
+   "procedure",
+   "permission"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: policy against ... = นโยบาย/ข้อกำหนดที่ห้ามการกระทำบางอย่าง เข้ากับ strict และ against",
+   "ผิด: promise ไม่ใช้กับ against ในความหมายข้อห้ามขององค์กร",
+   "ผิด: procedure คือขั้นตอนการทำงาน ไม่ใช้บอกข้อห้ามด้วย against",
+   "ผิด: permission คือการอนุญาต ขัดกับความหมายของข้อห้าม"
+  ],
+  "tip": "a strict policy against + V-ing = นโยบายเข้มงวดที่ห้ามการกระทำนั้น"
+ },
+ {
+  "id": "m12-eng-028",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Choose the correct answer.<br>Fruit farmers are suffering from the long ____ ; no rain has fallen for four months.",
+  "c": [
+   "monsoon",
+   "drought",
+   "frost",
+   "storm"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: monsoon คือฤดูมรสุมที่ฝนตกมาก ซึ่งตรงข้ามกับสภาพไม่มีฝน",
+   "✓ ถูก: drought = ภัยแล้ง ตรงกับฝนไม่ตกมาสี่เดือน",
+   "ผิด: frost คือน้ำค้างแข็ง ไม่เกี่ยวกับการไม่มีฝน",
+   "ผิด: storm คือพายุซึ่งมาพร้อมฝน ไม่ตรงกับสภาพแห้งแล้งยาวนาน"
+  ],
+  "tip": "ไม่มีฝนเป็นเวลานาน = drought; น้ำมากเกินไป = flood"
+ },
+ {
+  "id": "m12-eng-029",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>A: I'm so sorry I forgot to bring your book today.<br>B: ____",
+  "c": [
+   "You're welcome. I'm very happy to help you with anything.",
+   "I'm sorry, too. It is a very good book and I like reading it.",
+   "Congratulations! You remembered it.",
+   "That's all right. You can bring it tomorrow."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: You're welcome ใช้ตอบคำขอบคุณ ไม่ใช่ตอบคำขอโทษ",
+   "ผิด: การขอโทษกลับและพูดถึงหนังสือไม่ตอบรับคำขอโทษของผู้พูด",
+   "ผิด: Congratulations ใช้แสดงความยินดี แต่ผู้พูดลืมนำหนังสือมา",
+   "✓ ถูก: ตอบรับคำขอโทษอย่างสุภาพและเสนอให้นำมาในวันพรุ่งนี้ เหมาะกับสถานการณ์"
+  ],
+  "tip": "ตอบรับคำขอโทษ: That's all right. / No problem. / Never mind. ไม่ตอบด้วย You're welcome"
+ },
+ {
+  "id": "m12-eng-030",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> an appropriate way to give feedback on a colleague's presentation?",
+  "c": [
+   "Your slides were awful. You should never present again.",
+   "The examples were very clear. Perhaps you could add one more chart.",
+   "I liked your introduction. The ending could be a little shorter.",
+   "Thank you for the presentation. May I suggest a few small changes?"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: เป็นการวิจารณ์รุนแรงและทำลายกำลังใจ ไม่เหมาะกับการให้ข้อเสนอแนะ",
+   "ผิด: ชมจุดดีก่อนแล้วเสนอสิ่งที่เพิ่มได้ เป็นข้อเสนอแนะที่เหมาะสม",
+   "ผิด: ชมส่วนที่ดีแล้วเสนอปรับส่วนท้ายอย่างสุภาพ เป็นข้อเสนอแนะที่เหมาะสม",
+   "ผิด: ขอบคุณและขออนุญาตเสนอแนะ เป็นข้อเสนอแนะที่สุภาพ"
+  ],
+  "tip": "ให้ข้อเสนอแนะอย่างสร้างสรรค์: ชมสิ่งที่ดี แล้วเสนอสิ่งที่ปรับได้ด้วยถ้อยคำสุภาพ ไม่ตัดสินหรือดูถูก"
+ },
+ {
+  "id": "m12-eng-031",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Read the conversation.<br>A: We've been working on this timetable for five hours.<br>B: I'm exhausted. Let's call it a day.<br>What does B mean?",
+  "c": [
+   "B wants to telephone someone today.",
+   "B wants to change the date of the meeting.",
+   "B wants to stop working for now.",
+   "B wants to work for five more hours."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ไม่ได้หมายถึงโทรศัพท์หาใคร เพราะเป็นสำนวน",
+   "ผิด: ไม่ได้หมายถึงเปลี่ยนวันประชุม",
+   "✓ ถูก: call it a day = เลิกทำงานหรือหยุดพักเพียงเท่านี้ก่อน",
+   "ผิด: ขัดกับ exhausted ที่แสดงว่าเหนื่อยมากแล้ว"
+  ],
+  "tip": "call it a day = หยุดทำงานเพียงเท่านี้ (ก่อนเวลาเลิกหรือเมื่อเหนื่อย); ดูบริบท exhausted ประกอบ"
+ },
+ {
+  "id": "m12-eng-032",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "You are on a bus and want to ask the stranger beside you to take a photo of you and your friends. What would you say?",
+  "c": [
+   "Take a photo of us now, please, because we are in a hurry.",
+   "Excuse me, would you mind taking a photo of us, please?",
+   "Do you want me to take photo?",
+   "May I take your photo for my album?"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: เป็นการสั่ง ไม่สุภาพพอสำหรับคนแปลกหน้า",
+   "✓ ถูก: Excuse me, would you mind ...? เป็นการขอร้องผู้แปลกหน้าอย่างสุภาพ",
+   "ผิด: เป็นการเสนอตัวช่วยถ่ายภาพ ไม่ใช่การขอให้อีกฝ่ายถ่ายภาพให้",
+   "ผิด: เป็นการขออนุญาตถ่ายภาพของอีกฝ่าย ไม่ตรงกับเจตนา"
+  ],
+  "tip": "ขอให้คนแปลกหน้าช่วย: Excuse me, would you mind + V-ing ...? / Could you possibly ...?"
+ },
+ {
+  "id": "m12-eng-033",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Read the conversation.<br>A: How about going to the night market after class?<br>B: Sounds good, but I'm a bit short of cash.<br>What does B mean?",
+  "c": [
+   "B does not like paying by cash at the night market.",
+   "B has lost the cash in the market.",
+   "B does not want to go to class.",
+   "B does not have much money at the moment."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ไม่ได้หมายถึงไม่ชอบจ่ายเงินสด",
+   "ผิด: ไม่ได้หมายถึงทำเงินหาย",
+   "ผิด: ไม่ได้หมายถึงไม่อยากไปเรียน",
+   "✓ ถูก: short of cash = เงินสดไม่ค่อยพอในตอนนี้"
+  ],
+  "tip": "short of + สิ่งที่ต้องใช้ = ขาดแคลน/มีไม่พอ เช่น short of time, short of cash"
+ },
+ {
+  "id": "m12-eng-034",
+  "s": "eng",
+  "p": "สถานการณ์",
+  "q": "Complete the conversation.<br>Student: Excuse me, what does “sustainable” mean?<br>Teacher: ____",
+  "c": [
+   "It describes something that can continue for a long time without harming the environment.",
+   "Yes, you are right. It is an important word, and you will see it in the exam next week.",
+   "It is spelled S-U-S-T-A-I-N-A-B-L-E, I think.",
+   "You must buy a dictionary before tomorrow."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ตอบคำถามความหมายของคำโดยอธิบายอย่างชัดเจน",
+   "ผิด: Yes ไม่ตอบคำถามที่ถามความหมาย",
+   "ผิด: การสะกดคำไม่ตอบคำถามที่ถามความหมาย",
+   "ผิด: การสั่งให้ซื้อพจนานุกรมไม่ตอบคำถามโดยตรง"
+  ],
+  "tip": "What does X mean? → ตอบด้วยคำอธิบายความหมายหรือตัวอย่าง ไม่ตอบ Yes/No"
+ },
+ {
+  "id": "m12-eng-035",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which of the following can be used to <b>give a compliment</b>?<br>1) Honestly, I have seen better reports from first-year students.<br>2) You did a great job on the report.<br>3) Your presentation was very impressive.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 1 เป็นคำวิจารณ์ ไม่ใช่คำชม และชุดนี้ตัดข้อความ 3 ที่เป็นคำชมออก",
+   "ผิด: ข้อความ 1 เป็นคำวิจารณ์ ไม่ใช่คำชม และชุดนี้ตัดข้อความ 2 ที่เป็นคำชมออก",
+   "✓ ถูก: ข้อความ 2 และ 3 เป็นคำชมอย่างชัดเจน",
+   "ผิด: รวมข้อความ 1 ซึ่งเป็นคำวิจารณ์ไว้ด้วย"
+  ],
+  "tip": "คำชม: You did a great job. / Your work was impressive. / Well done."
+ },
+ {
+  "id": "m12-eng-036",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Read the conversation.<br>A: Do you think we should postpone the camp because of the rain?<br>B: Let's play it by ear.<br>What does B mean?",
+  "c": [
+   "They will play music by the lake.",
+   "They will cancel the camp immediately and tell all the students to go home.",
+   "They will ask the weather forecaster to listen.",
+   "They will decide later, depending on how things develop."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ไม่ได้หมายถึงเล่นดนตรีจริง ๆ เพราะเป็นสำนวน",
+   "ผิด: ขัดกับความหมายเพราะยังไม่ตัดสินใจยกเลิกทันที",
+   "ผิด: ไม่ได้หมายถึงให้ผู้พยากรณ์อากาศฟังอะไร เพราะเป็นสำนวน",
+   "✓ ถูก: play it by ear = ดูสถานการณ์แล้วค่อยตัดสินใจ ไม่วางแผนล่วงหน้า"
+  ],
+  "tip": "play it by ear = ตัดสินใจตามสถานการณ์ (ไม่มีแผนตายตัว)"
+ },
+ {
+  "id": "m12-eng-037",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The passage is mainly about",
+  "ps": "During the nesting season, female sea turtles come ashore at night to lay their eggs in the sand. About two months later the hatchlings emerge and crawl towards the sea, guided by the brighter horizon over the water. Bright lights from hotels and roads can confuse them, and many crawl inland, where they die from exhaustion or are hit by cars. To help, volunteers patrol the beach, move nests that are too close to the road and ask hotels to switch off or shield their lights at night. Some owners agree, but others worry that a dark beach may frighten guests and make things easier for thieves. The volunteers therefore suggest amber lamps, which confuse the hatchlings less than white lights.",
+  "c": [
+   "why hotels should be built far from the beach",
+   "how artificial lights harm baby sea turtles and what volunteers are doing about it",
+   "how female sea turtles lay their eggs at night",
+   "a plan to move all turtle nests away from the sea"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความไม่ได้เสนอว่าควรสร้างโรงแรมให้ไกลชายหาด",
+   "✓ ถูก: บทความเล่าว่าแสงไฟทำร้ายลูกเต่าและอาสาสมัครกำลังช่วยอย่างไร ซึ่งเป็นใจความหลัก",
+   "ผิด: การวางไข่เป็นเพียงรายละเอียดตอนต้นของบทความ ไม่ใช่ใจความหลัก",
+   "ผิด: บทความบอกให้ย้ายเฉพาะรังที่อยู่ใกล้ถนน ไม่ใช่ย้ายทุกรังออกจากทะเล"
+  ],
+  "tip": "ใจความหลักครอบคลุมทั้งปัญหา (แสงไฟ) และการแก้ไข (อาสาสมัคร) ไม่ใช่รายละเอียดตอนต้น"
+ },
+ {
+  "id": "m12-eng-038",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "According to the passage, which statement is <b>NOT</b> true?",
+  "ps": "During the nesting season, female sea turtles come ashore at night to lay their eggs in the sand. About two months later the hatchlings emerge and crawl towards the sea, guided by the brighter horizon over the water. Bright lights from hotels and roads can confuse them, and many crawl inland, where they die from exhaustion or are hit by cars. To help, volunteers patrol the beach, move nests that are too close to the road and ask hotels to switch off or shield their lights at night. Some owners agree, but others worry that a dark beach may frighten guests and make things easier for thieves. The volunteers therefore suggest amber lamps, which confuse the hatchlings less than white lights.",
+  "c": [
+   "Some hatchlings die after being hit by cars.",
+   "Volunteers move nests that are too close to the road.",
+   "Hotels have all agreed to switch off their lights at night.",
+   "The hatchlings appear about two months after the eggs are laid."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความระบุว่าลูกเต่าบางตัวถูกรถชน",
+   "ผิด: บทความระบุว่าอาสาสมัครย้ายรังที่อยู่ใกล้ถนน",
+   "✓ ถูก: บทความบอกว่าเจ้าของบางรายเห็นด้วย แต่บางรายกังวล จึงไม่ใช่ทุกโรงแรมที่ตกลง",
+   "ผิด: บทความระบุว่าลูกเต่าออกมาประมาณสองเดือนหลังจากนั้น"
+  ],
+  "tip": "ข้อ NOT true คือข้อที่ขัดกับบทความ คำว่า all agreed ขัดกับ Some owners agree, but others worry"
+ },
+ {
+  "id": "m12-eng-039",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "The word <b>shield</b> in the fourth sentence is closest in meaning to",
+  "ps": "During the nesting season, female sea turtles come ashore at night to lay their eggs in the sand. About two months later the hatchlings emerge and crawl towards the sea, guided by the brighter horizon over the water. Bright lights from hotels and roads can confuse them, and many crawl inland, where they die from exhaustion or are hit by cars. To help, volunteers patrol the beach, move nests that are too close to the road and ask hotels to switch off or shield their lights at night. Some owners agree, but others worry that a dark beach may frighten guests and make things easier for thieves. The volunteers therefore suggest amber lamps, which confuse the hatchlings less than white lights.",
+  "c": [
+   "replace",
+   "brighten",
+   "repair",
+   "cover"
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: replace แปลว่าเปลี่ยนใหม่ ไม่ใช่การกำบังไฟ",
+   "ผิด: brighten แปลว่าทำให้สว่างขึ้น ตรงข้ามกับเจตนาให้แสงน้อยลง",
+   "ผิด: repair แปลว่าซ่อม ไม่ใช่ความหมายของ shield",
+   "✓ ถูก: shield their lights = ปิดบังหรือกำบังไฟไม่ให้ส่องไปทั่ว ตรงกับ cover"
+  ],
+  "tip": "shield = cover / protect; shield lights = บังไฟไม่ให้ส่องออกไปรบกวน"
+ },
+ {
+  "id": "m12-eng-040",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements are supported by the passage?<br>1) Volunteers want hotels to replace amber lamps with white lights.<br>2) Hatchlings move towards the brighter horizon over the sea.<br>3) Some hotel owners fear that a dark beach could help thieves.",
+  "ps": "During the nesting season, female sea turtles come ashore at night to lay their eggs in the sand. About two months later the hatchlings emerge and crawl towards the sea, guided by the brighter horizon over the water. Bright lights from hotels and roads can confuse them, and many crawl inland, where they die from exhaustion or are hit by cars. To help, volunteers patrol the beach, move nests that are too close to the road and ask hotels to switch off or shield their lights at night. Some owners agree, but others worry that a dark beach may frighten guests and make things easier for thieves. The volunteers therefore suggest amber lamps, which confuse the hatchlings less than white lights.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ข้อความ 1 ไม่ตรงกับบทความ เพราะอาสาสมัครเสนอให้ใช้ amber lamps ไม่ใช่ white lights และชุดนี้ตัดข้อความ 3 ที่ถูกออก",
+   "ผิด: ข้อความ 1 ไม่ตรงกับบทความ เพราะอาสาสมัครเสนอให้ใช้ amber lamps ไม่ใช่ white lights และชุดนี้ตัดข้อความ 2 ที่ถูกออก",
+   "✓ ถูก: ข้อความ 2 ตรงกับ guided by the brighter horizon และข้อความ 3 ตรงกับ make things easier for thieves",
+   "ผิด: รวมข้อความ 1 ที่ขัดกับบทความไว้ด้วย"
+  ],
+  "tip": "ตรวจแต่ละข้อความกับบทความ ข้อที่กลับความหมายของข้อเสนอในบทความถือว่าไม่ได้รับการสนับสนุน"
+ },
+ {
+  "id": "m12-eng-041",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A hotel owner wants to keep his beach lit for security but also wants to protect the hatchlings. Which plan agrees with the passage?",
+  "ps": "During the nesting season, female sea turtles come ashore at night to lay their eggs in the sand. About two months later the hatchlings emerge and crawl towards the sea, guided by the brighter horizon over the water. Bright lights from hotels and roads can confuse them, and many crawl inland, where they die from exhaustion or are hit by cars. To help, volunteers patrol the beach, move nests that are too close to the road and ask hotels to switch off or shield their lights at night. Some owners agree, but others worry that a dark beach may frighten guests and make things easier for thieves. The volunteers therefore suggest amber lamps, which confuse the hatchlings less than white lights.",
+  "c": [
+   "Keep the white lights at full brightness all night so that the hatchlings can see the way",
+   "Move the turtle nests closer to the hotel where the lights are",
+   "Replace white lights with amber lamps and shield them",
+   "Ask the volunteers to turn off the street lights on the road"
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: ไฟขาวสว่างตลอดคืนทำให้ลูกเต่าสับสนและเดินเข้าไปในแผ่นดิน",
+   "ผิด: บทความให้ย้ายรังออกจากถนน ไม่ได้ให้ย้ายเข้าใกล้โรงแรมที่มีไฟ",
+   "✓ ถูก: บทความแนะนำให้ใช้ amber lamps ที่รบกวนลูกเต่าน้อยกว่าไฟขาว และให้กำบังแสง จึงยังมีแสงเพื่อความปลอดภัยได้",
+   "ผิด: บทความไม่ได้ให้อาสาสมัครปิดไฟถนน"
+  ],
+  "tip": "นำข้อเสนอในบทความ (amber lamps + shield) ไปจับกับเงื่อนไขของผู้ประกอบการ (ต้องการแสงเพื่อความปลอดภัย)"
+ },
+ {
+  "id": "m12-eng-042",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "What is the main idea of the passage?",
+  "ps": "In a busy neighbourhood in Chiang Mai, a refrigerator stands outside a small shop with a sign saying “Take what you need, leave what you can.” Residents, restaurants and bakeries leave surplus food in it, and anyone who is hungry can take it without paying or being asked questions. A group of volunteers cleans the fridge every morning and checks that nothing is past its date. Raw meat and home-cooked food are not accepted because they spoil quickly. The founders say that the fridge reduces food waste, but they also hope that it will bring neighbours closer together. However, the fridge is often empty by midday, and a local health officer has warned that the project must follow basic hygiene rules.",
+  "c": [
+   "A community fridge helps share surplus food, but it also faces some problems.",
+   "A shop sells leftover food at a very low price.",
+   "A health officer has closed a food stall in the neighbourhood.",
+   "A campaign teaches residents to cook meals at home."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความเล่าถึงตู้เย็นชุมชนที่แบ่งปันอาหารส่วนเกินและปัญหาที่ตามมา",
+   "ผิด: บทความไม่ได้พูดถึงร้านที่ขายอาหารเหลือในราคาถูก",
+   "ผิด: เจ้าหน้าที่สาธารณสุขเพียงเตือนเรื่องสุขอนามัย ไม่ได้สั่งปิดร้านใด",
+   "ผิด: บทความไม่ได้กล่าวถึงแคมเปญสอนทำอาหาร"
+  ],
+  "tip": "ใจความหลักต้องครอบคลุมทั้งประโยชน์ของโครงการและปัญหาที่บทความกล่าวถึงในตอนท้าย"
+ },
+ {
+  "id": "m12-eng-043",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "The passage mentions all of the following about the fridge EXCEPT",
+  "ps": "In a busy neighbourhood in Chiang Mai, a refrigerator stands outside a small shop with a sign saying “Take what you need, leave what you can.” Residents, restaurants and bakeries leave surplus food in it, and anyone who is hungry can take it without paying or being asked questions. A group of volunteers cleans the fridge every morning and checks that nothing is past its date. Raw meat and home-cooked food are not accepted because they spoil quickly. The founders say that the fridge reduces food waste, but they also hope that it will bring neighbours closer together. However, the fridge is often empty by midday, and a local health officer has warned that the project must follow basic hygiene rules.",
+  "c": [
+   "Volunteers clean it every morning.",
+   "People must register their names before taking food.",
+   "Raw meat is not accepted.",
+   "It is often empty by midday."
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: บทความระบุว่าอาสาสมัครทำความสะอาดทุกเช้า",
+   "✓ ถูก: บทความบอกว่าใครหิวก็หยิบได้โดยไม่ถูกถามคำถาม ไม่ได้กล่าวถึงการลงทะเบียนชื่อ",
+   "ผิด: บทความระบุว่าไม่รับเนื้อดิบ",
+   "ผิด: บทความระบุว่าตู้เย็นมักว่างเปล่าก่อนเที่ยง"
+  ],
+  "tip": "EXCEPT = หาข้อที่บทความไม่ได้พูดถึง บทความยืนยันว่าไม่มีการถามคำถามกับผู้หยิบอาหาร"
+ },
+ {
+  "id": "m12-eng-044",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "The word <b>they</b> in the fifth sentence refers to",
+  "ps": "In a busy neighbourhood in Chiang Mai, a refrigerator stands outside a small shop with a sign saying “Take what you need, leave what you can.” Residents, restaurants and bakeries leave surplus food in it, and anyone who is hungry can take it without paying or being asked questions. A group of volunteers cleans the fridge every morning and checks that nothing is past its date. Raw meat and home-cooked food are not accepted because they spoil quickly. The founders say that the fridge reduces food waste, but they also hope that it will bring neighbours closer together. However, the fridge is often empty by midday, and a local health officer has warned that the project must follow basic hygiene rules.",
+  "c": [
+   "the neighbours",
+   "the founders",
+   "the residents who leave food",
+   "the volunteers who clean the fridge"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: neighbours เป็นกลุ่มที่ผู้ก่อตั้งหวังว่าจะใกล้ชิดกันมากขึ้น ไม่ใช่ผู้ที่หวัง",
+   "✓ ถูก: they ในประโยคที่ห้าชี้กลับไปที่ประธานของประโยคคือ the founders",
+   "ผิด: residents ที่นำอาหารมาวางไม่ใช่ประธานของประโยคนี้",
+   "ผิด: volunteers ที่ทำความสะอาดอยู่ในประโยคก่อนหน้า ไม่ใช่ประธานของประโยคนี้"
+  ],
+  "tip": "สรรพนาม they ชี้ไปที่นามพหูพจน์ที่เป็นประธานของประโยคเดียวกัน ให้ดูประโยคที่อยู่ในเดียวกันก่อน"
+ },
+ {
+  "id": "m12-eng-045",
+  "s": "eng",
+  "p": "ผสมข้อ",
+  "q": "Which statements can be inferred from the passage?<br>1) Some residents with spare food are willing to share it.<br>2) The fridge is refilled by the health office every afternoon.<br>3) Food safety matters to both the volunteers and the health officer.",
+  "ps": "In a busy neighbourhood in Chiang Mai, a refrigerator stands outside a small shop with a sign saying “Take what you need, leave what you can.” Residents, restaurants and bakeries leave surplus food in it, and anyone who is hungry can take it without paying or being asked questions. A group of volunteers cleans the fridge every morning and checks that nothing is past its date. Raw meat and home-cooked food are not accepted because they spoil quickly. The founders say that the fridge reduces food waste, but they also hope that it will bring neighbours closer together. However, the fridge is often empty by midday, and a local health officer has warned that the project must follow basic hygiene rules.",
+  "c": [
+   "1, 2",
+   "1, 3",
+   "2, 3",
+   "1, 2, 3"
+  ],
+  "a": 1,
+  "n": [
+   "ผิด: ข้อความ 2 ไม่มีในบทความ และชุดนี้ตัดข้อความ 3 ที่อนุมานได้ออก",
+   "✓ ถูก: ข้อความ 1 อนุมานได้จากการที่ผู้คนนำอาหารส่วนเกินมาวาง และข้อความ 3 อนุมานได้จากการที่อาสาสมัครตรวจวันหมดอายุและเจ้าหน้าที่เตือนเรื่องสุขอนามัย",
+   "ผิด: ข้อความ 2 ไม่มีในบทความ และชุดนี้ตัดข้อความ 1 ที่อนุมานได้ออก",
+   "ผิด: รวมข้อความ 2 ที่ไม่มีในบทความไว้ด้วย"
+  ],
+  "tip": "อนุมานต้องมีข้อมูลในบทความรองรับ ข้อความที่เพิ่มรายละเอียดที่บทความไม่ได้พูดถึงถือว่าไม่ได้รับการสนับสนุน"
+ },
+ {
+  "id": "m12-eng-046",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "A bakery has leftover bread, and a family has some curry they cooked at home. According to the passage, what could they do?",
+  "ps": "In a busy neighbourhood in Chiang Mai, a refrigerator stands outside a small shop with a sign saying “Take what you need, leave what you can.” Residents, restaurants and bakeries leave surplus food in it, and anyone who is hungry can take it without paying or being asked questions. A group of volunteers cleans the fridge every morning and checks that nothing is past its date. Raw meat and home-cooked food are not accepted because they spoil quickly. The founders say that the fridge reduces food waste, but they also hope that it will bring neighbours closer together. However, the fridge is often empty by midday, and a local health officer has warned that the project must follow basic hygiene rules.",
+  "c": [
+   "Both could leave their food because the fridge accepts any kind of food.",
+   "Neither could leave anything because the fridge is often empty.",
+   "The family could leave the curry, but the bakery could not leave the bread.",
+   "The bakery could leave the bread in the fridge, but the family should not leave the curry."
+  ],
+  "a": 3,
+  "n": [
+   "ผิด: ตู้เย็นไม่รับอาหารทุกชนิด เพราะไม่รับอาหารที่ปรุงเองที่บ้าน",
+   "ผิด: การที่ตู้เย็นมักว่างไม่ได้ทำให้ผู้ใดห้ามนำอาหารมาวาง",
+   "ผิด: ผลกลับกัน เพราะบทความรับอาหารจากร้านเบเกอรีและไม่รับอาหารปรุงเองที่บ้าน",
+   "✓ ถูก: บทความรับอาหารส่วนเกินจากร้านเบเกอรี แต่ไม่รับอาหารที่ปรุงเองที่บ้าน"
+  ],
+  "tip": "นำกฎในบทความ (ไม่รับ raw meat และ home-cooked food) ไปใช้กับสถานการณ์ของแต่ละราย"
+ },
+ {
+  "id": "m12-eng-047",
+  "s": "eng",
+  "p": "สลับรายละเอียด",
+  "q": "Which statement best summarises the passage?",
+  "ps": "Many street vendors in Thai cities now accept QR code payments. Customers like the speed, since they do not need to carry cash or wait for change, and vendors say that they no longer worry about counterfeit notes or being robbed. However, not everyone is happy. Some older customers do not own smartphones and are not comfortable with banking apps. In the countryside, a weak mobile signal can delay a payment for several minutes, which annoys both sides. A few vendors also complain that the bank sometimes charges a small fee when large amounts are transferred. Most vendors therefore keep a small amount of cash for customers who cannot pay electronically.",
+  "c": [
+   "QR code payments bring clear benefits to street vendors, but some problems remain.",
+   "Street vendors should stop accepting cash because it is dangerous.",
+   "Older customers prefer QR payments because they are faster.",
+   "Weak mobile signals are the only reason vendors still use cash."
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: บทความเล่าประโยชน์ของการจ่ายด้วย QR ต่อแม่ค้าและปัญหาที่ยังเหลืออยู่",
+   "ผิด: บทความไม่ได้เสนอให้เลิกรับเงินสด และแม่ค้ายังเก็บเงินสดไว้",
+   "ผิด: บทความบอกว่าลูกค้าสูงอายุบางคนไม่สะดวกใช้แอปธนาคาร ไม่ได้ชอบ QR",
+   "ผิด: สัญญาณอ่อนเป็นเพียงหนึ่งในปัญหา และคำว่า only ทำให้ข้อความแคบเกินบทความ"
+  ],
+  "tip": "ข้อสรุปที่ดีต้องครอบคลุมทั้งข้อดีและปัญหา ระวังคำว่า only / should stop ที่แรงเกินบทความ"
+ },
+ {
+  "id": "m12-eng-048",
+  "s": "eng",
+  "p": "ปฏิเสธ",
+  "q": "Which of the following is <b>NOT</b> true according to the passage?",
+  "ps": "Many street vendors in Thai cities now accept QR code payments. Customers like the speed, since they do not need to carry cash or wait for change, and vendors say that they no longer worry about counterfeit notes or being robbed. However, not everyone is happy. Some older customers do not own smartphones and are not comfortable with banking apps. In the countryside, a weak mobile signal can delay a payment for several minutes, which annoys both sides. A few vendors also complain that the bank sometimes charges a small fee when large amounts are transferred. Most vendors therefore keep a small amount of cash for customers who cannot pay electronically.",
+  "c": [
+   "Customers do not have to wait for change.",
+   "A weak signal in the countryside can delay a payment.",
+   "Vendors have stopped accepting cash completely.",
+   "Some older customers are not comfortable with banking apps."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความระบุว่าลูกค้าไม่ต้องรอเงินทอน",
+   "ผิด: บทความระบุว่าสัญญาณอ่อนในชนบทอาจทำให้การชำระเงินล่าช้า",
+   "✓ ถูก: บทความบอกว่าแม่ค้าส่วนใหญ่ยังเก็บเงินสดจำนวนเล็กน้อยไว้ จึงไม่ได้เลิกรับเงินสดทั้งหมด",
+   "ผิด: บทความระบุว่าลูกค้าสูงอายุบางคนไม่สะดวกใช้แอปธนาคาร"
+  ],
+  "tip": "ข้อ NOT true คือข้อที่ขัดกับบทความ completely ขัดกับ keep a small amount of cash"
+ },
+ {
+  "id": "m12-eng-049",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "According to the passage, why do most vendors keep a small amount of cash?",
+  "ps": "Many street vendors in Thai cities now accept QR code payments. Customers like the speed, since they do not need to carry cash or wait for change, and vendors say that they no longer worry about counterfeit notes or being robbed. However, not everyone is happy. Some older customers do not own smartphones and are not comfortable with banking apps. In the countryside, a weak mobile signal can delay a payment for several minutes, which annoys both sides. A few vendors also complain that the bank sometimes charges a small fee when large amounts are transferred. Most vendors therefore keep a small amount of cash for customers who cannot pay electronically.",
+  "c": [
+   "Banks refuse to deal with street vendors.",
+   "Counterfeit notes have become more common.",
+   "Some customers cannot pay electronically.",
+   "QR codes are not allowed in the countryside."
+  ],
+  "a": 2,
+  "n": [
+   "ผิด: บทความไม่ได้บอกว่าธนาคารปฏิเสธการทำธุรกรรมกับแม่ค้า",
+   "ผิด: บทความบอกว่าแม่ค้าไม่ต้องกังวลเรื่องธนบัตรปลอมอีกต่อไป",
+   "✓ ถูก: บทความบอกว่าแม่ค้าเก็บเงินสดไว้สำหรับลูกค้าที่จ่ายแบบอิเล็กทรอนิกส์ไม่ได้",
+   "ผิด: บทความไม่ได้บอกว่าห้ามใช้ QR ในชนบท มีเพียงสัญญาณอ่อน"
+  ],
+  "tip": "ถามเหตุผลให้หาประโยคที่มีคำเชื่อมเหตุผล therefore ซึ่งชี้ไปที่ลูกค้าที่จ่ายอิเล็กทรอนิกส์ไม่ได้"
+ },
+ {
+  "id": "m12-eng-050",
+  "s": "eng",
+  "p": "นำไปใช้",
+  "q": "Who would probably be the <b>least</b> happy about the spread of QR payments?",
+  "ps": "Many street vendors in Thai cities now accept QR code payments. Customers like the speed, since they do not need to carry cash or wait for change, and vendors say that they no longer worry about counterfeit notes or being robbed. However, not everyone is happy. Some older customers do not own smartphones and are not comfortable with banking apps. In the countryside, a weak mobile signal can delay a payment for several minutes, which annoys both sides. A few vendors also complain that the bank sometimes charges a small fee when large amounts are transferred. Most vendors therefore keep a small amount of cash for customers who cannot pay electronically.",
+  "c": [
+   "An elderly customer who does not own a smartphone",
+   "A vendor who is afraid of being robbed",
+   "A customer who dislikes waiting for change",
+   "A vendor who worries about counterfeit notes"
+  ],
+  "a": 0,
+  "n": [
+   "✓ ถูก: ลูกค้าสูงอายุที่ไม่มีสมาร์ตโฟนจ่ายด้วย QR ไม่ได้ จึงน่าจะไม่พอใจมากที่สุด",
+   "ผิด: แม่ค้าที่กลัวถูกปล้นได้ประโยชน์เพราะมีเงินสดน้อยลง",
+   "ผิด: ลูกค้าที่ไม่ชอบรอเงินทอนได้ประโยชน์จากความรวดเร็ว",
+   "ผิด: แม่ค้าที่กังวลเรื่องธนบัตรปลอมได้ประโยชน์เพราะไม่ต้องรับเงินสด"
+  ],
+  "tip": "นำข้อดีข้อเสียในบทความไปจับกับบุคคลแต่ละประเภท ผู้ที่ได้รับผลลบตามบทความคือผู้ที่ไม่ถนัดใช้แอป"
+ }
+]
