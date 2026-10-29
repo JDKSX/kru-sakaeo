@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Trirong:wght@500;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
 <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
 <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
-<link rel="stylesheet" href="ks-ds.css?v=mvtm9gfe">
+<link rel="stylesheet" href="ks-ds.css?v=mvtmxrk8">
 <style>
 /* หน้าหลัก */
 .hero{display:grid;gap:10px;padding:18px 20px;border-left:5px solid var(--accent)}
@@ -143,20 +143,6 @@ input[type=file]{position:absolute;width:1px;height:1px;opacity:0;pointer-events
 .i-big i{font-size:1.5rem}
 .i-big .i-lst{gap:6px}
 .i-page a.lnk{color:var(--primary);text-decoration:underline}
-@media print{
-  body[data-view="info"]{--bg:white;--surface:white;--surface-2:white;--line:gray;--ink-1:black;--ink-2:black;--ink-3:black;--ink-4:gray;--primary:black;--primary-soft:white;--on-primary:white;--accent:black;--accent-ink:black;--accent-soft:white;--ok-ink:black;--ok-soft:white;--ok-deep:black;--bad-ink:black;--bad-soft:white;--bad-deep:black;--warn-ink:black;--warn-soft:white;--warn-deep:black;--sh-1:none;--sh-2:none;--cpad:0px;background:white;color:black;font-size:11pt;line-height:1.5}
-  body[data-view="info"] :is(.skip,.rail,.topbar,.tabbar,.foot,.toast,.crumb,.no-print,.btn){display:none!important}
-  body[data-view="info"] .shell{display:block;min-height:0}
-  body[data-view="info"] .main{padding:0}
-  body[data-view="info"] .ctx{padding-top:0}
-  body[data-view="info"] .card{box-shadow:none;break-inside:avoid;page-break-inside:avoid;border:1px solid black}
-  body[data-view="info"] .note{background:none;border:1px solid black;break-inside:avoid;page-break-inside:avoid}
-  body[data-view="info"] .note.bad{border-width:2px}
-  body[data-view="info"] .badge{background:none;border:1px solid black}
-  body[data-view="info"] :is(h1,h2,h3){break-after:avoid;page-break-after:avoid}
-  body[data-view="info"] .i-tw{overflow:visible}
-  body[data-view="info"] a{color:black}
-}
 </style>
 </head>
 <body>
@@ -176,8 +162,9 @@ input[type=file]{position:absolute;width:1px;height:1px;opacity:0;pointer-events
   <nav class="tabbar" id="nav2" aria-label="เมนูหลัก"></nav>
 </div>
 
-<script src="common.js?v=mvtm9gfe"></script>
-<script src="omr.js?v=mvtm9gfe"></script>
+<script src="common.js?v=mvtmxrk8"></script>
+<script src="omr.js?v=mvtmxrk8"></script>
+<script src="info-data.js?v=mvtmxrk8"></script>
 <script>
 let M=null;const cache={};
 const NAV=[["home","หน้าหลัก","ph-house"],["info","วันสอบ","ph-identification-card"],["exams","ข้อสอบ","ph-exam"],["sheets","ชีทอ่าน","ph-book-open-text"],["plan","แผน 19 วัน","ph-calendar-check"],["tech","เทคนิค","ph-lightbulb"]];
@@ -295,157 +282,68 @@ function vTech(){
   <li><b>ขีดคำสำคัญ:</b> ไม่ · ยกเว้น · ที่สุด · อันดับแรก · แน่นอน · อาจ</li><li><b>ตอบในใจก่อนดูตัวเลือก</b></li><li><b>ใส่เครื่องหมายทุกตัวเลือก</b> ✓ / ✗ / ? (บนเว็บใช้ปุ่ม "ตัด")</li><li><b>เหลือ 2 ข้อ</b> เลือกข้อที่ตอบโจทย์ตรงกว่าและครอบคลุมกว่า</li><li><b>ไม่เว้นว่าง</b></li></ol></div>
   <div class="grid-auto">${PATS.map((p,i)=>`<div class="card pat"><span class="eyebrow">แบบที่ ${i+1}</span><h3>${p[0]}</h3><p class="muted">${p[1]}</p><p class="how">${p[2]}</p></div>`).join("")}</div></div>`;
 }
-/* ---------- ข้อมูลวันสอบ ---------- */
-const PREP=[
- ["card",1,"บัตรประจำตัวผู้เข้าสอบที่พิมพ์จากระบบอิเล็กทรอนิกส์","ถ้ารูปในบัตรไม่สมบูรณ์ ให้ติดรูปถ่ายหน้าตรง ไม่สวมหมวก ไม่สวมแว่นกันแดด ไม่มีลวดลายบนรูป ถ่ายไม่เกิน 6 เดือน ขนาด 1 × 1.5 นิ้ว และลงลายมือชื่อในบัตรให้เรียบร้อย"],
- ["idc",1,"บัตรประจำตัวประชาชนฉบับจริงที่ยังไม่หมดอายุ (รูปถ่าย ชื่อ-สกุล ชัดเจน เลขตรงกับใบสมัคร) หรือบัตรประจำตัวเจ้าหน้าที่ของรัฐที่มีรูปถ่าย",""],
- ["pen",1,"ปากกา",""],
- ["pencil",1,"ดินสอ 2B หรือเข้มกว่า",""],
- ["eraser",1,"ยางลบ",""],
- ["watch",0,"นาฬิกาธรรมดาไม่เชื่อมมือถือ — ถ้าไม่แน่ใจว่ากรรมการอนุญาตให้ทิ้งไว้นอกห้อง",""],
- ["water",0,"น้ำดื่มและอาหารกลางวันสำหรับพักระหว่างวิชา",""]
-];
+/* ---------- ข้อมูลวันสอบ (เนื้อหาอยู่ใน info-data.js · หน้าพิมพ์ info-print.html ใช้ชุดเดียวกัน) ---------- */
+const PREP=INFO.prep.items;
 const PREP_REQ=PREP.filter(p=>p[1]).length;
 let PREPM={};
 function vInfo(){
-  setCtx([["หน้าหลัก","#home"],["วันสอบ"]],"ข้อมูลวันสอบ","สรุปจากประกาศ อ.ก.ค.ศ. สพม.สระแก้ว ลงวันที่ 28 ต.ค. 2569 · อ่านให้ครบก่อนวันสอบ");
+  setCtx([["หน้าหลัก","#home"],["วันสอบ"]],INFO.title,INFO.sub);
   const pm=store.get("ks-prep",{});PREPM=pm&&typeof pm==="object"?pm:{};
   const H=(i,t,id)=>`<h2 class="i-h"${id?` id="${id}"`:""}>${ic(i)}${t}</h2>`;
   const UL=a=>`<ul class="i-lst">${a.map(x=>`<li>${x}</li>`).join("")}</ul>`;
   const rows=a=>a.map(([t,s,p])=>`<tr><td>${t}</td><td>${s}</td><td>${p}</td></tr>`).join("");
-  const table=(cap,rs)=>`<table class="i-tbl"><caption class="i-vh">${cap}</caption><thead><tr><th scope="col">เวลา</th><th scope="col">วิชา</th><th scope="col">คะแนน</th></tr></thead><tbody>${rows(rs)}</tbody></table>`;
+  const table=(cap,rs)=>`<table class="i-tbl"><caption class="i-vh">${cap}</caption><thead><tr>${INFO.tblHead.map(h=>`<th scope="col">${h}</th>`).join("")}</tr></thead><tbody>${rows(rs)}</tbody></table>`;
   const prepRow=([k,,t,s])=>`<label class="i-chk"><input type="checkbox" data-prep="${k}" ${PREPM[k]?"checked":""}><span class="i-t"><span>${t}</span>${s?`<span class="hint">${s}</span>`:""}</span></label>`;
   const nPrep=PREP.filter(p=>p[1]&&PREPM[p[0]]).length;
   const phase=(n,t,a)=>`<div class="i-ph"><div class="i-l"><span class="i-n" aria-hidden="true"></span><span class="i-ln"></span></div><div class="i-b"><h3>${n}) ${t}</h3>${UL(a)}</div></div>`;
-  const reg=[
-   ["4.1","แต่งกายสุภาพเรียบร้อยตามประเพณีนิยม (สนามนี้กำหนดชุดตามการ์ด \"การแต่งกาย\")"],
-   ["4.2","ตรวจให้ทราบสถานที่สอบ อยู่ที่ใด ห้องใด"],
-   ["4.3","ไปถึงก่อนเวลาสอบตามสมควร ผู้ไปไม่ทันเวลาลงมือสอบวิชาใดไม่มีสิทธิสอบวิชานั้น ยกเว้นวิชาแรกตอนเช้าผ่อนผัน 15 นาที"],
-   ["4.4","ไม่เข้าห้องสอบก่อนได้รับอนุญาต"],
-   ["4.5","ไม่นำเอกสาร เครื่องอิเล็กทรอนิกส์ หรือเครื่องสื่อสารใด ๆ เข้าห้องสอบ"],
-   ["4.6","นั่งตามที่กำหนด เปลี่ยนที่นั่งไม่ได้"],
-   ["4.7","ปฏิบัติตามระเบียบและคำสั่งผู้กำกับการสอบ ไม่ทุจริต"],
-   ["4.8","ไม่ให้ผู้อื่นลอกคำตอบ ไม่พูดคุยกับผู้ใดในเวลาสอบ มีข้อสงสัยให้แจ้งผู้กำกับการสอบ"],
-   ["4.9","ประพฤติตนเป็นสุภาพชน"],
-   ["4.10","(แก้ไขโดยฉบับที่ 2 พ.ศ. 2555) ต้องนั่งอยู่ในห้องสอบจนหมดเวลาทำข้อสอบ"],
-   ["4.11","ไม่นำกระดาษคำตอบที่แจกให้ออกจากห้องสอบ"]
-  ];
-  return `<div class="stack i-page">
-  <section class="card pad stack" id="me" aria-labelledby="me-h"></section>
-
-  <section class="card pad stack">${H("ph-megaphone","สรุปประกาศ")}
-    ${UL([
-      "ประกาศ อ.ก.ค.ศ. เขตพื้นที่การศึกษามัธยมศึกษาสระแก้ว ลงวันที่ 28 ตุลาคม 2569 เรื่อง รายชื่อผู้มีสิทธิสอบภาค ก และภาค ข ตำแหน่งครูผู้ช่วย สังกัด สพฐ. ปี 2569",
-      "ผู้มีสิทธิสอบ <b>826 คน</b> 9 วิชาเอก · วิชาเอกคอมพิวเตอร์ <b>198 คน</b> (บรรจุ 1 อัตรา)",
-      "สนามสอบ: <b>โรงเรียนสระแก้ว</b> ตำบลสระแก้ว อำเภอเมืองสระแก้ว จังหวัดสระแก้ว · ผู้สอบวิชาเอกคอมพิวเตอร์อยู่อาคาร 2 (ห้อง 212–213) และอาคาร 6 (ห้อง 601–607) ดูห้องของตนจากบัญชีรายชื่อหรือแผนผังหน้าสนาม"
-    ])}
-    <div class="note warn">${ic("ph-warning")}<div>${UL([
-      "รายชื่อนี้ตรวจจากข้อมูลที่ผู้สมัครกรอกและรับรองตนเองในระบบออนไลน์ หากภายหลังพบว่าขาดคุณสมบัติ จะไม่ได้รับการบรรจุ หรือถูกเพิกถอนการบรรจุ/สั่งให้ออกจากราชการ และเรียกร้องสิทธิใด ๆ ไม่ได้",
-      "หากพบการทุจริตหรือส่อไปในทางทุจริต หรือการดำเนินการผิดพลาดที่ทำให้ไม่เป็นธรรม อาจพิจารณาแก้ไขหรือยกเลิกการสอบครั้งนี้ได้"
-    ])}</div></div>
-  </section>
-
-  <section class="card pad stack">${H("ph-calendar-blank","ตารางสอบ")}
-    <div class="stack"><div><h3>ภาค ก ความรู้ความสามารถทั่วไป (200 คะแนน)</h3><p class="muted">เสาร์ 14 พฤศจิกายน 2569</p></div>
-    <div class="i-tw">${table("ตารางสอบภาค ก",[["09.00–11.30 น.","ความสามารถในการคิดวิเคราะห์","100"],["13.00–14.30 น.","ทักษะภาษาอังกฤษ","50"],["15.30–16.30 น.","ความรู้และลักษณะการเป็นข้าราชการที่ดี","50"]])}</div></div>
-    <div class="stack"><div><h3>ภาค ข มาตรฐานความรู้และประสบการณ์วิชาชีพ (200 คะแนน)</h3><p class="muted">อาทิตย์ 15 พฤศจิกายน 2569</p></div>
-    <div class="i-tw">${table("ตารางสอบภาค ข",[["09.00–11.30 น.","มาตรฐานความรู้ในเนื้อหาวิชาที่สอน (วิชาเอก)","100"],["13.00–14.30 น.","มาตรฐานความรู้ทั่วไปในการจัดการเรียนการสอน","75"],["15.30–16.00 น.","ความรอบรู้กฎหมายที่เกี่ยวข้องกับการปฏิบัติงานและแนวทางการปฏิรูปการศึกษา","25"]])}</div></div>
-    <div class="note warn">${ic("ph-clock")}<span>วิชาบ่ายต้องเข้าห้องให้ทันเวลาเริ่ม — ผ่อนผันสาย 15 นาทีเฉพาะวิชาแรกตอนเช้าของแต่ละวัน</span></div>
-  </section>
-
-  <section class="card pad stack"><div class="i-top">${H("ph-list-checks","สิ่งที่ต้องนำไป")}<span class="badge pri num" id="prep-n">เตรียมแล้ว ${nPrep}/${PREP_REQ}</span></div>
-    <div>${PREP.filter(p=>p[1]).map(prepRow).join("")}</div>
-    <p class="hint" style="margin-top:6px"><b>แนะนำเพิ่ม</b> (ไม่ใช่ข้อกำหนด)</p>
+  const note=b=>`<div class="note ${b.kind}${b.big?" i-big":""}">${ic(b.icon)}${b.title?`<div class="stack" style="gap:8px"><b>${b.title}</b>${UL(b.items)}${(b.paras||[]).map(p=>`<p>${p}</p>`).join("")}</div>`:b.items?`<div>${UL(b.items)}</div>`:`<span>${b.text}</span>`}</div>`;
+  const body={
+    ul:b=>UL(b.items),
+    note,
+    h3:b=>`<h3>${b.text}</h3>`,
+    reg:b=>`<ul class="i-reg">${b.items.map(([n,t])=>`<li><b>${n}</b><span>${t}</span></li>`).join("")}</ul>`,
+    sched:b=>b.parts.map(p=>`<div class="stack"><div><h3>${p.title}</h3><p class="muted">${p.date}</p></div>
+    <div class="i-tw">${table(p.cap,p.rows)}</div></div>`).join("\n    "),
+    phases:b=>`<div class="i-tl">${b.items.map((p,i)=>phase(i+1,p.title,p.items)).join("")}</div>`,
+    prep:()=>`<div>${PREP.filter(p=>p[1]).map(prepRow).join("")}</div>
+    <p class="hint" style="margin-top:6px">${INFO.prep.recTitle}</p>
     <div>${PREP.filter(p=>!p[1]).map(prepRow).join("")}</div>
-    <p class="hint" style="border-top:1px solid var(--line);padding-top:10px">ทำ checklist นี้ครบตั้งแต่คืนก่อนสอบ · ติ๊กแล้วเก็บในเครื่องนี้เท่านั้น</p>
-  </section>
+    <p class="hint" style="border-top:1px solid var(--line);padding-top:10px">${INFO.prep.foot} · ติ๊กแล้วเก็บในเครื่องนี้เท่านั้น</p>`
+  };
+  const sec=b=>{
+    const h=b.body.some(x=>x.k==="prep")?`<div class="i-top">${H(b.icon,b.title)}<span class="badge pri num" id="prep-n">เตรียมแล้ว ${nPrep}/${PREP_REQ}</span></div>`:H(b.icon,b.title);
+    return `<section class="card pad stack">${h}
+    ${b.body.map(x=>body[x.k](x)).join("\n    ")}
+  </section>`;
+  };
+  const blk=b=>b.k==="me"?`<section class="card pad stack" id="me" aria-labelledby="me-h"></section>`:b.k==="sec"?sec(b):note(b);
+  return `<div class="stack i-page">
+  ${INFO.blocks.map(blk).join("\n\n  ")}
 
-  <section class="card pad stack">${H("ph-t-shirt","การแต่งกาย")}
-    ${UL(["เสื้อยืดคอกลมหรือคอวีสีขาว","กางเกงวอร์ม","รองเท้าแตะหูหนีบเท่านั้น","สตรีมีครรภ์อนุโลมให้ใส่ชุดคลุมท้องได้"])}
-  </section>
-
-  <div class="note bad">${ic("ph-prohibit")}<div class="stack" style="gap:8px"><b>ห้ามนำเข้าห้องสอบ</b>${UL([
-    "เครื่องมืออิเล็กทรอนิกส์ทุกชนิด เช่น โทรศัพท์มือถือ นาฬิกาเชื่อมต่อมือถือ (Smartwatch) วิทยุติดตามตัว วิทยุสื่อสาร",
-    "ตำรา หนังสือ บันทึกข้อความ เอกสารหรือสิ่งพิมพ์ใด ๆ",
-    "กระเป๋าสะพาย เครื่องคำนวณ อุปกรณ์ที่ใช้คำนวณได้ เครื่องบันทึกภาพ เครื่องบันทึกเสียง"
-  ])}<p><b>ถ้าพบถือว่ามีเจตนาทุจริตและยุติการสอบทันที ของหายไม่รับผิดชอบ</b></p><p>ยกเว้นอุปกรณ์ในรายการ "สิ่งที่ต้องนำไป"</p></div></div>
-
-  <section class="card pad stack">${H("ph-path","ขั้นตอนวันสอบ")}
-    <div class="i-tl">
-    ${phase(1,"ก่อนเข้าห้องสอบ",[
-      "ถึงสนามสอบก่อนเวลาสอบอย่างน้อย 30 นาที และห้ามเข้าห้องสอบก่อนได้รับอนุญาต",
-      "ตรวจชื่อและห้องสอบของตนจากแผนผังห้องสอบ/ที่นั่งสอบ แล้วรออยู่บริเวณนั้น ถ้าหาชื่อหรือห้องไม่พบ ติดต่อกรรมการกลางประจำสนามสอบ",
-      "บัตรประจำตัวผู้สมัครสอบหาย แจ้งประธานคณะกรรมการกลางประจำสนามสอบเพื่อขอใบอนุญาตเข้าสอบ",
-      "ถือเป็นหน้าที่ของผู้สอบเองที่ต้องรู้วัน เวลา สถานที่ และห้องสอบของตน"])}
-    ${phase(2,"ก่อนเวลาสอบ",[
-      "กรรมการเชิญเข้าห้องสอบก่อนเวลาสอบอย่างน้อย 15 นาที",
-      "แสดงบัตรประจำตัวผู้สอบ (หรือใบอนุญาตเข้าสอบ) คู่กับบัตรที่หน่วยงานรัฐออกให้ ไม่เช่นนั้นจะไม่ได้รับอนุญาตให้เข้าสอบ",
-      "นั่งตามที่นั่งที่กรรมการกำหนด",
-      "นั่งสงบ · ผู้สอบ 2 คนจะถูกเลือกเป็นตัวแทนร่วมตรวจสภาพซองข้อสอบกับกรรมการ",
-      "รับกระดาษคำตอบและแบบทดสอบ"])}
-    ${phase(3,"ในเวลาสอบ",[
-      "เปิดข้อสอบเมื่อได้รับสัญญาณให้ลงมือสอบเท่านั้น",
-      "ตรวจจำนวนข้อและหน้า ถ้าไม่ครบหรือพิมพ์ไม่ชัด แจ้งกรรมการทันทีเพื่อเปลี่ยนฉบับ",
-      "มีคำสั่งแก้ไขข้อสอบ ให้ปฏิบัติตามทันที",
-      "กระดาษทด/ร่างคำตอบ ให้ใช้ที่ว่างในแบบทดสอบ",
-      "มีข้อสงสัยหรือจำเป็นต้องลุก ให้ยกมือแจ้งกรรมการ · ห้ามพูดคุยหรือติดต่อผู้อื่น",
-      "ลงลายมือชื่อและพิมพ์ลายนิ้วมือในบัญชีลายมือชื่อผู้เข้าสอบ · แสดงบัตรให้กรรมการตรวจหน้า รูป และลายมือชื่อ",
-      "รับการตรวจการระบายรหัสเลขประจำตัวผู้เข้าสอบและการลงลายมือชื่อบนกระดาษคำตอบก่อนกรรมการลงชื่อกำกับ",
-      "ระวังไม่ให้ผู้อื่นลอกคำตอบ",
-      "ส่งแบบทดสอบโดยยกมือให้กรรมการมาเก็บที่โต๊ะ — <b>ห้ามลุกจากที่นั่งก่อนหมดเวลาสอบ และต้องนั่งในห้องจนหมดเวลา</b>",
-      "ห้ามนำกระดาษคำตอบออกจากห้องสอบ"])}
-    </div>
-  </section>
-
-  <div class="note warn i-big">${ic("ph-clock-countdown")}<div class="stack" style="gap:8px"><b>กฎเรื่องเวลา</b>${UL([
-    "<b>วิชาแรกตอนเช้าของแต่ละวัน (09.00 น.):</b> เข้าห้องหลังเริ่มสอบเกิน 15 นาที ไม่ได้สอบวิชานั้น (เว้นเหตุจำเป็นให้ประธานกรรมการกลางพิจารณา)",
-    "<b>วิชาอื่น (13.00 และ 15.30 น.):</b> ไปไม่ทันเวลาเริ่ม = ไม่มีสิทธิเข้าสอบวิชานั้น",
-    "ต้องอยู่ในห้องสอบจนหมดเวลาทำข้อสอบทุกวิชา (ระเบียบ ศธ. ฉบับที่ 2 พ.ศ. 2555)"
-  ])}</div></div>
-
-  <section class="card pad stack">${H("ph-scales","ระเบียบกระทรวงศึกษาธิการว่าด้วยการปฏิบัติของผู้เข้าสอบ พ.ศ. 2548 และฉบับที่ 2 พ.ศ. 2555")}
-    <h3>ข้อ 4 ผู้เข้าสอบต้องปฏิบัติ:</h3>
-    <ul class="i-reg">${reg.map(([n,t])=>`<li><b>${n}</b><span>${t}</span></li>`).join("")}</ul>
-    <h3>บทลงโทษ:</h3>
-    <ul class="i-lst">
-      <li><b>ข้อ 5 ฝ่าฝืนข้อ 4 หรือพยายามทุจริต</b><br>→ ว่ากล่าวตักเตือน · ถ้าร้ายแรง ประธานกรรมการสั่งไม่ให้สอบวิชานั้น หรือไม่ตรวจคำตอบวิชานั้น (ถือว่าสอบไม่ผ่านวิชานั้น)</li>
-      <li><b>ข้อ 6 ทุจริตวิชาใด</b><br>→ ไม่ตรวจคำตอบและถือว่าสอบไม่ผ่านวิชานั้น</li>
-      <li><b>ข้อ 7 ลอกคำตอบกัน</b><br>→ สันนิษฐานไว้ก่อนว่าสมคบกันทุจริต (มีผลทั้งผู้ลอกและผู้ให้ลอก)</li>
-      <li><b>ประกาศสนามสอบ ข้อ 3.12:</b> ทุจริตหรือพยายามทุจริต ไม่ว่าทำเองหรือให้ผู้อื่นทำให้ เมื่อสอบสวนแล้วพบว่าผิดจริง ถือว่าสอบตก</li>
-    </ul>
-  </section>
-
-  <section class="card pad stack">${H("ph-flag-checkered","หลังสอบ")}
-    ${UL([
-      "ประกาศรายชื่อผู้ได้คะแนนภาค ก และภาค ข แต่ละภาคไม่ต่ำกว่าร้อยละ 60 (เรียงตามเลขประจำตัวสอบ) เป็นผู้มีสิทธิเข้ารับการประเมินภาค ค ภายในวันที่ 18 พฤศจิกายน 2569 ณ สำนักงานเขตพื้นที่การศึกษามัธยมศึกษาสระแก้ว และ <a class=\"lnk\" href=\"https://www.spm-sk.go.th\" target=\"_blank\" rel=\"noopener\">www.spm-sk.go.th</a>",
-      "ภาค ค (สัมภาษณ์ 25 · แฟ้มสะสมงาน 25 · สอนสาธิต 50) ดำเนินการให้แล้วเสร็จภายใน 30 พฤศจิกายน 2569 ตามประกาศรับสมัคร"
-    ])}
-    <div class="note tip">${ic("ph-first-aid-kit")}<span><b>ทำได้ตั้งแต่ตอนนี้:</b> เตรียมแฟ้มสะสมงาน · ใบรับรองแพทย์จากสถานพยาบาลของรัฐ (ออกไม่เกิน 1 เดือน) สำหรับวันรายงานตัว/ภาค ค</span></div>
-  </section>
-
-  <div class="acts no-print"><button type="button" class="btn pri" id="prn">${ic("ph-printer")}พิมพ์หน้านี้</button></div>
-  <p class="hint">สรุปจากประกาศ อ.ก.ค.ศ. สพม.สระแก้ว ลงวันที่ 28 ต.ค. 2569 และระเบียบ ศธ. ว่าด้วยการปฏิบัติของผู้เข้าสอบ พ.ศ. 2548 แก้ไขเพิ่มเติม (ฉบับที่ 2) พ.ศ. 2555 · ถ้ามีประกาศเพิ่มเติม ให้ยึดประกาศฉบับล่าสุดของ สพม.สระแก้ว</p>
+  <div class="acts"><a class="btn pri" id="prn" href="info-print.html" target="_blank" rel="noopener">${ic("ph-printer")}พิมพ์ (A4)</a></div>
+  <p class="hint">${INFO.foot}</p>
   </div>`;
 }
 function bindInfo(el){
   const box=el.querySelector("#me");if(!box)return;
+  const FL=Object.fromEntries(INFO.me.fields),MH=`<h2 class="i-h" id="me-h">${ic(INFO.me.icon)}${INFO.me.title}</h2>`;
   const m0=store.get("ks-me",null),src=m0&&typeof m0==="object"?m0:{};
   let cur={id:String(src.id||""),bld:String(src.bld||""),room:String(src.room||"")};
   const has=o=>!!(o.id||o.bld||o.room);
   const val=s=>s?`<b>${esc(s)}</b>`:`<b class="none">–</b>`;
   function draw(edit,focusSel){
     if(has(cur)&&!edit){
-      box.innerHTML=`<div class="i-top"><h2 class="i-h" id="me-h">${ic("ph-user-circle")}ข้อมูลของฉัน</h2><button type="button" class="btn sm no-print" id="me-edit">${ic("ph-pencil-simple")}แก้ไข</button></div>
-      <div class="i-mef"><div class="i-mev wide"><small>เลขประจำตัวสอบ</small>${val(cur.id)}</div><div class="i-mev"><small>อาคาร</small>${val(cur.bld)}</div><div class="i-mev"><small>ห้อง</small>${val(cur.room)}</div></div>
+      box.innerHTML=`<div class="i-top">${MH}<button type="button" class="btn sm no-print" id="me-edit">${ic("ph-pencil-simple")}แก้ไข</button></div>
+      <div class="i-mef"><div class="i-mev wide"><small>${FL.id}</small>${val(cur.id)}</div><div class="i-mev"><small>${FL.bld}</small>${val(cur.bld)}</div><div class="i-mev"><small>${FL.room}</small>${val(cur.room)}</div></div>
       <p class="hint">เก็บในเครื่องนี้เท่านั้น ไม่ขึ้นเว็บ</p>`;
       box.querySelector("#me-edit").onclick=()=>draw(true,"#me-id");
     }else{
-      box.innerHTML=`<h2 class="i-h" id="me-h">${ic("ph-user-circle")}ข้อมูลของฉัน</h2>
+      box.innerHTML=`${MH}
       <p class="hint">กรอกไว้เปิดดูตอนไปสอบ · เก็บในเครื่องนี้เท่านั้น ไม่ขึ้นเว็บ</p>
       <form id="me-f" class="stack" autocomplete="off"><div class="i-mef">
-        <div class="i-fld wide"><label for="me-id">เลขประจำตัวสอบ</label><input id="me-id" type="text" inputmode="numeric" maxlength="20" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false"></div>
-        <div class="i-fld"><label for="me-bld">อาคาร</label><input id="me-bld" type="text" maxlength="12" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false"></div>
-        <div class="i-fld"><label for="me-room">ห้อง</label><input id="me-room" type="text" maxlength="12" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false"></div></div>
+        <div class="i-fld wide"><label for="me-id">${FL.id}</label><input id="me-id" type="text" inputmode="numeric" maxlength="20" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false"></div>
+        <div class="i-fld"><label for="me-bld">${FL.bld}</label><input id="me-bld" type="text" maxlength="12" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false"></div>
+        <div class="i-fld"><label for="me-room">${FL.room}</label><input id="me-room" type="text" maxlength="12" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false"></div></div>
         <div class="acts"><button type="submit" class="btn pri">${ic("ph-floppy-disk")}บันทึก</button>${has(cur)?`<button type="button" class="btn ghost" id="me-cancel">ยกเลิก</button>`:""}</div></form>`;
       box.querySelector("#me-id").value=cur.id;box.querySelector("#me-bld").value=cur.bld;box.querySelector("#me-room").value=cur.room;
       box.querySelector("#me-f").onsubmit=e=>{
@@ -467,7 +365,6 @@ function bindInfo(el){
     PREPM[cb.dataset.prep]=cb.checked;store.set("ks-prep",PREPM);
     const n=PREP.filter(p=>p[1]&&PREPM[p[0]]).length,b=el.querySelector("#prep-n");if(b)b.textContent=`เตรียมแล้ว ${n}/${PREP_REQ}`;
   });
-  const pr=el.querySelector("#prn");if(pr)pr.onclick=()=>window.print();
 }
 async function getItems(cid){if(!cache[cid])cache[cid]=await loadCollection(cid);return cache[cid]}
 

@@ -3,7 +3,7 @@ const fs=require('fs'),path=require('path');
 const S=__dirname,out=process.env.OUT?path.resolve(process.env.OUT):path.join(S,'..'),SITE=process.env.SITE||'site-v2';
 for(const d of ['data','sheets'])fs.mkdirSync(path.join(out,d),{recursive:true});
 const VER=Date.now().toString(36);/* กันเบราว์เซอร์ใช้ไฟล์เก่าจากแคช */
-const bust=s=>s.replace(/((?:src|href)=")((?:\.\.\/)?(?:common|omr)\.js|(?:\.\.\/)?ks-ds\.css)"/g,(m,a,f)=>a+f+'?v='+VER+'"');
+const bust=s=>s.replace(/((?:src|href)=")((?![a-z][a-z0-9+.-]*:|\/\/)[^"?#]+\.(?:js|css))"/gi,(m,a,f)=>a+f+'?v='+VER+'"');/* ทุก .js/.css ภายใน site · ไม่แตะ URL ภายนอก (http/https/ // / data:) */
 for(const f of fs.readdirSync(path.join(S,SITE)).filter(f=>/\.(html|js|css)$/.test(f)&&!f.endsWith('.tpl.html'))){const src=path.join(S,SITE,f),dst=path.join(out,f);if(f.endsWith('.html'))fs.writeFileSync(dst,bust(fs.readFileSync(src,'utf8')));else fs.copyFileSync(src,dst)}
 const SUBJ={ana:"A",eng:"A",gov:"A",com:"B",ped:"B",law:"B"};
 const untag=t=>String(t).replace(/<b>(.*?)<\/b>/g,'“$1”').replace(/<br\s*\/?>/g,' ').replace(/<[^>]+>/g,'');
