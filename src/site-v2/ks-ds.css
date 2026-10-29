@@ -82,8 +82,8 @@ p{margin:0} a{color:inherit} b{font-weight:600}
 .brand .t small{font-size:var(--fs-1);color:var(--rail-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .cd-chip{flex:none;display:inline-flex;align-items:center;gap:6px;font-size:var(--fs-2);font-weight:600;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:99px;padding:4px 10px;color:#fff}
 .cd-chip i{color:var(--accent)}
-.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding:4px 4px calc(4px + env(safe-area-inset-bottom,0px))}
-.tabbar a{display:grid;justify-items:center;gap:2px;text-decoration:none;color:var(--ink-3);font-size:.72rem;font-weight:500;padding:6px 2px;border-radius:var(--r2);min-height:48px}
+.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);padding:4px 4px calc(4px + env(safe-area-inset-bottom,0px))}
+.tabbar a{display:grid;justify-items:center;gap:2px;text-decoration:none;color:var(--ink-3);font-size:.72rem;font-weight:500;padding:6px 1px;border-radius:var(--r2);min-height:48px;text-align:center;white-space:nowrap}
 .tabbar a i{font-size:1.35rem}
 .tabbar a.on{color:var(--primary);background:var(--primary-soft)}
 .main{min-width:0;padding:0 0 calc(84px + env(safe-area-inset-bottom,0px))}
